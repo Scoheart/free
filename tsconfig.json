@@ -12,5 +12,5 @@
     "types": ["node", "vite/client"],
     "skipLibCheck": true
   },
-  "include": ["web/src", "scripts/sample-render.tsx", "vite.config.ts"]
+  "include": ["web/src", "tests/site-render.tsx", "vite.config.ts"]
 }

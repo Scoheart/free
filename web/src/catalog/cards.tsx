@@ -1,11 +1,13 @@
 import { Collapsible } from "radix-ui";
 import { Fragment, useLayoutEffect, useMemo, useRef, useState } from "react";
+import { offersByDeadline, type PlatformGroup } from "./model";
 import {
-  autoClaimView, categoryOf, claimGuideOf, deadlineOf, fmtDeadlineBJ, goUrl, itemUrl,
-  offersByDeadline, statusLabels, summaryStatus, titleOf, type ClaimStatus, type GuideStep, type Offer, type PlatformGroup,
-} from "./catalog";
-import { ExternalLink, useMobileLayout } from "./shared";
-import { linkLabel, normalize, redactSecrets, safeUrl } from "./text";
+  autoClaimView, claimGuideOf, deadlineOf, fmtDeadlineBJ, itemUrl,
+  statusLabels, summaryStatus, titleOf, type ClaimStatus, type GuideStep, type Offer,
+} from "./offers";
+import { categoryOf, goUrl } from "./platforms";
+import { ExternalLink, useMobileLayout } from "../shared/ui";
+import { linkLabel, normalize, redactSecrets, safeUrl } from "../shared/text";
 
 export function StatusDot({ status }: { status: ClaimStatus }) {
   if (!status) return null;

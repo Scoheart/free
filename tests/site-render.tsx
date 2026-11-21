@@ -2,13 +2,15 @@ import { readFileSync } from "node:fs";
 import { Tabs } from "radix-ui";
 import { renderToStaticMarkup } from "react-dom/server";
 import {
-  buildGroups, categoryOf, filterGroups, groupsInKind, isExpired, isSuperseded, platformOf,
-  offersByDeadline, summaryStatus, type Offer, type PlatformGroup,
-} from "../web/src/catalog";
-import { PlatformTabs } from "../web/src/catalog-page";
-import { CatalogDetail } from "../web/src/offer-components";
+  buildGroups, filterGroups, groupsInKind, offersByDeadline, type PlatformGroup,
+} from "../web/src/catalog/model";
+import { isExpired, isSuperseded, summaryStatus, type Offer } from "../web/src/catalog/offers";
+import { categoryOf, platformOf } from "../web/src/catalog/platforms";
+import { PlatformTabs } from "../web/src/catalog/page";
+import { CatalogDetail } from "../web/src/catalog/cards";
 import { decideRoute, parseRouteHash, resolvePageForSlug, routeOnPage, sectionUrl } from "../web/src/routes";
-import { updatedLine, VpsContent, type VpsData } from "../web/src/vps-page";
+import { updatedLine, type VpsData } from "../web/src/vps/model";
+import { VpsContent } from "../web/src/vps/content";
 
 function renderDetail(group: PlatformGroup, now: number): string {
   return renderToStaticMarkup(<CatalogDetail group={group} now={now} />);
@@ -197,8 +199,9 @@ check(filtered.length === 1 && filtered[0].name === "Cohere", "search matches of
 const byName = filterGroups(groups, "groq");
 check(byName.length === 1 && byName[0].offers.length === 1, "search matches platform");
 
-const realPath = new URL("../items.json", import.meta.url);
-const real: Offer[] = JSON.parse(readFileSync(realPath, "utf8"));
+const providerItems: Offer[] = JSON.parse(readFileSync(new URL("../provider/index.json", import.meta.url), "utf8"));
+const agentItems: Offer[] = JSON.parse(readFileSync(new URL("../agent/index.json", import.meta.url), "utf8"));
+const real = providerItems.concat(agentItems);
 const realGroups = buildGroups(real, Date.now());
 const realHtml = realGroups.map(function (g) { return renderDetail(g, Date.now()); }).join("\n");
 check(realHtml.indexOf("qoder-deepseek-v41-flash-1017-free-oct24-20261020") === -1, "real superseded id not rendered");
@@ -216,7 +219,7 @@ function itemWhere(pred: (offer: Offer) => boolean) {
 const groqItem = itemWhere(function (it) { return platformOf(it) === "Groq" && !isExpired(it, Date.now()); });
 const openrouterItem = itemWhere(function (it) { return platformOf(it) === "OpenRouter" && categoryOf(it) === "providers"; });
 const vercelItem = itemWhere(function (it) { return platformOf(it) === "Vercel AI Gateway"; });
-const opencodeItem = itemWhere(function (it) { return platformOf(it) === "OpenCode"; });
+const opencodeItem = agentItems.find(function (it) { return platformOf(it) === "OpenCode"; });
 const kiroItem = itemWhere(function (it) { return platformOf(it) === "AWS Kiro"; });
 const traycerItem = itemWhere(function (it) { return platformOf(it) === "Traycer"; });
 const devinItem = itemWhere(function (it) { return /Devin/.test(platformOf(it)); });
@@ -239,12 +242,13 @@ check(categoryOf({ title: "Foo IDE 免费", platform: "Foo IDE" }) === "agents",
 check(categoryOf(items[0]) === "providers", "sample groq row is a provider");
 
 const realNow = Date.now();
-const realBuilt = buildGroups(real, realNow);
-const agentNames = groupsInKind(realBuilt, "agents").map(function (g) { return g.name; });
-const providerNames = groupsInKind(realBuilt, "providers").map(function (g) { return g.name; });
+const agentGroups = buildGroups(agentItems, realNow);
+const providerGroups = buildGroups(providerItems, realNow);
+const agentNames = agentGroups.map(function (g) { return g.name; });
+const providerNames = providerGroups.map(function (g) { return g.name; });
 check(agentNames.indexOf("OpenCode") !== -1 && agentNames.indexOf("Groq") === -1, "agent platforms " + agentNames.slice(0, 6).join(","));
 check(providerNames.indexOf("OpenRouter") !== -1 && providerNames.indexOf("Groq") !== -1, "provider platforms");
-const agentSearch = filterGroups(groupsInKind(realBuilt, "agents"), "opencode");
+const agentSearch = filterGroups(agentGroups, "opencode");
 check(agentSearch.length >= 1 && agentSearch[0].name === "OpenCode", "search stays inside agents");
 const kindCounts = { providers: 0, agents: 0 };
 real.forEach(function (it) {
@@ -253,7 +257,7 @@ real.forEach(function (it) {
 });
 check(kindCounts.providers > 50 && kindCounts.agents > 10, "both kinds have offers " + JSON.stringify(kindCounts));
 
-check(parseRouteHash("providers/groq").page === "provider" && parseRouteHash("providers/groq").slug === "groq" && parseRouteHash("providers/groq").legacy === true, "legacy providers hash");
+check(parseRouteHash("providers/groq").page === "provider" && parseRouteHash("providers/groq").slug === "groq", "legacy providers hash");
 check(parseRouteHash("agents/opencode").page === "agent" && parseRouteHash("agents/opencode").slug === "opencode", "legacy agents hash");
 check(parseRouteHash("groq").page === "" && parseRouteHash("groq").slug === "groq", "bare platform hash");
 check(parseRouteHash("").slug === "" && parseRouteHash("providers").page === "provider" && parseRouteHash("agents").page === "agent", "category-only hashes");
@@ -287,7 +291,7 @@ check(sectionUrl("provider", "groq", "home") === "provider/#groq", "home provide
 check(sectionUrl("agent", "opencode", "provider") === "../agent/#opencode", "provider to agent url");
 check(sectionUrl("vps", "", "agent") === "../vps/", "agent to vps url");
 
-const deployedVps: VpsData = JSON.parse(readFileSync(new URL("../vps.json", import.meta.url), "utf8"));
+const deployedVps: VpsData = JSON.parse(readFileSync(new URL("../vps/index.json", import.meta.url), "utf8"));
 check(renderVps(deployedVps).includes("补货监控"), "repository VPS feed renders");
 const vps: VpsData = {
   sample: true,

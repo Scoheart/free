@@ -1,0 +1,1 @@
+"""VPS feed generation."""

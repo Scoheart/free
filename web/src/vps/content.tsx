@@ -1,88 +1,7 @@
-import { Fragment, useEffect, type ReactNode } from "react";
-import { ExternalLink, PageFooter, PageHeader } from "./shared";
-import { parseRouteHash, sectionUrl } from "./routes";
-import { asList, beijingTime, hostnameOf, linkLabel, normalize, safeUrl, textOf } from "./text";
-
-interface Link {
-  url?: string;
-  label?: string;
-}
-interface Spec {
-  label?: string;
-  value?: string;
-}
-interface Conditions {
-  card_required?: boolean | null;
-  card_notes?: string;
-  region_limits?: string;
-  idle_reclaim?: string;
-  deadline?: string;
-  deadline_note?: string;
-}
-interface Post extends Link {
-  time_beijing?: string;
-  author?: string;
-}
-interface FreeOffer {
-  id?: string;
-  provider?: string;
-  type?: string;
-  type_label?: string;
-  official_url?: string;
-  specs?: (Spec | null)[];
-  free_conditions?: Conditions | null;
-  posts?: (Post | null)[];
-  notes?: string;
-}
-interface StockPlan {
-  key?: string;
-  display_name?: string;
-  stock?: string;
-  limited?: boolean;
-  config?: string;
-  specs?: (Spec | null)[];
-  price?: string;
-  last_restock?: string;
-  order_urls?: (Link | null)[];
-}
-interface Vendor {
-  id?: string;
-  name?: string;
-  checked_at_beijing?: string;
-  official_url?: string;
-  sources?: ({ name?: string; url?: string } | null)[];
-  plans?: (StockPlan | null)[];
-}
-interface SalePlan extends Link {
-  name?: string;
-  price?: string;
-  specs?: string;
-}
-interface OfficialSale {
-  provider?: string;
-  status?: string;
-  status_label?: string;
-  status_kind?: string;
-  orderable_now?: boolean;
-  sale_hub?: string;
-  summary?: string;
-  sources?: ({ title?: string; url?: string } | null)[];
-  plans?: (SalePlan | null)[];
-}
-interface Lead extends Link {
-  source?: string;
-  note?: string;
-}
-
-export interface VpsData {
-  schema_version?: number;
-  sample?: boolean | string;
-  updated_at_beijing?: string;
-  scanned_at_beijing?: { stock?: string; black_friday?: string; free_vps?: string };
-  free_vps?: (FreeOffer | null)[];
-  stock?: { providers?: (Vendor | null)[]; source_notes?: string[] };
-  black_friday?: { official?: (OfficialSale | null)[]; leads?: (Lead | null)[]; date_note?: string };
-}
+import { Fragment, type ReactNode } from "react";
+import { ExternalLink } from "../shared/ui";
+import { asList, beijingTime, hostnameOf, linkLabel, normalize, safeUrl, textOf } from "../shared/text";
+import type { Conditions, FreeOffer, Lead, OfficialSale, StockPlan, Vendor, VpsData } from "./model";
 
 type Definition = [label: string, value: string];
 
@@ -271,12 +190,6 @@ function VpsSection({ id, label, title, description, children }: {
   </section>;
 }
 
-export function updatedLine(data: VpsData) {
-  const scans = data.scanned_at_beijing;
-  const time = textOf(data.updated_at_beijing) || textOf(scans?.black_friday || scans?.stock || scans?.free_vps);
-  return time ? "最后更新 " + beijingTime(time) : "最后更新时间未知";
-}
-
 export function VpsContent({ data }: { data: VpsData }) {
   const free = asList(data.free_vps);
   const vendors = asList(data.stock?.providers);
@@ -308,32 +221,6 @@ export function VpsContent({ data }: { data: VpsData }) {
             : <p className="quiet-line">这次没有单独的第三方线索。</p>}
         </section>
       </VpsSection>
-    </div>
-  );
-}
-
-export function VpsPage({ data }: { data: VpsData }) {
-  useEffect(() => {
-    const followHash = () => {
-      const route = parseRouteHash(window.location.hash);
-      if (route.page === "agent" || route.page === "provider") {
-        window.location.replace(sectionUrl(route.page, route.slug, "vps"));
-      } else if (route.slug) {
-        document.getElementById(route.slug)?.scrollIntoView();
-      }
-    };
-    followHash();
-    window.addEventListener("hashchange", followHash);
-    return () => window.removeEventListener("hashchange", followHash);
-  }, []);
-
-  return (
-    <div className="app">
-      <div className="chrome"><PageHeader page="vps" stats={updatedLine(data)} /></div>
-      <div className="layout">
-        <main className="detail"><VpsContent data={data} /></main>
-        <PageFooter page="vps" />
-      </div>
     </div>
   );
 }

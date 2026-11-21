@@ -1,5 +1,5 @@
 dist/
-site/
 .netlify
 __pycache__/
 node_modules/
+/.build-site-*/

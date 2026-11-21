@@ -43,15 +43,21 @@ Vite 使用相对资源路径。同一份构建产物支持域名根路径和 `/
 
 写错栏目也会纠正：`/agent/#groq` 会到 `/provider/#groq`，因为 Groq 在模型页。`/vps/#providers/groq` 同样会离开 VPS 页。
 
-## 模型数据
+## 数据源
 
-`items.json` 是目录源。浏览器直接加载 JSON。字段和原来一样：`claim_guide`、自动领取徽章、截止时间按北京时间显示、过期和被取代的条目隐藏、说明里的密钥打码。分类仍由 `category` / `kind` 决定，不写时按平台名和标题判断。
+| 文件 | 数据 |
+| --- | --- |
+| `provider/index.json` | 模型、网关和 API 额度条目数组 |
+| `agent/index.json` | 编程 Agent、CLI 和 IDE 条目数组 |
+| `vps/index.json` | VPS 免费情报、库存和黑五数据对象 |
+
+日更将条目写入对应栏目的文件，然后运行 `./build-site.sh`。模型和 Agent 的条目格式相同，所属栏目由文件决定。页面首次打开时加载当前栏目的 JSON。旧链接需要定位到另一个栏目，或搜索在当前栏目没有结果时，页面按需读取另一个栏目。
 
 ## VPS 数据
 
-浏览器直接加载 `vps.json`。当 `"sample": true` 时，页面会显示「示例数据，等待首次同步」。下面的生成脚本写入 `"sample": false` 的监控数据。
+当 `"sample": true` 时，页面会显示「示例数据，等待首次同步」。下面的生成脚本写入 `"sample": false` 的监控数据。
 
-`vps.json` 顶层：
+`vps/index.json` 顶层字段如下。
 
 | 字段 | 含义 |
 | --- | --- |
@@ -74,10 +80,10 @@ Vite 使用相对资源路径。同一份构建产物支持域名根路径和 `/
 
 黑五官方：`provider`、`status`、`status_label`（现在能下单 / 预告未开卖 / 今年不办）、`status_kind`（`now` / `soon` / `off`）、`orderable_now`、`summary`、`sources[]`、`sale_hub`、`plans[]`（`name`、`price`、`specs`、`url`）。
 
-## 从监控目录生成 vps.json
+## 从监控目录更新 VPS 数据
 
 ```bash
-python3 scripts/build_vps.py --in /path/to/vps-watch --out vps.json
+python3 scripts/build_vps.py --in /path/to/vps-watch --out vps/index.json
 ```
 
 `--in` 里只读这三个文件（`schema_version` 1，时间字段是北京时间 `*_beijing`）：
@@ -96,29 +102,28 @@ python3 scripts/build_vps.py --in /path/to/vps-watch --out vps.json
 
 ## 开发
 
-前端使用 React、TypeScript、Vite 和 Radix UI。页面入口及组件位于 `web/`，CSS 和数据处理逻辑在 `web/src/`。Radix UI 负责平台标签页和领取步骤的折叠交互。
+前端使用 React、TypeScript、Vite 和 Radix UI。 Vite 的页面入口在 `web/`。
 
-安装 Node.js 22.12 或更新版本，执行以下命令。Python 3 用于 VPS 数据生成和测试。
+- `web/src/catalog/` 包含模型和 Agent 的分类、搜索、排序与界面。
+- `web/src/vps/` 包含 VPS 数据类型、页面和样式。
+- `web/src/shared/` 提供通用布局和文本处理。
+- `scripts/build_vps.py` 接收监控目录，`scripts/vps/` 负责整理公开数据。
+- `tests/` 包含页面渲染、路由和 VPS 数据测试。
+
+安装 Node.js 22.12 或更新版本。Python 3 用于 VPS 数据生成和测试。
 
 ```bash
 npm ci
 npm run dev
 ```
 
-运行 `npm test` 可以验证目录渲染、哈希链接和 VPS 数据生成。
-
-`./build-site.sh` 构建后，把站点 HTML 和带内容哈希的 `site-assets/` 同步到仓库根目录。修改页面时，请编辑 `web/` 下的源文件，再运行构建。
+运行 `npm test` 执行回归测试。
 
 ## 部署
 
-```bash
-./build-site.sh
-npm run preview
-```
+- GitHub Pages 从 `main` 根目录发布。`./build-site.sh` 生成 `dist/`，并同步根目录的页面和资源文件。
+- Netlify 由 `npm run build` 生成 `dist/`。手动发布时上传整个 `dist/`。关联 Git 的构建读取 `netlify.toml`。
 
-- GitHub Pages 从 `main` 根目录发布。构建脚本更新根目录的页面和资源文件。
-- Netlify 手动发布时，上传整个 `dist/` 目录。关联 Git 的构建使用 `netlify.toml` 配置。
+Netlify 的跳转规则写在 `web/public/_redirects`，构建时复制到发布目录。运行 `npm run preview` 可预览产物。
 
-两种部署都提供 `items.json` 和 `vps.json`，并保留 `data.js` 和 `vps-data.js` 供已有消费者加载。根页和栏目跳转使用相对路径，保留原有 hash 链接。Netlify 的 `_redirects` 保留根页跳转和目录斜杠规则。
-
-仅构建 `dist/` 时，可运行 `npm run build` 或兼容入口 `python3 build_index.py`。
+两种部署都在对应栏目目录下提供 `index.json`。构建也从这三份 JSON 生成 `data.js` 和 `vps-data.js` 供已有消费者加载。

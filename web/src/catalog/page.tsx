@@ -1,12 +1,13 @@
 import { Tabs } from "radix-ui";
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import {
-  countOffers, filterGroups, groupBySlug, summaryStatus, type CatalogGroups, type PlatformGroup,
-} from "./catalog";
-import { CatalogDetail, CatalogTimeline, StatusDot } from "./offer-components";
-import { PageFooter, PageHeader, useMobileLayout } from "./shared";
-import { kindFor, otherCatalog, parseRouteHash, routeOnPage, sectionUrl, type CatalogPage as Section } from "./routes";
-import { redactSecrets } from "./text";
+  countOffers, filterGroups, groupBySlug, type CatalogGroups, type PlatformGroup,
+} from "./model";
+import { summaryStatus } from "./offers";
+import { CatalogDetail, CatalogTimeline, StatusDot } from "./cards";
+import { PageFooter, PageHeader, useMobileLayout } from "../shared/ui";
+import { kindFor, otherCatalog, parseRouteHash, routeOnPage, sectionUrl, type CatalogPage as Section } from "../routes";
+import { redactSecrets } from "../shared/text";
 
 const titles: Record<Section, string> = { provider: "模型", agent: "Agent" };
 
@@ -102,8 +103,16 @@ function CatalogEmpty({ query, matchPage, found, clearPlatform }: {
   );
 }
 
-export function CatalogPage({ page, catalog, now }: { page: Section; catalog: CatalogGroups; now: number }) {
-  const base = catalog[kindFor(page)];
+export function CatalogPage({ page, groups: base, loadOther, now }: {
+  page: Section;
+  groups: PlatformGroup[];
+  loadOther: () => Promise<PlatformGroup[]>;
+  now: number;
+}) {
+  const [otherGroups, setOtherGroups] = useState<PlatformGroup[]>();
+  const catalog = useMemo<CatalogGroups>(() => page === "provider"
+    ? { providers: base, agents: otherGroups ?? [] }
+    : { providers: otherGroups ?? [], agents: base }, [base, otherGroups, page]);
   const [selected, setSelected] = useState(
     () => routeOnPage(parseRouteHash(window.location.hash), page, catalog).slug,
   );
@@ -115,32 +124,56 @@ export function CatalogPage({ page, catalog, now }: { page: Section; catalog: Ca
   const options = platform && !match ? [{ ...platform, offers: [] }, ...groups] : groups;
   const visible = platform ? (match ? [match] : []) : groups;
   const other = otherCatalog(page);
-  const matches = !groups.length && query.trim() ? filterGroups(catalog[kindFor(other)], query) : [];
-  const counts = useMemo(() => ({
-    provider: countOffers(catalog.providers),
-    agent: countOffers(catalog.agents),
-  }), [catalog]);
+  const searchOther = groups.length === 0 && Boolean(query.trim());
+  const matches = searchOther && otherGroups ? filterGroups(otherGroups, query) : [];
+  const activeCount = countOffers(base);
+  const counts = { [page]: activeCount, ...(otherGroups ? { [other]: countOffers(otherGroups) } : {}) };
   const stats = query.trim() ? "找到 " + visible.length + " 个平台 · " + countOffers(visible) + " 项"
-    : counts[page] + " 项进行中 · " + base.length + " 个平台";
+    : activeCount + " 项进行中 · " + base.length + " 个平台";
 
   useEffect(() => {
-    const onNavigate = () => {
-      const route = routeOnPage(parseRouteHash(window.location.hash), page, catalog);
+    let current = true;
+    async function syncRoute() {
+      const hash = window.location.hash;
+      const parsed = parseRouteHash(hash);
+      const local = Boolean(groupBySlug(base, parsed.slug));
+      const target = parsed.page || page;
+      let available = catalog;
+      if (!otherGroups && parsed.slug && target !== "vps" && (target === page ? !local : local)) {
+        const loaded = await loadOther().catch(() => undefined);
+        if (!current || window.location.hash !== hash) return;
+        if (loaded) {
+          available = { ...catalog, [kindFor(other)]: loaded };
+          setOtherGroups(loaded);
+        }
+      }
+      const route = routeOnPage(parsed, page, available);
       if (route.redirect) {
         window.location.replace(sectionUrl(route.redirect, route.slug, page));
         return;
       }
       setSelected(route.slug);
       writePlatformHash(route.slug, false);
-    };
+    }
+    const onNavigate = () => void syncRoute();
     onNavigate();
     window.addEventListener("hashchange", onNavigate);
     window.addEventListener("popstate", onNavigate);
     return () => {
+      current = false;
       window.removeEventListener("hashchange", onNavigate);
       window.removeEventListener("popstate", onNavigate);
     };
-  }, [catalog, page]);
+  }, [base, catalog, loadOther, other, otherGroups, page]);
+
+  useEffect(() => {
+    if (!searchOther || otherGroups) return;
+    let current = true;
+    void loadOther().then((loaded) => {
+      if (current) setOtherGroups(loaded);
+    }).catch(() => {});
+    return () => { current = false; };
+  }, [loadOther, otherGroups, searchOther]);
 
   function select(next: string) {
     setSelected(next);

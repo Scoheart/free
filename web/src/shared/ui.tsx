@@ -1,5 +1,5 @@
 import { useSyncExternalStore, type ReactNode } from "react";
-import { sectionUrl, type Section } from "./routes";
+import { sectionUrl, type Section } from "../routes";
 import { safeUrl } from "./text";
 
 const mobileWidth = "(max-width: 860px)";
@@ -33,7 +33,7 @@ const leads: Record<Section, string> = {
 export function PageHeader({ page, stats, counts }: {
   page: Section;
   stats?: string;
-  counts?: Record<"provider" | "agent", number>;
+  counts?: Partial<Record<"provider" | "agent", number>>;
 }) {
   return (
     <header className="top">
@@ -48,7 +48,7 @@ export function PageHeader({ page, stats, counts }: {
             <a className="kind" key={section} href={sectionUrl(section, "", page)}
               aria-current={section === page ? "page" : undefined}>
               {title}
-              {counts && section !== "vps" && <span className="kind-count">{counts[section]}</span>}
+              {section !== "vps" && counts?.[section] !== undefined && <span className="kind-count">{counts[section]}</span>}
             </a>
           ))}
         </nav>

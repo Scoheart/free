@@ -1,8 +1,8 @@
 import { createRoot, type Root } from "react-dom/client";
-import { loadItems, loadVps } from "./data";
-import { decideRoute, parseRouteHash, sectionUrl, type Page } from "./routes";
-import { PageFooter, PageHeader } from "./shared";
-import "./styles.css";
+import { loadItems, loadVps } from "./feeds";
+import { otherCatalog, parseRouteHash, sectionUrl, type CatalogPage as CatalogSection, type Page } from "./routes";
+import { PageFooter, PageHeader } from "./shared/ui";
+import "./shared/site.css";
 
 function Landing() {
   return (
@@ -34,19 +34,8 @@ async function start(root: Root, page: Page) {
   const parsed = parseRouteHash(window.location.hash);
   if (page === "home") {
     root.render(<Landing />);
-    let destination = parsed.page || "provider";
-    let slug = destination === "vps" ? "" : parsed.slug;
-    if (!parsed.page && slug) {
-      try {
-        const [items, { buildCatalog }] = await Promise.all([loadItems(), import("./catalog")]);
-        const route = decideRoute(parsed, buildCatalog(items, Date.now()));
-        destination = route.page || "provider";
-        slug = route.page ? route.slug : "";
-      } catch {
-        slug = "";
-      }
-    }
-    window.location.replace(sectionUrl(destination, slug, page));
+    const destination = parsed.page || "provider";
+    window.location.replace(sectionUrl(destination, destination === "vps" ? "" : parsed.slug, page));
     return;
   }
 
@@ -58,14 +47,25 @@ async function start(root: Root, page: Page) {
   root.render(<LoadingPage page={page} />);
   try {
     if (page === "vps") {
-      const [data, { VpsPage }] = await Promise.all([loadVps(), import("./vps-page")]);
+      const [data, { VpsPage }] = await Promise.all([loadVps(), import("./vps/page")]);
       root.render(<VpsPage data={data} />);
     } else {
-      const [items, { buildCatalog }, { CatalogPage }] = await Promise.all([
-        loadItems(), import("./catalog"), import("./catalog-page"),
-      ]);
       const now = Date.now();
-      root.render(<CatalogPage page={page} catalog={buildCatalog(items, now)} now={now} />);
+      async function loadGroups(section: CatalogSection) {
+        const [items, { buildGroups }] = await Promise.all([loadItems(section), import("./catalog/model")]);
+        return buildGroups(items, now);
+      }
+      const [groups, { CatalogPage }] = await Promise.all([loadGroups(page), import("./catalog/page")]);
+      const other = otherCatalog(page);
+      let otherRequest: ReturnType<typeof loadGroups> | undefined;
+      function loadOther() {
+        otherRequest ??= loadGroups(other).catch((error) => {
+          otherRequest = undefined;
+          throw error;
+        });
+        return otherRequest;
+      }
+      root.render(<CatalogPage page={page} groups={groups} loadOther={loadOther} now={now} />);
     }
   } catch {
     root.render(<LoadingPage page={page} failed />);

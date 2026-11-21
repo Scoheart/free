@@ -1,4 +1,5 @@
-import type { CatalogGroups, CatalogKind, PlatformGroup } from "./catalog";
+import type { CatalogGroups, PlatformGroup } from "./catalog/model";
+import type { CatalogKind } from "./catalog/platforms";
 
 export type CatalogPage = "provider" | "agent";
 export type Section = CatalogPage | "vps";
@@ -7,7 +8,6 @@ export type Page = Section | "home";
 export interface RouteHash {
   page: Section | "";
   slug: string;
-  legacy: boolean;
 }
 
 export function kindFor(page: CatalogPage): CatalogKind {
@@ -28,10 +28,10 @@ export function parseRouteHash(hash: string): RouteHash {
   }
   raw = raw.trim().replace(/^\/+|\/+$/g, "");
   const match = raw.match(/^(providers|agents|provider|agent|vps)(?:\/(.*))?$/);
-  if (!match) return { page: "", slug: raw, legacy: false };
+  if (!match) return { page: "", slug: raw };
   const key = match[1];
   const page = key === "agent" || key === "agents" ? "agent" : key === "vps" ? "vps" : "provider";
-  return { page, slug: (match[2] ?? "").replace(/^\/+|\/+$/g, ""), legacy: key === "providers" || key === "agents" };
+  return { page, slug: (match[2] ?? "").replace(/^\/+|\/+$/g, "") };
 }
 
 export function sectionUrl(page: Section, slug: string, from: Page): string {
