@@ -39825,5 +39825,168 @@
       "note": "3 个月 Pro 需经 launch-yc 新建团队并绑卡；官方写加卡不会自动续费或超额扣款。本轮不代为绑卡。不想绑卡可自行点 Continue without a card 领 20 box-hours 试用。官方截止写到 November 21（时区未标明）。",
       "at": "2026-11-22T00:24:27+08:00"
     }
+  },
+  {
+    "id": "ibm-watsonx-ai-free-tier-300k-tokens-20261122",
+    "title": "IBM watsonx.ai 免费档：每月 30 万基础模型 tokens（长期免费档）",
+    "platform": "IBM watsonx.ai",
+    "product": "Lite / Free Toolbox 免费档",
+    "model": null,
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://www.ibm.com/products/watsonx-ai/pricing",
+    "source": "IBM 官方定价页（watsonx.ai pricing）核实",
+    "summary": "IBM 的企业级 AI 平台 watsonx.ai 设有长期免费档：官方定价页写明每月包含 30 万个基础模型 tokens、20 CUH（容量单位小时）和 100 次文档提取，属常设免费层、非限时活动，未公布下线日期。需注册 IBM 账号开通 Lite 计划后使用；官方定价页未把绑卡列为免费档的前提条件。适合想白嫖一份大厂模型平台免费额度、做小规模推理和文档处理实验的用户。",
+    "claim_steps": [
+      "打开 https://www.ibm.com/products/watsonx-ai/pricing 查看免费档内容",
+      "注册或登录 IBM 账号，开通 watsonx.ai 的 Lite / 免费计划",
+      "在 watsonx.ai Studio 或经 API 使用每月 30 万 tokens 等免费额度"
+    ],
+    "claim_guide": [
+      {
+        "step": "查看官方定价",
+        "detail": "打开定价页，确认免费档每月 30 万基础模型 tokens + 20 CUH + 100 次文档提取。",
+        "url": "https://www.ibm.com/products/watsonx-ai/pricing"
+      },
+      {
+        "step": "注册并开通 Lite",
+        "detail": "注册或登录 IBM 账号后开通 watsonx.ai Lite 计划。本轮不代为注册新账号。",
+        "url": "https://www.ibm.com/products/watsonx-ai/pricing"
+      },
+      {
+        "step": "开始使用",
+        "detail": "在 watsonx.ai Studio 里试用基础模型，或按官方文档用 API 调用，消耗计入每月免费额度。"
+      }
+    ],
+    "providers": [
+      {
+        "name": "IBM watsonx.ai",
+        "action_url": "https://www.ibm.com/products/watsonx-ai/pricing"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "chat",
+      "api"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-22T02:18:25+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需自行注册 IBM 账号并开通 Lite 计划；本轮不代注册。免费档内容以 IBM 官方定价页为准。",
+      "at": "2026-11-22T02:18:25+08:00"
+    }
+  },
+  {
+    "id": "braintrust-starter-free-10usd-model-credits-20261122",
+    "title": "Braintrust Starter（$0）：每月 $10 模型额度，免信用卡",
+    "platform": "Braintrust",
+    "product": "Starter 计划",
+    "model": null,
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://www.braintrust.dev/pricing",
+    "source": "Braintrust 官方定价页核实",
+    "summary": "Braintrust 是 LLM 评估与可观测平台。官方定价页的 Starter 计划为 $0：每月包含 $10 模型额度（经其网关调用各家模型）、1GB 处理数据和 1 万次评分（scorers），席位不限，且明确免信用卡。属常设免费档，未公布下线日期。做 prompt 评估、实验追踪和日志分析时可以顺带用掉这份每月模型额度。",
+    "claim_steps": [
+      "打开 https://www.braintrust.dev/pricing 确认 Starter 计划内容",
+      "注册 Braintrust 账号并选择 Starter（$0）计划，无需绑卡",
+      "在控制台使用每月 $10 模型额度与评估功能"
+    ],
+    "claim_guide": [
+      {
+        "step": "查看官方定价",
+        "detail": "打开定价页，确认 Starter 为 $0、每月 $10 模型额度 + 1GB 处理数据 + 1 万次评分、免信用卡。",
+        "url": "https://www.braintrust.dev/pricing"
+      },
+      {
+        "step": "注册 Starter",
+        "detail": "注册账号后选择 Starter 计划即可。本轮不代为注册新账号。",
+        "url": "https://www.braintrust.dev/pricing"
+      },
+      {
+        "step": "使用额度",
+        "detail": "通过 Braintrust 网关调用模型时消耗每月 $10 额度；评估与日志功能按免费档限额使用。"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Braintrust",
+        "action_url": "https://www.braintrust.dev/pricing"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "api"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-22T02:18:25+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需自行注册并选 Starter 计划；官方写明免信用卡。本轮不代注册。",
+      "at": "2026-11-22T02:18:25+08:00"
+    }
+  },
+  {
+    "id": "ankidecks-free-plan-4-ai-decks-monthly-20261122",
+    "title": "AnkiDecks 免费档：每月 4 个 AI 卡组，可导出 .apkg，免信用卡",
+    "platform": "AnkiDecks",
+    "product": "免费档",
+    "model": null,
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://anki-decks.com",
+    "source": "AnkiDecks 官网核实",
+    "summary": "AnkiDecks 是把学习材料生成 Anki 记忆卡组的 AI 工具。官网免费档每月可生成 4 个 AI 卡组，生成的卡组可导出为 .apkg 导入 Anki 使用，免信用卡。属常设免费档，未公布下线日期。适合用 Anki 背单词、备考又懒得手工制卡的用户。",
+    "claim_steps": [
+      "打开 https://anki-decks.com 注册免费账号",
+      "每月可生成 4 个 AI 卡组（粘贴材料或按主题生成）",
+      "导出 .apkg 文件后导入 Anki 使用"
+    ],
+    "claim_guide": [
+      {
+        "step": "打开官网注册",
+        "detail": "打开 https://anki-decks.com 注册免费档账号，免信用卡。本轮不代为注册新账号。",
+        "url": "https://anki-decks.com"
+      },
+      {
+        "step": "生成卡组",
+        "detail": "免费档每月 4 个 AI 卡组，按页面提示粘贴材料或输入主题生成。"
+      },
+      {
+        "step": "导出使用",
+        "detail": "把卡组导出为 .apkg，再导入 Anki 桌面或移动端复习。"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "AnkiDecks",
+        "action_url": "https://anki-decks.com"
+      }
+    ],
+    "models": [],
+    "scenes": [],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-22T02:18:25+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需自行注册免费档账号；官网写明免信用卡。本轮不代注册。",
+      "at": "2026-11-22T02:18:25+08:00"
+    }
   }
 ]
