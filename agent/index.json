@@ -9788,5 +9788,115 @@
       "note": "需自行注册免费档账号；官网写明免信用卡。本轮不代注册。",
       "at": "2026-11-22T02:18:25+08:00"
     }
+  },
+  {
+    "id": "scalekit-agentkit-free-plan-10k-tool-calls-20261122",
+    "title": "AgentKit by Scalekit 免费档：每月 1 万次工具调用 + 1 万次触发事件",
+    "platform": "Scalekit AgentKit",
+    "product": "免费档",
+    "model": null,
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://www.scalekit.com/pricing",
+    "source": "Scalekit 官方定价页核实",
+    "summary": "AgentKit 是 Scalekit 推出的 AI agent 工具调用与连接器平台，2026-11-03 在 Product Hunt 上线并拿下当日第一。官方定价页的免费档为 $0：每月 10,000 次工具调用 + 10,000 次触发事件，覆盖 1100+ 连接器、55,000+ 工具，无限连接账号，超量即停、不自动收费。适合给自己的 agent 接外部工具时白嫖一层调用额度。",
+    "claim_steps": [
+      "打开 https://www.scalekit.com/pricing 查看免费档内容",
+      "注册 Scalekit 账号并开通 AgentKit 免费档",
+      "在 agent 里接入 AgentKit，使用每月免费调用额度"
+    ],
+    "claim_guide": [
+      {
+        "step": "查看官方定价",
+        "detail": "打开定价页，确认免费档每月 10,000 次工具调用 + 10,000 次触发事件、超量即停。",
+        "url": "https://www.scalekit.com/pricing"
+      },
+      {
+        "step": "注册开通",
+        "detail": "注册 Scalekit 账号后开通 AgentKit 免费档。本轮不代为注册新账号。",
+        "url": "https://www.scalekit.com/pricing"
+      },
+      {
+        "step": "接入使用",
+        "detail": "按官方文档把 AgentKit 接入你的 agent 框架，调用消耗计入每月免费额度。"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "AgentKit by Scalekit",
+        "action_url": "https://www.scalekit.com/pricing"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-22T15:05:30+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需自行注册 Scalekit 账号开通免费档；本轮不代注册。",
+      "at": "2026-11-22T15:05:30+08:00"
+    }
+  },
+  {
+    "id": "agentic-canvas-free-local-design-canvas-20261122",
+    "title": "Agentic Canvas：免注册本地设计画布，与 MCP agent 同页协作",
+    "platform": "Agentic Canvas (AgentGrid.io)",
+    "product": "免费使用",
+    "model": null,
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://canvas.agentgrid.io",
+    "source": "Anima 官方博客 + Product Hunt（2026-11-15 上线）核实",
+    "summary": "Agentic Canvas 是 AgentGrid.io（Anima 团队）的浏览器设计画布，可直接在浏览器里免注册、本地使用：与 Claude、ChatGPT、Cursor、Codex 等支持 MCP 的 agent 在同一页面协作编辑真实 HTML/CSS，并可导出 HTML/PNG/SVG/PDF。分享与发布功能需要账号。适合让 agent 帮你快速出页面原型和设计稿。",
+    "claim_steps": [
+      "打开 https://canvas.agentgrid.io 直接开始使用（本地模式免注册）",
+      "连接你的 MCP agent（Claude / ChatGPT / Cursor / Codex 等）同页协作",
+      "完成后导出 HTML/PNG/SVG/PDF；需要分享或发布时再注册账号"
+    ],
+    "claim_guide": [
+      {
+        "step": "直接打开使用",
+        "detail": "打开画布即可本地使用，不需要注册账号。",
+        "url": "https://canvas.agentgrid.io"
+      },
+      {
+        "step": "连接 agent",
+        "detail": "按页面提示连接支持 MCP 的 agent，在同一画布里协作编辑真实 HTML/CSS。"
+      },
+      {
+        "step": "导出成果",
+        "detail": "导出为 HTML/PNG/SVG/PDF；分享与发布功能需注册账号。"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Agentic Canvas",
+        "action_url": "https://canvas.agentgrid.io"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent",
+      "coding"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-22T15:05:30+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "本地使用免注册，无需领取；分享/发布才需账号。本轮未做任何注册。",
+      "at": "2026-11-22T15:05:30+08:00"
+    }
   }
 ]

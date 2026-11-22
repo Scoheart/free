@@ -30198,5 +30198,111 @@
       "note": "需自行注册并选 Starter 计划；官方写明免信用卡。本轮不代注册。",
       "at": "2026-11-22T02:18:25+08:00"
     }
+  },
+  {
+    "id": "cloady-free-tier-cloud-hosting-20261122",
+    "title": "Cloady 免费档：0.5 vCPU / 1GB 云主机，每月 10GB 流量 + 100 万请求，免信用卡",
+    "platform": "Cloady",
+    "product": "免费档",
+    "model": null,
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://cloady.com/docs/free-tier",
+    "source": "Cloady 官网文档（Free Tier，2026-11-14 更新）核实",
+    "summary": "Cloady 是云托管平台，官网文档写明设有无期限免费档：0.5 vCPU、1GB 内存、5GB SSD，每月 10GB 流量和 100 万次 HTTP 请求，免信用卡。注意 7 天无流量会暂停，有流量即保持运行。节点包括德国、日本、美国等，支持 WordPress、Docker 等部署方式。适合放小型站点、机器人和轻量服务。",
+    "claim_steps": [
+      "打开 https://cloady.com/docs/free-tier 查看免费档条款",
+      "注册 Cloady 账号（免信用卡）",
+      "创建免费档实例，按需部署 WordPress、Docker 或其他应用"
+    ],
+    "claim_guide": [
+      {
+        "step": "查看官方文档",
+        "detail": "打开免费档文档，确认 0.5 vCPU / 1GB / 5GB、每月 10GB 流量 + 100 万请求、7 天无流量暂停等条款。",
+        "url": "https://cloady.com/docs/free-tier"
+      },
+      {
+        "step": "注册账号",
+        "detail": "注册 Cloady 账号，免费档免信用卡。本轮不代为注册新账号。",
+        "url": "https://cloady.com/docs/free-tier"
+      },
+      {
+        "step": "创建实例",
+        "detail": "创建免费档实例并部署应用；记得保持每 7 天至少有一次流量，避免被暂停。"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Cloady",
+        "action_url": "https://cloady.com/docs/free-tier"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-22T15:05:30+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需自行注册 Cloady 账号创建免费实例；官方文档写明免信用卡。本轮不代注册。",
+      "at": "2026-11-22T15:05:30+08:00"
+    }
+  },
+  {
+    "id": "altare-always-free-cloud-server-20261122",
+    "title": "Altare Always Free：6GB 内存云服务器（最多 4 台），免信用卡，需关联 Discord",
+    "platform": "Altare",
+    "product": "Always Free 档",
+    "model": null,
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://altare.gg/",
+    "source": "Altare 官网核实",
+    "summary": "Altare 提供云服务器，官网的 Always Free 档为每团队免费：6GB 内存、150% CPU、10GB 磁盘，最多 4 台服务器，全球节点；另含 10GB U3 对象存储和 1GB KV 存储。免信用卡，但需要关联 Discord 账号（其 bolts 奖励体系）。适合跑小型服务、机器人和测试环境。",
+    "claim_steps": [
+      "打开 https://altare.gg/ 注册账号",
+      "按提示关联 Discord 账号",
+      "在 Always Free 档下创建最多 4 台服务器"
+    ],
+    "claim_guide": [
+      {
+        "step": "查看官网",
+        "detail": "打开官网确认 Always Free 档内容：6GB 内存、150% CPU、10GB 磁盘、最多 4 台，另含对象存储与 KV。",
+        "url": "https://altare.gg/"
+      },
+      {
+        "step": "注册并关联 Discord",
+        "detail": "注册 Altare 账号后关联 Discord（bolts 奖励体系要求）。免信用卡。本轮不代为注册或关联账号。",
+        "url": "https://altare.gg/"
+      },
+      {
+        "step": "创建服务器",
+        "detail": "在免费档额度内创建服务器并部署你的服务。"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Altare",
+        "action_url": "https://altare.gg/"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-22T15:05:30+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需自行注册并关联 Discord；官方写明免信用卡。本轮不代注册。",
+      "at": "2026-11-22T15:05:30+08:00"
+    }
   }
 ]
