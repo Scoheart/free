@@ -9898,5 +9898,169 @@
       "note": "本地使用免注册，无需领取；分享/发布才需账号。本轮未做任何注册。",
       "at": "2026-11-22T15:05:30+08:00"
     }
+  },
+  {
+    "id": "plurai-simulation-free-plan-20261122",
+    "title": "Plurai Simulation 免费档：一次性 12,300 积分测自己的 AI agent",
+    "platform": "Plurai Simulation",
+    "product": "免费档",
+    "model": null,
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://plurai.ai/pricing",
+    "source": "Plurai 官网定价页（plurai.ai/pricing）核实",
+    "summary": "Plurai Simulation 是 agent 测试工具，以 Claude Code、GitHub Copilot CLI、Codex 插件形式运行：读取 agent 代码、mock 工具与数据，用模拟用户跑多轮场景，找出故障点并给出修复建议。官网定价页免费档 $0：一次性 12,300 积分、2 个 agent 配置、7 个场景、3 次运行、10 沙箱小时，无超额扣费，用完即暂停、永不收费。注意免费额度为一次性而非每月重置。2026-11-11 上线，Product Hunt 当日第一。适合在 agent 上线前先跑一轮模拟测试。",
+    "claim_steps": [
+      "打开 https://plurai.ai/pricing 查看免费档内容（一次性 12,300 积分等）",
+      "注册 Plurai 账号并安装 Claude Code / Codex / Copilot CLI 插件",
+      "按官方文档对自己的 agent 跑一次模拟"
+    ],
+    "claim_guide": [
+      {
+        "step": "查看官方定价",
+        "detail": "打开定价页，确认免费档 $0、一次性 12,300 积分、2 个 agent 配置、7 个场景、3 次运行、10 沙箱小时，无超额扣费。",
+        "url": "https://plurai.ai/pricing"
+      },
+      {
+        "step": "注册并安装插件",
+        "detail": "注册 Plurai 账号，在 Claude Code、Codex 或 Copilot CLI 里安装 Plurai 插件。本轮不代为注册。",
+        "url": "https://plurai.ai/pricing"
+      },
+      {
+        "step": "跑一次模拟",
+        "detail": "按官方文档对自己的 agent 代码跑一次模拟，查看故障点与修复建议。"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Plurai Simulation",
+        "action_url": "https://plurai.ai/pricing"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-22T15:57:54+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需自行注册 Plurai 账号并安装插件跑模拟；本轮不代注册。",
+      "at": "2026-11-22T15:57:54+08:00"
+    }
+  },
+  {
+    "id": "nod-by-n8n-free-open-source-agent-20261122",
+    "title": "Nod by n8n：免费开源个人 agent，在自己电脑上跑",
+    "platform": "Nod by n8n",
+    "product": "免费开源",
+    "model": null,
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://nod.n8n.io",
+    "source": "n8n 官方博客（blog.n8n.io/meet-nod）核实",
+    "summary": "Nod 是 n8n Labs 2026-11-10 发布的免费开源（Apache 2.0）个人 agent：独立桌面应用（Mac/Windows），自带私有虚拟机与浏览器，在用户自己的应用与网站里完成任务，发送、付款、发布、删除等操作前会先确认。应用本身免费、无需 n8n 账号；模型费用自付，可接 30+ 模型商或本地 Ollama 等开源模型。属研究预览版，功能变化较快。官网 nod.n8n.io，代码 github.com/n8n-io/nod。",
+    "claim_steps": [
+      "打开 https://nod.n8n.io 下载 Mac 或 Windows 安装包",
+      "安装后接入自己的模型商 API Key，或接本地 Ollama 等开源模型",
+      "连接要用的应用后，给 Nod 下达第一个低风险任务试跑"
+    ],
+    "claim_guide": [
+      {
+        "step": "下载安装",
+        "detail": "在官网下载 Mac 或 Windows 安装包并安装；Mac 需 macOS 14+，Windows 11 需 WSL 2。",
+        "url": "https://nod.n8n.io"
+      },
+      {
+        "step": "接入模型",
+        "detail": "接入自己的模型商 API Key，或接本地 Ollama 等开源模型；Nod 本身不收应用费，模型用量按模型商计费。"
+      },
+      {
+        "step": "试跑低风险任务",
+        "detail": "连接 Gmail、Slack、Notion 等应用后，先给 Nod 一个低风险任务试跑，确认行为符合预期再扩大使用。"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Nod by n8n",
+        "action_url": "https://nod.n8n.io"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_key"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-22T15:57:54+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需自行下载安装并接入自己的模型商 Key 或本地模型；本轮不代操作。",
+      "at": "2026-11-22T15:57:54+08:00"
+    }
+  },
+  {
+    "id": "agent-clan-free-plan-gesture-agents-20261122",
+    "title": "Agent Clan 免费档：手势+语音指挥 Claude Code / Codex，1 项目 2 agent",
+    "platform": "Agent Clan",
+    "product": "免费档",
+    "model": null,
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://agentclan.app/",
+    "source": "Agent Clan 官网（agentclan.app）核实",
+    "summary": "Agent Clan 是桌面工作台，把本地 Claude Code / Codex 编程 agent 变成屏幕上的 3D 小队：握拳召唤、捏合选择、语音下任务，权限请求左右一挥即可允许或拒绝，也可用鼠标操作。官网免费档 $0：1 个项目、最多 2 个 agent，含手势控制、语音输入与 3D 角色；Pro 为 $19 一次性买断（含 1 年更新）。注意：需自备 Claude Code 或 Codex 账号（模型费用另付）、需注册 Agent Clan 账号；Mac 仅限 Apple Silicon。2026-11-08 在 Product Hunt 上线。",
+    "claim_steps": [
+      "打开 https://agentclan.app/ 查看免费档内容（1 项目、最多 2 个 agent）",
+      "下载 Mac（Apple Silicon）或 Windows 版并注册账号",
+      "接入自己的 Claude Code 或 Codex 账号后开始使用"
+    ],
+    "claim_guide": [
+      {
+        "step": "查看免费档",
+        "detail": "打开官网，确认免费档 $0、1 个项目、最多 2 个 agent，含手势与语音控制。",
+        "url": "https://agentclan.app/"
+      },
+      {
+        "step": "下载并注册",
+        "detail": "下载对应平台版本并注册 Agent Clan 账号；Mac 仅限 Apple Silicon。本轮不代为注册。",
+        "url": "https://agentclan.app/"
+      },
+      {
+        "step": "接入自己的 agent 账号",
+        "detail": "接入自己的 Claude Code 或 Codex 账号，模型费用由原服务商另行计费。"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Agent Clan",
+        "action_url": "https://agentclan.app/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-22T15:57:54+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需自行下载、注册并接入自己的 Claude Code 或 Codex 账号；本轮不代操作。",
+      "at": "2026-11-22T15:57:54+08:00"
+    }
   }
 ]

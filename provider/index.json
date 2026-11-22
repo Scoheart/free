@@ -30304,5 +30304,169 @@
       "note": "需自行注册并关联 Discord；官方写明免信用卡。本轮不代注册。",
       "at": "2026-11-22T15:05:30+08:00"
     }
+  },
+  {
+    "id": "aevris-free-tier-100-scans-monthly-20261122",
+    "title": "AEVRIS 免费档：每月 100 次 LLM 威胁检测扫描，免信用卡",
+    "platform": "AEVRIS",
+    "product": "免费档",
+    "model": null,
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://aevris.ai/",
+    "source": "AEVRIS 官网（aevris.ai）定价页与 API 文档核实",
+    "summary": "AEVRIS 是面向 LLM 部署的实时 AI 威胁检测 API：5 个检测 agent 并行扫描每条提示与模型输出，覆盖提示注入、越狱、MCP 工具投毒、输出对齐验证等。官网免费档 $0 永久：每月 100 次扫描，含全部 5 个检测 agent、输入/输出扫描与多轮分析，免信用卡，API Key 即时生成。注意 Product Hunt 页写的是 500 次/月，以官网定价页的 100 次为准；官网条款另写明超量按 $0.005/次计费，免费档不绑卡，实际执行以官网为准。适合给自己的 agent 或 LLM 应用加一层安全扫描。",
+    "claim_steps": [
+      "打开 https://aevris.ai/ 查看免费档条款（每月 100 次扫描、免信用卡）",
+      "在官网免费领取 API Key（即时生成，无需绑卡）",
+      "按 API 文档把扫描接入自己的 agent 或 LLM 调用链"
+    ],
+    "claim_guide": [
+      {
+        "step": "查看官方定价",
+        "detail": "打开官网首页，确认免费档 $0、每月 100 次扫描、免信用卡、含全部 5 个检测 agent。",
+        "url": "https://aevris.ai/"
+      },
+      {
+        "step": "领取免费 API Key",
+        "detail": "在官网领取免费 API Key，密钥即时生成并显示在页面上，妥善保存，不要发到聊天或截图里。本轮不代为注册。",
+        "url": "https://aevris.ai/"
+      },
+      {
+        "step": "按文档接入",
+        "detail": "按 aevris.ai/docs 的示例把扫描调用接入自己的 agent 或应用，先用免费额度跑一次确认返回正常。",
+        "url": "https://aevris.ai/docs"
+      }
+    ],
+    "providers": [
+      {
+        "name": "AEVRIS",
+        "action_url": "https://aevris.ai/"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-22T15:57:54+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需自行在 AEVRIS 官网领取免费 API Key；免费档免信用卡。本轮不代注册。",
+      "at": "2026-11-22T15:57:54+08:00"
+    }
+  },
+  {
+    "id": "openworld-free-ipv6-vps-20261122",
+    "title": "Openworld 免费 IPv6 VPS：免信用卡，每 7 天续期一次长期免费",
+    "platform": "Openworld",
+    "product": "免费档",
+    "model": null,
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://openworld.eu.org",
+    "source": "Openworld 官网（openworld.eu.org）首页 FAQ 核实",
+    "summary": "Openworld 提供纯 IPv6 免费 VPS，面向开发者与学生。官网 FAQ 写明免费档永久有效（按规则续期）、不是试用期、免信用卡，需 Discord 授权验证。免费实例每次有效期 7 天，每 24 小时可免费续期一次重置倒计时，忘记续期会被自动挂起，续期即可一直用下去。官网首页显示当前 3 个节点、146 台 VPS、6599 用户。注意：纯 IPv6、无 IPv4；CPU/内存/磁盘配置官网首页未列出，以控制台为准；不适合跑无容灾的生产业务。",
+    "claim_steps": [
+      "打开 https://openworld.eu.org 查看 FAQ 与免费档条款",
+      "用 Discord 授权注册账号（免信用卡）",
+      "创建免费 VPS 实例，记得每 7 天内续期一次"
+    ],
+    "claim_guide": [
+      {
+        "step": "查看官网 FAQ",
+        "detail": "打开官网首页 FAQ，确认免费档永久有效、7 天续期规则、免信用卡、需 Discord 授权。",
+        "url": "https://openworld.eu.org"
+      },
+      {
+        "step": "Discord 授权注册",
+        "detail": "按官网流程用 Discord 授权注册账号。本轮不代为注册。",
+        "url": "https://openworld.eu.org"
+      },
+      {
+        "step": "创建并定期续期",
+        "detail": "创建免费 VPS 实例后，每 7 天内至少续期一次，避免被自动挂起；重要数据另行备份。"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Openworld",
+        "action_url": "https://openworld.eu.org"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-22T15:57:54+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需自行用 Discord 授权注册并创建实例，之后每 7 天续期一次；本轮不代注册。",
+      "at": "2026-11-22T15:57:54+08:00"
+    }
+  },
+  {
+    "id": "telemetry-dev-free-plan-30k-ingestion-units-20261122",
+    "title": "telemetry.dev 免费档：每月 3 万 ingestion units 的 LLM 可观测性",
+    "platform": "telemetry.dev",
+    "product": "免费档",
+    "model": null,
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://telemetry.dev/terms",
+    "source": "telemetry.dev 官网条款页核实；免信用卡为多家第三方核实",
+    "summary": "telemetry.dev 是面向 AI 应用与 agent 的 LLM 可观测性平台（OpenTelemetry 原生）：一次 agent 运行即一条 trace，含每次模型调用、工具调用的耗时、token 与成本。官网条款页免费档 $0：每月 30,000 ingestion units（一个 span、日志记录或指标点计 1 单位），14 天保留，1 个项目，2 个席位；当月超过 36,000 单位会拒绝写入。多家第三方核实免信用卡。2026-10-31 在 Product Hunt 上线，当日第三。适合给自己的 agent 加 trace 与成本追踪。",
+    "claim_steps": [
+      "打开 https://telemetry.dev/terms 查看免费档条款（每月 3 万 units、14 天保留）",
+      "注册 telemetry.dev 账号并创建免费档项目",
+      "按官方文档接入 OTLP/HTTP exporter，开始收 trace"
+    ],
+    "claim_guide": [
+      {
+        "step": "查看免费档条款",
+        "detail": "打开官网条款页的计划表，确认免费档 $0、每月 30,000 ingestion units、14 天保留、1 个项目、2 个席位。",
+        "url": "https://telemetry.dev/terms"
+      },
+      {
+        "step": "注册并创建项目",
+        "detail": "注册账号后创建免费档项目。本轮不代为注册。",
+        "url": "https://telemetry.dev/"
+      },
+      {
+        "step": "接入 exporter",
+        "detail": "按官方文档把 OTLP/HTTP exporter 或 OpenTelemetry Collector 接入自己的 agent，trace 即开始上报。"
+      }
+    ],
+    "providers": [
+      {
+        "name": "telemetry.dev",
+        "action_url": "https://telemetry.dev/"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-22T15:57:54+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需自行注册 telemetry.dev 账号并按文档接入 exporter；本轮不代注册。",
+      "at": "2026-11-22T15:57:54+08:00"
+    }
   }
 ]
