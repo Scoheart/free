@@ -28718,15 +28718,15 @@
   },
   {
     "id": "packetai-token-factory-launch-free-20261119",
-    "title": "packet.ai Token Factory：三款开源模型启动期免费（官方称约一个月）",
+    "title": "packet.ai Token Factory：三款开源模型免费至 2026-12-16（免绑卡，需短信验证）",
     "platform": "packet.ai",
     "product": "Token Factory",
     "model": "DeepSeek V4.1 Flash NVFP4 / MiniMax M3.1 Flash / Qwen2.5 1.5B Instruct",
     "type": "限时免费",
-    "deadline": null,
-    "url": "https://packet.ai/token-factory",
-    "source": "packet.ai 官方产品页与 11/17 博客；据 X 上 @packet_ai 报道",
-    "summary": "据 packet.ai 官方产品页和 11 月 17 日博客，Token Factory 已上线 OpenAI 兼容推理接口，当前三款开放权重模型 DeepSeek V4.1 Flash（NVFP4，1M 上下文）、MiniMax M3.1 Flash（1M 上下文）和 Qwen2.5 1.5B Instruct 在启动期免费。产品页写明 Free at launch (one month), then billed per 1M tokens；博客则称暂无公布结束日、后续再决定商业化，因此不能写成精确截止日期。官方称注册免绑卡，但 agent 文档要求每个账号做一次手机短信验证。这是开源模型托管，不是转售官方闭源模型名。本轮未能从控制台或公开模型列表交叉确认现价是否为零，请以控制台标价为准。用尽后按 token 从钱包扣费。",
+    "deadline": "2026-12-16T23:59:59+08:00",
+    "url": "https://packet.ai/token-factory-free",
+    "source": "packet.ai 官方页 token-factory-free（本轮核验）",
+    "summary": "据 packet.ai 官方页 Token Factory: free until December 16，三款开源权重模型 DeepSeek-V4.1-Flash-NVFP4（131K 上下文）、MiniMax-M3.1-Flash（131K）和 Qwen2.5-1.5B-Instruct（33K）的输入、输出 token 在 2026 年 12 月 16 日前均为 $0，新老账号都可，无需绑卡，但每个账号要做一次手机短信验证。接口兼容 OpenAI，基址为 api.packet.ai/v1。官方只写 December 16, 2026，未标明时区，本条截止按北京时间当天结束估列，请以控制台为准。12 月 16 日后改为按 token 计费（页上列出事后参考价），不是永久免费。这是对已有「约一个月」条目的截止日期补全，不是新活动。",
     "claim_steps": [
       "打开 packet.ai Token Factory 或控制台 Serverless 页注册账号",
       "完成手机短信验证后创建 API Key",
@@ -30468,5 +30468,362 @@
       "note": "需自行注册 telemetry.dev 账号并按文档接入 exporter；本轮不代注册。",
       "at": "2026-11-22T15:57:54+08:00"
     }
+  },
+  {
+    "id": "inclusionai-lingsante-31-flash-open-weights-20261123",
+    "title": "蚂蚁百灵 LingSante-3.1-flash：MIT 开源权重上线（560B/25B 激活，1M 上下文，医疗 MoE）",
+    "platform": "开源权重",
+    "product": "LingSante-3.1-flash",
+    "model": "LingSante-3.1-flash",
+    "type": "开源权重",
+    "deadline": null,
+    "url": "https://huggingface.co/inclusionAI/LingSante-3.1-flash",
+    "source": "据 X 上的报道（@AntLingAGI 2026-11-22T15:22:28Z）；Hugging Face 模型卡 license:mit；ModelScope 同步仓库",
+    "summary": "据 X 上的报道，蚂蚁百灵团队账号 @AntLingAGI 于北京时间 2026-11-22 23:22 宣布开源 LingSante-3.1-flash：面向复杂医疗推理与长程医疗任务的 MoE，总参数 560B、每 token 激活 25B，上下文 1M。Hugging Face 仓库 inclusionAI/LingSante-3.1-flash 的模型卡写明许可证为 MIT，未设置 gated，可免费下载；ModelScope 有同步仓库。模型卡强调仅供研究与评估，不是医疗器械，不得作为独立诊疗依据。本轮未发现官方零费用托管推理：同线程提到的 Computrix 托管需要 US$20/月 Basic Token Plan，不能当成免费 API。",
+    "claim_steps": [
+      "打开 Hugging Face 仓库 inclusionAI/LingSante-3.1-flash 查看模型卡并下载权重（MIT）",
+      "也可在 ModelScope 打开 inclusionAI/LingSante-3.1-flash 下载",
+      "按模型卡说明本地部署；不要把需要付费 Token Plan 的托管接口当成免费额度"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读发布说明",
+        "detail": "先看 @AntLingAGI 的发布帖或模型卡，确认规格、用途限制和许可证。",
+        "url": "https://x.com/AntLingAGI/status/2124523916819648945"
+      },
+      {
+        "step": "在 Hugging Face 下载",
+        "detail": "打开 inclusionAI/LingSante-3.1-flash，模型卡标明 license: mit，仓库未 gated。",
+        "url": "https://huggingface.co/inclusionAI/LingSante-3.1-flash"
+      },
+      {
+        "step": "可选 ModelScope",
+        "detail": "国内也可在魔搭打开同名仓库 inclusionAI/LingSante-3.1-flash 下载。",
+        "url": "https://www.modelscope.cn/models/inclusionAI/LingSante-3.1-flash"
+      },
+      {
+        "step": "本地运行",
+        "detail": "按模型卡的推理与硬件说明自行部署。",
+        "note": "Computrix 等托管 API 不是零费用，官方线程写明需要付费 Token Plan。"
+      }
+    ],
+    "providers": [
+      {
+        "name": "开源权重",
+        "action_url": "https://huggingface.co/inclusionAI/LingSante-3.1-flash"
+      }
+    ],
+    "agents": [],
+    "models": [
+      {
+        "name": "LingSante-3.1-flash",
+        "action_url": "https://huggingface.co/inclusionAI/LingSante-3.1-flash"
+      }
+    ],
+    "scenes": [
+      "local"
+    ],
+    "barriers": [],
+    "category": "providers",
+    "auto_claim": {
+      "status": "success",
+      "note": "开源权重可直接下载，无需注册或创建 API Key。",
+      "at": "2026-11-23T00:25:01+08:00"
+    },
+    "expired": false,
+    "collected_at": "2026-11-23T00:25:01+08:00"
+  },
+  {
+    "id": "sarvam-105b-1711-open-weights-20261123",
+    "title": "Sarvam-105B-1711：Apache 2.0 开源权重新 checkpoint 上线（BF16 / NVFP4）",
+    "platform": "开源权重",
+    "product": "Sarvam-105B-1711",
+    "model": "Sarvam-105B-1711",
+    "type": "开源权重",
+    "deadline": null,
+    "url": "https://www.sarvam.ai/blogs/sarvam-105b-1711",
+    "source": "Sarvam 官方博客（标注 Nov 22, 2026）；Hugging Face sarvamai/sarvam-105b-1711 与 sarvamai/sarvam-105b-1711-bf16（license:apache-2.0，未 gated）",
+    "summary": "据 Sarvam 官方博客（标注 Nov 22, 2026，文首写 Today, we're releasing Sarvam-105B-1711），这是 Sarvam 105B 的新开源权重 checkpoint，面向客服、语音 Agent 和高并发任务。权重在 Hugging Face 提供 BF16（sarvamai/sarvam-105b-1711-bf16）和约 65GB 的 NVFP4（sarvamai/sarvam-105b-1711）两种，模型卡均为 Apache 2.0、未 gated，可免费下载。仓库可能提前上传（HF lastModified 约 2026-11-21），公开宣布日以博客为准。官方 Token Factory 托管是按 token 计费（文中 blended 约 $0.15 / 百万 tokens），不是新的注册赠金；已有的 ₹100 注册额度是另一条，不要混为一谈。",
+    "claim_steps": [
+      "打开官方博客确认发布说明和许可证",
+      "到 Hugging Face 下载 sarvamai/sarvam-105b-1711（NVFP4）或 sarvamai/sarvam-105b-1711-bf16（BF16）",
+      "按博客或模型卡本地运行；不要把 Token Factory 托管价当成免费额度"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官方博客",
+        "detail": "打开 Sarvam 发布文，确认这是新的开源权重 checkpoint，以及托管推理为付费。",
+        "url": "https://www.sarvam.ai/blogs/sarvam-105b-1711"
+      },
+      {
+        "step": "下载 NVFP4 权重",
+        "detail": "Hugging Face 仓库 sarvamai/sarvam-105b-1711，许可证 Apache 2.0，未 gated。",
+        "url": "https://huggingface.co/sarvamai/sarvam-105b-1711"
+      },
+      {
+        "step": "或下载 BF16 权重",
+        "detail": "仓库 sarvamai/sarvam-105b-1711-bf16，同样是 Apache 2.0。",
+        "url": "https://huggingface.co/sarvamai/sarvam-105b-1711-bf16"
+      },
+      {
+        "step": "本地运行",
+        "detail": "按博客或模型卡的硬件与推理说明自行部署。",
+        "note": "Token Factory 是付费托管，与本条开源权重无关。"
+      }
+    ],
+    "providers": [
+      {
+        "name": "开源权重",
+        "action_url": "https://huggingface.co/sarvamai/sarvam-105b-1711"
+      }
+    ],
+    "agents": [],
+    "models": [
+      {
+        "name": "Sarvam-105B-1711",
+        "action_url": "https://huggingface.co/sarvamai/sarvam-105b-1711"
+      }
+    ],
+    "scenes": [
+      "local"
+    ],
+    "barriers": [],
+    "category": "providers",
+    "auto_claim": {
+      "status": "success",
+      "note": "开源权重可直接下载，无需注册或创建 API Key。",
+      "at": "2026-11-23T00:25:01+08:00"
+    },
+    "expired": false,
+    "collected_at": "2026-11-23T00:25:01+08:00"
+  },
+  {
+    "id": "searlo-3000-signup-credits-1yr-20261123",
+    "title": "Searlo：注册送 3,000 credits（免绑卡，新用户 1 年有效，用尽 HTTP 402 硬停）",
+    "platform": "Searlo",
+    "product": "Searlo Search API",
+    "model": "",
+    "type": "搜索 API 赠金",
+    "deadline": null,
+    "url": "https://searlo.tech/pricing",
+    "source": "Searlo 官方定价页（本轮核验）；上一轮扩展扫描漏收",
+    "summary": "据 Searlo 官方定价页：注册免费账户即获 3,000 credits，无需信用卡；新用户该笔赠额自发放起 1 年有效（老用户文档曾写 unlimited，以当前页为准）。没有订阅或循环扣费，积分用尽后接口返回 HTTP 402 硬停，低余额只会发邮件提醒，不是扣费。这是 SERP/网页数据 API（含 MCP），不是聊天模型接口。页上有 11–12 月可能调价的预告，但不改变已发放赠额的使用规则。官方未写活动截止日期。",
+    "claim_steps": [
+      "打开 https://searlo.tech/pricing 确认免费档条款",
+      "到 https://dashboard.searlo.tech 注册（优先用 Google 登录），不要添加支付方式、不要购买积分包",
+      "在控制台创建 API key，并按官方文档调用 SERP 或网页接口"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读定价页",
+        "detail": "先看官方定价，确认注册赠额、免绑卡和用尽 402 硬停。",
+        "url": "https://searlo.tech/pricing"
+      },
+      {
+        "step": "打开控制台注册",
+        "detail": "进入 dashboard.searlo.tech，优先选 Google 登录或按页上方式注册。",
+        "url": "https://dashboard.searlo.tech"
+      },
+      {
+        "step": "不要添加支付方式",
+        "detail": "不要绑卡、不要购买 credit pack 或开启任何付费项。注册赠额应自动到账。"
+      },
+      {
+        "step": "创建 API key",
+        "detail": "在控制台创建 key，按文档调用 SERP/网页接口；用尽会返回 HTTP 402。",
+        "note": "若控制台能给 key 设额度上限或过期时间，尽量设较小上限和约 7 天过期。"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Searlo",
+        "action_url": "https://dashboard.searlo.tech"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "search"
+    ],
+    "barriers": [],
+    "category": "providers",
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "条款已核验可零费用领取，但本轮定时任务无法代填登录凭据；请本人在 https://dashboard.searlo.tech 注册或登录（不要绑卡），确认 3,000 credits 到账并创建 key。",
+      "at": "2026-11-23T00:25:01+08:00"
+    },
+    "expired": false,
+    "collected_at": "2026-11-23T00:25:01+08:00"
+  },
+  {
+    "id": "crawl4ai-cloud-free-1000-credits-monthly-20261123",
+    "title": "Crawl4AI Cloud：免费档每月 1,000 credits（免绑卡，约最多 1 万页）",
+    "platform": "Crawl4AI Cloud",
+    "product": "Crawl4AI Cloud",
+    "model": "",
+    "type": "爬取 API 免费档",
+    "deadline": null,
+    "url": "https://crawl4ai.com/pricing",
+    "source": "Crawl4AI Cloud 官方定价页与 FAQ（本轮核验）",
+    "summary": "据 Crawl4AI Cloud 官方定价页和 FAQ：免费档 $0，无需信用卡，每月 1,000 credits，大约相当于最多 1 万个普通页面（普通页 0.1 credit，真实浏览器页 0.5，难站 2；失败不扣分）。速率 10 次/分钟、同时 2 个请求，超速率返回 429。未注册也可先试 20 credits；验证邮箱后获得每月 1,000 credits。这是官方托管的爬取/抽取/搜索 API，不是聊天模型。FAQ 未逐字写明月度额度用尽后是硬停还是提示升级，但免费档明确不要求绑卡；不要添加支付方式，以免付费升级。官方未写活动截止日。",
+    "claim_steps": [
+      "打开 https://crawl4ai.com/pricing 确认免费档条款",
+      "在定价页点 Get a free key / 打开控制台，验证邮箱后领取每月 1,000 credits",
+      "不要添加支付方式；用控制台给出的 API key 按文档调用"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读定价与 FAQ",
+        "detail": "确认免费档 $0、免绑卡、每月 1,000 credits 和速率限制。",
+        "url": "https://crawl4ai.com/pricing"
+      },
+      {
+        "step": "领取免费 key",
+        "detail": "在定价页或控制台走 Get a free API key / Sign in，按页面验证邮箱。",
+        "url": "https://crawl4ai.com/pricing"
+      },
+      {
+        "step": "不要绑卡或升级",
+        "detail": "停留在 Free 档，不要添加支付方式，不要点付费套餐。"
+      },
+      {
+        "step": "按文档调用",
+        "detail": "用控制台里的 key 调用 scrape/extract/search 等接口；超速率会 429。"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Crawl4AI Cloud",
+        "action_url": "https://crawl4ai.com/pricing"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "search"
+    ],
+    "barriers": [],
+    "category": "providers",
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "免费档免绑卡，但本轮定时任务无法代填登录凭据；请本人打开 https://crawl4ai.com/pricing 领取免费 key，验证邮箱后不要添加支付方式。",
+      "at": "2026-11-23T00:25:01+08:00"
+    },
+    "expired": false,
+    "collected_at": "2026-11-23T00:25:01+08:00"
+  },
+  {
+    "id": "builditomi-api-sandbox-1m-credits-20261123",
+    "title": "BuildItOmi API Sandbox：每账号一次 100 万 credits（免绑卡，用尽 HTTP 402 硬停）",
+    "platform": "BuildItOmi API",
+    "product": "BuildItOmi API Sandbox",
+    "model": "",
+    "type": "API 赠金",
+    "deadline": null,
+    "url": "https://api.builditomi.com/pricing",
+    "source": "BuildItOmi API 官方定价页（本轮核验）",
+    "summary": "据 BuildItOmi API 官方定价页：Sandbox 档 $0 forever，无需绑卡，每个账号一次 10,00,000 credits（页上即 100 万，约 1,000 次调用），1 把 API key，每 key 每分钟最多 10 次、每天 1,000 次调用。用尽后请求返回 HTTP 402，官方写明不会在套餐之外自动扣费；可另买不过期的积分包，但不是领取本赠额的前提。这是应用构建 / AI gateway API 的免费沙箱，不是聊天模型广场。与同公司 Omi CLI 的免费档是分开的产品和额度。官方未写活动截止日，更像常驻免费档，本轮为漏收录入。",
+    "claim_steps": [
+      "打开 https://api.builditomi.com/pricing 确认 Sandbox 条款",
+      "在页上点 Get a free key 或打开 https://api.builditomi.com/keys 注册（不要选付费套餐或购买积分包）",
+      "创建 API key 后按 Quickstart 调用；用尽会返回 402"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读 API 定价页",
+        "detail": "确认 Sandbox 免绑卡、一次 100 万 credits、用尽 402、不会自动扣费。",
+        "url": "https://api.builditomi.com/pricing"
+      },
+      {
+        "step": "领取免费 key",
+        "detail": "在定价页点 Get a free key，或打开钥匙页注册/登录。",
+        "url": "https://api.builditomi.com/keys"
+      },
+      {
+        "step": "不要开通付费项",
+        "detail": "不要选 Starter/Pro/Scale，也不要购买 credit pack。"
+      },
+      {
+        "step": "按 Quickstart 调用",
+        "detail": "用控制台 key 按官方 Quickstart 调用接口。",
+        "url": "https://api.builditomi.com/quickstart",
+        "note": "若能给 key 设额度上限或过期时间，尽量设较小上限和约 7 天过期。"
+      }
+    ],
+    "providers": [
+      {
+        "name": "BuildItOmi API",
+        "action_url": "https://api.builditomi.com/keys"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "coding"
+    ],
+    "barriers": [],
+    "category": "providers",
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "条款已核验可零费用领取，但本轮定时任务无法代填登录凭据；请本人在 https://api.builditomi.com/keys 领取 Sandbox 免费 key，不要购买套餐或积分包。",
+      "at": "2026-11-23T00:25:01+08:00"
+    },
+    "expired": false,
+    "collected_at": "2026-11-23T00:25:01+08:00"
+  },
+  {
+    "id": "siliconflow-international-1usd-free-credits-20261123",
+    "title": "SiliconFlow 国际站：定价页写注册可获 $1 免费 credits（绑卡与用尽是否扣费未写清）",
+    "platform": "SiliconFlow",
+    "product": "SiliconFlow International",
+    "model": "",
+    "type": "注册赠金（条款不完整）",
+    "deadline": null,
+    "url": "https://www.siliconflow.com/pricing",
+    "source": "SiliconFlow 国际站官方定价页 FAQ（本轮核验）",
+    "summary": "据 www.siliconflow.com/pricing 的 FAQ：没有最低消费，按用量付费，并写 You can start with $1 in free credits。同页还提到 postpaid billing，以及可在控制台设置 monthly spending limits 以防意外费用；预算限额是提醒/控制手段，页上没有写明用尽 $1 后是硬停还是继续按已保存支付方式扣费，也没有写明是否必须绑卡、赠额有效期多久。条款还允许对已保存支付方式周期扣费，账户也可能变为负余额。这与国内站 cloud.siliconflow.cn 的实名免费模型和 16 元券不是同一权益。在官方把免绑卡和用尽后硬停写清楚之前，不能当成已可安全零费用领取。",
+    "claim_steps": [
+      "打开 https://www.siliconflow.com/pricing 再次核对 FAQ 和计费说明",
+      "若仍未写清免绑卡和用尽硬停，先不要注册或添加支付方式",
+      "只有在确认不会自动扣费后，再在国际站控制台注册并创建 key"
+    ],
+    "claim_guide": [
+      {
+        "step": "先读国际站定价 FAQ",
+        "detail": "只把官方仍写明的 $1 起始赠额当作线索，同时查看 postpaid 和 spending limits 的表述。",
+        "url": "https://www.siliconflow.com/pricing"
+      },
+      {
+        "step": "不要急着绑卡",
+        "detail": "在免绑卡、用尽后是否硬停仍不清楚时，不要添加支付方式，也不要打开后付费。",
+        "note": "不要与国内站 siliconflow.cn 的实名免费模型或 16 元券混淆。"
+      },
+      {
+        "step": "确认条款后再注册",
+        "detail": "只有官方或控制台明确不会自动扣费时，再到国际站注册并建 key。"
+      }
+    ],
+    "providers": [
+      {
+        "name": "SiliconFlow",
+        "action_url": "https://www.siliconflow.com/pricing"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "coding"
+    ],
+    "barriers": [
+      "billing-unclear"
+    ],
+    "category": "providers",
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "官方只写 start with $1 in free credits，未写清是否免绑卡、用尽后硬停还是后付费扣款，本轮不自动领取，请本人先看定价页再决定。",
+      "at": "2026-11-23T00:25:01+08:00"
+    },
+    "expired": false,
+    "collected_at": "2026-11-23T00:25:01+08:00"
   }
 ]

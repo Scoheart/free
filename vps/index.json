@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "sample": false,
-  "updated_at_beijing": "2026-11-21 23:54",
+  "updated_at_beijing": "2026-11-22 23:56",
   "scanned_at_beijing": {
-    "stock": "2026-11-21 23:49:31",
-    "black_friday": "2026-11-21 23:49:31",
-    "free_vps": "2026-11-21 23:54"
+    "stock": "2026-11-22 23:46:10",
+    "black_friday": "2026-11-22 23:46:10",
+    "free_vps": "2026-11-22 23:56"
   },
   "free_vps": [
     {
@@ -71,11 +71,11 @@
       ],
       "free_conditions": {
         "card_required": false,
-        "card_notes": "多条帖称免绑卡，邮箱注册；有 2026-11-08 帖称对照官方文档：免费档没有到期日，此前“首月免费”是误读。",
-        "region_limits": "对照文档的帖称免费档只在德国、日本、美东，新加坡缺货；一账号一个免费 workspace。Grok 回复提到可选 USE1 或 EU1。另有实测帖称“美西免费刚回归”，区域说法不完全一致。",
-        "idle_reclaim": "7 天没有流量会暂停。",
+        "card_notes": "官方文档 https://cloady.com/docs/free-tier（Updated 2026-11-14）：免费档开工不需要绑卡。这是门槛不是折扣：所有应用合计申报超过 0.5 vCPU、1GB RAM 或 5GB SSD 后，整个 workspace 按所申报资源计费。月度限额超限会停机（数据保留），要在 Account settings → Billing 加卡才能解除限额并按申报资源计费。一个月试用开工也不需卡，但试用期内超出免费额度会给整个 workspace 计费；试用结束后升级付费需要绑卡。此前多条 X 帖称免绑卡、邮箱注册，与免费档开工条件相符，但不能据此忽略超额计费规则。",
+        "region_limits": "2026-11-22 对照官网首页 https://cloady.com：标注 Free tier 的是德国 EU1、美中 USC1、美西 USW1；新加坡 SIN1 显示 Out of stock；澳洲 AUS1、印度 IND1、日本 JPN1 列出但未标注 Free tier。官方文档写明免费档与一个月试用只在部分区域提供，以部署页和 listRegions 的 plan 为准；每账号至多一个免费或试用 workspace，且每人/每个组织只能用一个免费档。据 X 上的报道 @jackluos3lpo 2026-11-22 10:51 北京时间称永久免费只剩德国、美东、美西，日本/澳洲/印度/英国/美中改为试用、新加坡没货，与官网首页不完全一致（首页美中仍标 Free tier，本轮未见美东卡片），以官网为准。",
+        "idle_reclaim": "官方文档：Web 应用 7 天没有请求、或其他应用 7 天流量低于 10MB，会暂停；可再点 Start。从源码构建的免费应用停止 3 天后镜像会删除，再次启动需重新构建。",
         "deadline": "",
-        "deadline_note": "帖称免费档无到期日；未在本轮打开官网条款核对。"
+        "deadline_note": "官方文档写明免费档无到期日，但有月度限额（UTC 自然月重置）和上述资源申报门槛。一个月试用有固定一个月期限。"
       },
       "official_url": "https://cloady.com",
       "posts": [
@@ -96,9 +96,15 @@
           "time_beijing": "2026-11-10 20:40:19",
           "author": "@grok",
           "role": "clarifies_paas_not_root_vps"
+        },
+        {
+          "url": "https://x.com/jackluos3lpo/status/2124334818263748734",
+          "time_beijing": "2026-11-22 10:51:03",
+          "author": "@jackluos3lpo",
+          "role": "claims_free_regions_tightened_official_page_differs"
         }
       ],
-      "notes": "不是带 root 的 VPS，是 PaaS/容器平台。"
+      "notes": "不是带 root 的 VPS，是 PaaS/容器平台。官方免费档：0.5 vCPU / 1GB RAM / 5GB SSD，月流量 10GB、100 万次请求、4 CPU 小时、360 GB 小时内存；超额申报会计费，月度限额超了会停机。用户已有 FREE workspace-egid7t（[redacted]，USW1，0.5 vCPU/0.5G/5G），本轮官网仍将美西标为 Free tier。"
     },
     {
       "id": "simular-box-free-cloud-pc",
@@ -1210,6 +1216,215 @@
         }
       ],
       "notes": "据 X 上的报道 @vincent_ddup 2026-11-21 22:16 北京时间：称官方写每月 $20 额度、2 个服务 / 2 个任务 / 1 个数据库、常驻不休眠；用 Muse 邮箱注册成功且账号 Active，但部署时失败。不是带 root 的独立 VPS，是容器/PaaS。已对照官网定价与计费文档。因文档要求绑卡且有自动扣费阈值，本轮不自动申请、不向用户提醒领取。"
+    },
+    {
+      "id": "betterclaw-free-agent",
+      "provider": "BetterClaw",
+      "type": "paas",
+      "type_label": "非 root 的 PaaS",
+      "specs": [
+        {
+          "label": "as_claimed",
+          "value": "托管 AI Agent 平台，不是可 SSH 的 root VPS。营销页 https://www.betterclaw.io/free-plan（标注 Updated November 18, 2026）仍写：Free forever、No credit card、no expiry；1 个 Agent、每月 100 credits、3 个连接器、7 天记忆、BYOK；额度用完暂停、不会扣费。但官方套餐文档与账单文档（2026-11-22 07:58 北京时间对照）写明：Free is closed to new workspaces / closed to new signups，仅已有 Free 工作区保留。账单对照表给老用户 Free 档写的是 1 agent、500 credits/mo（与营销页 100 credits 冲突，以文档为准并注明冲突）。新用户只能选 Starter $19/月、Pro $49/月或 Business $149/月，第一个工作区有 7 天试用。"
+        }
+      ],
+      "free_conditions": {
+        "card_required": true,
+        "card_notes": "营销页仍写无需信用卡。官方文档对本轮新用户的实际路径是：Free 已关闭；快速入门要求在试用第 4 步录入卡信息，先扣 $5 验卡再立刻退回，试用结束除非先取消就会按所选付费档扣费。官方账单文档原文：The plan is charged when the trial ends, unless you cancel first。取消付费后工作区暂停、数据保留，且 new Free workspaces are not created。付费档可开 credit pack auto-buy。老用户的 grandfathered Free 档官方写 $0、用完暂停；本轮无法为新账号开通该档。不得承诺厂商永不改规则。",
+        "region_limits": "本轮打开的套餐、账单与免费营销页未写明机房国家限制。不是独立公网 VPS，不能当 root 机器用。",
+        "idle_reclaim": "付费档 credits 按机器运行每分钟 1 分计，每月 1 日（UTC）重置；营销页称免费档额度用完工作会暂停、不会出账。取消付费后工作区暂停、日程取消、数据保留。",
+        "deadline": "",
+        "deadline_note": "营销页把 Free 写成没有到期日；官方文档则写该档已不对新工作区开放。新用户面对的是 7 天付费档试用，到期未取消会扣费，不符合长期免费、不自动转付费的自动申请标准。"
+      },
+      "official_url": "https://www.betterclaw.io/docs/getting-started/plans",
+      "posts": [
+        {
+          "url": "https://x.com/BlockInsight214/status/2124120140006687056",
+          "time_beijing": "2026-11-21 20:38:00",
+          "author": "@BlockInsight214",
+          "role": "x_claim_always_free_no_card"
+        },
+        {
+          "url": "https://x.com/jackluos3lpo/status/2124148050582966656",
+          "time_beijing": "2026-11-21 22:28:54",
+          "author": "@jackluos3lpo",
+          "role": "x_claim_standing_free_plan_no_card"
+        }
+      ],
+      "notes": "不是独立 VPS。X 上的报道把营销页的「永久免费、免绑卡」当成可领取的新档；对照官方套餐与账单文档后，Free 已对新工作区关闭，新用户只有须绑卡的 7 天付费档试用，到期未取消会按 Starter/Pro/Business 扣费。不符合本轮自动申请的长期免费、不自动转付费标准，本轮不自动申请、不提醒。不得承诺厂商永不改规则。"
+    },
+    {
+      "id": "dataonline-free-hosting-1gb",
+      "provider": "DataOnline",
+      "type": "other",
+      "type_label": "其他",
+      "specs": [
+        {
+          "label": "as_claimed",
+          "value": "官网购物车 https://my.dataonline.vn/cart/hosting-gia-re/ 与条款 https://dataonline.vn/dieu-khoan-hosting-mien-phi/、中文介绍 https://dataonline.vn/zh/cheap-hosting/（2026-11-22 20:01 北京时间对照）：Free Hosting 1GB，1GB NVMe、每月 20GB 流量、2 个域名、2 个数据库、CPU 0.5、RAM 512MB。中文页仍写 0 元/月（终身），并承诺终身免费。不是带 root 的独立 VPS，是共享虚拟主机。据 X 上的报道 @jackluos3lpo 2026-11-22 19:14 北京时间发了申请+搭 VLESS 节点的提示词，但官方条款明确禁止在免费主机上跑 VPN/Proxy/V2ray 类应用。"
+        }
+      ],
+      "free_conditions": {
+        "card_required": false,
+        "card_notes": "官方条款：首次注册用 100% 优惠码 FreeHostFirst，续期用 FreeHostRE。购物车在未填优惠码时会显示「Free Hosting 1GB / 6 个月 ₫120,000 VND」，必须手动使用优惠码才是 0 元，漏填会变成付费单。官方要求填写正确手机号并验证邮箱，联系不上可能删除主机。本扫描任务禁止输入手机号，因此不自动申请。不得承诺厂商永不改规则。",
+        "region_limits": "厂商为越南 ONLINE DATA COMPANY LIMITED，办公地址在河内。官方未在本轮打开的条款页写明机房仅限越南以外不可用，但产品与客服面向越南用户。",
+        "idle_reclaim": "条款：会定期审核，对未使用（例如未产生流量）的免费账号先锁定再删除，锁定后通常至少 1 周才删除，可能发或不发 ticket。2026-01-29 更新：免费主机改为有期限，须在到期前 60 天、且不能一次连续续很多年；一般每 6 个月用优惠码续一次。到期未续期会自动锁定并删除。每位用户最多 3 个免费主机（2025-11-05 由 5 个下调）。禁止转卖账号；注册多个账号刷免费机一旦发现会锁相关账号。",
+        "deadline": "",
+        "deadline_note": "官方仍写「cam kết Miễn phí trọn đời」，但 2026-01-29 起改为定期用 100% 优惠码续期的限时免费主机，不是一次开通后永不到期。优惠码或政策可能再改。不得承诺厂商永不改规则。"
+      },
+      "official_url": "https://dataonline.vn/dieu-khoan-hosting-mien-phi/",
+      "posts": [
+        {
+          "url": "https://x.com/jackluos3lpo/status/2124461452173984070",
+          "time_beijing": "2026-11-22 19:14:15",
+          "author": "@jackluos3lpo",
+          "role": "primary_discovery"
+        }
+      ],
+      "notes": "官方长期宣传的 1GB 免费共享虚拟主机，用 100% 优惠码可为 0 元，但必须填手机号、每 6 个月手动续期，购物车漏填优惠码会显示 6 个月 12 万越南盾。禁止代理/VPN/V2ray。不是独立 VPS，且须手机号，不符合自动申请的安全标准。本轮不自动申请、不提醒。不得承诺厂商永不改规则。"
+    },
+    {
+      "id": "sandscale-free-sandbox",
+      "provider": "Sandscale",
+      "type": "other",
+      "type_label": "其他",
+      "specs": [
+        {
+          "label": "as_claimed",
+          "value": "官网定价页 https://sandscale.dev/pricing 、FAQ https://sandscale.dev/faq 、Quickstart https://sandscale.dev/docs/quickstart（2026-11-22 20:01 北京时间对照）：Free 档 $0/month，每月 100 awake vCPU-hours，最多同时 3 台、单台最多 2 vCPU（官方写每 vCPU 含 4 GiB 内存），5 GB 存储，单次会话最长 4 小时，1 个 workspace（空闲 30 分钟后休眠）。暂停和空闲时间不计费。基于 Firecracker microVM。不是常驻独立 VPS，是短时 Agent 沙盒/工作区。Show HN：https://news.ycombinator.com/item?id=50570825 （2026-11-20 14:17 北京时间）。"
+        }
+      ],
+      "free_conditions": {
+        "card_required": false,
+        "card_notes": "官方 Quickstart：注册后从 Free 档开始；Pro and up need a payment method。定价页：Free 档 Usage beyond your hours 为 No，额度用完后新盒子等到下个月，不会按超量计费；Storage above your allowance 在 Free 档亦为 No。付费是可选的 Pro/Team 订阅（Stripe 银行卡，按月或按年）。官方写 Free is one per person，同一卡/设备/GitHub 关联的账号共用一份 Free 额度。不得承诺厂商永不改规则。",
+        "region_limits": "官网：目前在美国（N. Virginia），欧洲（Frankfurt）即将开放；开放后同一账号、同一小时余额可用于两地。",
+        "idle_reclaim": "沙盒/会话最长 4 小时；Free 档 workspace 空闲 30 分钟后休眠。暂停和工具调用之间的空闲不计 awake hours。额度用完后新盒子等到下个重置周期，正在跑的盒子不会因为额度用尽被停。未用完的小时数不结转。",
+        "deadline": "",
+        "deadline_note": "官网将 Free 定位为 $0/month 的常设免费档（文案有 for trying it out），不是标明截止日期的限时试用；但沙盒本身是最长 4 小时的短时会话，每月只有 100 awake vCPU-hours。"
+      },
+      "official_url": "https://sandscale.dev/pricing",
+      "posts": [
+        {
+          "url": "https://news.ycombinator.com/item?id=50570825",
+          "time_beijing": "2026-11-20 14:17:14",
+          "author": "yasotha (Show HN)",
+          "role": "first_seen_this_round"
+        }
+      ],
+      "notes": "官方长期 $0、Free 档无需付费方式的 Agent 沙盒免费档，超额在 Free 档是排队到下月而不是扣费。但单次最长 4 小时、每月 100 awake vCPU-hours，属于短时开发机/沙盒，不符合本轮自动申请的常驻长期免费机标准（与 Railway 60 分钟开发机同类排除）。本轮不自动申请、不提醒。不得承诺厂商永不改规则。"
+    },
+    {
+      "id": "neoheberg-vps-free",
+      "provider": "NeoHeberg",
+      "type": "always_free",
+      "type_label": "一直免费",
+      "specs": [
+        {
+          "label": "as_claimed",
+          "value": "官网定价页 https://neoheberg.fr/en/prices 、条款 https://neoheberg.fr/en/conditions（Last updated: November 2, 2026）、注册指南 https://neoheberg.fr/en/help/demarrage/creer-un-compte 、开机器指南 https://neoheberg.fr/en/help/vps/creer-son-premier-vps（2026-11-22 23:55 北京时间对照）：VPS Free 为 0 Coins、0.00 €/month、no credit card required；512 MB RAM、5 GB SSD、25% of a vCPU、每月 250 GB 流量、1 份自动备份、Root Access & OS Selection、标配公网 IPv6。开机器指南写创建时镜像为 Debian 13。可选独立 IPv4 为 +€1.50/month，不是免费档的一部分。官网说明全部 VPS 默认仅 IPv6、无出站 IPv4 NAT；GitHub 等仅 IPv4 的服务从免费机访问不了，除非另开付费 IPv4。不是限时试用。据 X 上的报道 @404jsh 2026-11-22 22:14 北京时间长文把它列为在役的「真免费 VPS 档，仅 IPv6 出口」。"
+        }
+      ],
+      "free_conditions": {
+        "card_required": false,
+        "card_notes": "官网定价页与注册指南：注册不要求信用卡；VPS Free 激活无需使用 Coins。条款第 5 条：Each account is entitled to one free VPS, which can be activated without using Coins，每账号限 1 台在役免费 VPS，额外机器须用 Coins 购买。Coins 可看广告/问卷调查免费领取，或按 1 Coin=€0.25 购买；付费服务按月自动续费且取决于账户里是否有 Coins。可选 IPv4（+€1.50/月）和付费套餐不要选，避免产生应付金额。本轮打开的定价页列出免费档每月 250 GB 流量，未见「超量自动从绑卡扣费」的说明；免费注册本身不收集卡。不得承诺厂商永不改规则。",
+        "region_limits": "厂商为法国站 neoheberg.fr，条款适用法国法律。机器为 IPv6 only，无出站 IPv4 NAT；官网建议用 Cloudflare 等代理让网站同时对 IPv4 可见。未在本轮打开的页面写明具体机房城市。",
+        "idle_reclaim": "条款第 9 条：NeoHeberg 可在违反条款或超过 6 个月长期不活跃时不经通知暂停或终止账号。未写免费 VPS 到期自动转付费。公平使用政策见条款第 2 条。每账号限 1 个账号，禁止多号刷免费权益。",
+        "deadline": "",
+        "deadline_note": "官方将 VPS Free 定价为 0.00 €/month，注册指南写可一直留在免费档，不是标明截止日期的限时试用。条款允许修改规则。不得承诺厂商永不改规则。"
+      },
+      "official_url": "https://neoheberg.fr/en/prices",
+      "posts": [
+        {
+          "url": "https://x.com/404jsh/status/2124506790020948428",
+          "time_beijing": "2026-11-22 22:14:24",
+          "author": "@404jsh",
+          "role": "x_article_lists_neoheberg_as_free_ipv6_vps"
+        }
+      ],
+      "notes": "官方长期 0 元、免绑卡、每账号 1 台的 IPv6 root VPS，开通只需验证邮箱，不要求手机号或支付方式。符合本轮自动申请的安全标准（官方明确长期免费、免费档不以 Coins/绑卡计费；不要加购 IPv4 或付费套餐）。本定时任务不注册，交给主对话立即用机器人邮箱和用户 Gmail 各申请一份。限量与容量以控制台为准。不得承诺厂商永不改规则。"
+    },
+    {
+      "id": "seus-light-servers",
+      "provider": "SEUS / Public Free Suffix",
+      "type": "other",
+      "type_label": "free_renewable_vps",
+      "specs": [
+        {
+          "label": "as_claimed",
+          "value": "官方博文 https://publicfreesuffix.org/blog/introducing-seus-light-servers/（2026-10-22）与官网首页 https://publicfreesuffix.org/（2026-11-22 23:55 北京时间对照）宣传 Light Servers：1 shared vCPU / 512 MB / 5 GB / 1 个公网 IPv6，免费、不要求支付方式，用社区积分按月续期；错过一个月会暂停而不是删除，磁盘最多保留 60 天。申请入口现为 https://s.eus/shift/create（页面名称 SEUS Shift Server）。但同一天打开的官方 API https://s.eus/api/shift/plans 返回 enabled:false、plans:[]，计价单位为 SEUS Coin（SEC）。官方文档 https://s.eus/en/docs/reference/shift-server 把 Shift Server 写为 paid managed hosting，按 30 天一期用社区积分计费，示例套餐 Ship Starter 为 1 核/1024 MB/10 GB、priceMonthly 200。未登录打开 https://s.eus/api/shift/eligibility：shiftEnabled=false，清单含账号满 35 天、连续访问 30 天、30 天内发帖 10/阅读 200、头像、绑定 GitHub、3 个推荐、KYC level 1、以及 300 SEC 余额。当前没有可下单的免费/付费套餐目录。"
+        }
+      ],
+      "free_conditions": {
+        "card_required": false,
+        "card_notes": "官方博文写 Nobody will ever be asked for a payment method, because there is nothing to pay for；首页写成本 0.00, forever，用社区参与换续期。但直播 API 与文档用 SEUS Coin 计费，下单门槛示例/实时清单需要积分余额，并可能要求 KYC。不是信用卡自动扣款，但本人验证（KYC）是实时资格条件之一。本轮不自动申请。不得承诺厂商永不改规则。",
+        "region_limits": "仅 IPv6，无 IPv4。博文提醒部分家庭/校园/运营商网络仍不能直连 IPv6。",
+        "idle_reclaim": "博文：一个月没凑够社区积分则暂停，磁盘与配置最多保留 60 天，积分恢复后原机恢复。API 文档：当期不续费会自动暂停，暂停满 7 天永久删除。两套官方说明并存，以当时控制台/API 为准。",
+        "deadline": "",
+        "deadline_note": "博文将其定位为长期免费（用参与续期），不是写了截止日期的试用。但 2026-11-22 23:55 北京时间官方下单接口关闭，且资格含 KYC 与积分。不得承诺厂商永不改规则。"
+      },
+      "official_url": "https://publicfreesuffix.org/blog/introducing-seus-light-servers/",
+      "posts": [
+        {
+          "url": "https://publicfreesuffix.org/blog/introducing-seus-light-servers/",
+          "time_beijing": "2026-10-22",
+          "author": "Public Free Suffix official blog",
+          "role": "official_announcement"
+        }
+      ],
+      "notes": "官方有长期免费 IPv6 学习机的宣传，但本轮直播 API 显示 Shift 服务关闭、无套餐，且资格清单包含 KYC、35 天账号、30 天连续访问、3 个推荐和 300 SEC。不符合可立即开放领取的自动申请条件，本轮不申请、不把关闭中的接口当可领。若以后 API 重新开放且不再要求本人验证，再复核。不得承诺厂商永不改规则。"
+    },
+    {
+      "id": "waifly-free-hosting",
+      "provider": "Waifly",
+      "type": "paas",
+      "type_label": "非 root 的 PaaS",
+      "specs": [
+        {
+          "label": "as_claimed",
+          "value": "官方 FAQ https://waifly.com/faq（Last updated 2026-08-12，2026-11-22 23:55 北京时间对照）：免费档 0 欧元，300 MB RAM、1 GB 存储、1 台服务器、1 个 MySQL，CPU 上限 30%，含备份和 Pterodactyl 面板。可选运行时（Egg）包括 Node.js、Python、PHP、Java、Bun、Rust、C# 和 Web/Nginx，也有一键 WordPress。机器在巴黎 FR1/FR2。据 X 上的报道 @404jsh 2026-11-22 22:14 北京时间长文称免费档 30 天一续、在线率达标自动续；FAQ 实际写的是不是试用、没有到期日，离线 3 天会暂停，与长文不完全一致，以官网为准。官方 FAQ 明确：没有 root、没有 SSH，只有控制台、在线文件管理和 SFTP。"
+        }
+      ],
+      "free_conditions": {
+        "card_required": false,
+        "card_notes": "官方 FAQ：免费档不需要信用卡或 PayPal。付费档 Nano/Mega/Giga 为每月 4/8/16 欧元自动续费，取消即停止续费。免费档检测到重复账号时，恢复访问涉及 1 欧元人工验证费。不得承诺厂商永不改规则。",
+        "region_limits": "机房在法国巴黎，两个节点 FR1、FR2。",
+        "idle_reclaim": "服务器状态每天检查：离线 3 天暂停；创建不满 7 天的机器暂停后再过 3 天删除，更老的保留 15 天并可从 backups.waifly.com 恢复。可在 unsuspend.waifly.com 自助恢复（未被拉黑时）。免费档禁止 VPN/代理/隧道和混淆代码，每 30 分钟自动巡检。",
+        "deadline": "",
+        "deadline_note": "官方 FAQ：It is not a trial: there is no expiry date。不是标明截止日期的限时试用。不得承诺厂商永不改规则。"
+      },
+      "official_url": "https://waifly.com/faq",
+      "posts": [
+        {
+          "url": "https://x.com/404jsh/status/2124506790020948428",
+          "time_beijing": "2026-11-22 22:14:24",
+          "author": "@404jsh",
+          "role": "x_article_mentions_waifly"
+        }
+      ],
+      "notes": "官方长期 0 欧元、免绑卡的 Pterodactyl 容器托管，不是带 root/SSH 的独立 VPS，免费档还禁止 VPN/代理。不符合本轮自动申请的常驻独立 VPS 标准。本轮不自动申请、不提醒领取。不得承诺厂商永不改规则。"
+    },
+    {
+      "id": "freestyle-vms-free",
+      "provider": "Freestyle",
+      "type": "other",
+      "type_label": "其他",
+      "specs": [
+        {
+          "label": "as_claimed",
+          "value": "官方文档 https://www.freestyle.sh/docs/vms/pricing-and-limits 与产品页 https://www.freestyle.sh/products/vms（2026-11-22 23:55 北京时间对照）：Free 档 0 美元，最多同时 10 台 VM；每月包含 200 vCPU-hours、400 GiB-hours 内存、60,000 GiB-hours 存储、50 GB 流量。默认可创建到 4 vCPU / 8 GiB / 32 GB。支持 Persistent VMs。按分配时长计量，暂停后不算计算资源只计存储。这是计量制 Agent/开发 VM，不是无限常开的独立 VPS。一直开着默认规格会很快用完当月小时额度。"
+        }
+      ],
+      "free_conditions": {
+        "card_required": false,
+        "card_notes": "官方文档：Free never bills for usage。给 Free 账号加卡会先扣 1 美元做验证再全额退回，银行到账可能要几天；这不是订阅，也不增加额度。Hobby 50 美元/月、Pro 500 美元/月才是付费档，超出包含用量继续计费。Free 档用尽月度额度后受影响的 VM 会暂停，等到额度重置后才能再启动，不会进入付费超量。本扫描禁止绑卡，也不应去加卡验证。不得承诺厂商永不改规则。",
+        "region_limits": "本轮打开的定价/限额页未写可用区域限制。",
+        "idle_reclaim": "暂停的 VM 不再占用计算配额，只保留存储。Free 档月度计算额度用尽后，相关 VM 暂停，下个周期重置后需手动 resume。未用完的包含额度按月重置、不结转。",
+        "deadline": "",
+        "deadline_note": "官网将 Free 定位为 0 美元且从不对用量计费的常设档，不是标明截止日期的试用；但额度是每月小时数，默认规格无法作为常驻 24/7 机器用满一个月。"
+      },
+      "official_url": "https://www.freestyle.sh/docs/vms/pricing-and-limits",
+      "posts": [],
+      "notes": "官方长期 0 美元、Free 档不对用量扣费（用尽暂停到下月）的计量 VM。因按小时计费额度、默认 4 vCPU 无法常开，属于短时/额度型开发机，不符合本轮自动申请的常驻长期免费机标准（与 Railway/Sandscale 同类排除）。本轮不自动申请、不提醒。不得承诺厂商永不改规则。"
     }
   ],
   "stock": {
@@ -1218,18 +1433,18 @@
       {
         "id": "dmit",
         "name": "DMIT",
-        "checked_at_beijing": "2026-11-21 23:49:31",
+        "checked_at_beijing": "2026-11-22 23:46:10",
         "official_url": "https://www.dmit.io/",
         "sources": [
           {
             "name": "vpsrestock.com",
             "url": "https://vpsrestock.com/dmit/",
-            "checked_at_beijing": "2026-11-21 23:48"
+            "checked_at_beijing": "2026-11-22 23:46"
           },
           {
             "name": "t.me/dmitnews",
             "url": "https://t.me/s/dmitnews",
-            "checked_at_beijing": "2026-11-21 23:49:31"
+            "checked_at_beijing": "2026-11-22 23:46:10"
           }
         ],
         "plans": [
@@ -1307,7 +1522,7 @@
             "price": "$10.90 USD / 月",
             "stock": "out_of_stock",
             "limited": false,
-            "last_restock": "上次补货 58 天前",
+            "last_restock": "上次补货 59 天前",
             "order_urls": [
               {
                 "label": "官网下单",
@@ -1348,7 +1563,7 @@
             "price": "$36.90 USD / 年",
             "stock": "out_of_stock",
             "limited": false,
-            "last_restock": "上次补货 58 天前",
+            "last_restock": "上次补货 59 天前",
             "order_urls": [
               {
                 "label": "官网下单",
@@ -1361,13 +1576,13 @@
       {
         "id": "bandwagonhost",
         "name": "搬瓦工",
-        "checked_at_beijing": "2026-11-21 23:49:31",
+        "checked_at_beijing": "2026-11-22 23:46:10",
         "official_url": "",
         "sources": [
           {
             "name": "vpsrestock.com",
             "url": "https://vpsrestock.com/bandwagonhost/",
-            "checked_at_beijing": "2026-11-21 23:48"
+            "checked_at_beijing": "2026-11-22 23:46"
           },
           {
             "name": "stock.bwg.la",
@@ -2623,7 +2838,7 @@
     ]
   },
   "black_friday": {
-    "date_note": "今年黑五为 2026-11-27。今天是 2026-11-21。RackNerd 官方商店黑五分类 https://my.racknerd.com/index.php?rp=/store/black-friday-2026 本轮本机 curl HTTP 200，同一 15 款及价格，与 2026-11-20 01:59:55 首次确认时相同。www.racknerd.com/blackfriday 本轮本机 curl HTTP 200，打开营销页。",
+    "date_note": "今年黑五为 2026-11-27。今天是 2026-11-22。RackNerd 官方商店黑五分类 https://my.racknerd.com/index.php?rp=/store/black-friday-2026 本轮本机 curl HTTP 200，同一 15 款及价格，与 2026-11-20 01:59:55 首次确认时相同。www.racknerd.com/blackfriday 本轮本机 curl HTTP 200，打开营销页。",
     "official": [
       {
         "provider": "GreenCloud",

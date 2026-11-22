@@ -4284,13 +4284,13 @@
   },
   {
     "id": "ccode-free-plan-25-credits-monthly-20261024",
-    "title": "CCode 终端编程 Agent：GitHub 注册免费档每月送 $25 额度，可用 GLM-5.3 Flash / DeepSeek Flash",
+    "title": "CCode 终端编程 Agent：GitHub 注册免费档每月送 $10 额度（官方已从 $25 下调）",
     "model": "GLM-5.3 Flash、DeepSeek-V4.1-Flash（CCode Pro 还接 Claude/GPT）",
     "type": "额度",
     "deadline": null,
-    "url": "https://x.com/Ccode_si/status/2113682393198711276",
-    "summary": "CCode 官方号发帖称免费送 GLM-5.3 Flash 5000 万 token、DeepSeek-V4.1-Flash 2000 万 token。步骤：官网注册并连 GitHub、创建 API Key、npm 安装 CLI，在设置里连接 provider 选 CCode Pro。官网写明用 GitHub 注册即得 Free 档，每月 $25 额度；帖称折合 GLM-5.3 Flash 50M / DeepSeek-V4.1-Flash 20M token；新产品，代码和密钥谨慎交给它。",
-    "source": "X @Ccode_si",
+    "url": "https://ccode.si/docs/plans/free-plan",
+    "summary": "据 CCode 官方文档 Free plan：用 GitHub 注册或把已有邮箱账号连上 GitHub，即可开通免费档，无需绑卡。免费档现在每月提供 $10 credits（本轮核验时官方页已不再写 $25），按各模型官方 API 标价扣减，只包含 6 个开源模型；Claude / GPT 等不在免费档。额度按 5 小时、每周和每月三档节奏恢复，以便把 $10 摊到整月。每个 GitHub 账号只能绑定一个 CCode 免费档。这是对已有条目的条款更新，不是新活动。",
+    "source": "CCode 官方文档 Free plan（本轮核验）；原发现来源为官方 X 帖",
     "collected_at": "2026-10-24T01:50:00+08:00",
     "expired": false,
     "source_post_id": "2113682393198711276",
@@ -4335,7 +4335,13 @@
         "step": "验证是否成功",
         "detail": "在应用内对目标模型发一条短消息，或查看用量页出现了免费额度/次数，即表示领取成功。若完全没有 API Key 入口，就不必强行去找"
       }
-    ]
+    ],
+    "claim_steps": [
+      "打开 https://ccode.si/docs/plans/free-plan 阅读免费档说明",
+      "在 CCode 用 GitHub 注册，或邮箱注册后再连接 GitHub",
+      "GitHub 连上后免费档即开始，按文档安装 CLI 并选用免费档模型"
+    ],
+    "category": "agents"
   },
   {
     "id": "cline-reflection-beam-laguna-s21-free-20261024",
@@ -5435,7 +5441,7 @@
     "summary": "OpenCode Zen 文档与公开模型表已列入 Inkling 2 Small Free（id: inkling-2-small-free），输入/输出/缓存读 $0。为 Thinking Machines Lab 的 Inkling 2 Small 限时免费档；官方注明免费期数据可能保留并用于训练，且欧盟及若干地区不可用。权重计划稍后以 Apache 2.0 开放。欧盟/俄乌朝伊古等地区不可用。截止：未官宣。",
     "source": "opencode.ai/docs/zen（定价表与 Free models 节已列 Inkling 2 Small Free；$0；有地区限制与训练数据说明）",
     "collected_at": "2026-11-07T18:47:32+08:00",
-    "expired": false,
+    "expired": true,
     "providers": [
       {
         "name": "OpenCode Zen",
@@ -6419,7 +6425,7 @@
     "barriers": [
       "need_client"
     ],
-    "expired": false,
+    "expired": true,
     "collected_at": "2026-11-11T02:06:00+08:00",
     "auto_claim": {
       "status": "needs_user",
@@ -9193,7 +9199,7 @@
     ],
     "category": "agents",
     "collected_at": "2026-11-17T00:14:00+08:00",
-    "expired": false,
+    "expired": true,
     "auto_claim": {
       "status": "needs_user",
       "note": "需在 AutoClaw 客户端登录国内站领取，每账号一次，11/22 23:59 失效；本轮无法代登客户端。",
@@ -9418,7 +9424,7 @@
     "deadline": null,
     "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers/",
     "source": "OpenAI 官方博文（November 16, 2026）",
-    "summary": "OpenAI 官方博文（2026 年 11 月 16 日）宣布扩大 ChatGPT for Academic Researchers，目标最多 20 万名研究人员免费使用 ChatGPT。下一轮申请于 Monday, November 23 开放，将按先到先得向合格申请者发放 5 万份新资助。每份资助给申请人及最多两名合作者免费使用 ChatGPT Plus，最长约 12 个月；合作者须为同校且通过验证。合格对象为受支持国家合格高校的研究教职或博士后，近三年有相关学科已发表研究，并计划用于学术研究。学科包括 Biological Sciences、Chemistry and Materials、Computer Science、Earth and Planetary Sciences、Engineering、Mathematics、Physics。默认不将项目中分享的数据用于训练。官方帮助中心写明该优惠不含 OpenAI API 额度。申请通道在公告发布时仍关闭，已在 waitlist 且合格者会在开放前收到邮件。本条为库存补录，申请将于 11/23 开放。",
+    "summary": "OpenAI 官方博文（2026 年 11 月 16 日）宣布扩大 ChatGPT for Academic Researchers，目标最多 20 万名研究人员免费使用 ChatGPT。下一轮申请于 Monday, November 23 开放，将按先到先得向合格申请者发放 5 万份新资助。每份资助给申请人及最多两名合作者免费使用 ChatGPT Plus，最长约 12 个月；合作者须为同校且通过验证。合格对象为受支持国家合格高校的研究教职或博士后，近三年有相关学科已发表研究，并计划用于学术研究。学科包括 Biological Sciences、Chemistry and Materials、Computer Science、Earth and Planetary Sciences、Engineering、Mathematics、Physics。默认不将项目中分享的数据用于训练。官方帮助中心写明该优惠不含 OpenAI API 额度。申请通道在公告发布时仍关闭，已在 waitlist 且合格者会在开放前收到邮件。本条为库存补录，申请将于 11/23 开放。 截至 2026-11-23 凌晨（北京），官方公告仍写申请于 Monday, November 23 开放，帮助中心仍写 currently closed、需走 waitlist，当时美国仍是 11/22 周日，故不能写成已经开放。researcher-access 页写明适用地区为除中国和香港以外的地区。",
     "claim_steps": [
       "阅读官方博文，确认自己是否属于合格研究教职或博士后",
       "若尚未登记，先按官网提示加入 waitlist",
@@ -9561,7 +9567,7 @@
     "deadline": "2026-11-29T23:59:59+08:00",
     "url": "https://autoclaw.z.ai/cn/blog/news/M11W4/",
     "source": "智谱 AutoClaw 官方博客",
-    "summary": "智谱 AutoClaw 官方博客于 2026 年 11 月 20 日（页面标注 2026-11-20T05:36:29Z，约北京时间 13:36）发布下一周福利 M11W4：北京时间 11 月 23 日 00:00 至 11 月 29 日 23:59 期间登录 AutoClaw，可领取 100M Tokens（公告写明相当于 10,000 积分），每个账号限领一次；奖励于 11 月 29 日 23:59 失效。这是应用内登录领取，不是对外 API 额度。同源页面 autoclaw.zhipuai.cn 正文一致。与此前 11 月 16 日至 22 日的 M11W3 不是同一期。官方未写绑卡要求。",
+    "summary": "智谱 AutoClaw 官方博客于 2026 年 11 月 20 日（页面标注 2026-11-20T05:36:29Z，约北京时间 13:36）发布下一周福利 M11W4：北京时间 11 月 23 日 00:00 至 11 月 29 日 23:59 期间登录 AutoClaw，可领取 100M Tokens（公告写明相当于 10,000 积分），每个账号限领一次；奖励于 11 月 29 日 23:59 失效。这是应用内登录领取，不是对外 API 额度。同源页面 autoclaw.zhipuai.cn 正文一致。与此前 11 月 16 日至 22 日的 M11W3 不是同一期。官方未写绑卡要求。 本轮核验时中文活动页仍写领取 100M Tokens（10,000 积分），英文页写 50M Tokens（5,000 Credits），中英不一致，请以登录后控制台实际到账为准。",
     "claim_steps": [
       "打开 AutoClaw 官网，下载或打开国内站客户端",
       "在 11 月 23 日 00:00 至 11 月 29 日 23:59 期间登录领取",
@@ -9730,7 +9736,7 @@
     ],
     "category": "agents",
     "collected_at": "2026-11-22T00:24:27+08:00",
-    "expired": false,
+    "expired": true,
     "auto_claim": {
       "status": "needs_user",
       "note": "3 个月 Pro 需经 launch-yc 新建团队并绑卡；官方写加卡不会自动续费或超额扣款。本轮不代为绑卡。不想绑卡可自行点 Continue without a card 领 20 box-hours 试用。官方截止写到 November 21（时区未标明）。",
@@ -10062,5 +10068,125 @@
       "note": "需自行下载、注册并接入自己的 Claude Code 或 Codex 账号；本轮不代操作。",
       "at": "2026-11-22T15:57:54+08:00"
     }
+  },
+  {
+    "id": "omi-cli-free-plan-5h-weekly-20261123",
+    "title": "Omi CLI：免费档免绑卡，按 5 小时和每周上限重置（约 1 个/3 个典型任务）",
+    "platform": "Omi CLI",
+    "product": "Omi CLI",
+    "model": "",
+    "type": "编程 Agent 免费档",
+    "deadline": null,
+    "url": "https://cli.builditomi.com/pricing",
+    "source": "Omi CLI 官方定价页（本轮核验）；Product Hunt 当日上线宣传",
+    "summary": "据 Omi CLI 官方定价页：Free 档 $0/月，无需绑卡。用量按 5 小时窗口和每周上限重置，可用 omi usage 查看剩余和重置时间；官方估算免费档大约每 5 小时 1 个、每周 3 个「典型任务」（以他们的基准任务中档为准）。免费档含 DeepSeek V4.1 Flash、Gemini 4 Hydrogen、Gemini 3.5 Flash、gpt-oss 120B、GLM 5.2、Gemma 4 26B 等共 13 个模型，最多 2 台已登录设备、每分钟 10 个 agent turns。这是终端编程 Agent 的免费档，与 BuildItOmi App、Bolts 和 BuildItOmi API 的套餐分开。付费档才按月/年计费并可随时取消；停留在 Free 即可，不要升级。官方未写活动截止日。",
+    "claim_steps": [
+      "打开 https://cli.builditomi.com/pricing 确认免费档条款",
+      "按官方文档安装 Omi CLI，用免费档登录（不要选 Pro/Pro+/Max，不要绑卡）",
+      "运行 omi usage 查看 5 小时和每周剩余用量，再在项目里使用"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读定价页",
+        "detail": "确认 Free 档 $0、免绑卡，以及 5 小时/每周用量上限。",
+        "url": "https://cli.builditomi.com/pricing"
+      },
+      {
+        "step": "打开账户或开始免费使用",
+        "detail": "在定价页点 Start free，或进入账户页注册/登录。",
+        "url": "https://cli.builditomi.com/pricing"
+      },
+      {
+        "step": "安装 CLI",
+        "detail": "按官方文档或定价页给出的方式安装 Omi CLI，不要升级到付费档。"
+      },
+      {
+        "step": "查看用量后再用",
+        "detail": "在终端运行 omi usage（或 /usage）查看剩余额度与重置时间。",
+        "note": "Omi CLI 与 BuildItOmi API 的免费额度互不通用。"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Omi CLI",
+        "action_url": "https://cli.builditomi.com/pricing"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding"
+    ],
+    "barriers": [],
+    "category": "agents",
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "免费档免绑卡，但需要本人安装 CLI 并登录；本轮定时任务无法代填登录凭据。请在 https://cli.builditomi.com/pricing 选 Start free，不要升级付费档。",
+      "at": "2026-11-23T00:25:01+08:00"
+    },
+    "expired": false,
+    "collected_at": "2026-11-23T00:25:01+08:00"
+  },
+  {
+    "id": "qwenwork-desktop-first-activate-30d-basic-20261123",
+    "title": "千问办公：首次激活桌面端，未付费用户可领 30 天个人基础版（截止未公布）",
+    "platform": "千问办公",
+    "product": "千问办公桌面端",
+    "model": "",
+    "type": "限时活动",
+    "deadline": null,
+    "url": "https://docs.qwenwork.cn/activity/desktop-activation-benefit",
+    "source": "千问办公官方活动页（本轮核验）；发现线索据 X 上的报道",
+    "summary": "据千问办公官方活动页，自 2026 年 11 月 14 日 16:00（北京时间）起限时活动，结束时间将提前在该页公告，本轮查看时尚未公布。仅限从未在「千问办公桌面端」发起过任务的个人账号：若当前不在付费会员期内，下载桌面端并完成新手任务，可获 30 天「个人基础版会员」；若当前已在付费会员期内，下载桌面端并发起任意任务，改送 500 积分（有效期 30 天）。已经在桌面端发起过任务的账号不能参加。福利发放到同一千问办公账号，可在桌面端左下角「设置 → 订阅和用量」查看，会员有效期从激活当天起算。领取赠送的个人基础版后，不能再享受双 11 首购优惠，也不支持退还赠送会员以恢复首购资格。套餐政策写明「连续包月」会到期自动续费，但活动页没有写清这 30 天赠送会员是否属于连续包月；领取后务必在订阅页确认不会自动转付费，不要开通连续包月。",
+    "claim_steps": [
+      "打开 https://docs.qwenwork.cn/activity/desktop-activation-benefit 确认自己是否符合「从未在桌面端发起过任务」",
+      "按官方安装指引下载并登录「千问办公桌面端」",
+      "未付费用户完成新手任务；已在付费期内的用户发起任意任务",
+      "到桌面端左下角「设置 → 订阅和用量」确认福利到账，并确认没有开通连续包月自动续费"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官方活动页",
+        "detail": "核对资格、福利差和截止是否已公布，并注意领取后将失去首购优惠。",
+        "url": "https://docs.qwenwork.cn/activity/desktop-activation-benefit"
+      },
+      {
+        "step": "安装桌面端",
+        "detail": "按官方安装指引下载对应系统的「千问办公桌面端」。",
+        "url": "https://docs.qwenwork.cn/install/macos.md"
+      },
+      {
+        "step": "登录并完成对应任务",
+        "detail": "登录个人账号。未付费用户完成新手任务；已在付费期内则发起任意任务。此前已在桌面端发起过任务的不能参加。"
+      },
+      {
+        "step": "核对订阅状态",
+        "detail": "在桌面端左下角打开「设置 → 订阅和用量」，确认赠送会员或积分已到账，并确认没有开通连续包月。",
+        "note": "活动页未写清赠送的 30 天个人基础版到期后是否自动转付费；若订阅页出现连续包月或自动续费，不要打开，或先取消。"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "千问办公",
+        "action_url": "https://docs.qwenwork.cn/activity/desktop-activation-benefit"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding"
+    ],
+    "barriers": [
+      "desktop-app",
+      "first-activation-only"
+    ],
+    "category": "agents",
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人在电脑上下载「千问办公桌面端」并完成新手任务；活动页未写清 30 天赠送会员到期是否自动续费，请在「订阅和用量」里确认未开通连续包月。领取后将失去双 11 首购优惠。",
+      "at": "2026-11-23T00:25:01+08:00"
+    },
+    "expired": false,
+    "collected_at": "2026-11-23T00:25:01+08:00"
   }
 ]
