@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "sample": false,
-  "updated_at_beijing": "2026-11-24 23:53",
+  "updated_at_beijing": "2026-11-25 23:55",
   "scanned_at_beijing": {
-    "stock": "2026-11-24 23:51:13",
-    "black_friday": "2026-11-24 23:51:13",
-    "free_vps": "2026-11-24 23:53"
+    "stock": "2026-11-25 23:45:31",
+    "black_friday": "2026-11-25 23:45:31",
+    "free_vps": "2026-11-25 23:55"
   },
   "free_vps": [
     {
@@ -1078,7 +1078,7 @@
       "specs": [
         {
           "label": "as_claimed",
-          "value": "以现行领取页 https://cloud.ascsonoway.com/vps-micro/ 为准（2026-11-20 约 19:10 America/New_York，2026-11-21 08:10 北京时间对照，浏览器领取页截图）：i5 3470 Free Tier，Intel Core i5 3470 Container；1 vCPU、512MB RAM、16GB SSD Storage、Console Access、Public IPv6 Alberta Address、Onoway, AB；标价 Free / 0，every 30 days 续期；页上写 No formal uptime agreement。页顶与卡片均为 OUT OF STOCK，按钮 Unavailable，文案 Currently out of stock，未见候补入口。可选付费插件（Private VLAN Isolation +$2.50/mo、Full /64 IPv6 Subnet +$2/mo、Automatic Failover +$5/mo）不应作为免费档的一部分。"
+          "value": "以现行领取页 https://cloud.ascsonoway.com/vps-micro/ 为准。2026-11-25 约 11:54 北京时间两次 WebFetch 对照：免费卡现为 E5 2650 v0 Free Tier，Intel Xeon E5 2650 v0 Container；文案 IN STOCK · 80 UNITS；1 vCPU、512MB RAM、16GB SSD Storage、Console Access、Public IPv6 Alberta Address、Onoway, AB；Free renew every 30 days；页上写 No formal uptime agreement。硬件已从 2026-11-20 领取页记录的 i5 3470 Free Tier 改为 Xeon E5 2650 v0，资源配置未变。2026-11-20 约 19:10 America/New_York（2026-11-21 08:10 北京时间）对照时：当时免费卡为 i5 3470 Free Tier，页顶与卡片均为 OUT OF STOCK，按钮 Unavailable，文案 Currently out of stock，未见候补入口。可选付费插件（历史领取页曾见 Private VLAN Isolation、Full /64 IPv6 Subnet、Automatic Failover；据 X 上的报道 @404jsh 特别提醒不要勾选收费的 IPv4 NAT）不应作为免费档的一部分。 2026-11-25 约 15:55 北京时间再次 WebFetch 对照 https://cloud.ascsonoway.com/vps-micro/ ：免费卡仍为 E5 2650 v0 Free Tier，文案改为 E5 2650 v0 Free Tier SOLD OUT，Out of Stock / Currently out of stock（上轮 11:54 为 IN STOCK · 80 UNITS）。"
         },
         {
           "label": "as_claimed_from_official_blog",
@@ -1088,7 +1088,7 @@
       "free_conditions": {
         "card_required": false,
         "card_notes": "官方博客：No credit card games, no surprise invoices；Your server is 100% free. No payment information is required to claim your instance。No hidden catch, no automatic roll-over into a paid subscription, and no surprise charges down the line。2026-11-20 领取核验时未输入任何支付信息；控制台可见 spent $0、balance $0。当时页面未见已保存付款方式的证据，因此账号是否已存卡未知，不能据此断言无卡。不得承诺厂商永不改规则。",
-        "region_limits": "机房在加拿大阿尔伯塔省 Onoway（领取页写 Onoway, AB，Public IPv6 Alberta Address）。官方博客写免费档用于学习 IPv6，不要当生产环境。名额按批次放，库存以领取页为准。2026-11-20 约 19:10 America/New_York（2026-11-21 08:10 北京时间）对照 https://cloud.ascsonoway.com/vps-micro/ ：免费卡 OUT OF STOCK，按钮 Unavailable，Currently out of stock，未见候补入口；面板 /my-servers/ 显示 No servers yet。据 X 上的报道 @qqlin99 2026-11-20 20:57 北京时间续期日历写「ASCS 12 月 10 日确认免费」（更像已有实例的续期日，不是本轮新补货公告）。",
+        "region_limits": "机房在加拿大阿尔伯塔省 Onoway（领取页写 Onoway, AB，Public IPv6 Alberta Address）。官方博客写免费档用于学习 IPv6，不要当生产环境。名额按批次放，库存以领取页为准。2026-11-25 约 11:54 北京时间两次对照 https://cloud.ascsonoway.com/vps-micro/ ：免费卡 E5 2650 v0 Free Tier，IN STOCK · 80 UNITS。据 X 上的报道 @404jsh 2026-11-25 11:30 北京时间称今早补货 80 台、库存不是天天有、抢完只能等下一轮；只给 IPv6、没有公网 IPv4，宽带没有 IPv6 需中转。2026-11-20 约 19:10 America/New_York（2026-11-21 08:10 北京时间）对照时为 OUT OF STOCK / Unavailable，面板 /my-servers/ 显示 No servers yet。 2026-11-25 约 15:55 北京时间再次 WebFetch 对照 https://cloud.ascsonoway.com/vps-micro/ ：免费卡仍为 E5 2650 v0 Free Tier，文案改为 E5 2650 v0 Free Tier SOLD OUT，Out of Stock / Currently out of stock（上轮 11:54 为 IN STOCK · 80 UNITS）。",
         "idle_reclaim": "领取页写 No formal uptime agreement。官方博客未写未续期后的具体天数，但设置续期是为了回收僵尸实例；第三方整理称忘记续期机器可能被回收。无正式可用性承诺。",
         "deadline": "",
         "deadline_note": "官方将其定位为 $0 常设免费档（须 30 天续期），不是限时试用。不得承诺厂商永不改规则。"
@@ -1100,9 +1100,15 @@
           "time_beijing": "2026-11-20 20:57:33",
           "author": "@qqlin99",
           "role": "renewal_calendar_mentions_ascs"
+        },
+        {
+          "url": "https://x.com/404jsh/status/2125431959379931452",
+          "time_beijing": "2026-11-25 11:30:42",
+          "author": "@404jsh",
+          "role": "x_claim_restock_80_units_got_one"
         }
       ],
-      "notes": "官方长期可续期免费 LXC 容器（纯 IPv6），官方博客写明免支付信息且不自动转付费。现行规格以领取页 https://cloud.ascsonoway.com/vps-micro/ 为准：1 vCPU / 512MB RAM / 16GB SSD、公网 IPv6（Alberta）、Onoway, AB，Free / 0，每 30 天续期，页上写 No formal uptime agreement。官方 2026-08-18 博客曾写 2 vCPU / 2GB DDR3（Intel Xeon L5630），与领取页不一致，博客规格仅作历史记录。2026-11-20 约 19:10 America/New_York（2026-11-21 08:10 北京时间）对照：领取页免费卡为 OUT OF STOCK，按钮 Unavailable，文案 Currently out of stock，未见候补入口；登录后控制台 /my-servers/ 显示 No servers yet，未开通实例。不要加页上的付费插件，不要输入支付信息或付款。须每 30 天在面板续期。不得承诺厂商永不改规则。"
+      "notes": "官方长期可续期免费 LXC 容器（纯 IPv6），官方博客写明免支付信息且不自动转付费。现行规格以领取页 https://cloud.ascsonoway.com/vps-micro/ 为准：1 vCPU / 512MB RAM / 16GB SSD、公网 IPv6（Alberta）、Onoway, AB，每 30 天续期，页上写 No formal uptime agreement。官方 2026-08-18 博客曾写 2 vCPU / 2GB DDR3（Intel Xeon L5630），与领取页不一致，博客规格仅作历史记录。2026-11-20 约 19:10 America/New_York（2026-11-21 08:10 北京时间）对照：领取页免费卡为 i5 3470、OUT OF STOCK，按钮 Unavailable，未见候补入口；登录后控制台 /my-servers/ 显示 No servers yet，未开通实例。2026-11-25 约 11:54 北京时间两次对照官网：免费卡改为 E5 2650 v0 Free Tier，文案 IN STOCK · 80 UNITS。据 X 上的报道 @404jsh 2026-11-25 11:30 北京时间称蹲了 20 天、今早补货 80 台并已抢到一台；不要勾选付费附加项（尤其 IPv4 NAT），确认订单 $0.00；开通可能排队约一小时。用户已有 Gmail 账号但此前因缺货未开通实例，本轮交给主对话立即领取。不要加付费插件，不要输入支付信息或付款。须每 30 天在面板续期。不得承诺厂商永不改规则。 2026-11-25 约 15:55 北京时间再次 WebFetch 对照 https://cloud.ascsonoway.com/vps-micro/ ：免费卡仍为 E5 2650 v0 Free Tier，文案改为 E5 2650 v0 Free Tier SOLD OUT，Out of Stock / Currently out of stock（上轮 11:54 为 IN STOCK · 80 UNITS）。 该轮补货已在 11:55 扫描时交给主对话领取，本轮不再作为新提醒。不得承诺厂商永不改规则。"
     },
     {
       "id": "tensorlake-sandbox-free",
@@ -1719,6 +1725,180 @@
         }
       ],
       "notes": "官方按月重置的 Agent 沙盒免费额度，发行说明写免绑卡，但注册要手机号、创建沙盒要 KYC；钱包有余额时超额和超盘会计费。属于短时/额度型开发机，且有本人验证与手机号阻塞，不符合本轮自动申请标准，不自动申请、不向用户发领取提醒。不得承诺厂商永不改规则。"
+    },
+    {
+      "id": "vibe-hosting-free",
+      "provider": "The Vibe Hosting",
+      "type": "other",
+      "type_label": "其他",
+      "specs": [
+        {
+          "label": "as_claimed",
+          "value": "官网定价页 https://thevibehosting.com/pricing（Updated 2026-10-16）与免费托管页 https://thevibehosting.com/free-hosting（Updated 2026-10-07）对照：提供 Ubuntu Linux 容器，宣传有 root SSH 和 HTTPS 地址（your-name.thevibehosting.com）。匿名档每月 $0.90 免费额度，单机最多 256 MB RAM、最多 2 台、最多 2 核（CPU 官网写 always free），空闲约 10 分钟后休眠，下次请求再唤醒，不可 always-on、不可自定义域名。验证档（手机短信，或邮箱验证码 + 一次性至少 $1 付款，该 $1 计入预付额度）每月 $2.25 免费额度，官方计算足够 512 MB 24/7（0.5 GB × 720 小时 × $0.005 = $1.80 RAM，另加约 1 GB 磁盘 $0.25），单机最多 2 GB（持有付费额度后可到 4 GB），可 always-on、可自定义最多 3 个域名、机器数量不限。超出免费额度后按量：唤醒时 RAM $0.005/GB-小时，出站 $0.10/GB，磁盘 $0.25/GB-月（休眠也计磁盘，单机最多 20 GB）。条款写这是 sandboxed containers / on-demand Linux container hosting，不是传统独立 KVM VPS。"
+        }
+      ],
+      "free_conditions": {
+        "card_required": false,
+        "card_notes": "定价页写 Neither free tier asks for a card；匿名账号由第一次 API 调用创建，不需要注册或信用卡。手机号通过短信升级到验证档；若收不到短信，可用邮箱验证码 + Stripe 一次性至少 $1（整笔计入预付额度，因服务立即开始不可退）。信用卡只在主动购买预付额度，或走邮箱+$1 验证时出现在 Stripe 结账页。条款第 5 节：超出每月免费额度的用量从你添加的预付额度扣；额度用尽后，机器在短暂宽限期后可能被暂停（pricing 页写 paused after a short grace period）。免费额度每月发放且不结转；买的额度用完为止。不得承诺厂商永不改规则。本轮不自动申请：好用的 512 MB 常驻机要手机号或付款验证；匿名档会休眠且额度很小；超量走预付费，验证后若再充值还有扣费路径。",
+        "region_limits": "本轮已打开的定价页、免费托管页和条款未写明机房地区或 IP 版本（IPv4/IPv6）。出站带宽条款写 currently 100 Mbit/s。",
+        "idle_reclaim": "默认约 10 分钟无入站流量后休眠（RAM 释放并停止计费，文件和已装软件留在磁盘），下次请求数秒内唤醒。always-on 仅验证账号可开，并按实际 RAM 24/7 计费。额度用尽后短暂宽限期后暂停机器。条款还写可暂停空闲机器（scale to zero），也可因违规暂停或终止且不另行通知。",
+        "deadline": "",
+        "deadline_note": "官网写每月发放免费额度，不是一次性限时试用，也没有写截止日期。条款允许随时修改、暂停或停用服务或功能，限额、免费赠额和价格以网站为准、可能变化。不得承诺厂商永不改规则。"
+      },
+      "official_url": "https://thevibehosting.com/",
+      "posts": [
+        {
+          "url": "https://thevibehosting.com/pricing",
+          "time_beijing": "2026-11-25 对照官网定价页、免费托管页与条款",
+          "author": "official",
+          "role": "official_pricing_and_terms"
+        }
+      ],
+      "notes": "官网确认有按月发放的免费额度，开始不绑卡，匿名档可开最高 256 MB、会休眠的 Linux 容器（宣传 root SSH）。验证档（手机或邮箱+$1）每月 $2.25，官方称够 512 MB 常驻。额度用尽后暂停而非在未充值时自动扣卡，但超额走预付费，常驻机要手机号或付款。不是可自动申请的无风险长期免费常驻 VPS，本轮不自动申请、不向用户发领取提醒。不得承诺厂商永不改规则。"
+    },
+    {
+      "id": "yorkhost-agent-sandbox-trial",
+      "provider": "YorkHost",
+      "type": "other",
+      "type_label": "free_ephemeral_linux_vm",
+      "specs": [
+        {
+          "label": "as_claimed",
+          "value": "官网 https://yorkhost.fr/en/agents/ ：一条命令 ssh yorkhost.sh 即可获得 Ubuntu 24.04 Linux 沙盒，无需账号、无需信用卡，用 SSH 公钥识别。预装 Claude Code、Codex、OpenCode、Cursor CLI、Gemini CLI，以及 git、Node.js 22、Python 3、Docker、gh 和编译工具。用户名为 agent（sudo 免密、在 docker 组）。工作目录 /home/agent。试用期间无公网 IP，应用通过 https://<id>-<port>.yorkhost.sh 预览。官方英文页未写明试用机的 vCPU/内存数字，只写明磁盘 15 GB、托管在法国。要保留需付费领取为 VPS-2（€3.99/月，2 vCores / 2 GB / 80 GB SSD / 公网 IP）。"
+        }
+      ],
+      "free_conditions": {
+        "card_required": false,
+        "card_notes": "官网写 No account, no card，SSH 密钥即身份。试用本身不要求注册或绑卡。官方计费文档 https://yorkhost.fr/docs/facturation/essais-gratuits ：试用 60 分钟后停止（已登录账号则为 2 小时），创建 24 小时后连同文件删除；要保留必须从 YorkHost 账号领取并支付 VPS-2 账单（€3.99/月，无合约）。未领取则删除，官方未写未领取会自动扣费。领取后是付费 VPS，不是长期免费常驻机。不得承诺厂商永不改规则。",
+        "region_limits": "托管在法国。试用无公网 IP，流量走 yorkhost.sh；出站仅网页（80/443）、git 和 SSH，带宽有上限。每 IP 每天最多 3 台沙盒，同一把 SSH 密钥同时只能有 1 台。",
+        "idle_reclaim": "运行 60 分钟后停止（已登录账号 2 小时）。创建 24 小时后，若未领取为付费 VPS-2，虚拟机和文件一并删除。也可 ssh [redacted] 立即删除。",
+        "deadline": "",
+        "deadline_note": "匿名试用本身无活动截止日期；单台有 60 分钟运行 + 24 小时领取时限。这是常设的短时开发机/Agent 沙盒入口，不是可自动申请的长期免费常驻 VPS。"
+      },
+      "official_url": "https://yorkhost.fr/en/agents/",
+      "posts": [
+        {
+          "url": "https://yorkhost.fr/en/agents/",
+          "time_beijing": "2026-11-25 07:57 对照官网英文介绍、计费文档与快速开始",
+          "author": "official",
+          "role": "official_trial_and_billing"
+        }
+      ],
+      "notes": "本轮网页补充（Hacker News/公开检索）首次记入，已对照官网。与 Railway 60 分钟开发机同类：免注册短时 Linux Agent 沙盒，不是永久免费常驻 VPS。未领取会在 24 小时内删除；领取须支付 VPS-2（€3.99/月）。不符合可自动申请的长期免费且不会转付费条件，本轮不自动申请、不向用户发领取提醒。不得承诺厂商永不改规则。"
+    },
+    {
+      "id": "pangea-host-free-sandbox",
+      "provider": "Pangea (pangea.host / OND Inc.)",
+      "type": "paas",
+      "type_label": "非 root 的 PaaS",
+      "specs": [
+        {
+          "label": "as_claimed",
+          "value": "官网计费页 https://pangea.host/billing（2026-11-25 19:55 北京时间对照）：Free Sandbox 月费 $0。五个独立月度硬上限（UTC）：CPU（含构建/CI）5 vCPU-h、内存占用 36 GiB-h、持久 /data 1 GiB-mo、Shared AI GPU 10 GPU-min、外部出站 5 GiB；在线容量 0.5 vCPU / 1 GiB，单应用最大 RAM 1 GiB；CI 仓库/并行 2 / 2×。提供 *.pangea.host HTTPS、1 小时闲置自动休眠、内置 Gemma/Qwen/Speech Shared AI、GitHub Actions CI 与 PR 预览。不是带 root 的独立常驻 VPS，而是面向 Dockerfile HTTP 应用与 Agent 的 PaaS/沙盒（京都机房）。Always-on、自定义域名要 Mini $9/月起；团队协作者要 Launch $19/月起。"
+        }
+      ],
+      "free_conditions": {
+        "card_required": true,
+        "card_notes": "官方计费页与条款（Effective November 19, 2026）：Free Sandbox 须做 Stripe SetupIntent 验卡（zero charge / 课金なし），每张唯一卡最多一个 Free Sandbox，用于反滥用。官网写 $0 charged · Never auto-upgrades · Hard caps prevent surprise bills。配额用尽时按表独立暂停（GPU 用尽只暂停 Shared AI，计算/出站用尽暂停计算与唤醒，/data 与导出保留），不产生超额账单。付费档才按月自动续费；受邀 beta 可免卡且不自动转付费（本轮无邀请）。仅登录不会开通托管或扣费。因必须验卡，本轮不自动申请。不得承诺厂商永不改规则。",
+        "region_limits": "官网写托管于京都（Kyoto, Japan）太阳能辅助裸金属与 GPU 集群。免费档地址为 *.pangea.host，自定义域名需付费档。",
+        "idle_reclaim": "免费档无状态 HTTP 应用默认闲置 1 小时后休眠，有请求时透明唤醒（无插页）；/data 保留，数据库保持醒着。不是 24 小时常开机器。",
+        "deadline": "",
+        "deadline_note": "官网将 Free Sandbox 定位为月费 $0 的常设免费档，不是限时试用；但必须验卡，且有月度硬上限和 1 小时休眠，不是可自动申请的免绑卡长期常驻 VPS。"
+      },
+      "official_url": "https://pangea.host/billing",
+      "posts": [
+        {
+          "url": "https://x.com/pangea_host/status/2125541379220906227",
+          "time_beijing": "2026-11-25 18:45:30",
+          "author": "@pangea_host",
+          "role": "first_seen_official_x_post"
+        }
+      ],
+      "notes": "据 X 上的报道 @pangea_host 2026-11-25 18:45 北京时间发布，并已对照官网。这是官方长期 $0/月的 Agent/应用沙盒（硬上限、不自动升级、超额不扣费），但开通 Free Sandbox 必须 Stripe 验卡，且闲置 1 小时休眠，不是免绑卡 root 常驻 VPS，故不自动申请、不作为合格长期免费常驻项目提醒。不得承诺厂商永不改规则。"
+    },
+    {
+      "id": "hyehost-free-web-hosting",
+      "provider": "HYEHOST",
+      "type": "other",
+      "type_label": "其他",
+      "specs": [
+        {
+          "label": "as_claimed",
+          "value": "官网 https://hyehost.org/free-hosting（2026-11-25 23:55 北京时间对照）：Free Hosting 标 $0 Cost forever / $0 every 30 days。1 个网站、1 GB 存储、每月 10 GB 流量、5 个邮箱、1 个数据库、0.5 核 CPU。含 DirectAdmin、LiteSpeed、LSCache、Redis、Imunify360、Softaculous、WordPress Manager、SitePad、免费 SSL、JetBackup；出站邮件走 Mailbaby，免费档每小时 20 封。机房在英国 Wolverhampton。官网写与付费共享主机同一套软件栈，只是资源更小，且无广告。不是带 root 的独立 VPS，是共享虚拟主机。"
+        }
+      ],
+      "free_conditions": {
+        "card_required": false,
+        "card_notes": "官网免费页明确写 No card required，并写 There are no advertisements, payment details or reduced software features。FAQ：The free plan costs $0；Click Renew 后续 30 天仍为 $0。付费档从 $2/季起，在面板升级后才会自动续费，免费档本身不自动转付费。入门博文 https://hyehost.org/blog/getting-started-hyehost-panel 写：若打算订购付费服务再添加账户余额或支付方式；账单资料不完整时可能要先补全才能下单；部分账号可能进入人工审核，必要时可用卡充值核验资料是否一致。注册弹窗写：用虚假信息开的账号会被要求用与账单资料一致的银行账户或卡做支付验证。条款允许在反欺诈场景要求身份/支付核验。不得承诺厂商永不改规则。",
+        "region_limits": "免费虚拟主机托管在英国 Wolverhampton 机房。运营商为 HYEHOST LLC。",
+        "idle_reclaim": "须每 30 天在面板手动点 Renew，费用 $0。到期前会发邮件提醒。FAQ：忘记续期账号会被暂停但不会删除，仍可续期恢复。官网写手动续期是为了确认站点仍在使用、把容量留给活跃用户。",
+        "deadline": "",
+        "deadline_note": "官网定位为 $0 Cost forever，计划保持免费，不是标明截止日期的限时试用。须每 30 天手动 $0 续期。条款允许修改规则。不得承诺厂商永不改规则。"
+      },
+      "official_url": "https://hyehost.org/free-hosting",
+      "posts": [
+        {
+          "url": "https://hyehost.org/free-hosting",
+          "time_beijing": "2026-11-25 23:55 对照官网免费页、条款与面板入口",
+          "author": "official",
+          "role": "official_free_hosting_page"
+        },
+        {
+          "url": "https://x.com/okeyccronald/status/2125594975563886777",
+          "time_beijing": "2026-11-25 22:18:28",
+          "author": "@okeyccronald",
+          "role": "x_post_mentions_hyehost_free_bot_plan"
+        },
+        {
+          "url": "https://www.nodeseek.com/post-1080453-1",
+          "time_beijing": "约 2026-11-25 21:17（本轮抓取时页面显示 2h 38min ago）",
+          "author": "NodeSeek @mikusaka",
+          "role": "nodeseek_thread_mainly_about_bot_plan"
+        }
+      ],
+      "notes": "据 X 上的报道 @okeyccronald 2026-11-25 22:18 北京时间提到 HYEHOST 免费机器人托管；NodeSeek 同日有帖主要写免费 Bot 计划。核对该厂商官网时发现另有官方长期免费共享虚拟主机：免绑卡、$0 Cost forever、每 30 天面板一键 $0 续期，漏续只暂停不删除。不是 root VPS。付费升级会自动续费，申请时只开免费档、不要充值、不要保存卡、不要升级。本扫描任务未注册，交给主对话按安全条件自动申请；若注册或下单要绑卡、充值或填手机号则立即停止。不得承诺厂商永不改规则。"
+    },
+    {
+      "id": "hyehost-free-bot-hosting",
+      "provider": "HYEHOST",
+      "type": "other",
+      "type_label": "其他",
+      "specs": [
+        {
+          "label": "as_claimed",
+          "value": "官网 https://hyehost.org/free-bot-hosting（2026-11-25 23:55 北京时间对照）：Free Bot $0 / 30 days。0.05 CPU（5%）、128 MB RAM、512 MB 持久存储、10 Mbps、1 个 NAT 端口、独立 IPv6。可选 Wolverhampton、Ashburn 或 Auckland。支持 Node.js、Python、Java、Bun、Deno、Go、Lua；可 Git 部署、浏览器文件管理和 web 控制台，崩溃或宿主机重启后自动恢复。官网与 NodeSeek 均表明这是托管机器人容器，不是带 root/SSH 的独立 VPS（NodeSeek 称无 root、Web shell）。直连出站 SMTP 端口被封。"
+        }
+      ],
+      "free_conditions": {
+        "card_required": null,
+        "card_notes": "官网写费用 $0，免费档不自动续费，须每 30 天在面板手动续期，再续 30 天仍为 $0。该页不像免费虚拟主机页那样写明 No card required。同一面板也可开免费网站主机（该页明确免绑卡）。入门博文写若订购付费服务再添加余额或支付方式；条款允许反欺诈时要求支付核验。NodeSeek 帖有人猜测注册要预充一笔钱，未见官方原文支持，也未经本轮实际注册核实。因绑卡/预充要求未在 Bot 页写清，本轮不自动申请该档。不得承诺厂商永不改规则。",
+        "region_limits": "Wolverhampton（英国）、Ashburn（美国）、Auckland（新西兰）三地可选，资源与价格相同。选地区不会自动跨区故障转移。",
+        "idle_reclaim": "须每 30 天在面板手动点 renew，费用 $0。官网写到期前会通知。未在本轮打开的页面写明漏续后是暂停还是删除。",
+        "deadline": "",
+        "deadline_note": "官网将 Free Bot 定位为 $0 的常设免费档，不是标明截止日期的限时试用，但必须每 30 天手动续期，且只允许跑机器人。不得承诺厂商永不改规则。"
+      },
+      "official_url": "https://hyehost.org/free-bot-hosting",
+      "posts": [
+        {
+          "url": "https://x.com/okeyccronald/status/2125594975563886777",
+          "time_beijing": "2026-11-25 22:18:28",
+          "author": "@okeyccronald",
+          "role": "primary_x_discovery"
+        },
+        {
+          "url": "https://www.nodeseek.com/post-1080453-1",
+          "time_beijing": "约 2026-11-25 21:17（本轮抓取时页面显示 2h 38min ago）",
+          "author": "NodeSeek @mikusaka",
+          "role": "nodeseek_thread"
+        },
+        {
+          "url": "https://hyehost.org/free-bot-hosting",
+          "time_beijing": "2026-11-25 23:55 对照官网",
+          "author": "official",
+          "role": "official_free_bot_page"
+        }
+      ],
+      "notes": "据 X 上的报道 @okeyccronald 2026-11-25 22:18 北京时间，以及 NodeSeek 同日帖。已对照官网：这是官方 $0、每 30 天手动续期的机器人托管，不是 root 常驻 VPS；仅限 bot，禁 VPN/代理。Bot 页未写明免绑卡，NodeSeek 有预充猜测未核实，故不自动申请、不作为合格长期免费常驻项目提醒。同厂商免费共享虚拟主机见 hyehost-free-web-hosting。不得承诺厂商永不改规则。"
     }
   ],
   "stock": {
@@ -1727,18 +1907,18 @@
       {
         "id": "dmit",
         "name": "DMIT",
-        "checked_at_beijing": "2026-11-24 23:51:13",
+        "checked_at_beijing": "2026-11-25 23:45:31",
         "official_url": "https://www.dmit.io/",
         "sources": [
           {
             "name": "vpsrestock.com",
             "url": "https://vpsrestock.com/dmit/",
-            "checked_at_beijing": "2026-11-24 23:50"
+            "checked_at_beijing": "2026-11-25 23:44"
           },
           {
             "name": "t.me/dmitnews",
             "url": "https://t.me/s/dmitnews",
-            "checked_at_beijing": "2026-11-24 23:51:13"
+            "checked_at_beijing": "2026-11-25 23:45:31"
           }
         ],
         "plans": [
@@ -1816,7 +1996,7 @@
             "price": "$10.90 USD / 月",
             "stock": "out_of_stock",
             "limited": false,
-            "last_restock": "上次补货 61 天前",
+            "last_restock": "上次补货 62 天前",
             "order_urls": [
               {
                 "label": "官网下单",
@@ -1857,7 +2037,7 @@
             "price": "$36.90 USD / 年",
             "stock": "out_of_stock",
             "limited": false,
-            "last_restock": "上次补货 61 天前",
+            "last_restock": "上次补货 62 天前",
             "order_urls": [
               {
                 "label": "官网下单",
@@ -1870,13 +2050,13 @@
       {
         "id": "bandwagonhost",
         "name": "搬瓦工",
-        "checked_at_beijing": "2026-11-24 23:51:13",
+        "checked_at_beijing": "2026-11-25 23:45:31",
         "official_url": "",
         "sources": [
           {
             "name": "vpsrestock.com",
             "url": "https://vpsrestock.com/bandwagonhost/",
-            "checked_at_beijing": "2026-11-24 23:50"
+            "checked_at_beijing": "2026-11-25 23:44"
           },
           {
             "name": "stock.bwg.la",
@@ -3132,7 +3312,7 @@
     ]
   },
   "black_friday": {
-    "date_note": "今年黑五为 2026-11-27。今天是 2026-11-24。RackNerd 官方商店黑五分类 https://my.racknerd.com/index.php?rp=/store/black-friday-2026 本轮本机 curl HTTP 200，同一 15 款及价格，与 2026-11-20 01:59:55 首次确认时相同。www.racknerd.com/blackfriday 本轮本机 curl HTTP 200，打开营销页。",
+    "date_note": "今年黑五为 2026-11-27。今天是 2026-11-25。RackNerd 官方商店黑五分类 https://my.racknerd.com/index.php?rp=/store/black-friday-2026 本轮本机 curl HTTP 200，同一 15 款及价格，与 2026-11-20 01:59:55 首次确认时相同。www.racknerd.com/blackfriday 本轮本机 curl HTTP 200，打开营销页。",
     "official": [
       {
         "provider": "GreenCloud",

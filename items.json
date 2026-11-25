@@ -7673,12 +7673,12 @@
   },
   {
     "id": "anthropic-claude-code-review-enterprise-credits-20261016",
-    "title": "Claude Enterprise：Code Review 促销额度至少 $10,000（可至 $50,000），领后 30 天有效",
+    "title": "Claude Enterprise：Claude Ship / Code Review 促销额度至少 $10,000（领后 30 天有效，申领至 2027-01-15）",
     "model": "Claude Code Review",
     "type": "额度",
     "deadline": "2027-01-15T23:59:00Z",
     "url": "https://x.com/ClaudeDevs/status/2110866213266203118",
-    "summary": "Anthropic 官号 ClaudeDevs 宣布：符合条件的付费 Claude Enterprise 组织可在 2027-01-15 23:59 UTC 前由 Owner/Primary Owner 在 Code Review 设置页领取促销额度。仅付费 Claude Enterprise；Owner 领取一次；$10k–$50k（按席位）；金额按活跃 Claude Code 席位在领取时定为 $10,000–$50,000，领取后 30 天内或用完前优先抵扣 github.com 上的 Code Review（按 token 计价）；仅抵 Code Review on github.com；不含 Team/Pro/Max/Free、经销商账单、GHES/GHEC 数据驻留、试用/欠费组织；不覆盖自托管 Action、CLI /code-review、API 等；官方条款见 Help Center。截止：申领截止 2027-01-15 23:59 UTC，北京时间 2027-01-16 07:59。",
+    "summary": "Anthropic 现将相关能力放在 Claude Ship 介绍页：Claude Ship 由已正式开放的 Code Review，以及测试中的 PR Steward、Claude Approvals 组成。官方文章写明，符合条件的 Claude Enterprise 组织可领取至少 10,000 美元 Claude Ship credits，须在 2027-01-15 前领取，领后 30 天内用完，Terms apply。这与站内原「Code Review 促销额度」同一截止日期和「至少 $10,000、仅 Enterprise」口径，不是一条全新的公开赠金；金额是否仍按席位到 50,000 美元、以及积分是否覆盖新的 beta 代理，请以帮助中心条款为准，本轮文章未把这两点写死。仅付费 Claude Enterprise 的 Owner / Primary Owner 可领，不要为领积分新开企业订阅。申领截止 2027-01-15 23:59 UTC，北京时间 2027-01-16 07:59。",
     "source": "ClaudeDevs",
     "collected_at": "2026-10-16T08:45:00+08:00",
     "expired": false,
@@ -7696,6 +7696,10 @@
       {
         "name": "促销额度条款（Help Center）",
         "action_url": "https://support.claude.com/en/articles/17603594-free-code-review-promotional-credits-for-claude-enterprise"
+      },
+      {
+        "name": "Introducing Claude Ship",
+        "action_url": "https://claude.com/resources/articles/introducing-claude-ship"
       }
     ],
     "agents": [
@@ -7739,7 +7743,8 @@
         "step": "注意事项",
         "detail": "每人/每组织仅一次 Owner 领取。逾期未领即失效"
       }
-    ]
+    ],
+    "last_verified_at": "2026-11-26T00:27:20+08:00"
   },
   {
     "id": "vercel-cat-jam-stealth-free-20261016",
@@ -15072,7 +15077,7 @@
     "type": "限时",
     "deadline": "2026-11-30T23:59:00+08:00",
     "url": "https://x.com/HeyGen/status/2112960858624078265",
-    "summary": "HeyGen 官方称自家 Voice Turbo 和 Voice 占 Artificial Analysis 文本转语音榜前两名。API 的 Voice Turbo 端点免费至 11/30（时区未说明）；Turbo 是更快更便宜的模式，已上线 API，Turbo 端点免费用到 11 月 30 日（官方没写时区，按北京时间 11/30 当天结束算比较稳）；需要 HeyGen 账号和 API Key。截止北京时间 2026-11-30 23:59。",
+    "summary": "HeyGen 官方称自家 Voice Turbo 在文本转语音评测中表现靠前，API 的 Turbo 端点（heygen-voice-1-turbo-free）曾写明免费到 11/30。本轮核验官方博文 Last Updated 为 2026-11-24：正文「What free means」改为 limited time，并称变更前会提前通知；满载时返回 429，官方仍写无需信用卡。标题/og/meta 描述仍写 costs nothing to use through November 30。未见明确延期或提前结束公告，因此仍把 11/30 作为 meta 中的参考截止，不要理解成无限期免费。不要订阅付费档或改用付费模型 heygen-voice-1 来验证免费。参考截止按北京时间 2026-11-30 23:59。",
     "source": "X @HeyGen 官方",
     "collected_at": "2026-10-22T01:48:00+08:00",
     "expired": false,
@@ -15121,7 +15126,8 @@
         "step": "验证是否成功",
         "detail": "回到控制台查看免费额度、余额、模型列表或订单/密钥列表，确认对应项目已经出现。如果是 API，把密钥放到环境变量里，按官方文档发一条最小请求。能正常返回即表示领取成功"
       }
-    ]
+    ],
+    "last_verified_at": "2026-11-26T00:27:20+08:00"
   },
   {
     "id": "recursive-flint-open-weights-free-20261022",
@@ -16166,12 +16172,12 @@
     "title": "OpenRouter：Dots3-Note Preview（280B MoE，512K 上下文）免费到 12/31",
     "model": "Dots3-Note Preview",
     "type": "限时",
-    "deadline": "2026-12-31T23:59:59+08:00",
+    "deadline": "2026-11-24T16:10:38.657Z",
     "url": "https://x.com/Xyz_Tox/status/2113257033554071588",
-    "summary": "Dots Studio 的开源权重 MoE 模型 Dots3-Note Preview（总参 280B、激活 16B，512K 上下文，支持图文输入和工具调用）在 OpenRouter 以 :free 版本 0 元提供。OpenRouter 模型接口显示该免费版到期日为 2026-12-31（按 UTC 日期，北京时间约为 2027-01-01 早上前后），注册 OpenRouter 创建 Key 即可调用，免费版有频率限制。OpenRouter 账号 + API Key 调用 dots-studio/dots-3-note-preview:free，0 元，免费版有频率限制，到期日 2026-12-31。截止北京时间 2026-12-31 23:59。",
+    "summary": "Dots Studio 的开源权重 MoE 模型 Dots3-Note Preview（总参 280B、激活 16B，512K 上下文）曾在 OpenRouter 以 :free 线路 0 元提供。本轮核验官方模型页与 /api/v1/models：主列表已无 dots-studio/dots-3-note-preview:free，endpoints 为空，页面写明自 2026-11-24 起没有供应商再提供该模型（unavailable_since=2026-11-24T16:10:38.657Z，约北京 11/25 00:10）。页上仍可能标 Price Free，但不能再当作可调用的免费线路。原宣传截止 2026-12-31 已不再适用，属于提前下线。",
     "source": "X @Xyz_Tox；OpenRouter 模型接口（expiration_date 2026-12-31）",
     "collected_at": "2026-10-22T21:50:00+08:00",
-    "expired": false,
+    "expired": true,
     "source_post_id": "2113257033554071588",
     "post_time_bj": "2026-10-22T21:11:53+08:00",
     "product": "OpenRouter",
@@ -16226,7 +16232,8 @@
         "step": "验证是否成功",
         "detail": "用环境变量里的 Key 调一次目标模型。若返回正常内容或明确的限流错误（而不是 401/模型不存在），说明账号和 Key 可用。免费名单变化很快，失败时先回模型页看是否还是 $0"
       }
-    ]
+    ],
+    "last_verified_at": "2026-11-26T00:27:20+08:00"
   },
   {
     "id": "commandcode-glyph-cluster-free-100-per-day-20261022",
@@ -23598,12 +23605,12 @@
   },
   {
     "id": "deepai-code-9-unmetered-free-20261108",
-    "title": "DeepAI Code：桌面编程 Agent 免费档——9 款不计量模型 + 每日最高 200 Theos",
+    "title": "DeepAI Code：桌面编程 Agent 免费档——12 款不计量模型 + 每日最高 250 Theos",
     "model": "GLM 5.3 Flash / DeepSeek V4.1 Flash / MiMo 2.6 Flash·Pro / Solar Mini 4 / GPT-6 Luna / Crouton Alpha / Glyph Cluster / DeepAI Cyber（不计量）；另有 Claude Opus 5.5、Claude Fable 5.1、GPT-6 Astra 等 frontier 耗 Theos",
     "type": "额度",
     "deadline": null,
     "url": "https://x.com/Finnhu334/status/2119121346491998342",
-    "summary": "DeepAI Code（Mac/Windows 桌面编程 Agent）官方确认免费档。非开放 Chat Completions 网关，属客户端 Agent。无需兑换码；可在 Settings→Providers 接 ChatGPT/Claude/OpenCode 等自有额度；DeepAI Code（Mac/Windows 桌面编程 Agent）官方确认免费档：$0、免绑卡、免 API Key；9 款模型不消耗 Theos（含 GLM 5.3 Flash、DeepSeek V4.1 Flash、MiMo 2.6 Flash/Pro、Solar Mini 4、GPT-6 Luna、Crouton Alpha、Glyph Cluster、DeepAI Cyber）；其余 frontier 模型共享免费账号每日最高约 200 Theos；亦可接自有 ChatGPT/Claude/Cursor/OpenCode 等 Provider。",
+    "summary": "DeepAI Code（Mac/Windows 桌面编程 Agent）官方免费档本轮核验已上调：官方页写 28 个模型来自 13 家实验室，其中 12 款不计量（含 Claude Haiku 5.5、GPT-6 Luna、GLM 5.3 Flash、DeepSeek V4.1 Flash 1017 等），其余 16 款消耗 Theos。免费账户每天最多 250 Theos，余额在上次发放起 24 小时后刷新、未使用不结转；Pro 可再加 200 至每天 450，不要为领免费档去开通 Pro。官方写 $0、无需信用卡、无需 API Key；学生与普通用户同一免费档、无需证明。也可在 Settings→Providers 接入自有 ChatGPT / Claude / OpenCode 等额度。这是客户端 Agent，不是开放的 Chat Completions 网关。未公布截止日。",
     "source": "X @Finnhu334 / @DeepAI 核实；官方 https://deepai.org/chat/ai-code",
     "collected_at": "2026-11-08T01:42:00+08:00",
     "expired": false,
@@ -23664,7 +23671,7 @@
       },
       {
         "step": "领取或启用免费额度",
-        "detail": "主要在客户端、IDE 或插件里领取，不只是网页开一个 Key。都要装客户端/插件，或 GitHub 登录，或候补邀请。不适合批量自动网页申请。如何领取：打开 https://deepai.org/chat/ai-code 下载 Mac/Windows 客户端 → 注册/登录免费 DeepAI 账号（免绑卡）→ 模型列表直接选不计量模型（0 Theos）或 frontier（耗每日 Theos，免费档约 200/天，24h 刷新不结转）。无需兑换码。可在 Settings→Providers 接 ChatGPT/Claude/OpenCode 等自有额度"
+        "detail": "主要在客户端、IDE 或插件里领取，不只是网页开一个 Key。都要装客户端/插件，或 GitHub 登录，或候补邀请。不适合批量自动网页申请。如何领取：打开 https://deepai.org/chat/ai-code 下载 Mac/Windows 客户端 → 注册/登录免费 DeepAI 账号（免绑卡）→ 模型列表直接选不计量模型（0 Theos）或 frontier（耗每日 Theos，免费档每天最多 250，24h 刷新不结转）。无需兑换码。可在 Settings→Providers 接 ChatGPT/Claude/OpenCode 等自有额度"
       },
       {
         "step": "验证是否成功",
@@ -23672,8 +23679,12 @@
       }
     ],
     "claim_steps": [
-      "打开 https://deepai.org/chat/ai-code 下载 Mac/Windows 客户端 → 注册/登录免费 DeepAI 账号→ 模型列表直接选不计量模型（0 Theos）或 frontier（耗每日 Theos，免费档约 200/天，24h 刷新不结转）。"
-    ]
+      "打开 https://deepai.org/chat/ai-code 下载 Mac/Windows 客户端并注册或登录免费账号（官方写免绑卡）",
+      "在模型列表中选择不计量模型，或使用每日 Theos（免费档每天最多 250，24 小时刷新、不结转）",
+      "不要开通 DeepAI Pro 来验证免费档"
+    ],
+    "category": "agents",
+    "last_verified_at": "2026-11-26T00:27:20+08:00"
   },
   {
     "id": "zro-moonmath-free-daily-glm53-deepseek-flash-20261108",
@@ -27584,55 +27595,50 @@
     "collected_at": "2026-11-11T02:06:00+08:00",
     "auto_claim": {
       "status": "needs_user",
-      "note": "需中国手机号注册并安装 SCNet 客户端",
-      "at": "2026-11-11T02:22:00+08:00"
+      "note": "需中国手机号注册并安装 SCNet 客户端。官网写明赠送 Tokens 用尽后会自动扣现金余额，不要在用尽后继续使用。",
+      "at": "2026-11-26T00:27:20+08:00"
     },
     "id": "scnet-double11-client-unlimited-100m-newuser-20261111",
-    "title": "超算互联网 SCNet 双 11：客户端旗舰模型词元不限量至 11/30，11/9 起新用户再领 1 亿词元（客户端内）",
+    "title": "超算互联网 SCNet 双11：新用户可领 1 亿 Tokens（领至 12/31，到账后 30 天有效；原客户端不限量文案已撤）",
     "platform": "超算互联网 SCNet",
     "product": "SCNet 11.11 年终钜惠",
     "model": "SCNet-Max 等客户端旗舰模型",
     "type": "限时",
-    "deadline": "2026-11-30T23:59:59+08:00",
+    "deadline": "2026-12-31T23:59:59+08:00",
     "url": "https://www.scnet.cn/home/subject/double11/index.html",
     "source": "iGetoken 快讯（官网活动页 + 中国科学报 / 赛迪网 / 环球网交叉）；每经网、界面新闻 11/6 报道",
-    "summary": "据 iGetoken 快讯（交叉核对 SCNet 官网活动页与每经网、界面新闻 11/6 报道）。两者都只能在客户端或内置智能体里用，不能导出成 API Key。即日起至 11/30 客户端旗舰模型词元不限量（新老用户）；11/9 起新注册用户另领 1 亿词元科学计算智能体额度；国内账号，注册需手机号（以官网为准）；想要能站外调用的额度，要走同平台 MaaS 特惠专场（站内已有往期条目）。截止北京时间 2026-11-30 23:59。",
+    "summary": "据 SCNet 官网双11活动页本轮核验。原「客户端旗舰模型词元不限量至 11/30」的表述已从官方活动页消失，不能再按不限量宣传；「旗舰模型」目前更多出现在 MaaS 特惠套餐等付费档。仍在的是新人礼「1亿 Tokens 免费领」：活动时间 2026-11-06 00:00 至 2026-12-31 23:59 北京时间，仅限活动期间新注册用户、每账号 1 次、每日库存有限，须在客户端「新人专享」入口领取；到账后有效期 30 天，首期默认发放 GLM-5.3-Flash 额度，实际模型可能调整。官网写明赠送 Tokens 优先使用，用完后将自动扣减现金余额；若不希望产生扣费，须在赠送 Tokens 用完前停止使用。国内账号，注册通常需手机号。这些客户端内权益不能导出为 API Key。不要购买秒杀或套餐来验证免费。",
     "claim_steps": [
-      "到 https://www.scnet.cn 下载最新版 SCNet 客户端（Windows / macOS / Android）",
-      "注册或登录账号（11/9 起新注册才有 1 亿词元）",
-      "在客户端选 SCNet-Max 等限时免费旗舰模型，至 11/30 词元不限量",
-      "新用户在客户端或官网活动区领 1 亿词元科学计算智能体额度",
-      "注意：这些额度不能导出为 API Key"
+      "打开 https://www.scnet.cn/home/subject/double11/index.html 确认新人礼仍在，并阅读用尽后扣现金余额的说明",
+      "从 https://www.scnet.cn 下载最新版客户端（Windows / macOS / Android）并注册或登录（活动期内新注册才有 1 亿 Tokens）",
+      "在客户端「新人专享」入口领取 1 亿 Tokens；不要购买秒杀、套餐或继续调用到现金扣费"
     ],
     "claim_guide": [
       {
-        "step": "打开活动页",
-        "detail": "打开超算互联网 11.11 年终钜惠活动页，查看客户端不限量与新人 1 亿词元说明",
-        "url": "https://www.scnet.cn/home/subject/double11/index.html",
-        "note": "活动页静态内容里有「活动已结束」弹窗模板，以登录后页面和客户端实际显示为准"
+        "step": "阅读活动页",
+        "detail": "打开超算互联网双11活动页，确认「1亿 Tokens 免费领」的时间窗、每账号一次和用尽后扣现金余额的说明。官方页已不再写客户端旗舰模型词元不限量。",
+        "url": "https://www.scnet.cn/home/subject/double11/index.html"
       },
       {
-        "step": "下载最新版客户端",
-        "detail": "从 SCNet 官网下载最新版客户端（支持 Windows 10+、macOS 13+、Android）。官方强调必须是最新版，旧版可能没有权益入口",
+        "step": "下载最新客户端",
+        "detail": "从 SCNet 官网下载最新版客户端（Windows 10+、macOS 13+、Android）。官方强调须用最新版，旧版可能没有领取入口。",
         "url": "https://www.scnet.cn"
       },
       {
-        "step": "注册 / 登录",
-        "detail": "新老用户登录客户端都能享受至 11/30 的旗舰模型词元不限量。1 亿词元只给 11/9 起新注册的账号"
+        "step": "注册或登录",
+        "detail": "1 亿 Tokens 只给活动期间（至 2026-12-31 23:59 北京时间）新注册的账号。国内账号通常需要手机号。"
       },
       {
-        "step": "选择免费旗舰模型",
-        "detail": "在客户端里选 SCNet-Max 等标注限时免费的旗舰模型直接使用，截至 2026-11-30"
+        "step": "在客户端领取",
+        "detail": "登录后到客户端「新人专享」入口领取。到账后有效期 30 天，首期默认是 GLM-5.3-Flash 额度。"
       },
       {
-        "step": "领取新人 1 亿词元",
-        "detail": "新用户在活动区领取 1 亿词元科学计算智能体应用额度，用于科研文献梳理、参数试算、结果解释等内置智能体"
-      },
-      {
-        "step": "注意事项",
-        "detail": "客户端内权益不能导出 API Key 接 Cursor、Claude Code 等工具。要站外调用，请看 SCNet MaaS 特惠专场（0.1 元秒杀，每天 10:00 开抢，库存有限）"
+        "step": "避免扣费",
+        "detail": "赠送 Tokens 用尽后会自动扣减现金余额。不要在免费额度用完后继续调用，也不要购买秒杀或套餐来验证免费。这些额度不能导出为 API Key。",
+        "note": "未核验是否强制绑卡。"
       }
-    ]
+    ],
+    "last_verified_at": "2026-11-26T00:27:20+08:00"
   },
   {
     "agents": [
@@ -36941,44 +36947,41 @@
   },
   {
     "id": "tsin-openai-codex-hackathon-100usd-credit-nov28-20261115",
-    "title": "TSIN × OpenAI Codex Hackathon（伦敦帝国理工，11/28）：每位学生参赛者送 $100 OpenAI API 额度",
+    "title": "TSIN × OpenAI Codex Hackathon（伦敦帝国理工，11/28）：各赛道荣誉奖 $100 OpenAI 额度（不是全员赠额）",
     "platform": "OpenAI",
     "product": "Codex Hackathon（TSIN × OpenAI）",
     "model": null,
     "type": "黑客松额度",
-    "deadline": "2026-11-28T18:00:00+08:00",
+    "deadline": "2026-11-28T17:30:00+00:00",
     "url": "https://tsin-openai-hackathon.vercel.app/",
     "source": "Codex Hackathon 官方活动页（Thai Society Innovation Network，2026-11-15 核对）",
-    "summary": "据活动官方页，英国泰国学生组织 Thai Society Innovation Network 与 OpenAI 合办的 Codex Hackathon 于 2026 年 11 月 28 日在伦敦帝国理工学院线下举行（27 日线上开幕，有 OpenAI 工程师的 Codex 工作坊），免费参加，限 100 个名额。每位参赛者报名后可获得 100 美元 OpenAI API 额度；前三名另有 850/400/200 美元 OpenAI 额度和 ChatGPT Pro。门槛：所有队员须是在读大学生（任何专业、任何国籍），1–5 人一队，须到伦敦现场参赛，路费不报销；报名截止时间官方页未写，名额满即止，截止时间暂按活动开场（北京时间 11/28 18:00）。",
+    "summary": "据活动官网本轮核验，Thai Society Innovation Network 与 OpenAI 合办的 Codex Hackathon 于 2026-11-28 在伦敦帝国理工学院线下举行（09:30–20:00 当地时间，场地 Skempton 164），27 日 15:00–16:30 有线上开幕。提交截止为当天 17:30 伦敦时间。面向在读大学生，1–5 人一队，活动本身免费并提供午餐，差旅自理，名额有限。奖项为第一名 850 美元 OpenAI API 额度加 ChatGPT Pro、第二名 400 美元、第三名 200 美元；另有「An honourable award in each track: $100 of OpenAI credit」。官网未见「每位学生参赛者都送 $100」的表述，不能再按全员参赛赠额宣传。这是学生黑客松奖项，不是公开可领的免费 API。",
     "claim_steps": [
-      "打开活动页，以在读大学生身份报名（可单人报名由主办方配队）",
-      "报名完成后按主办方说明领取 100 美元 OpenAI 额度",
-      "11/28 到伦敦帝国理工现场参赛"
+      "打开 https://tsin-openai-hackathon.vercel.app/ 确认学生身份、名额、日程和奖项说明",
+      "以在读大学生身份按页面报名（可单人报名由主办方配队）；名额满即止",
+      "11/27 参加线上开幕，11/28 到伦敦帝国理工现场参赛并在 17:30 前提交；额度按名次或各赛道荣誉奖发放，不是报名即送"
     ],
     "claim_guide": [
       {
         "step": "阅读规则",
-        "detail": "打开活动页确认学生身份、名额与日程",
+        "detail": "打开活动页确认学生身份、名额、日程和奖项。$100 是各赛道荣誉奖，不是每位参赛者都有。",
         "url": "https://tsin-openai-hackathon.vercel.app/",
-        "note": "限 100 名在读大学生"
+        "note": "提交截止为 2026-11-28 17:30 伦敦时间"
       },
       {
         "step": "报名",
-        "detail": "按页面指引报名，单人也可报名由主办方配队",
+        "detail": "按页面指引以在读大学生身份报名，单人也可报名由主办方配队。",
         "url": "https://tsin-openai-hackathon.vercel.app/",
         "note": "名额满即止"
       },
       {
-        "step": "领取额度",
-        "detail": "报名完成后按主办方通知领取 100 美元 OpenAI API 额度",
-        "url": "https://tsin-openai-hackathon.vercel.app/",
-        "note": "具体发放方式以主办方通知为准"
+        "step": "现场参赛并提交",
+        "detail": "27 日参加线上开幕与 Codex 工作坊，28 日到伦敦帝国理工现场参赛，并于 17:30 前提交。",
+        "note": "路费自理"
       },
       {
-        "step": "现场参赛",
-        "detail": "27 日参加线上开幕与 Codex 工作坊，28 日到伦敦帝国理工现场参赛",
-        "url": "https://tsin-openai-hackathon.vercel.app/",
-        "note": "路费自理"
+        "step": "奖项额度",
+        "detail": "前三名及各赛道荣誉奖的 OpenAI API 额度按主办方赛后通知发放，不要当成报名即可领的全员赠额。"
       }
     ],
     "providers": [
@@ -37004,7 +37007,8 @@
       "status": "needs_user",
       "note": "仅限在读大学生且需到伦敦现场参赛，需你本人报名；是否参加由你决定。",
       "at": "2026-11-15T00:15:00+08:00"
-    }
+    },
+    "last_verified_at": "2026-11-26T00:27:20+08:00"
   },
   {
     "id": "amd-token-lab-free-api-10-credits-30days-20261116",
@@ -42231,5 +42235,257 @@
     },
     "expired": false,
     "collected_at": "2026-11-25T00:21:35+08:00"
+  },
+  {
+    "id": "nvidia-nemotron-labs-image-30b-a3b-open-weights-20261126",
+    "title": "NVIDIA Nemotron-Labs-Image-30B-A3B：开源权重上线（文生图 MoE，30B/3B 激活，非商业研究评估许可）",
+    "platform": "开源权重",
+    "product": "Nemotron-Labs-Image-30B-A3B",
+    "model": "Nemotron-Labs-Image-30B-A3B",
+    "type": "开源权重",
+    "deadline": null,
+    "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B",
+    "source": "Hacker News 2026-11-25（item 50640992）；Hugging Face nvidia/Nemotron-Labs-Image-30B-A3B 模型卡与 LICENSE（本轮核验）",
+    "summary": "据 Hacker News 2026-11-25 11:08 UTC（北京 19:08）线索，已核验 Hugging Face 官方仓库 nvidia/Nemotron-Labs-Image-30B-A3B。这是 Nemotron-Labs-VisualCreation 框架的栅格文生图组件，约 30B 总参数、每 token 激活 3B，并捆绑 visual tokenizer。仓库 createdAt 为 2026-09-24，但权重与 Clean release snapshot 提交时间为 2026-11-24T21:55:46Z（北京 11/25 05:55），最后修改 2026-11-25T03:19:43Z。仓库 gated=false、无需申请访问。许可证为 NVIDIA License，第 3.3 条写明仅可非商业研究与评估使用（NVIDIA 及其关联公司除外）。官方 README 仍写 VisualCreation harness 与 Nemotron-Labs-VisionCode 将在 legal clearance 后发布。这是开源权重下载，不是云端免费 API 或赠金；官方推理示例环境为 4 张 H100 80GB。未写领取截止日。",
+    "claim_steps": [
+      "打开 https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B 阅读模型卡和 LICENSE，确认非商业研究评估限制",
+      "仓库未 gated，可直接下载权重和捆绑的 tokenizer / 推理代码",
+      "按模型卡在本地部署；不要把第三方托管默认当成免费 API 额度"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读模型卡",
+        "detail": "确认这是 VisualCreation 的文生图组件、约 30B/3B 激活，以及当前发布范围（图像生成器与捆绑 tokenizer）。",
+        "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B"
+      },
+      {
+        "step": "阅读许可",
+        "detail": "打开仓库中的 LICENSE，确认 NVIDIA License 第 3.3 条仅允许非商业研究与评估。",
+        "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B/raw/main/LICENSE"
+      },
+      {
+        "step": "下载权重",
+        "detail": "仓库未 gated，无需申请访问即可下载。",
+        "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B"
+      },
+      {
+        "step": "本地运行",
+        "detail": "按模型卡 Quick start 自行部署。官方示例写明 Linux、Python 3.12、兼容 CUDA 13.0 的驱动，并用 4 张 H100 80GB 做推理示例。",
+        "note": "harness 与 VisionCode 尚未随这次发布提供。这不是托管 API。"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Hugging Face",
+        "action_url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B"
+      }
+    ],
+    "agents": [],
+    "models": [
+      {
+        "name": "Nemotron-Labs-Image-30B-A3B",
+        "action_url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B"
+      }
+    ],
+    "scenes": [
+      "local",
+      "image"
+    ],
+    "barriers": [],
+    "category": "providers",
+    "auto_claim": {
+      "status": "success",
+      "note": "开源权重可直接下载，无需注册或创建 API Key。本轮核验 Hugging Face 仓库公开、未 gated；许可证为 NVIDIA License，仅限非商业研究与评估。",
+      "at": "2026-11-26T00:27:20+08:00"
+    },
+    "expired": false,
+    "collected_at": "2026-11-26T00:27:20+08:00"
+  },
+  {
+    "id": "ahanow-signup-100k-credits-20261126",
+    "title": "AhaNow：新用户注册送 100,000 credits（$0 免费档；是否免卡与截止未写清）",
+    "platform": "AhaNow",
+    "product": "AhaNow Free",
+    "model": null,
+    "type": "应用免费档",
+    "deadline": null,
+    "url": "https://app.ahanow.ai/",
+    "source": "AhaNow 官方 app 页与定价页（本轮核验）",
+    "summary": "本轮核验 AhaNow 官方 app 页可见 “New here? Sign up and get 100,000 free credits”。定价页源数据中有免费档 key=free、monthlyPoints=100000、grantCadence=signup、标价 0 美元，rolloverMonths=0；并标不可商用、含水印，高品质视频额度为 0 分钟。这是面向视频/音频生成应用的注册赠额，不是开放的模型 API。官网没有写出这 100,000 积分的书面截止时间；社区传闻的「美东 11/26 中午截止」未在官方页得到确认，不能当作已核验截止。页顶倒计时属于 Personal 50% OFF 付费折扣，不要和注册赠额混为一谈。是否必须绑定信用卡，官网未写清。不要为验证免费档去开通付费计划。",
+    "claim_steps": [
+      "打开 https://app.ahanow.ai/ 或 https://ahanow.ai/pricing，确认注册赠额文案仍在",
+      "在 app 页选择 Sign up / Sign in 注册或登录；若要求绑定支付方式或开通付费档，立即停止",
+      "登录后查看 credits 余额；不要把页顶 Personal 50% OFF 倒计时当成赠额截止"
+    ],
+    "claim_guide": [
+      {
+        "step": "查看官方文案",
+        "detail": "打开 app 页，确认仍有 “Sign up and get 100,000 free credits”。也可对照定价页的 Free 档。",
+        "url": "https://app.ahanow.ai/"
+      },
+      {
+        "step": "打开定价页",
+        "detail": "核对免费档与付费档的区别。页顶限时折扣是 Personal 付费档促销，不是注册赠额的截止。",
+        "url": "https://ahanow.ai/pricing"
+      },
+      {
+        "step": "注册或登录",
+        "detail": "在 https://app.ahanow.ai/ 使用 Sign up / Sign in。若出现绑卡、Stripe 付款或必须升级付费档，立即停止。",
+        "url": "https://app.ahanow.ai/",
+        "note": "官网未写死是否免信用卡。"
+      },
+      {
+        "step": "确认余额",
+        "detail": "登录后在产品里查看 100,000 credits 是否到账。该赠额不结转（rolloverMonths=0），官方未写书面过期日。"
+      },
+      {
+        "step": "使用限制",
+        "detail": "按官方说明，免费档成片可能含水印且不可商用。不要用付费模型或付费档去验证免费赠额。"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "AhaNow",
+        "action_url": "https://app.ahanow.ai/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "video",
+      "audio"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "官网已写注册送 100,000 credits，但未写清是否必须绑卡，也未写赠额书面截止。本轮定时任务无法安全填写登录凭据，未代为注册。请本人打开 https://app.ahanow.ai/ 注册；若要求绑卡或开通付费档请停止。不要把页顶 50% OFF 倒计时当成赠额截止。",
+      "at": "2026-11-26T00:27:20+08:00"
+    },
+    "expired": false,
+    "collected_at": "2026-11-26T00:27:20+08:00"
+  },
+  {
+    "id": "viktor-starter-credits-up-to-100-20261126",
+    "title": "Viktor：新工作区免费起步最高 $100 credits（定价页写免卡；部分工作区可能要 $1 验卡）",
+    "platform": "Viktor",
+    "product": "Viktor Free / starter credits",
+    "model": null,
+    "type": "应用免费档",
+    "deadline": null,
+    "url": "https://viktor.com/pricing",
+    "source": "Viktor 官方定价页与帮助中心；Product Hunt / DevHunt Daily 本周提到同等免费起步（本轮回官网核验）",
+    "summary": "Viktor（本周亦有 Viktor Code 产品页）官方定价页写 Start free with up to $100 in credits，No credit card, no sales call，并称免费 credits 不过期，用尽后再自行选择付费计划。帮助中心则写每个新工作区可一次性获得最多 40,000 starter credits、不过期；但同一篇说明部分工作区在解锁赠额前需要先验证信用卡，会做 1 美元临时预授权并立即撤销，且声称该预授权不是购买、也不会因此开通套餐。40,000 credits 与 “up to $100” 是否等值，官网未在同一句写死。用尽后需自行选 Team 等付费计划（定价页有 $100/月起的档），本轮未见「到期自动开通订阅」的官网句子，但不能排除验卡后的账单风险，因此不能自动领取。未公布领取截止日。",
+    "claim_steps": [
+      "打开 https://viktor.com/pricing 与 https://viktor.com/help/category/credits/starter-credits-and-card-check，先读清免卡声明和可能的 $1 验卡",
+      "从定价页开始免费注册或创建新工作区；若要求绑定信用卡或出现 $1 预授权，请本人决定是否继续，不要当作已确认的零费用路径",
+      "不要选择 Team 等付费计划来验证免费赠额"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读定价页",
+        "detail": "确认 Free 为 $0/月、起步最高 $100 credits、定价页写免信用卡，以及免费 credits 不过期。",
+        "url": "https://viktor.com/pricing"
+      },
+      {
+        "step": "阅读帮助中心",
+        "detail": "同一官方来源写明新工作区一次性最多 40,000 starter credits；部分工作区需先做 $1 验卡才能解锁。",
+        "url": "https://viktor.com/help/category/credits/starter-credits-and-card-check",
+        "note": "若出现验卡或预授权，请本人决定，不要默认这是零费用。"
+      },
+      {
+        "step": "开始免费档",
+        "detail": "从定价页的免费起步入口注册或创建工作区。不要选择 Team 或其他付费计划。",
+        "url": "https://viktor.com/pricing"
+      },
+      {
+        "step": "确认到账",
+        "detail": "在产品或账单页查看 starter credits 是否到账，以及是否被要求验卡。"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Viktor",
+        "action_url": "https://viktor.com/pricing"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "定价页写免卡并最高送 $100 credits，但帮助中心写部分工作区需 $1 验卡才能解锁赠额，零费用边界未完全确认，不能自动领取。请本人先读帮助中心再决定是否注册；若要求验卡或开通付费计划请停止。",
+      "at": "2026-11-26T00:27:20+08:00"
+    },
+    "expired": false,
+    "collected_at": "2026-11-26T00:27:20+08:00"
+  },
+  {
+    "id": "reela-free-plan-800-credits-20261126",
+    "title": "Reela 免费档：新注册一次性 800 credits（不重置；含水印、仅非商用；是否免卡未写死）",
+    "platform": "Reela",
+    "product": "Reela Free",
+    "model": null,
+    "type": "应用免费档",
+    "deadline": null,
+    "url": "https://docs.reela.com/docs/help/compare-plans",
+    "source": "据 X 上的报道 ReelaAI；Reela 官方套餐对比页与定价页（本轮核验）",
+    "summary": "据 X 上的报道，Reela 官方账号以黑五话术宣传新注册送 800 credits。本轮核验官方套餐对比页：Free 档为 0 美元，注册时一次性发放 800 credits、不按月重置；成片带水印、仅限非商用，同时只能跑 1 条视频，可用公开数字人。这更像长期免费档，而不是写明截止日期的限时加赠。官方文档写 Reela API is not available yet，因此目前不能当作模型 API 额度。免费档是否必须绑定信用卡，官网未写死。付费月/年订官方写明会自动续费，不要为验证免费档去开通付费计划。未公布该 800 credits 的书面截止日。",
+    "claim_steps": [
+      "打开 https://docs.reela.com/docs/help/compare-plans 或 https://reela.com/pricing 确认 Free 档条款",
+      "在官网注册或登录；若要求绑定支付方式或开通会自动续费的付费档，立即停止",
+      "在产品里查看 800 credits 是否到账；不要调用尚未开放的 API 或付费模型来验证免费档"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读套餐对比",
+        "detail": "确认 Free 为 $0、注册一次性 800 credits、不重置，以及水印和非商用限制。",
+        "url": "https://docs.reela.com/docs/help/compare-plans"
+      },
+      {
+        "step": "对照定价页",
+        "detail": "查看各档耗用说明。官方文档写 Reela API 尚未开放。",
+        "url": "https://reela.com/pricing"
+      },
+      {
+        "step": "注册或登录",
+        "detail": "按官网入口注册。若要求绑卡，或被导向会自动续费的 Starter 及更高档，立即停止。",
+        "note": "免费档是否免卡未写死。"
+      },
+      {
+        "step": "确认余额",
+        "detail": "在产品里查看 800 credits 是否到账后再使用。"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Reela",
+        "action_url": "https://reela.com/pricing"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "video"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "官网确认免费档注册送一次性 800 credits，但未写死是否免绑卡，且付费档会自动续费。本轮未代为注册。请本人在 https://reela.com/pricing 注册；若要求绑卡或开通付费档请停止。API 尚未开放。",
+      "at": "2026-11-26T00:27:20+08:00"
+    },
+    "expired": false,
+    "collected_at": "2026-11-26T00:27:20+08:00"
   }
 ]
