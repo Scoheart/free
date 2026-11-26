@@ -22918,17 +22918,21 @@
   },
   {
     "id": "ant-ling-3.2-flash-free-2weeks-20261107",
-    "title": "蚂蚁百灵 Ling-3.2-flash：上线前 2 周 API/网页限时免费（约至 11/19）",
+    "title": "蚂蚁百灵 Ling-3.2-flash：官方平台限时免费至北京时间 2026-11-28 10:00，之后按原价计费",
     "model": "Ling-3.2-flash",
     "type": "限时",
-    "deadline": "2026-11-19T23:59:59+08:00",
-    "url": "https://x.com/shengliao8/status/2119032646684868979",
-    "summary": "蚂蚁百灵 11/5 上线原生多模态 Ling-3.2-flash（560B 总参/25B 激活，1M 上下文，支持图文视频）。上线日起约两周免费，到期恢复原价；已签代扣者可能自动转付费；需中国支付宝/账号；官方定价页与 Changelog 写明「上线前 2 周限时免费」，按上线日推算约至 11/19（精确时刻未官宣）；结束后恢复按量计费，请盯账户余额；兼容 OpenAI/Anthropic 协议。截止北京时间 2026-11-19 23:59。",
-    "source": "X @shengliao8；官方定价页 developer.ant-ling.com/zh-CN/docs/models/price/ 与 Changelog（2026-11-05）",
+    "deadline": "2026-11-28T10:00:00+08:00",
+    "url": "https://maas.antdigital.com/docs/updates/ling-3-2-flash-free-ending",
+    "summary": "蚂蚁百灵 Ling-3.2-flash 于 11/5 上线（原生多模态，官方称 560B 总参/25B 激活、1M 上下文）。此前条目按「上线前 2 周限时免费」推算约至 11/19 并曾标过期；本轮核验官方退出免费期公告写明：北京时间 2026 年 11 月 28 日 10:00 起按原价计费（输入 ¥2 / 百万 Token、输出 ¥6、缓存命中 ¥0.4），生效前发起的调用仍按免费期规则。公告提醒计费后须保证账户余额充足，实际费用以账单为准。需中国支付宝/账号；已开通代扣者到期后可能按量扣费，不要为续用去充值或新开代扣。这是蚂蚁官方平台的免费期，与 OpenRouter 上仍显示 Free 的 inclusionai/ling-3.2-flash:free 不是同一条线路，不能把官方平台到期写成该 :free 路由已下线。",
+    "source": "蚂蚁数科 DTMaaS 官方「Ling-3.2-flash 退出免费期公告」（署 2026-11-18）；原 X @shengliao8 线索仍保留在条目历史中",
     "collected_at": "2026-11-07T19:45:00+08:00",
-    "expired": true,
+    "expired": false,
     "source_post_id": "2119032646684868979",
     "providers": [
+      {
+        "name": "退出免费期公告",
+        "action_url": "https://maas.antdigital.com/docs/updates/ling-3-2-flash-free-ending"
+      },
       {
         "name": "Ant Ling 定价（限免说明）",
         "action_url": "https://developer.ant-ling.com/zh-CN/docs/models/price/"
@@ -22992,7 +22996,10 @@
     ],
     "expired_at": "2026-11-20T00:21:30+08:00",
     "expired_reason": "条目原按官方「上线前 2 周限时免费」推算截止为 2026-11-19 23:59 北京时间，现已过点。2026-11-20 核验时官方 changelog 仍只有 11/5 该表述，未见结束或延期公告，官方 API 是否已恢复原价未获独立确认。",
-    "updated_at": "2026-11-20T00:21:30+08:00"
+    "updated_at": "2026-11-27T00:30:57+08:00",
+    "last_verified_at": "2026-11-27T00:30:57+08:00",
+    "unexpired_at": "2026-11-27T00:30:57+08:00",
+    "unexpired_reason": "官方公告写明免费期至北京时间 2026-11-28 10:00，此前按「上线前两周」推算 11/19 过期不准确。"
   },
   {
     "id": "kiroween-4000-credits-20261107",
@@ -36947,24 +36954,25 @@
   },
   {
     "id": "tsin-openai-codex-hackathon-100usd-credit-nov28-20261115",
-    "title": "TSIN × OpenAI Codex Hackathon（伦敦帝国理工，11/28）：各赛道荣誉奖 $100 OpenAI 额度（不是全员赠额）",
+    "title": "TSIN × OpenAI Codex Hackathon（伦敦帝国理工，11/28）：报到限量 $150 Codex 额度 + 各赛道荣誉奖 $100（不是无条件全员赠额）",
     "platform": "OpenAI",
     "product": "Codex Hackathon（TSIN × OpenAI）",
     "model": null,
     "type": "黑客松额度",
     "deadline": "2026-11-28T17:30:00+00:00",
     "url": "https://tsin-openai-hackathon.vercel.app/",
-    "source": "Codex Hackathon 官方活动页（Thai Society Innovation Network，2026-11-15 核对）",
-    "summary": "据活动官网本轮核验，Thai Society Innovation Network 与 OpenAI 合办的 Codex Hackathon 于 2026-11-28 在伦敦帝国理工学院线下举行（09:30–20:00 当地时间，场地 Skempton 164），27 日 15:00–16:30 有线上开幕。提交截止为当天 17:30 伦敦时间。面向在读大学生，1–5 人一队，活动本身免费并提供午餐，差旅自理，名额有限。奖项为第一名 850 美元 OpenAI API 额度加 ChatGPT Pro、第二名 400 美元、第三名 200 美元；另有「An honourable award in each track: $100 of OpenAI credit」。官网未见「每位学生参赛者都送 $100」的表述，不能再按全员参赛赠额宣传。这是学生黑客松奖项，不是公开可领的免费 API。",
+    "source": "Codex Hackathon 官方活动页（Thai Society Innovation Network，本轮 2026-11-27 核验）",
+    "summary": "据活动官网本轮核验，Thai Society Innovation Network 与 OpenAI 合办的 Codex Hackathon 于 2026-11-28 在伦敦帝国理工学院线下举行（09:30–20:00 当地时间，场地 Skempton 164），27 日 15:00–16:30 有线上开幕。提交截止为当天 17:30 伦敦时间。面向在读大学生，1–5 人一队，活动本身免费并提供午餐，差旅自理，名额有限。官网现写：Yes. $150 in free Codex credits per eligible participant, for a limited 100 participants who check in on Hack Day。另有「An honourable award in each track: $100 of OpenAI credit」。竞赛奖另计：第一名 $850 OpenAI API 额度加 ChatGPT Pro、第二名 $400、第三名 $200。$150 只给黑客松当天报到且符合资格的前 100 人，不是报名即送；$100 仍是各赛道荣誉奖，不是全员赠额。",
     "claim_steps": [
       "打开 https://tsin-openai-hackathon.vercel.app/ 确认学生身份、名额、日程和奖项说明",
       "以在读大学生身份按页面报名（可单人报名由主办方配队）；名额满即止",
-      "11/27 参加线上开幕，11/28 到伦敦帝国理工现场参赛并在 17:30 前提交；额度按名次或各赛道荣誉奖发放，不是报名即送"
+      "11/27 参加线上开幕，11/28 到伦敦帝国理工现场报到并参赛，于 17:30 前提交",
+      "若要争取限量 $150 Codex 额度，须在 Hack Day 现场 check in，名额限 100 人；各赛道荣誉奖 $100 与名次奖按赛后通知发放，都不是报名即送"
     ],
     "claim_guide": [
       {
         "step": "阅读规则",
-        "detail": "打开活动页确认学生身份、名额、日程和奖项。$100 是各赛道荣誉奖，不是每位参赛者都有。",
+        "detail": "打开活动页确认学生身份、名额、日程和奖项。官网现写 Hack Day 报到且符合资格的前 100 人可各得 $150 Codex 额度；$100 是各赛道荣誉奖，不是每位参赛者都有。",
         "url": "https://tsin-openai-hackathon.vercel.app/",
         "note": "提交截止为 2026-11-28 17:30 伦敦时间"
       },
@@ -36981,7 +36989,7 @@
       },
       {
         "step": "奖项额度",
-        "detail": "前三名及各赛道荣誉奖的 OpenAI API 额度按主办方赛后通知发放，不要当成报名即可领的全员赠额。"
+        "detail": "限量 $150 Codex 额度仅给当天报到且符合资格的前 100 人；前三名及各赛道荣誉奖 $100 的 OpenAI API 额度按主办方赛后通知发放，不要当成报名即可领的全员赠额。"
       }
     ],
     "providers": [
@@ -37008,7 +37016,8 @@
       "note": "仅限在读大学生且需到伦敦现场参赛，需你本人报名；是否参加由你决定。",
       "at": "2026-11-15T00:15:00+08:00"
     },
-    "last_verified_at": "2026-11-26T00:27:20+08:00"
+    "last_verified_at": "2026-11-27T00:30:57+08:00",
+    "updated_at": "2026-11-27T00:30:57+08:00"
   },
   {
     "id": "amd-token-lab-free-api-10-credits-30days-20261116",
@@ -42487,5 +42496,348 @@
     },
     "expired": false,
     "collected_at": "2026-11-26T00:27:20+08:00"
+  },
+  {
+    "id": "autoclaw-x-share-bonus-10m-tokens-20261126",
+    "title": "智谱 AutoClaw 国际版：关注 X 并分享体验，审核通过后送 10M Tokens（1,000 Credits）",
+    "platform": "智谱 AutoClaw",
+    "product": "X Share Bonus（国际版）",
+    "model": null,
+    "type": "活动赠额",
+    "deadline": null,
+    "url": "https://autoclaw.z.ai/en/blog/news/Follow-Autoclaw-Season3/",
+    "source": "AutoClaw 官方英文博客（署 Nov 26 2026）；火花工坊 11/26 日报转引后回官网核验",
+    "summary": "据 AutoClaw 官方英文博客（News By AutoClaw Team，Nov 26 2026）：关注 @AutoClawAIer，发一条关于 AutoClaw 真实使用体验的公开帖并 @ 该账号，再提交 Google 表单（填写与 AutoClaw 登录一致的邮箱，以及关注截图和发帖截图），审核通过后账号到账 10M Tokens（1,000 Credits）。每人限领一次；若已在更早一轮领过 X Share Bonus 则不能再领。每天 10:00（UTC+8）审核提交，通过后直接入账，自到账起 7 天有效。属国际版客户端积分，官网未写可导出为接口密钥，与国内版账号体系独立。活动本身无书面截止日，官方保留随时更新或结束的权利。未写必须绑卡。需要本人发公开帖并等待审核，不能当成注册即送。",
+    "claim_steps": [
+      "打开 https://autoclaw.z.ai/en/blog/news/Follow-Autoclaw-Season3/ 确认活动仍在",
+      "在 X 关注 https://x.com/AutoClawAIer",
+      "用已有国际版 AutoClaw 账号登录（若用 Google 登录，表单须填该 Google 邮箱）；没有账号先在国际版注册，若要求绑卡或付费请停止",
+      "发一条真实使用体验的公开帖并 @AutoClawAIer，保持公开直至额度到账；不要发无关或假截图",
+      "打开官方表单提交登录邮箱、关注截图和发帖截图：https://docs.google.com/forms/d/e/1FAIpQLSfeE-jM7AL52Ym8NdkA0lKKXcUdGvYIBet1OcX7Xvxy_RF9tw/viewform",
+      "等待每天 10:00 北京时间的审核，到账后在 AutoClaw 客户端查看 Credits，并在 7 天内用完"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官方活动页",
+        "detail": "确认仍是关注 X、发真实体验公开帖并提交表单，审核后到账 10M Tokens（1,000 Credits）。",
+        "url": "https://autoclaw.z.ai/en/blog/news/Follow-Autoclaw-Season3/"
+      },
+      {
+        "step": "关注官方账号",
+        "detail": "在 X 关注 @AutoClawAIer，并截图备用。",
+        "url": "https://x.com/AutoClawAIer"
+      },
+      {
+        "step": "准备国际版账号",
+        "detail": "使用已有 AutoClaw 国际版账号。若用 Google 登录，提交表单时填写该 Google 邮箱。没有账号则先在国际版注册；若要求绑卡或付费请停止。",
+        "note": "国内版账号不能混用。"
+      },
+      {
+        "step": "发公开体验帖",
+        "detail": "写自己的真实使用体验并 @AutoClawAIer。保持帖子公开直到额度到账。不要发 AI 灌水、无关内容或经编辑的假截图。"
+      },
+      {
+        "step": "提交表单",
+        "detail": "填写与 AutoClaw 登录一致的邮箱，并上传关注截图和发帖截图。",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSfeE-jM7AL52Ym8NdkA0lKKXcUdGvYIBet1OcX7Xvxy_RF9tw/viewform"
+      },
+      {
+        "step": "等待审核并在 7 天内使用",
+        "detail": "官方每天 10:00（UTC+8）审核。到账后 Credits 自入账起 7 天有效，在 AutoClaw 客户端内使用。"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "AutoClaw 国际版",
+        "action_url": "https://autoclaw.z.ai/en/blog/news/Follow-Autoclaw-Season3/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_signup",
+      "need_social_post"
+    ],
+    "category": "agents",
+    "auto_claim": {
+      "status": "needs_user",
+      "at": "2026-11-27T00:30:57+08:00",
+      "note": "必须由你本人发 X 公开体验帖并提交表单，审核通过后才到账；本轮未代发也未提交。"
+    },
+    "expired": false,
+    "collected_at": "2026-11-27T00:30:57+08:00"
+  },
+  {
+    "id": "fal-seedance-25-new-account-5-free-videos-20261126",
+    "title": "fal：近 7 天新账号可领最多 5 条免费 Seedance 2.5 视频（登录 2 条，添加支付方式核验再 3 条）",
+    "platform": "fal",
+    "product": "Seedance 2.5 新账号免费视频",
+    "model": "Seedance 2.5",
+    "type": "新用户免费",
+    "deadline": null,
+    "url": "https://fal.ai/seedance-2.5",
+    "source": "fal 官方 Seedance 2.5 页（本轮核验，页上 Last updated: November 25, 2026）；赛博鸡蛋 11/26 期转引",
+    "summary": "据 fal 官方 Seedance 2.5 页：近 7 天内创建的新 fal 账号，在网页上最多可获 5 条免费 Seedance 2.5 视频。登录后得 2 条；注册后 7 天内添加支付方式完成账号核验再得 3 条，合计 5 条、不补发。每条 10 秒、480p，覆盖文生视频、图生视频、最多 5 张参考图的参考图生视频。仅适用于 fal 网页的 Seedance 2.5 playground、fal sandbox 与 fal Agent；Workflows 与 API 一律按量计费，不能用接口白嫖。免费次数用完后按 $0.0214 / 1,000 video tokens 计费，无订阅。页面未写整体活动截止日，资格以账号创建后 7 天为窗口。后 3 条必须添加支付方式，存在后续按量扣费风险，不要为领满 5 条去绑卡。前 2 条官网只写 sign in，未另写必须免卡。原「免费周末」已结束，现行是按新账号滚动发放，与已过期的周末限免不是同一活动。",
+    "claim_steps": [
+      "打开 https://fal.ai/seedance-2.5 确认「New fal accounts get up to 5 free Seedance 2.5 videos」文案仍在",
+      "若还没有创建不超过 7 天的 fal 账号，在官网注册或登录；若要求添加支付方式，先停在已登录状态，不要为核验绑卡",
+      "进入 Seedance 2.5 的 playground、sandbox 或 fal Agent 使用登录赠送的 2 条免费视频（10 秒 / 480p）",
+      "不要走 Workflows 或 API 来使用免费条数；也不要添加支付方式去解锁另外 3 条"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官方活动说明",
+        "detail": "确认仍是近 7 天新账号、登录 2 条、添加支付方式核验再 3 条，且仅限 playground / sandbox / Agent。",
+        "url": "https://fal.ai/seedance-2.5"
+      },
+      {
+        "step": "注册或登录",
+        "detail": "使用创建不超过 7 天的 fal 账号登录。若没有新账号再注册。若注册过程要求立刻添加支付方式，可以先尝试只完成登录；不要为了后 3 条去绑卡。",
+        "note": "后 3 条必须添加支付方式，不要自动领取。"
+      },
+      {
+        "step": "在网页里生成",
+        "detail": "打开 Seedance 2.5 playground，或 fal sandbox / fal Agent，使用登录赠送的 2 条免费视频。",
+        "url": "https://fal.ai/seedance-2.5"
+      },
+      {
+        "step": "避开按量入口",
+        "detail": "不要在 Workflows 或 API（例如 queue.fal.run / fal.subscribe）上使用这些免费条数。API 请求一律计费。"
+      }
+    ],
+    "providers": [
+      {
+        "name": "fal Seedance 2.5",
+        "action_url": "https://fal.ai/seedance-2.5"
+      }
+    ],
+    "agents": [
+      {
+        "name": "fal Agent",
+        "action_url": "https://fal.ai/seedance-2.5"
+      }
+    ],
+    "models": [
+      {
+        "name": "Seedance 2.5",
+        "action_url": "https://fal.ai/seedance-2.5"
+      }
+    ],
+    "scenes": [
+      "video"
+    ],
+    "barriers": [
+      "need_signup",
+      "new_account"
+    ],
+    "category": "providers",
+    "auto_claim": {
+      "status": "needs_user",
+      "at": "2026-11-27T00:30:57+08:00",
+      "note": "注册或登录 fal 需你本人操作；后 3 条必须添加支付方式，本轮未注册也未绑卡。登录后最多先看能否用免卡的 2 条网页额度。"
+    },
+    "expired": false,
+    "collected_at": "2026-11-27T00:30:57+08:00"
+  },
+  {
+    "id": "vidmuse-magi-2-free-trial-100-credits-20261126",
+    "title": "VidMuse 免费档一次性 100 credits：列表含 Sand AI MAGI-2（720P 带水印；据 X 报道已上线）",
+    "platform": "VidMuse",
+    "product": "VidMuse Free Trial",
+    "model": "MAGI-2",
+    "type": "应用免费档",
+    "deadline": null,
+    "url": "https://vidmuse.ai/en/pricing",
+    "source": "据 X 上的报道（@vidmuse_ai 称 Official MAGI-2 partner）；VidMuse 官方定价页与 Sand.ai 博客（本轮核验）",
+    "summary": "据 X 上的报道并回官网核验：Sand.ai 于 2026-11-24 发布旗舰视频模型 MAGI-2（约 480B 总参、约 28B 激活，单次最多 30 秒原生 1080p 25fps 音画），并写随后会开源，但目前尚未提供可下载权重。合作方 VidMuse 在 11/26 称 MAGI-2 已上线。VidMuse 定价页免费档写 $0、Free Trial、一次性 100 credits、有限模型访问、720P 带水印；免费档模型列表包含 MAGI-2。官方未写 100 credits 能生成多长或多条 MAGI-2，也未写该免费档的截止日。定价页把 Commercial use、Remove watermark 等与付费档功能列在同一列表，无法从本轮摘录判断免费档是否已包含商用授权，使用限制以登录后账户文档为准，不能写成已确认可商用。登录方式据文档为 Google、Discord 或邮箱验证码；免费档页未写必须绑卡。Sand 官方 API 文档将 magi-2 标为 1080p、0.08 美元/秒，并写暂不支持充值，不是免费接口。社区流传的 magi2app.com 不是 sand.ai 链出的官方域，不要当官方入口。",
+    "claim_steps": [
+      "打开 https://vidmuse.ai/en/pricing 确认 Free Trial 仍为一次性 100 credits，且模型列表仍含 MAGI-2",
+      "也可对照 https://vidmuse.ai/en/magi-2 与 Sand 博客 https://sand.ai/blog/magi-2/",
+      "在 VidMuse 用 Google、Discord 或邮箱验证码注册或登录；若要求绑卡或开通付费档请停止",
+      "登录后查看 credits 余额，再在产品里选用 MAGI-2；不要走 magi2app.com，也不要调用 Sand 官方按秒计费的 API 来验证免费档"
+    ],
+    "claim_guide": [
+      {
+        "step": "查看定价页",
+        "detail": "确认 Free 档仍是 $0、一次性 100 credits，并且 UNLOCK MODELS 列表里有 MAGI-2。",
+        "url": "https://vidmuse.ai/en/pricing"
+      },
+      {
+        "step": "对照模型与官方博客",
+        "detail": "可打开 VidMuse 的 MAGI-2 介绍页，以及 Sand.ai 官方博客了解模型说明。开源权重尚未放出。",
+        "url": "https://sand.ai/blog/magi-2/"
+      },
+      {
+        "step": "注册或登录",
+        "detail": "按定价页或产品入口使用 Google、Discord 或邮箱验证码登录。若出现绑卡、订阅或自动续费，立即停止。",
+        "url": "https://vidmuse.ai/en/pricing",
+        "note": "免费档页未写必须绑卡，但仍应在付款页出现时停止。"
+      },
+      {
+        "step": "确认余额并使用",
+        "detail": "登录后查看 100 credits 是否到账，再在产品里选择 MAGI-2。免费档为 720P 带水印。不要使用 magi2app.com，也不要把 Sand 官方 API（文档标价 0.08 美元/秒）当成免费入口。"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "VidMuse",
+        "action_url": "https://vidmuse.ai/en/pricing"
+      }
+    ],
+    "models": [
+      {
+        "name": "MAGI-2",
+        "action_url": "https://vidmuse.ai/en/magi-2"
+      }
+    ],
+    "scenes": [
+      "video"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "auto_claim": {
+      "status": "needs_user",
+      "at": "2026-11-27T00:30:57+08:00",
+      "note": "注册或 Google/Discord 登录需你本人操作；本轮未登录，也未核验 100 credits 是否到账或免费档能否商用。不要走 magi2app.com。"
+    },
+    "expired": false,
+    "collected_at": "2026-11-27T00:30:57+08:00"
+  },
+  {
+    "id": "whitecircle-halo-competition-accepted-credits-20261130",
+    "title": "White Circle Halo 赛：获录团队可拿含 OpenRouter 在内的合作方计算/API 额度（申请至 11/30）",
+    "platform": "White Circle Halo",
+    "product": "Halo Competition",
+    "model": null,
+    "type": "黑客松额度",
+    "deadline": "2026-11-30T23:59:59+00:00",
+    "url": "https://whitecircle.com/halo/competition",
+    "source": "据 X 上的报道（@OpenRouter 官方帖，2026-11-25）；White Circle Halo 官方比赛页（本轮核验）",
+    "summary": "据 X 上的报道并回官网核验：OpenRouter 官方发帖称与 White Circle 合作 Halo post-training 比赛，Every accepted Halo team gets OpenRouter credits，申请至 Nov 30。官网写明申请截止 Nov 30，比赛 Dec 1–10，线上、面向全球，开放给 AI 研究者、工程师、科学家和博士生，1–4 人组队。申请与参赛免费。官网写 $1.5M compute and API credits「Free for every accepted participant」，合作方额度包括 OpenRouter、OpenAI（含 Codex）、Mistral、Modal、Baseten、Nebius Token Factory、AWS、Lovable 以及 White Circle 自身等。现金奖另计（总奖池写 $200k，总冠军 $30k/$15k/$10k，各赛道另有名次奖），获奖不是领取合作方额度的前提。录取看训练或优化经历，不是向所有注册用户发放。官网未写各合作方具体额度数字、有效期或用尽后是否扣费。提交须开源以便复现。时区未在截止日期上写明，本条按 11/30 23:59 UTC 记录，以页面为准。",
+    "claim_steps": [
+      "打开 https://whitecircle.com/halo/competition 阅读 Overview、Partners 与申请说明",
+      "在截止日前通过页面 Apply 提交申请（需能说明训练或优化经历并附链接）",
+      "获录后再按主办方通知（官网写通过后会收到 Discord 邀请）领取各合作方计算或 API 额度；不要把申请当成已经到账"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读比赛页",
+        "detail": "确认申请截止、赛程、合作方和「Free for every accepted participant」的表述仍在。",
+        "url": "https://whitecircle.com/halo/competition"
+      },
+      {
+        "step": "查看规则",
+        "detail": "打开页面上的 Rules，确认资格、组队人数和提交须开源等要求。",
+        "url": "https://whitecircle.com/halo/competition"
+      },
+      {
+        "step": "提交申请",
+        "detail": "在截止日前点击 Apply。按官网说明准备你训练、构建或发表过的经历链接。申请本身免费。",
+        "note": "录取不是自动的，未获录没有这些额度。"
+      },
+      {
+        "step": "获录后领额度",
+        "detail": "官网写通过后会收到 Discord 邀请。各合作方具体额度、有效期和用尽后是否扣费以获录后的官方说明为准，本轮公开页未写清。"
+      }
+    ],
+    "providers": [
+      {
+        "name": "White Circle Halo",
+        "action_url": "https://whitecircle.com/halo/competition"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "hackathon"
+    ],
+    "barriers": [
+      "need_application"
+    ],
+    "category": "providers",
+    "auto_claim": {
+      "status": "needs_user",
+      "at": "2026-11-27T00:30:57+08:00",
+      "note": "需你本人申请并等待录取，不是公开注册赠金；本轮未代为提交申请。"
+    },
+    "expired": false,
+    "collected_at": "2026-11-27T00:30:57+08:00"
+  },
+  {
+    "id": "zapier-mcp-tool-calls-free-until-20270105",
+    "title": "Zapier MCP：工具调用限时免费至 2027-01-05 12:00 ET（免费/试用档每天 250 次）",
+    "platform": "Zapier",
+    "product": "Zapier MCP",
+    "model": null,
+    "type": "限时",
+    "deadline": "2027-01-05T17:00:00Z",
+    "url": "https://zapier.com/mcp",
+    "source": "Hacker News item 50643836（2026-11-25T16:07:19Z，作者自称 Zapier 员工）；Zapier 产品页与官方用量文档（本轮核验）",
+    "summary": "据 Hacker News 线索并回官网核验：Zapier MCP 可让 Claude、ChatGPT、Cursor 等客户端调用已连接的应用。产品页写明 MCP tool calls are free through noon Eastern time on Jan. 5, 2027；用量文档写 From November 23, 2026, at 12 pm ET until January 5, 2027, at 12 pm ET, successful tool calls through your MCP server use no tasks，失败调用不消耗任务。Zapier MCP 跑在现有套餐上，没有单独的 MCP 账单。免费档为 $0/月；新账号会自动进入 14 天 Professional 试用，定价 FAQ 写不需要信用卡。官方社区条款还写：限免期间免费档和试用档每天每账号 250 次，超限会拦到 midnight UTC 重置；并称若提前结束或缩减会至少提前 7 天发邮件。限免结束后按 1 还是 2 个 task 计费，社区条款与官方费率页（写 normally 2）不一致，当前不能写死，应以届时费率页与文档为准。若开启 pay-per-task billing，达到套餐 task 额度后仍可能继续调用并就额外 tasks 收费；关闭或不含该选项则调用停止直到账期重置、升级或打开按次计费。产品页另写 Next Gen Zaps 在 Early Access 期间运行免费，至 2026-12-01 开始计费，与 MCP 工具调用限免不是同一件事。不要打开按次计费或升级付费套餐来验证这次限免。",
+    "claim_steps": [
+      "打开 https://zapier.com/mcp 与 https://docs.zapier.com/mcp/overview/usage 确认限免文案仍在",
+      "用已有 Zapier 账号登录，或注册免费档 / 不绑卡的试用；若要求绑卡、打开 pay-per-task 或升级付费套餐请停止",
+      "在 Zapier MCP 控制台创建或打开 MCP server，按文档把 server URL 加到 Claude、ChatGPT、Cursor 或其他 MCP 客户端",
+      "连接需要用的应用后即可发起工具调用；免费/试用档注意每天 250 次上限，不要打开 pay-per-task"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读产品页",
+        "detail": "确认仍写 MCP 工具调用限免至 2027 年 1 月 5 日中午美东时间。",
+        "url": "https://zapier.com/mcp"
+      },
+      {
+        "step": "阅读用量文档",
+        "detail": "核对立项时间、成功调用在限免期内不占 task，以及用尽套餐 task 后是否硬停取决于是否开启 pay-per-task。",
+        "url": "https://docs.zapier.com/mcp/overview/usage"
+      },
+      {
+        "step": "登录或注册",
+        "detail": "已有账号直接登录。新账号可走免费档；若进入 14 天 Professional 试用，确认不要求信用卡。不要打开 pay-per-task，也不要升级付费套餐。",
+        "note": "试用结束后应回到 $0 免费档，不要为了续用去加卡。"
+      },
+      {
+        "step": "创建 MCP server",
+        "detail": "打开 Zapier MCP 控制台，创建或进入已有 server，复制接入地址。",
+        "url": "https://zapier.com/mcp"
+      },
+      {
+        "step": "接到客户端",
+        "detail": "按文档把 MCP server 加到 Claude、ChatGPT、Cursor 或其他支持的客户端，并连接要用的应用。"
+      },
+      {
+        "step": "使用时注意上限",
+        "detail": "免费档和试用档在限免期间可能有每天 250 次上限。不要打开按次计费。限免结束后的 task 消耗以当时官方费率页为准。"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Zapier MCP",
+        "action_url": "https://zapier.com/mcp"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent",
+      "automation"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "auto_claim": {
+      "status": "needs_user",
+      "at": "2026-11-27T00:30:57+08:00",
+      "note": "登录或注册 Zapier 并创建 MCP server 需你本人操作；本轮未注册。不要打开 pay-per-task 或绑卡。若已有 Zapier 账号，限免会作用在现有套餐上，登录后即可在 MCP 控制台查看。"
+    },
+    "expired": false,
+    "collected_at": "2026-11-27T00:30:57+08:00"
   }
 ]

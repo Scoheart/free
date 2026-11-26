@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "sample": false,
-  "updated_at_beijing": "2026-11-25 23:55",
+  "updated_at_beijing": "2026-11-27 00:02",
   "scanned_at_beijing": {
-    "stock": "2026-11-25 23:45:31",
-    "black_friday": "2026-11-25 23:45:31",
-    "free_vps": "2026-11-25 23:55"
+    "stock": "2026-11-26 23:47:00",
+    "black_friday": "2026-11-26 23:47:00",
+    "free_vps": "2026-11-27 00:02"
   },
   "free_vps": [
     {
@@ -1899,6 +1899,114 @@
         }
       ],
       "notes": "据 X 上的报道 @okeyccronald 2026-11-25 22:18 北京时间，以及 NodeSeek 同日帖。已对照官网：这是官方 $0、每 30 天手动续期的机器人托管，不是 root 常驻 VPS；仅限 bot，禁 VPN/代理。Bot 页未写明免绑卡，NodeSeek 有预充猜测未核实，故不自动申请、不作为合格长期免费常驻项目提醒。同厂商免费共享虚拟主机见 hyehost-free-web-hosting。不得承诺厂商永不改规则。"
+    },
+    {
+      "id": "xserver-vps-free",
+      "provider": "XServer VPS",
+      "type": "other",
+      "type_label": "free_renewable_vps",
+      "specs": [
+        {
+          "label": "as_claimed",
+          "value": "官网 https://vps.xserver.ne.jp/free.php（2026-11-26 03:56 北京时间对照）：免费 VPS 分 2GB 档（2 核 / 2GB 内存 / 30GB NVMe）和 4GB 档（3 核 / 4GB 内存 / 30GB NVMe），月额与初期费用均为 0 日元；带宽 100 Mbps，含免费子域名。可选多种 Linux 镜像（含 AlmaLinux、Debian、Ubuntu、Rocky 等）及应用镜像。官方对照页写付费档流量从 50GB 起，免费档通信限制栏标为「制限あり」，本轮未在该页找到免费档的具体流量数字。"
+        }
+      ],
+      "free_conditions": {
+        "card_required": null,
+        "card_notes": "官方免费页写初期费用与每月费用均为 0 日元（初期費用も毎月の支払いも発生しません）。本轮未在免费页看到明确的「无需信用卡」字样。因免费档已暂停新申请，未能打开当前可用的注册表单核对是否要求信用卡、手机号或日本身份。不得把搜索摘要里的「通常不用卡」写成官方条款。不得承诺厂商永不改规则。",
+        "region_limits": "日本厂商 XServer（エックスサーバー）。未在本轮打开的免费页写明可选用的具体机房城市或是否限日本居住者。",
+        "idle_reclaim": "官网免费页脚注※6 与更新手册 https://vps.xserver.ne.jp/support/manual/man_order_free_vps_update.php：须每天在控制面板手动更新合同；利用期限剩余约 12 小时后可更新；不更新则服务器会被删除。官网明确写用脚本或机器人自动续期属于不正当行为。",
+        "deadline": "",
+        "deadline_note": "官方将免费 VPS 定位为 0 日元档，不是标明截止日期的限时试用，但必须每天手动续期。新申请自 2026-07-10 暂停（https://vps.xserver.ne.jp/support/news_detail.php?view_id=18884），2026-10-06（view_id=19612）与 2026-10-16（view_id=19678）官方新闻仍写『無料VPS』继续暂停，重开时间未公布。条款与活动可能变更。不得承诺厂商永不改规则。"
+      },
+      "official_url": "https://vps.xserver.ne.jp/free.php",
+      "posts": [
+        {
+          "url": "https://vps.xserver.ne.jp/free.php",
+          "time_beijing": "2026-11-26 03:56 对照官网免费页、续期手册与 2026-07-10 / 2026-10-06 / 2026-10-16 官方新闻",
+          "author": "official",
+          "role": "official_free_vps_page"
+        },
+        {
+          "url": "https://vps.xserver.ne.jp/support/news_detail.php?view_id=19678",
+          "time_beijing": "官方新闻 2026-10-16，本轮 2026-11-26 03:56 对照",
+          "author": "official",
+          "role": "official_news_free_tier_still_closed"
+        }
+      ],
+      "notes": "网页检索到的日本厂商官方免费 root VPS 方案，此前未写入 items。官方确认月额 0 日元，但须每天手动续期，且自 2026-07-10 起新申请仍暂停（2026-10-16 新闻再次确认）。不符合本轮可自动申请条件（无法提交申请；续期规则清楚，但卡/手机号要求未能在开放表单上核对）。不自动申请、不作为可领取的新项目提醒。不得承诺厂商永不改规则。"
+    },
+    {
+      "id": "statefold-starter-credit",
+      "provider": "Statefold",
+      "type": "other",
+      "type_label": "其他",
+      "specs": [
+        {
+          "label": "as_claimed",
+          "value": "官网定价页 https://statefold.sh/pricing（2026-11-26 03:56 北京时间对照）：按秒计费的 Agent 沙盒机时，不用来支付模型 Token（须自带订阅或 API Key）。机型 standard-1 为 0.5 vCPU / 4 GiB / 8 GB 盘，$0.10/小时；standard-2 为 1 vCPU / 6 GiB / 12 GB，$0.20/小时；默认 standard-3 为 2 vCPU / 8 GiB / 16 GB，$0.30/小时；standard-4 为 4 vCPU / 12 GiB / 20 GB，$0.55/小时。休眠线程不计费。绑定 GitHub 赠一次 $3 起步额度，官网写约等于默认机 10 小时。"
+        }
+      ],
+      "free_conditions": {
+        "card_required": false,
+        "card_notes": "官网定价页 FAQ：An account that links GitHub, once per GitHub account: $3 of machine time, no card needed。起步额度与充值额度官方写不过期；月费计划额度当月有效。额度用尽后，当前回合最多再跑 10 分钟，随后沙盒休眠、线程显示 Limited，并在 20% 和 0 时发邮件。继续使用须 Top up from $10 或开通 $10/$50/$100 月费计划（上线周首月半价）。本轮未在定价页看到免费额度用尽后自动绑卡扣费的说明，但月费计划会续费，申请时不要保存卡或开通付费计划。不得承诺厂商永不改规则。",
+        "region_limits": "本轮打开的定价页未写明具体机房地区。",
+        "idle_reclaim": "休眠线程不计费；额度用尽后沙盒休眠并显示 Limited，不是 24 小时常驻免费机器。",
+        "deadline": "",
+        "deadline_note": "官方 $3 是一次性起步额度，不是长期免费常驻机器。额度本身官方写不过期，用尽后需付费才能继续跑。不是可自动申请的长期免费 VPS。"
+      },
+      "official_url": "https://statefold.sh/pricing",
+      "posts": [
+        {
+          "url": "https://statefold.sh/pricing",
+          "time_beijing": "2026-11-26 03:56 对照官网定价页",
+          "author": "official",
+          "role": "official_pricing_page"
+        },
+        {
+          "url": "https://www.producthunt.com/products/statefold-2",
+          "time_beijing": "本轮网页检索见到 Product Hunt 产品页",
+          "author": "Product Hunt",
+          "role": "product_hunt_listing"
+        }
+      ],
+      "notes": "网页/Product Hunt 检索到的 Agent 沙盒：官方明确绑定 GitHub 送一次性 $3、免绑卡，但用尽后要充值或订计划，不是长期免费常驻 VPS 或免费层。按本轮规则记入网站并标注为一次性额度，不自动申请、不提醒。不得承诺厂商永不改规则。"
+    },
+    {
+      "id": "layero-free-paas",
+      "provider": "Layero",
+      "type": "paas",
+      "type_label": "非 root 的 PaaS",
+      "specs": [
+        {
+          "label": "as_claimed",
+          "value": "官网定价页 https://layero.ru/en/pricing 与套餐文档 https://docs.layero.ru/en/billing/plans（对照时间见 noted_at）：官方 Free 档 0 ₽/月。最多 5 个项目、每月 100 次构建，HTTPS 子域 *.layero.app，支持 Git / npx layero@latest deploy / MCP 与 AI Agent 部署，可跑 SSR、Node.js 和 Python。Free 单应用上限 0.25 vCPU / 256 MB；无自定义域名、无搜索引擎索引、无团队组织、无观测与分析、带 Layero 品牌标识。不是带 root 的独立 VPS，是俄罗斯机房的站点/应用托管（PaaS）。用量限额见 free_conditions；X 上流传的「12 月 1 日前 10GB 流量/10GB 存储/20 次重启、之后每月 50 小时」不是官网口径，不以该数字为准。"
+        }
+      ],
+      "free_conditions": {
+        "card_required": false,
+        "card_notes": "官方文档 https://docs.layero.ru/en/billing/plans ：Free 档 costs nothing / 0 ₽。登录为邮箱验证码或 Yandex ID（https://docs.layero.ru/en/cli/install），首次登录即建账号。绑卡只出现在一次性 7 天 Pro 试用：官网写明须绑卡并以 1 ₽ 预授权后立即退回；试用结束无法扣款则立即降回 Free。Pro 为 990 ₽/月或 9,480 ₽/年，经 YooKassa 用俄罗斯银行卡等从组织余额扣款，可开自动充值。免费档本身不自动转付费、超额不扣费（硬上限）。任意档都可另订付费独立数据库，不要下这个单。不得开通 Pro 试用，不得绑卡、充值或打开自动充值。",
+        "region_limits": "站点与流量在俄罗斯机房。官网列出圣彼得堡、莫斯科、克拉斯诺达尔、萨马拉、叶卡捷琳堡、新西伯利亚。Free 只有 *.layero.app 子域，无自定义域名；新项目默认 X-Robots-Tag: noindex, nofollow，搜索引擎索引是 Pro 功能。",
+        "idle_reclaim": "官网运行文档 https://docs.layero.ru/en/runtime/lifecycle ：有服务端的应用无请求约 20 秒进入 Frozen，最多 15 分钟无请求后休眠（内存紧张时更早），休眠时间不计入 GB·h；48 小时无访问后会从服务器移除，下次从零启动。磁盘是临时的，重启后写入丢失。后台定时任务、长轮询机器人在休眠期间会停。WebSocket 等长连接可保持不休眠。静态站不适用这套进程休眠模型。",
+        "deadline": "",
+        "deadline_note": "官网把 Free 写成常设 0 ₽/月套餐，不是标明截止日期的限时试用。用量限额自 2026-12-01 起对 Free 生效（日历月，莫斯科时间 1 日 00:00 重置）；在此之前用量页只展示、不封顶也不收费。2026-12-01 起 Free 硬上限（每组织每月，超额不扣费）：构建 100 次、应用 50 GB·h、流量 15 GB、站点请求 30 万、Data API 100 万（beta）、文件存储 1 GB（beta）、Page Speed 3 次。256 MB 配置每小时醒着计 0.25 GB·h，故 50 GB·h 约等于一台 256 MB 应用每月 200 小时醒着时间（不是 X 帖所说的 50 小时）。达到 100%：不再启动新构建/测速/上传/唤醒已休眠应用；正在跑的继续；流量或请求用尽则站点先变慢一天再显示暂时不可用，下月或升 Pro 后解除。条款允许修改规则。不得承诺厂商永不改规则。"
+      },
+      "official_url": "https://layero.ru/en/pricing",
+      "posts": [
+        {
+          "url": "https://x.com/yedabinbinah/status/2125955153048330540",
+          "time_beijing": "2026-11-26 22:09:41",
+          "author": "@yedabinbinah",
+          "role": "watch_account_x_post_screenshot_of_homepage"
+        },
+        {
+          "url": "https://x.com/milesfroqx/status/2125968652688339316",
+          "time_beijing": "2026-11-26 23:03:20",
+          "author": "@milesfroqx",
+          "role": "names_layero_repeats_unofficial_quotas"
+        }
+      ],
+      "notes": "据 X 上的报道 @yedabinbinah 2026-11-26 22:09 北京时间（37 赞/64 收藏）和 @milesfroqx 23:03 北京时间提到 Layero 免费俄罗斯服务器，但帖中的 Google 登录与 10GB/20 次重启/50 小时等数字与官网不符，本轮以官网为准。已对照官网：这是官方长期 0 ₽/月的俄罗斯 PaaS 免费档，免绑卡，超额硬限制不扣费，应用会休眠，不是 root 常驻 VPS。符合本轮可自动申请的安全条件（官方明确长期免费、不自动转付费、超额不扣费），交给主对话立即用机器人邮箱和用户 Gmail 各申请一份；只开 Free 档，禁止开通 7 天 Pro 试用、绑卡、充值、自动充值或订购付费数据库。若注册要手机号或本人验证则停止报告。不得承诺厂商永不改规则。"
     }
   ],
   "stock": {
@@ -1907,18 +2015,18 @@
       {
         "id": "dmit",
         "name": "DMIT",
-        "checked_at_beijing": "2026-11-25 23:45:31",
+        "checked_at_beijing": "2026-11-26 23:47:00",
         "official_url": "https://www.dmit.io/",
         "sources": [
           {
             "name": "vpsrestock.com",
             "url": "https://vpsrestock.com/dmit/",
-            "checked_at_beijing": "2026-11-25 23:44"
+            "checked_at_beijing": "2026-11-26 23:46"
           },
           {
             "name": "t.me/dmitnews",
             "url": "https://t.me/s/dmitnews",
-            "checked_at_beijing": "2026-11-25 23:45:31"
+            "checked_at_beijing": "2026-11-26 23:47:00"
           }
         ],
         "plans": [
@@ -1996,7 +2104,7 @@
             "price": "$10.90 USD / 月",
             "stock": "out_of_stock",
             "limited": false,
-            "last_restock": "上次补货 62 天前",
+            "last_restock": "上次补货 63 天前",
             "order_urls": [
               {
                 "label": "官网下单",
@@ -2037,7 +2145,7 @@
             "price": "$36.90 USD / 年",
             "stock": "out_of_stock",
             "limited": false,
-            "last_restock": "上次补货 62 天前",
+            "last_restock": "上次补货 63 天前",
             "order_urls": [
               {
                 "label": "官网下单",
@@ -2050,13 +2158,13 @@
       {
         "id": "bandwagonhost",
         "name": "搬瓦工",
-        "checked_at_beijing": "2026-11-25 23:45:31",
+        "checked_at_beijing": "2026-11-26 23:47:00",
         "official_url": "",
         "sources": [
           {
             "name": "vpsrestock.com",
             "url": "https://vpsrestock.com/bandwagonhost/",
-            "checked_at_beijing": "2026-11-25 23:44"
+            "checked_at_beijing": "2026-11-26 23:46"
           },
           {
             "name": "stock.bwg.la",
@@ -3312,7 +3420,7 @@
     ]
   },
   "black_friday": {
-    "date_note": "今年黑五为 2026-11-27。今天是 2026-11-25。RackNerd 官方商店黑五分类 https://my.racknerd.com/index.php?rp=/store/black-friday-2026 本轮本机 curl HTTP 200，同一 15 款及价格，与 2026-11-20 01:59:55 首次确认时相同。www.racknerd.com/blackfriday 本轮本机 curl HTTP 200，打开营销页。",
+    "date_note": "今年黑五为 2026-11-27。今天是 2026-11-26。RackNerd 官方商店黑五分类 https://my.racknerd.com/index.php?rp=/store/black-friday-2026 本轮本机 curl HTTP 200，同一 15 款及价格，与 2026-11-20 01:59:55 首次确认时相同。www.racknerd.com/blackfriday 本轮本机 curl HTTP 200，打开营销页。",
     "official": [
       {
         "provider": "GreenCloud",
