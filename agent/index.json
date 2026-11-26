@@ -12506,5 +12506,4096 @@
       "note": "需本人按官方指南安装；本轮不代安装。",
       "at": "2026-11-25T00:10:43+08:00"
     }
+  },
+  {
+    "id": "modem-free-plan-2500-events-20261125",
+    "title": "Modem：免费档每月 2,500 events + 1,000 agent credits（客户反馈图谱，免绑卡）",
+    "platform": "Modem",
+    "product": "Modem",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://modem.ai/",
+    "summary": "客户反馈图谱 agent：接 Slack、Discord、支持邮箱、销售电话、GitHub 等渠道，把重复反馈聚成主题、排优先级，交给 Claude Code/Cursor/Devin 等 coding agent 或开 Linear/Jira/GitHub issue，修复后自动跟进客户；MCP 服务器 + REST API，Slack/Discord/Web 内可用。免费档 $0，每月 2,500 events + 1,000 agent credits，席位不限、全部核心集成；超量按量另计（需自设预算上限）。2026-11-23 Product Hunt 上线（当日第 4）。注意：官网定价页未写免费档历史保留天数（第三方说法 30 天与 60 天不一），以官网为准；付费档 14 天试用免卡。",
+    "source": "Modem 官网 modem.ai 定价区核实（Free $0/月，2,500 events + 1,000 agent credits）；2026-11-23 Product Hunt 上线",
+    "claim_steps": [
+      "打开 https://modem.ai/ 注册免费账号（Free $0/月，每月 2,500 events + 1,000 agent credits）",
+      "接入 Slack/Discord/支持邮箱/GitHub 等客户渠道，让 Modem 聚类反馈主题",
+      "在 Slack/Discord/Web 或经 MCP 让 coding agent 查询反馈图谱、开 issue 跟进"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官网定价区",
+        "detail": "确认免费档每月 2,500 events + 1,000 agent credits、席位不限。",
+        "url": "https://modem.ai/"
+      },
+      {
+        "step": "注册并接渠道",
+        "detail": "注册免费账号后接入客户反馈渠道。",
+        "url": "https://modem.ai/"
+      },
+      {
+        "step": "接入 agent 使用",
+        "detail": "经 MCP 或在 Slack/Discord 里让 agent 查反馈、开 issue。",
+        "url": "https://modem.ai/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Modem",
+        "action_url": "https://modem.ai/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-25T04:12:59+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-25T04:12:59+08:00"
+    }
+  },
+  {
+    "id": "polylane-free-plan-ai-sre-20261125",
+    "title": "Polylane：AI SRE 免费档（2 个云账号、每月 10 次影响评估，免绑卡）",
+    "platform": "Polylane",
+    "product": "Polylane",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://polylane.com",
+    "summary": "Coreplane 出品的 AI SRE：读日志/指标/追踪，偏离基线时开 issue、跨代码与部署调查根因、开修复 PR；扫已部署 GitHub/GitLab 仓库已知 CVE，PR 合并前做生产影响评估；可接 Claude Code、Cursor、Codex 或任意 MCP 客户端、Slack 与 REST API（读取不限量）。免费档 $0 永久：2 个云账号、2 名成员、每月 10 次影响评估 + 每月 credits 额度，用完 agent 暂停、不自动扣费，免绑卡。2026-11-23 Product Hunt 上线（当日第 6）。注意：免费档人数/账号数各复核来源说法不一（1 或 2），以官网定价页为准。",
+    "source": "Polylane 官网定价页（经 EveryDev、AIToolCrunch 等多家第三方复核引用：Free $0 永久、免绑卡）；2026-11-23 Product Hunt 上线",
+    "claim_steps": [
+      "打开 https://polylane.com 一条命令安装 CLI、连 coding agent、建账号（免费档）",
+      "接入云账号与可观测工具，让 agent 学习基线、监控生产",
+      "影响评估与修复 PR 在仓库里审阅后合并；额度用完即停、不自动扣费"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官网定价页",
+        "detail": "确认免费档 2 个云账号、2 名成员、每月 10 次影响评估、免绑卡。",
+        "url": "https://polylane.com"
+      },
+      {
+        "step": "安装并接入",
+        "detail": "一条命令装 CLI、连 coding agent、接云账号。",
+        "url": "https://polylane.com"
+      },
+      {
+        "step": "审阅修复 PR",
+        "detail": "agent 开的修复 PR 审阅后合并。",
+        "url": "https://polylane.com"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Polylane",
+        "action_url": "https://polylane.com"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent",
+      "coding"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-25T04:12:59+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-25T04:12:59+08:00"
+    }
+  },
+  {
+    "id": "hydrilla-free-100-credits-monthly-20261125",
+    "title": "Hydrilla：免费档每月 100 credits（AI 生成 3D 资产，Blender agent）",
+    "platform": "Hydrilla",
+    "product": "Hydrilla",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://hydrilla.ai/",
+    "summary": "AI 3D 工作台：文字或参考图生成带 UV 与 PBR 贴图的分段模型（自研 BlueFox 模型），可在 Hydrilla Studio 里编辑部件、预览打光，导出 GLB/FBX/OBJ/USDA 给 Unity/Unreal/Godot/AR；Hydrilla Agent 能在 Blender 里按对话搭场景（可自带模型 key）。免费档 $0，每月 100 credits（文字生成默认品质 45 credits、图片 30 credits），生成前会先问是否花 credits。2026-11-23 Product Hunt 上线（当日第 9）。注意：14 天付费档试用需绑卡；近景资产仍需人工修整（官方 FAQ）。",
+    "source": "Hydrilla 官网 hydrilla.ai（指南页：Free 每月 100 credits）与定价口径核实；2026-11-23 Product Hunt 上线",
+    "claim_steps": [
+      "打开 https://hydrilla.ai/ 注册免费账号（每月 100 credits）",
+      "文字或图片生成 3D 资产，在 Studio 里检查部件与打光",
+      "导出 GLB/FBX/OBJ/USDA，或用 Blender 插件让 Hydrilla Agent 搭场景"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官网指南与定价",
+        "detail": "确认免费档每月 100 credits、文字 45/图片 30 credits。",
+        "url": "https://hydrilla.ai/"
+      },
+      {
+        "step": "注册并生成",
+        "detail": "注册免费账号后生成首个资产。",
+        "url": "https://hydrilla.ai/"
+      },
+      {
+        "step": "导出或接 Blender",
+        "detail": "导出模型文件，或用插件在 Blender 里搭场景。",
+        "url": "https://hydrilla.ai/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Hydrilla",
+        "action_url": "https://hydrilla.ai/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-25T04:12:59+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-25T04:12:59+08:00"
+    }
+  },
+  {
+    "id": "superhands-free-100-credits-monthly-20261125",
+    "title": "Superhands：免费档每月 100 credits（给 AI agent 的设计系统，MCP 接入）",
+    "platform": "Superhands",
+    "product": "Superhands",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://superhands.ai/",
+    "summary": "给 AI agent 的设计系统：把品牌 Figma 文件或 PDF 规范转成 agent 查询的规则（颜色、字体、语气、Logo），agent 生成前先查规则，一处改规则处处生效；接任意 MCP 兼容 AI 工具（Claude Code、Cursor、Codex 等）。免费档 $0，每月 100 credits，指南/技能/设计系统数量不限（一次 agent 运行 1 credit，保存一条指南或技能 5 credits），人数不限；Pro $29/月 1,000 credits。注意：免费档对团队可持有的指令数与 agent 运行数有限制（见官网条款）。",
+    "source": "Superhands 官方指南 app.superhands.ai（免费起步、每月 100 credits、指南/技能/设计系统不限）与官网定价区核实",
+    "claim_steps": [
+      "打开 https://superhands.ai/ 注册免费账号（每月 100 credits）",
+      "给 agent 导入品牌 Figma 文件或 PDF 规范，生成设计规则",
+      "在 Claude Code/Cursor/Codex 等 MCP 客户端里让 agent 按规则生成"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官方指南与定价",
+        "detail": "确认免费档每月 100 credits、规则数量不限。",
+        "url": "https://superhands.ai/"
+      },
+      {
+        "step": "注册并建设计系统",
+        "detail": "导入品牌文件生成设计规则。",
+        "url": "https://superhands.ai/"
+      },
+      {
+        "step": "接 MCP 使用",
+        "detail": "在 coding agent 里按规则生成界面。",
+        "url": "https://superhands.ai/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Superhands",
+        "action_url": "https://superhands.ai/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent",
+      "coding"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-25T04:12:59+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-25T04:12:59+08:00"
+    }
+  },
+  {
+    "id": "teaflask-free-1-agent-20261125",
+    "title": "Teaflask：免费档 1 个应用内 AI agent（平台免费，模型费按成本自付）",
+    "platform": "Teaflask",
+    "product": "Teaflask",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://teaflask.com/",
+    "summary": "给 SaaS 产品加应用内 AI agent：从代码库学产品、按登录用户身份通过产品自身 API 完成多步任务（填表、调接口、跑流程），每步可设允许/询问/拒绝并留审计记录；React 组件或 script 标签接入，无需改后端。免费档 $0（非试用）：1 个 agent、托管文档、溯源引擎、美国数据本地化；模型费自付——可接用户自己的 ChatGPT 订阅、Anthropic/OpenAI key，或按成本价充 Teaflask 钱包（0 加价）。YC 支持；2026-11-19 Product Hunt 上线。注意：多 agent、自定义域名、SSO 与 SLA 仅企业版。",
+    "source": "Teaflask 官网定价页（经 TechlogHub 2026-11-20、PowerfulAI 2026-11 核查引用：Free $0 非试用、1 agent、模型按成本自付）与作者 Product Hunt 首发帖核实",
+    "claim_steps": [
+      "打开 https://teaflask.com/ 注册免费账号（Free $0，1 个 agent）",
+      "按站内引导把助手嵌进产品前端（React 组件或 script 标签），连自有 API",
+      "模型费走自己的 ChatGPT 订阅、Anthropic/OpenAI key 或按成本价充钱包"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官网定价页",
+        "detail": "确认免费档 1 个 agent、平台免费、模型费自付。",
+        "url": "https://teaflask.com/"
+      },
+      {
+        "step": "注册并嵌入",
+        "detail": "注册后把助手嵌进产品前端、连 API。",
+        "url": "https://teaflask.com/"
+      },
+      {
+        "step": "接模型使用",
+        "detail": "用自己的订阅或 key 付模型费，平台本身不收费。",
+        "url": "https://teaflask.com/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Teaflask",
+        "action_url": "https://teaflask.com/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent",
+      "coding"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-25T04:12:59+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-25T04:12:59+08:00"
+    }
+  },
+  {
+    "id": "link2threads-free-plan-20261125",
+    "title": "Link2Threads：免费档（一条链接转多卡 Threads 帖，13 个 MCP 工具）",
+    "platform": "Link2Threads",
+    "product": "Link2Threads",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://link2threads.com/",
+    "summary": "一条链接转多卡 Threads 帖：粘贴文章、YouTube 视频或产品页，抽正文起草钩子、数据点、收尾提问的分卡帖；MCP 服务器（link2threads.com/mcp）向 Claude Desktop、Cursor 等开放 13 个工具。免费档：1 个账号、每帖 1–5 张卡、3 个草稿；另有 30 天试用 15 次生成、免绑卡。2026-11-24 Product Hunt 上线。",
+    "source": "Link2Threads 官方博客 link2threads.com（上线公告：免费档 1 账号、1–5 卡/帖、3 草稿；30 天试用 15 次生成免绑卡）核实；2026-11-24 Product Hunt 上线",
+    "claim_steps": [
+      "打开 https://link2threads.com/ 注册免费账号（1 个账号、3 个草稿）",
+      "粘贴文章或视频链接，生成多卡 Threads 草稿",
+      "或把 MCP 服务器接进 Claude Desktop/Cursor，用 13 个工具出帖"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官方上线公告",
+        "detail": "确认免费档 1 账号、1–5 卡/帖、3 草稿。",
+        "url": "https://link2threads.com/"
+      },
+      {
+        "step": "注册并生成草稿",
+        "detail": "粘贴链接生成分卡草稿。",
+        "url": "https://link2threads.com/"
+      },
+      {
+        "step": "接 MCP 使用",
+        "detail": "把 MCP 服务器接进 agent 客户端出帖。",
+        "url": "https://link2threads.com/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Link2Threads",
+        "action_url": "https://link2threads.com/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-25T04:12:59+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-25T04:12:59+08:00"
+    }
+  },
+  {
+    "id": "ai-context-flow-free-200-credits-daily-20261125",
+    "title": "AI Context Flow：免费档每天 200 credits（跨 AI 工具的共享记忆，含 MCP）",
+    "platform": "AI Context Flow",
+    "product": "AI Context Flow",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://plurality.network/ai-context-flow",
+    "summary": "Plurality Network 的跨 AI 工具共享记忆：在 Claude、ChatGPT、Gemini、Cursor 等处存一次上下文，各处复用；Memory Studio 按项目/客户分桶管理、带版本历史，浏览器扩展粘贴记忆进 AI 聊天站，MCP 服务器（app.plurality.network/mcp）让 coding 工具与终端读写同一份记忆。免费档 $0：每天 200 credits、50 MB 记忆，含 MCP 服务器；Plus $10/月（每天 1,500 credits、500 MB），Pro $20/月。2026-11-21 Product Hunt v2.0 上线（当日第 2）。注意：官网 FAQ 与定价区对免费档每日额度说法不一（100 或 200），以定价页 200 为准；上下文端到端加密。",
+    "source": "Plurality Network 官网定价页（Toolradar 2026-11-21 读取：Free $0、每天 200 credits、50 MB）与官方博客核实；2026-11-21 Product Hunt 上线",
+    "claim_steps": [
+      "打开 https://plurality.network/ai-context-flow 注册免费账号（每天 200 credits、50 MB）",
+      "装浏览器扩展或在 Memory Studio 里建记忆桶、存上下文",
+      "把 MCP 服务器接进 Claude Code/Cursor 等，跨工具复用同一份记忆"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官网定价页",
+        "detail": "确认免费档每天 200 credits、50 MB、含 MCP。",
+        "url": "https://plurality.network/ai-context-flow"
+      },
+      {
+        "step": "注册并建记忆桶",
+        "detail": "注册后在 Memory Studio 里存上下文。",
+        "url": "https://plurality.network/ai-context-flow"
+      },
+      {
+        "step": "接 MCP 使用",
+        "detail": "把 MCP 服务器接进 coding 工具复用记忆。",
+        "url": "https://plurality.network/ai-context-flow"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "AI Context Flow",
+        "action_url": "https://plurality.network/ai-context-flow"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent",
+      "chat"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-25T04:12:59+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-25T04:12:59+08:00"
+    }
+  },
+  {
+    "id": "testsprite-free-150-credits-monthly-20261125",
+    "title": "TestSprite：免费档每月 150 credits（AI 测试 agent，免绑卡）",
+    "platform": "TestSprite",
+    "product": "TestSprite",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://www.testsprite.com/pricing",
+    "summary": "独立 AI 测试 agent：记住应用应有的行为，每次改动后从头验一遍并给出每步证据；对话、开源 CLI、IDE 插件或 GitHub PR 自动测试均可接入，覆盖前后端。免费档 $0，每月 150 credits、1 个环境、1 个测试清单、30 天运行历史，含 agent 对话、CLI 与 IDE 插件、1 个仓库的 PR 自动测试与 Slack 通知，免绑卡；Starter $19/月起。4.0 版 2026-11-19 Product Hunt 上线（当日第 1）。注意：定时回归、自动修复重跑与高级后端 API 测试不在免费档。",
+    "source": "TestSprite 官网定价页 testsprite.com/pricing 核实（Free $0/月、150 credits、免绑卡）；4.0 版 2026-11-19 Product Hunt 上线",
+    "claim_steps": [
+      "打开 https://www.testsprite.com/pricing 注册免费账号（每月 150 credits、免绑卡）",
+      "接应用与仓库，让测试 agent 跑一遍核心流程、生成测试",
+      "在 IDE/CLI 里看证据报告，或开 GitHub PR 自动测试"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官网定价页",
+        "detail": "确认免费档每月 150 credits、1 环境、免绑卡。",
+        "url": "https://www.testsprite.com/pricing"
+      },
+      {
+        "step": "注册并接应用",
+        "detail": "注册后接入应用与仓库跑测试。",
+        "url": "https://www.testsprite.com/pricing"
+      },
+      {
+        "step": "在 IDE/CLI 里复核",
+        "detail": "看每步证据，改动后重新验证。",
+        "url": "https://www.testsprite.com/pricing"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "TestSprite",
+        "action_url": "https://www.testsprite.com/pricing"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent",
+      "coding"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-25T04:12:59+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-25T04:12:59+08:00"
+    }
+  },
+  {
+    "id": "seshka-free-mit-claude-code-cleanup-20261125",
+    "title": "seshka：免费开源 macOS 菜单栏工具（清理 Claude Code 残留进程，MIT）",
+    "platform": "seshka",
+    "product": "seshka",
+    "model": "",
+    "type": "开源免费",
+    "deadline": null,
+    "url": "https://github.com/jigjoy-ai/seshka",
+    "summary": "免费开源（MIT）macOS 菜单栏应用，清理 Claude Code 会话结束后残留的开发服务器、文件监听与模拟器：按会话分组列出残留进程（端口、内存、运行时长），一键结束单个、整组或全部，并显示回收的内存；也可手动或按时限自动结束闲置会话（claude --resume 可恢复）。本地 Swift 原生、不上传数据。2026-11-17 Product Hunt 上线（当日第 9）。注意：仅 macOS 14+；只跟踪 Claude Code 产生的进程；新项目（仓库 2026-11-13 创建），功能尚简单。",
+    "source": "GitHub jigjoy-ai/seshka（README：免费开源 MIT）与作者 Product Hunt 首发帖核实；2026-11-17 Product Hunt 上线",
+    "claim_steps": [
+      "打开 https://github.com/jigjoy-ai/seshka 下载 macOS 应用安装",
+      "菜单栏里查看各会话残留进程（端口、内存、时长）",
+      "一键结束残留进程；闲置会话可手动或自动结束（claude --resume 恢复）"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官方仓库说明",
+        "detail": "确认免费开源 MIT、仅 macOS 14+。",
+        "url": "https://github.com/jigjoy-ai/seshka"
+      },
+      {
+        "step": "下载安装",
+        "detail": "按 Releases 下载安装。",
+        "url": "https://github.com/jigjoy-ai/seshka"
+      },
+      {
+        "step": "菜单栏清理",
+        "detail": "按会话分组一键结束残留进程。",
+        "url": "https://github.com/jigjoy-ai/seshka"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "seshka",
+        "action_url": "https://github.com/jigjoy-ai/seshka"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent",
+      "coding"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-25T04:12:59+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-25T04:12:59+08:00"
+    }
+  },
+  {
+    "id": "skillbox-free-3-devices-20261125",
+    "title": "Skillbox：免费档（AI agent 技能库，3 台设备 + 100 个来源，免绑卡）",
+    "platform": "Skillbox",
+    "product": "Skillbox",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://skillbox.so/pricing",
+    "summary": "AI agent 技能库：把技能从本机、GitHub/GitLab 或公开目录收进一个库，跨 Claude Code、Cursor、Codex 等工具与机器同步，按项目选择启用，跟踪来源更新、新版本进机器前先扫描提示注入与泄露密钥。免费档 £0/月、免绑卡：1 个技能库、跨工具下发、来源跟踪与更新、Skillbox Trust 扫描、自动维护、Capture，最多 3 台设备、100 个关注来源；Individual £6.99/月、Team £12.99/人/月。2026-11-11 Product Hunt 上线。注意：上下文裁剪、Skillbox AI 与聊天内试用需开付费档 7 天试用（需绑卡）。",
+    "source": "Skillbox 官网定价页 skillbox.so/pricing 核实（Free £0/月、免绑卡、3 台设备、100 来源）；2026-11-11 Product Hunt 上线",
+    "claim_steps": [
+      "打开 https://skillbox.so/pricing 注册免费账号（£0/月、免绑卡）",
+      "从本机、GitHub/GitLab 或公开目录导入技能进库",
+      "按项目启用技能，同步到 Claude Code/Cursor/Codex 等工具"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官网定价页",
+        "detail": "确认免费档 £0、免绑卡、3 台设备、100 来源。",
+        "url": "https://skillbox.so/pricing"
+      },
+      {
+        "step": "注册并导入技能",
+        "detail": "注册后把技能收进库。",
+        "url": "https://skillbox.so/pricing"
+      },
+      {
+        "step": "跨工具同步",
+        "detail": "按项目启用并同步到各 coding 工具。",
+        "url": "https://skillbox.so/pricing"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Skillbox",
+        "action_url": "https://skillbox.so/pricing"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent",
+      "coding"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-25T04:12:59+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-25T04:12:59+08:00"
+    }
+  },
+  {
+    "id": "taste-stack-4-free-tastes-20261125",
+    "title": "Taste Stack：4 款免费设计 skill（给 Claude Code/Codex/Cursor 的视觉风格，免绑卡）",
+    "platform": "Taste Stack",
+    "product": "Taste Stack",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://tastestack.dev/",
+    "summary": "给 coding agent 的视觉风格 skill 库：每款 taste 是一套完整视觉身份（字体、间距、配色、布局、动效），装进 Claude Code、Codex 或 Cursor 后 agent 按其规则出界面、启动视频、幻灯片等。免费档：Swiss、Midnight、Soft Depth、House Blend 共 4 款 taste，注册账号即可装，无需绑卡；其余 taste 每款 $3.99 一次性买断，Pro 订阅含全库。注意：需自带 coding agent 与模型（skill 本身不含模型订阅）；商用产出归用户，skill 包本身不可再分发。",
+    "source": "Taste Stack 官网 tastestack.dev 核实（4 款免费 taste，注册账号可装；其余 $3.99 一次性）",
+    "claim_steps": [
+      "打开 https://tastestack.dev/ 注册免费账号",
+      "选 Swiss/Midnight/Soft Depth/House Blend 任一款，按站内步骤装进 Claude Code/Codex/Cursor",
+      "给 agent 下任务时明确点名该 skill（如 /taste-swiss），按其规则生成"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官网说明",
+        "detail": "确认 4 款免费 taste、注册账号可装。",
+        "url": "https://tastestack.dev/"
+      },
+      {
+        "step": "注册并安装",
+        "detail": "注册后按 agent 选安装步骤。",
+        "url": "https://tastestack.dev/"
+      },
+      {
+        "step": "任务中点名 skill",
+        "detail": "明确让 agent 用该 taste 的规则生成。",
+        "url": "https://tastestack.dev/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Taste Stack",
+        "action_url": "https://tastestack.dev/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent",
+      "coding"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-25T04:12:59+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-25T04:12:59+08:00"
+    }
+  },
+  {
+    "id": "oak-memory-free-1000-credits-20261125",
+    "title": "OAK.memory：注册送 1,000 credits（30 天）+ 每天 50 免费 credits（AI 记忆层，含 MCP）",
+    "platform": "OAK.memory",
+    "product": "OAK.memory",
+    "model": "",
+    "type": "额度",
+    "deadline": null,
+    "url": "https://www.openaikits.com/docs/cloud-limits",
+    "summary": "给 ChatGPT 与 Claude 的关联记忆基础设施：向量搜索 + 图链接，把事实与关系存进云端记忆库，插件与 MCP 接入，另有开源引擎。注册送 1,000 credits（30 天有效），另每天 50 免费 credits（不滚动）；创建、更新与语义召回各计 1 credit，失败操作退 credit；列表、导出、删除与链接管理免费。注意：官方称订阅购买目前暂未开放；额度细节以云端文档为准。",
+    "source": "OAK 官方云端文档 openaikits.com/docs/cloud-limits 核实（注册送 1,000 credits、30 天有效；每天 50 免费 credits 不滚动）",
+    "claim_steps": [
+      "打开 https://www.openaikits.com/docs/cloud-limits 确认免费额度规则",
+      "注册 OAK.memory 云端账号，领 1,000 credits（30 天有效）+ 每天 50 免费 credits",
+      "用 ChatGPT/Claude 插件或 MCP 接入记忆库，创建与召回按次计 credit"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官方云端文档",
+        "detail": "确认注册送 1,000 credits、每天 50 免费 credits。",
+        "url": "https://www.openaikits.com/docs/cloud-limits"
+      },
+      {
+        "step": "注册并领额度",
+        "detail": "注册后领 1,000 credits。",
+        "url": "https://www.openaikits.com/docs/cloud-limits"
+      },
+      {
+        "step": "插件/MCP 接入",
+        "detail": "用插件或 MCP 在对话里读写记忆。",
+        "url": "https://www.openaikits.com/docs/cloud-limits"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "OAK.memory",
+        "action_url": "https://www.openaikits.com/docs/cloud-limits"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent",
+      "chat"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-25T04:12:59+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-25T04:12:59+08:00"
+    }
+  },
+  {
+    "id": "mem0-free-plan-20261125",
+    "title": "Mem0：免费档（AI agent 记忆层，开源 Apache-2.0，含 MCP）",
+    "platform": "Mem0",
+    "product": "Mem0",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://mem0.ai/",
+    "summary": "给 AI agent 与应用的记忆层：SDK/API 写入对话后按用户存成可检索的精炼记忆，跨会话记住偏好与事实；开源版（Apache-2.0，GitHub mem0ai/mem0，约 6.6 万 stars）可自托管，官方托管 MCP 服务器 mcp.mem0.ai/mcp 提供 11 个工具。免费档 $0、席位不限、免绑卡：前 30 天每月 10,000 次 adds + 1,000 次检索，之后自带 LLM key 可达每月 50,000 次 adds + 10,000 次检索；超量按量计费（官网未公布费率，可自设月度上限）。注意：免费档数据会被用于训练 Mem0 模型（2026-08-22 隐私政策）；自 2026-10-26 起不再向新账号售卖付费档。",
+    "source": "Mem0 官网 mem0.ai（经 ToolGPA 2026-11-12、Anchor Terminal 2026-09-30 读取核实：免费档额度与自带 key 规则）",
+    "claim_steps": [
+      "打开 https://mem0.ai/ 注册免费账号（免绑卡）",
+      "用 SDK/API 或 mem0 init --agent 接入应用（自带 LLM key 可提额至每月 5 万 adds）",
+      "经 MCP 服务器（mcp.mem0.ai/mcp）让 agent 读写记忆；超量前自设月度上限"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官网免费档说明",
+        "detail": "确认前 30 天额度与自带 key 提额规则。",
+        "url": "https://mem0.ai/"
+      },
+      {
+        "step": "注册并接入",
+        "detail": "注册后用 SDK/API 或 MCP 接入。",
+        "url": "https://mem0.ai/"
+      },
+      {
+        "step": "设月度上限",
+        "detail": "超量按量计费，先设上限再用。",
+        "url": "https://mem0.ai/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Mem0",
+        "action_url": "https://mem0.ai/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent",
+      "coding"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-25T04:12:59+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-25T04:12:59+08:00"
+    }
+  },
+  {
+    "id": "crystl-free-apprentice-20261125",
+    "title": "Crystl：免费 Apprentice 档（macOS 多 agent 并行终端，免 license key）",
+    "platform": "Crystl",
+    "product": "Crystl",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://crystl.dev/pricing/",
+    "summary": "macOS 原生终端，并行跑 Claude Code、Codex、Antigravity CLI、Kimi Code、opencode 等 CLI coding agent：每个项目为一个 gem、每个会话为一个 shard，各自独立 git worktree 隔离，审批/提醒浮动卡片、token 追踪、MCP 配置、SSH 远程开发。免费 Apprentice 档含并行会话、浮动卡片、token 追踪、最多 3 个定时任务等，无 license key、无时间限制；Guild $170/年（或 $18/月）加编排、自动化、iPhone 远程访问等。注意：仅限 macOS；模型费自付（用自己的 Claude/Codex 账号）。2026-11-05 前后 Product Hunt 上线。",
+    "source": "Crystl 官网 FAQ（crystl.dev/docs/faq/）与定价页核实：免费 Apprentice 档、无 license key、Guild $170/年",
+    "claim_steps": [
+      "打开 https://crystl.dev/pricing/ 确认免费 Apprentice 档范围",
+      "在 crystl.dev 注册并下载 macOS 应用（.dmg），装进 Applications",
+      "在项目里开 shard，跑自己已装的 Claude Code/Codex 等 CLI agent"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官网 FAQ 与定价页",
+        "detail": "确认免费 Apprentice 档含并行会话、浮动卡片、token 追踪、3 个定时任务，无 license key。",
+        "url": "https://crystl.dev/pricing/"
+      },
+      {
+        "step": "下载安装",
+        "detail": "注册后下载 .dmg，拖进 Applications。",
+        "url": "https://crystl.dev/pricing/"
+      },
+      {
+        "step": "并行跑 agent",
+        "detail": "每个 shard 一个 git worktree，跑 Claude Code/Codex 等，模型费自付。",
+        "url": "https://crystl.dev/pricing/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Crystl",
+        "action_url": "https://crystl.dev/pricing/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent",
+      "coding"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-25T11:26:59+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-25T11:26:59+08:00"
+    }
+  },
+  {
+    "id": "talyn-free-10-box-hours-20261125",
+    "title": "Talyn：免费档每月 10 box-hours（云端跑 Claude Code/Codex 做 PR，免绑卡）",
+    "platform": "Talyn",
+    "product": "Talyn",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://talyn.dev/pricing",
+    "summary": "给每个任务开独立云沙箱+分支，用你自己的 Claude 或 ChatGPT 订阅跑 Claude Code/Codex，走检查、冲突与 review 直到 PR 可合并，含合并队列与自动 review；桌面端本地 git worktree 会话在所有档位无限免费。免费档 $0：每月 10 box-hours、同时最多 2 个 box，免绑卡；Pro $40/月 200 box-hours。注意：模型费自付（另付 Claude/ChatGPT 订阅）；免费档无自动合并队列。",
+    "source": "Talyn 官网定价页 talyn.dev/pricing 一手核实（Free $0、每月 10 box-hours、免绑卡、模型自付）",
+    "claim_steps": [
+      "打开 https://talyn.dev/pricing 确认免费档：每月 10 box-hours、同时 2 个 box",
+      "下载桌面应用、连 GitHub 与自己的 Claude/Codex 账号（免费档免绑卡）",
+      "把任务交给 Talyn，在云 box 里跑 agent 修到 PR 可合并；本地 worktree 会话无限免费"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官网定价页",
+        "detail": "确认免费档每月 10 box-hours、同时 2 个 box、免绑卡。",
+        "url": "https://talyn.dev/pricing"
+      },
+      {
+        "step": "连接账号",
+        "detail": "连 GitHub 与自己的 Claude/Codex 订阅，模型费自付。",
+        "url": "https://talyn.dev/pricing"
+      },
+      {
+        "step": "跑任务",
+        "detail": "云 box 跑 agent 做 PR；本地 worktree 会话免费无限。",
+        "url": "https://talyn.dev/pricing"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Talyn",
+        "action_url": "https://talyn.dev/pricing"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent",
+      "coding"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-25T11:26:59+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-25T11:26:59+08:00"
+    }
+  },
+  {
+    "id": "openclaw-free-mit-20261125",
+    "title": "OpenClaw：免费开源个人 AI agent（MIT，20+ 聊天渠道，模型费自付）",
+    "platform": "OpenClaw",
+    "product": "OpenClaw",
+    "model": "",
+    "type": "Agent",
+    "deadline": null,
+    "url": "https://openclaw.ai/",
+    "summary": "开源个人 AI agent（MIT 协议，OpenClaw Foundation 非营利托管，无付费档、无托管服务、无代币）：本地运行，接 WhatsApp、Telegram、Discord、Slack、iMessage、Teams、Signal 等 20+ 聊天渠道，执行 shell 命令、改文件、跑浏览器、定时任务；ClawHub 技能库 8 万+ 技能，可接 Claude Code/Codex/本地模型。软件完全免费，模型费自付。注意：工具默认在宿主机上执行，须自行开沙箱、逐条审技能；项目安全公告较多（700+），不适合直接裸跑。",
+    "source": "OpenClaw 官网 openclaw.ai 与 GitHub README 核实：MIT、免费、无付费档、模型费自付；多家第三方 2026-11 复核一致",
+    "claim_steps": [
+      "打开 https://openclaw.ai/ 读安装方式（安装脚本或 npm install -g openclaw）",
+      "本地安装并接自己的模型 key（Claude/Codex/本地模型均可）",
+      "接 WhatsApp/Telegram 等聊天渠道使用；先开沙箱、逐条审核第三方技能再启用"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官网与 README",
+        "detail": "确认 MIT 开源、免费、无付费档，模型费自付。",
+        "url": "https://openclaw.ai/"
+      },
+      {
+        "step": "本地安装",
+        "detail": "安装脚本或 npm 安装，接自己的模型 key。",
+        "url": "https://openclaw.ai/"
+      },
+      {
+        "step": "接渠道并加固",
+        "detail": "接聊天渠道；开沙箱、审技能后再放行工具执行。",
+        "url": "https://openclaw.ai/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "OpenClaw",
+        "action_url": "https://openclaw.ai/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-25T11:26:59+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-25T11:26:59+08:00"
+    }
+  },
+  {
+    "id": "mastra-free-100k-events-20261125",
+    "title": "Mastra：免费档（TypeScript agent 框架 + 托管平台，每月 10 万可观测事件）",
+    "platform": "Mastra",
+    "product": "Mastra",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://mastra.ai/pricing",
+    "summary": "TypeScript agent 框架（Apache 2.0，可自托管免费）+ 托管平台：写 agent、工作流、RAG、记忆，内置可观测（指标、日志、逐步 trace）。免费档 $0：agent/用户/部署不限，每月 100K 可观测事件、40 vCPU-hours、10GB egress、15 天 trace 保留；超量 $10/10 万事件。注意：走 Mastra Gateway 的模型 token 按市场价 +5.5% 另计。",
+    "source": "Mastra 官网 mastra.ai 定价页与定价说明核实：Free $0、每月 100K 可观测事件、15 天保留",
+    "claim_steps": [
+      "打开 https://mastra.ai/pricing 确认免费档额度（100K 事件/月、15 天保留）",
+      "注册 Mastra 平台免费账号，或自托管 Apache 2.0 开源框架",
+      "部署 agent，用内置可观测看 trace、token 用量与延迟"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官网定价页",
+        "detail": "确认免费档 100K 可观测事件/月、15 天保留、超量 $10/10 万。",
+        "url": "https://mastra.ai/pricing"
+      },
+      {
+        "step": "注册或自托管",
+        "detail": "平台免费账号，或自托管开源框架。",
+        "url": "https://mastra.ai/pricing"
+      },
+      {
+        "step": "部署并观测",
+        "detail": "部署 agent，看 trace 与用量。",
+        "url": "https://mastra.ai/pricing"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Mastra",
+        "action_url": "https://mastra.ai/pricing"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent",
+      "coding"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-25T11:26:59+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-25T11:26:59+08:00"
+    }
+  },
+  {
+    "id": "crewai-basic-free-50-executions-20261125",
+    "title": "CrewAI：Basic 免费档（每月 50 次 workflow 执行，多 agent 编排）",
+    "platform": "CrewAI",
+    "product": "CrewAI",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://crewai.com/pricing",
+    "summary": "多 agent 编排框架（MIT 开源可自托管）+ 托管平台 AMP：可视化 Studio 编辑器 + AI copilot、GitHub 集成、tracing、guardrails、人机确认，可把 workflow 导出为 MCP server。Basic 免费档 $0：2 个自动化、每月 50 次 workflow 执行（上限即 50 次，不可加购）；Enterprise 询价。注意：模型费自付。",
+    "source": "CrewAI 官网定价页 crewai.com/pricing 核实：Basic Free、每月 50 次执行、2 个自动化",
+    "claim_steps": [
+      "打开 https://crewai.com/pricing 确认 Basic 免费档（50 次执行/月、2 个自动化）",
+      "注册免费账号，在 Studio 里搭多 agent workflow",
+      "部署到 CrewAI 云跑每月 50 次执行；或自托管 MIT 开源框架"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官网定价页",
+        "detail": "确认 Basic 免费、每月 50 次执行、2 个自动化。",
+        "url": "https://crewai.com/pricing"
+      },
+      {
+        "step": "注册并搭建",
+        "detail": "免费注册，在 Studio 里搭 workflow。",
+        "url": "https://crewai.com/pricing"
+      },
+      {
+        "step": "部署使用",
+        "detail": "部署到 CrewAI 云（50 次/月），或自托管开源框架。",
+        "url": "https://crewai.com/pricing"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "CrewAI",
+        "action_url": "https://crewai.com/pricing"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent",
+      "coding"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-25T11:26:59+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-25T11:26:59+08:00"
+    }
+  },
+  {
+    "id": "langsmith-developer-free-5000-traces-20261125",
+    "title": "LangSmith：Developer 免费档（每月 5,000 traces，agent 追踪评测）",
+    "platform": "LangSmith",
+    "product": "LangSmith",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://langchain.com/pricing",
+    "summary": "LangChain 的 agent 追踪、评测与部署平台：tracing、在线/离线评测、数据集、标注队列、Prompt Hub 与 Playground。Developer 免费档 $0：1 席位、每月 5,000 base traces、14 天保留；不绑卡则 5,000 封顶，绑卡后超量按量付费（约 $5/1,000 traces）。Plus $39/席位/月起。注意：部署（Agent Server）按 LSU 另计。",
+    "source": "LangChain 官网定价页 langchain.com/pricing 核实（多家第三方 2026-11 复核一致）：Developer $0、每月 5,000 traces、1 席位",
+    "claim_steps": [
+      "打开 https://langchain.com/pricing 确认 Developer 免费档（5,000 traces/月、14 天保留）",
+      "用 Google/GitHub 注册 LangSmith 免费账号",
+      "接 LangChain/LangGraph 或 OpenTelemetry 上报 trace 做评测；不绑卡则 5,000 封顶"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官网定价页",
+        "detail": "确认 Developer $0、每月 5,000 traces、14 天保留。",
+        "url": "https://langchain.com/pricing"
+      },
+      {
+        "step": "注册账号",
+        "detail": "Google/GitHub 注册，免费档 1 席位。",
+        "url": "https://langchain.com/pricing"
+      },
+      {
+        "step": "上报 trace",
+        "detail": "接 LangChain/LangGraph 或 OpenTelemetry 做追踪评测。",
+        "url": "https://langchain.com/pricing"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "LangSmith",
+        "action_url": "https://langchain.com/pricing"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent",
+      "coding"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-25T11:26:59+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-25T11:26:59+08:00"
+    }
+  },
+  {
+    "id": "betterclaw-free-plan-100-credits-20261125",
+    "title": "BetterClaw：免费档（托管 AI agent，每月 100 credits，免绑卡、不过期）",
+    "platform": "BetterClaw",
+    "product": "BetterClaw",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://www.betterclaw.io/free-plan",
+    "summary": "托管式无代码 AI agent 搭建平台：免费档 $0/月，1 个云端 agent、每月 100 credits（1 credit=1 分钟 agent 运行）、3 个连接器（500+ 应用中任选）、7 天记忆、基础 skills；免绑卡、不过期、无试用倒计时，额度用完只暂停、不扣费。模型费自付（BYOK，零加价，可接免费 Gemini/Groq/OpenRouter key 做到总成本 $0）。注意：Telegram/Slack 接入需 Starter 起；团队席位、自定义 skills 需 Pro。",
+    "source": "BetterClaw 官网 betterclaw.io/free-plan 核实（2026-11-18 更新）：$0/月、1 agent、100 credits/月、3 connectors、No credit card、No expiry、BYOK",
+    "claim_steps": [
+      "打开 https://www.betterclaw.io/free-plan 确认免费档（100 credits/月、免绑卡、不过期）",
+      "注册 BetterClaw 免费账号",
+      "建 1 个 agent、接 3 个连接器，自带模型 key（BYOK）后按计划运行"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官网免费档页",
+        "detail": "确认 $0、100 credits/月、免绑卡、不过期。",
+        "url": "https://www.betterclaw.io/free-plan"
+      },
+      {
+        "step": "注册账号",
+        "detail": "注册免费账号。",
+        "url": "https://www.betterclaw.io/free-plan"
+      },
+      {
+        "step": "建 agent 并接模型",
+        "detail": "接 3 个连接器，自带 key 运行。",
+        "url": "https://www.betterclaw.io/free-plan"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "BetterClaw",
+        "action_url": "https://www.betterclaw.io/free-plan"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T01:20:00+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T01:20:00+08:00"
+    }
+  },
+  {
+    "id": "qoder-hungerg-free-nov30-20261125",
+    "title": "Qoder HungerG：匿名编程模型限时免费（11/24–11/30 不扣 Credits、不限次数）",
+    "platform": "Qoder",
+    "product": "Qoder",
+    "model": "HungerG",
+    "type": "限时",
+    "deadline": "2026-12-01T00:00:00+08:00",
+    "url": "https://docs.qoder.com/events/hungerg-free",
+    "summary": "阿里 Qoder 匿名编程模型 HungerG 限时免费：2026 年 11 月 23 日 24:00 至 11 月 30 日 24:00（UTC+8，即 11/24 0:00–12/01 0:00），CN 版与国际版个人用户（免费账号亦可）在 Qoder / Qoder IDE 模型选择器中选 HungerG 即可用，调用不消耗 Credits、不设每日次数上限，思考强度开到最大同样免费；无需领取、零余额账号也可用。注意：团队/企业订阅用户看不到该模型；JetBrains 插件、CLI、Cloud Agents、移动端与网页版暂不支持；高峰期付费用户排队优先；活动结束后按届时计费系数收费，模型身份月底揭晓。",
+    "source": "Qoder 官方文档 docs.qoder.com/events/hungerg-free 核实：11/23 24:00–11/30 24:00、不扣 Credits、不限次数、免费账号可用（掘金/36氪等 11/24 报道一致）",
+    "claim_steps": [
+      "打开 https://docs.qoder.com/events/hungerg-free 确认活动时间与规则",
+      "下载/更新 Qoder 或 Qoder IDE 到最新版，个人账号登录",
+      "在模型选择器中选 HungerG 使用；12 月 1 日 0 点前免费"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官方活动文档",
+        "detail": "确认 11/24–11/30 免费、不扣 Credits。",
+        "url": "https://docs.qoder.com/events/hungerg-free"
+      },
+      {
+        "step": "更新客户端",
+        "detail": "更新 Qoder/Qoder IDE 到最新版。",
+        "url": "https://docs.qoder.com/events/hungerg-free"
+      },
+      {
+        "step": "选模型使用",
+        "detail": "模型选择器选 HungerG 即可。",
+        "url": "https://docs.qoder.com/events/hungerg-free"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Qoder",
+        "action_url": "https://docs.qoder.com/events/hungerg-free"
+      }
+    ],
+    "models": [
+      {
+        "name": "HungerG",
+        "action_url": "https://docs.qoder.com/events/hungerg-free"
+      }
+    ],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T01:20:00+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T01:20:00+08:00"
+    }
+  },
+  {
+    "id": "sentient-os-free-for-life-final1000-20261125",
+    "title": "Sentient OS：免费开源 Mac 个人 AI agent（前 1,000 名终身免费，码 FINAL_1000）",
+    "platform": "Sentient OS",
+    "product": "Sentient OS",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://github.com/Sentient-OS-Labs/sentient-os",
+    "summary": "YC Fall 2026 团队的 Mac 个人 AI：开源（AGPL-3.0），本地模型夜间读笔记、邮件、消息、日历、文件与截图，生成可编辑的 Markdown 知识库；Sidekick 电脑操作 agent、双击右 Command 键起草回复。官网/GitHub README：前 1,000 名用户输入码 FINAL_1000 终身免费。注意：仅 Apple Silicon Mac（M1+、macOS 15.4+、8GB 内存）；接外部模型（ChatGPT/Claude 等）时模型费另计；名额先到先得，1,000 名满后即止。",
+    "source": "Sentient OS 官方 GitHub README（Sentient-OS-Labs/sentient-os，2026-11-25 实测在架）核实：Our next 1,000 users keep Sentient free for life；AGPL-3.0；多家第三方 2026-11 复核码 FINAL_1000 一致",
+    "claim_steps": [
+      "打开 https://github.com/Sentient-OS-Labs/sentient-os 确认终身免费名额与系统要求",
+      "下载 Mac 应用（或 brew install --cask sentient-os-labs/tap/sentient-os）",
+      "在应用内输入码 FINAL_1000 锁定终身免费；按需选择本地或自带模型"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官方 README",
+        "detail": "确认前 1,000 名终身免费、Mac 配置要求。",
+        "url": "https://github.com/Sentient-OS-Labs/sentient-os"
+      },
+      {
+        "step": "下载安装",
+        "detail": "下载 Mac 应用或 brew 安装。",
+        "url": "https://github.com/Sentient-OS-Labs/sentient-os"
+      },
+      {
+        "step": "输入兑换码",
+        "detail": "应用内输入 FINAL_1000 锁定免费。",
+        "url": "https://github.com/Sentient-OS-Labs/sentient-os"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Sentient OS",
+        "action_url": "https://github.com/Sentient-OS-Labs/sentient-os"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent",
+      "chat"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T01:20:00+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T01:20:00+08:00"
+    }
+  },
+  {
+    "id": "nota-ai-free-lifetime-notaai-20261125",
+    "title": "Nota AI：会议记录 agent 免费终身名额 2,000 个（码 NOTAAI，截止 12/10）",
+    "platform": "Nota AI",
+    "product": "Nota AI",
+    "model": "",
+    "type": "限时",
+    "deadline": "2026-12-10T23:59:59+08:00",
+    "url": "https://www.producthunt.com/products/nota-ai-meeting-recorder-agent",
+    "summary": "离线 AI 会议记录 agent（iPhone/Apple Watch/Mac 通用会员）：录音转文字、说话人区分、摘要、待办与“问会议”；模型下载后可在本机离线转写与总结。Product Hunt 首发福利：前 2,000 名用码 NOTAAI 在 App Store 免费兑换终身访问，先到先得，2026 年 12 月 10 日或名额兑完即止；无需点赞/评论/评价。注意：仅限中国大陆以外 App Store 区域；需 Apple 账号。",
+    "source": "Product Hunt 官方首发帖（作者 Allan，2026-11-18 发布、11-23 更新）核实：2,000 free Lifetime Access redemptions、码 NOTAAI、Expires December 10, 2026、App Store 兑换、中国大陆以外区域",
+    "claim_steps": [
+      "打开 Product Hunt 首发页确认 2,000 名免费终身名额与码 NOTAAI",
+      "点 App Store 兑换链接，用码 NOTAAI 兑换终身访问",
+      "下载 Nota AI（iPhone/Mac），下载离线模型后本机转写会议"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读首发帖",
+        "detail": "确认 2,000 名额、码 NOTAAI、12/10 截止。",
+        "url": "https://www.producthunt.com/products/nota-ai-meeting-recorder-agent"
+      },
+      {
+        "step": "App Store 兑换",
+        "detail": "用码 NOTAAI 兑换终身访问。",
+        "url": "https://www.producthunt.com/products/nota-ai-meeting-recorder-agent"
+      },
+      {
+        "step": "下载使用",
+        "detail": "下载应用与离线模型后使用。",
+        "url": "https://www.producthunt.com/products/nota-ai-meeting-recorder-agent"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Nota AI",
+        "action_url": "https://www.producthunt.com/products/nota-ai-meeting-recorder-agent"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent",
+      "office"
+    ],
+    "barriers": [
+      "need_signup",
+      "region_block"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T01:20:00+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T01:20:00+08:00"
+    }
+  },
+  {
+    "id": "linger-open-source-local-agent-20261125",
+    "title": "Linger：免费开源本地个人 agent（零 token 费，125B 模型跑 12GB 显卡）",
+    "platform": "Linger",
+    "product": "Linger",
+    "model": "",
+    "type": "开源免费",
+    "deadline": null,
+    "url": "https://github.com/simplexai-labs/linger",
+    "summary": "前 DeepSeek 核心成员张博（Tony Zhang）创立的 Simplex AI 于 2026-11-19 开源的个人 agent：macOS/Windows/Linux 桌面应用，模型跑在自己电脑上，无 token 费；自研 PolyStrata 推理引擎把 125B 的 Qwen3.8-Flash-Next 跑在 12GB 显卡 + 64GB 内存上（官方实验室数据，第三方未独立验证）；主 agent “Another Me” 读本地邮件、日历、文件，夜间整理成 wiki，操作已登录的浏览器与桌面应用。协议为基于 Apache 2.0 附加条件的 Linger 开源协议（禁未授权商用托管）。注意：性能数据为官方实验室口径；硬件门槛较高（建议 12GB 显存 + 64GB 内存）；托管版仅候补名单、未定价。",
+    "source": "Simplex AI 官方 GitHub simplexai-labs/linger 与 36氪/Perplexity/i10X 2026-11-19~20 报道核实：2026-11-19 开源、本地运行零 token 费、PolyStrata 引擎、Linger 开源协议（Apache 2.0 附加条件）",
+    "claim_steps": [
+      "打开 https://github.com/simplexai-labs/linger 确认开源协议与安装方式",
+      "按 README 下载对应平台桌面版（macOS 14+ Apple Silicon / Windows x64 / Linux x64）",
+      "本地安装模型后使用；外接 Claude Code/Codex/Pi 需自有订阅"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官方 README",
+        "detail": "确认本地零 token 费、硬件要求。",
+        "url": "https://github.com/simplexai-labs/linger"
+      },
+      {
+        "step": "下载桌面版",
+        "detail": "按平台下载安装包。",
+        "url": "https://github.com/simplexai-labs/linger"
+      },
+      {
+        "step": "本地运行",
+        "detail": "安装模型后本地使用。",
+        "url": "https://github.com/simplexai-labs/linger"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Linger",
+        "action_url": "https://github.com/simplexai-labs/linger"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent",
+      "local"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T01:20:00+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T01:20:00+08:00"
+    }
+  },
+  {
+    "id": "qianwen-go-free-call-service-20261125",
+    "title": "千问 Go：免费代打电话服务（全量开放，订餐/查快递/寻失物，支持定时外呼）",
+    "platform": "千问",
+    "product": "千问 Go",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://www.qianwen.com/",
+    "summary": "阿里千问 Go（千问 App 内的个人智能体）2026-11-25 全面开放免费代打电话服务：告知拨打对象与通话需求并授权后，千问代为联系餐厅订位、向酒店问失物、联系快递员查进度等，并反馈结果；支持定时外呼。通话中主动表明 AI 身份，设外呼安全防护机制拦截高风险请求；每次外呼均需用户明确授权。注意：需千问账号（淘宝/支付宝/钉钉登录）；代打电话目前限生活场景。",
+    "source": "千问官方 11/25 公告经多家主流媒体引述核实（新京报、每经、IT之家、新浪科技 2026-11-25）：全面开放免费代打电话、需授权、支持定时外呼；入口为千问 App/官网 qianwen.com",
+    "claim_steps": [
+      "打开 https://www.qianwen.com/ 或千问 App，切换到「千问 Go」",
+      "用淘宝/支付宝/钉钉账号登录并授权代打电话",
+      "告知拨打对象与需求（可设定时），由千问代拨并反馈结果"
+    ],
+    "claim_guide": [
+      {
+        "step": "打开千问入口",
+        "detail": "官网或 App 内切换到千问 Go。",
+        "url": "https://www.qianwen.com/"
+      },
+      {
+        "step": "登录并授权",
+        "detail": "淘宝/支付宝/钉钉登录，授权外呼。",
+        "url": "https://www.qianwen.com/"
+      },
+      {
+        "step": "委托代打",
+        "detail": "告知对象与需求，可设定时外呼。",
+        "url": "https://www.qianwen.com/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "千问 Go",
+        "action_url": "https://www.qianwen.com/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent",
+      "chat"
+    ],
+    "barriers": [
+      "need_signup",
+      "cn_account"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T01:20:00+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T01:20:00+08:00"
+    }
+  },
+  {
+    "id": "codebuddy-free-500-credits-monthly-20261126",
+    "title": "腾讯 CodeBuddy 体验版免费：每月 500 积分（限免期间补全不限次、全模型可选）",
+    "platform": "腾讯云",
+    "product": "CodeBuddy",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://www.codebuddy.cn/",
+    "summary": "腾讯云 AI 编程助手 CodeBuddy 体验版免费：每月 500 积分（当月有效，不累计），代码实时补全每月 5,000 次，Auto 模型调度；限免期间补全不限次、全部模型可选、自动任务 99 个（限免结束时间官方未公布，以官方为准）。积分与 WorkBuddy 同账号共享。支持自家 IDE、VS Code、JetBrains、CLI 等；手机号或微信登录。",
+    "source": "CodeBuddy 官方定价页（codebuddy.cn）经两家中文横评 2026-11-12/2026-11 核实：体验版每月 500 积分、补全 5,000 次/月、限免期间不限次与全模型可选",
+    "claim_steps": [
+      "打开 CodeBuddy 官网下载 IDE 或插件",
+      "手机号或微信登录，体验版每月自动发 500 积分",
+      "限免期间使用全模型与不限次补全"
+    ],
+    "claim_guide": [
+      {
+        "step": "下载安装",
+        "detail": "官网下载 IDE 或编辑器插件。",
+        "url": "https://www.codebuddy.cn/"
+      },
+      {
+        "step": "登录领积分",
+        "detail": "手机号或微信登录，每月 500 积分。",
+        "url": "https://www.codebuddy.cn/"
+      },
+      {
+        "step": "限免使用",
+        "detail": "限免期间补全不限次、全模型可选。",
+        "url": "https://www.codebuddy.cn/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "CodeBuddy",
+        "action_url": "https://www.codebuddy.cn/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "need_signup",
+      "need_phone"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T08:42:32+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T08:42:32+08:00"
+    }
+  },
+  {
+    "id": "trae-free-plan-500-credits-20261126",
+    "title": "TRAE 免费版：¥0/月，每月 500 积分（新用户另送 4,000 积分）",
+    "platform": "TRAE",
+    "product": "TRAE",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://www.trae.cn/pricing",
+    "summary": "字节 TRAE 编程工具免费版 ¥0/月：每月 500 积分，全部功能均可免费使用，支持 2 个云端任务同时执行；新用户注册一次性送 4,000 积分（31 天内有效），每日签到再得 150 积分。注意：500 积分/月仅够轻度补全与少量对话，重度任务很快见底；免费版为 Freemium 入口。",
+    "source": "TRAE 官方定价页（trae.cn/pricing）经 coderlog 2026-11 核实：Free ¥0/月、每月 500 积分、2 云端任务并发；新用户 4,000 积分与每日签到 150 积分为官方文档口径",
+    "claim_steps": [
+      "打开 TRAE 官网定价页确认免费版条款",
+      "下载 TRAE 桌面端并注册，新用户领 4,000 积分",
+      "每月 500 积分自动到账，每日签到再领 150 积分"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认免费版",
+        "detail": "定价页确认 Free ¥0/月、每月 500 积分。",
+        "url": "https://www.trae.cn/pricing"
+      },
+      {
+        "step": "注册领积分",
+        "detail": "新用户注册送 4,000 积分（31 天有效）。",
+        "url": "https://www.trae.cn/pricing"
+      },
+      {
+        "step": "每日签到",
+        "detail": "每日签到再得 150 积分。",
+        "url": "https://www.trae.cn/pricing"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "TRAE",
+        "action_url": "https://www.trae.cn/pricing"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T08:42:32+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T08:42:32+08:00"
+    }
+  },
+  {
+    "id": "baidu-comate-free-5000-credits-20261126",
+    "title": "百度文心快码个人标准版 Free：首次注册送 5,000 积分（7 天有效）",
+    "platform": "百度",
+    "product": "文心快码",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://comate.baidu.com/",
+    "summary": "百度文心快码（Baidu Comate）个人标准版 Free：首次注册送 5,000 积分，7 天内有效，智能补全免费；含编程智能体、续写与改写、Spec 模式、Figma 转代码、自定义智能体/技能/规则、Mission 工作模式。支持 Comate AI IDE、VS Code、JetBrains、CLI 等；百度账号或微信/QQ/GitHub 第三方登录（第三方登录需绑手机号），部分功能需实名。注意：5,000 积分用完或过期后，免费版除补全外还能用什么官方未写明。",
+    "source": "文心快码官方定价页（comate.baidu.com）与产品定价文档（cloud.baidu.com）经 sanbot 2026-11-12 核实：个人标准版 Free、注册送 5,000 积分、7 天有效、补全免费",
+    "claim_steps": [
+      "打开文心快码官网注册（百度账号或第三方账号）",
+      "领取首次注册 5,000 积分（7 天内用完）",
+      "在 IDE/插件中使用编程智能体与免费补全"
+    ],
+    "claim_guide": [
+      {
+        "step": "注册账号",
+        "detail": "百度账号或第三方账号登录。",
+        "url": "https://comate.baidu.com/"
+      },
+      {
+        "step": "领取积分",
+        "detail": "首次注册送 5,000 积分，7 天有效。",
+        "url": "https://comate.baidu.com/"
+      },
+      {
+        "step": "使用智能体",
+        "detail": "编程智能体与补全免费使用。",
+        "url": "https://comate.baidu.com/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "文心快码",
+        "action_url": "https://comate.baidu.com/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "need_signup",
+      "need_phone"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T08:42:32+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T08:42:32+08:00"
+    }
+  },
+  {
+    "id": "qube-free-open-source-agent-20261126",
+    "title": "Qube 免费开源个人 AI agent（Apache-2.0，本地优先，自带模型）",
+    "platform": "Qube",
+    "product": "Qube",
+    "model": "",
+    "type": "Agent",
+    "deadline": null,
+    "url": "https://www.producthunt.com/products/qube-6",
+    "summary": "2026-11-24 Product Hunt 上线的个人 AI 助手（桌面应用，Windows/macOS/Linux，Tauri 构建）：会规划、多步执行、自我检查并交付真实成果（文件、带引用的研究、填表、更新应用），可设目标/定时主动执行；文件与聊天记录全部留在本机。自带模型：支持 ChatGPT 登录、40+ 供应商 API key（OpenAI、Anthropic、Google、OpenRouter）或本地 Ollama/LM Studio；应用本身完全免费开源（Apache-2.0），模型费自付。敏感操作需人工确认。",
+    "source": "Product Hunt 2026-11-24 上线页（producthunt.com/products/qube-6）与 ProductCool 复核：Free and open-source、Apache-2.0、本地优先、自带模型；官网链接未在 PH 页披露，以 PH 页为准",
+    "claim_steps": [
+      "打开 Product Hunt 上线页确认免费开源条款",
+      "下载 Qube 桌面端（Windows/macOS/Linux）",
+      "接入自己的模型（ChatGPT 登录、API key 或本地 Ollama/LM Studio）后使用"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "PH 上线页确认免费开源、Apache-2.0。",
+        "url": "https://www.producthunt.com/products/qube-6"
+      },
+      {
+        "step": "下载安装",
+        "detail": "下载桌面端安装。",
+        "url": "https://www.producthunt.com/products/qube-6"
+      },
+      {
+        "step": "接入模型",
+        "detail": "自带 ChatGPT 登录、API key 或本地模型。",
+        "url": "https://www.producthunt.com/products/qube-6"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Qube",
+        "action_url": "https://www.producthunt.com/products/qube-6"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent",
+      "chat"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T08:42:32+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T08:42:32+08:00"
+    }
+  },
+  {
+    "id": "memoryworks-free-open-source-20261126",
+    "title": "MemoryWorks 免费开源公司记忆层（AGPL-3.0，MCP 接 ChatGPT/Claude Code）",
+    "platform": "MemoryWorks",
+    "product": "MemoryWorks",
+    "model": "",
+    "type": "Agent",
+    "deadline": null,
+    "url": "https://www.producthunt.com/products/memoryworks",
+    "summary": "2026-11-24 Product Hunt 上线的工程组织记忆层：从 GitHub、Slack、Notion、Google Drive、Teams 与技术文档中抓取决策、上下文与 know-how，变成人和 AI agent 都能用的记忆，每个答案都附来源；通过 MCP 服务器接 ChatGPT 与 Claude Code，改动前可先拉取组织记忆简报。开源 AGPL-3.0，免费使用；需自托管/配置各数据源集成。",
+    "source": "Product Hunt 2026-11-24 上线页（producthunt.com/products/memoryworks）核实：Free、开源 AGPL-3.0、MCP 接 ChatGPT/Claude Code；官网/GitHub 链接未在 PH 页披露，以 PH 页为准",
+    "claim_steps": [
+      "打开 Product Hunt 上线页确认免费开源条款",
+      "按 GitHub 仓库指引自托管部署 MemoryWorks",
+      "配置 GitHub/Slack/Notion 等数据源，并通过 MCP 接入 ChatGPT/Claude Code"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "PH 上线页确认 Free、AGPL-3.0。",
+        "url": "https://www.producthunt.com/products/memoryworks"
+      },
+      {
+        "step": "自托管部署",
+        "detail": "按仓库指引部署服务。",
+        "url": "https://www.producthunt.com/products/memoryworks"
+      },
+      {
+        "step": "接入 MCP",
+        "detail": "配置数据源后用 MCP 接 ChatGPT/Claude Code。",
+        "url": "https://www.producthunt.com/products/memoryworks"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "MemoryWorks",
+        "action_url": "https://www.producthunt.com/products/memoryworks"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent",
+      "coding"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T08:42:32+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T08:42:32+08:00"
+    }
+  },
+  {
+    "id": "anya-50-usd-free-credits-20261126",
+    "title": "Anya 个人 AI agent：PH 前 500 名新用户 $50 免费 credits（WhatsApp/iMessage）",
+    "platform": "IMAI",
+    "product": "Anya",
+    "model": "",
+    "type": "限时",
+    "deadline": null,
+    "url": "https://imai.studio/anya",
+    "summary": "IMAI 的个人 AI agent Anya（WhatsApp 与 iMessage 内使用）：发消息即得完成的工作——会前调研人物/公司、找潜在买家、跑复杂预测等；简单问题走 Instinct 快速回答，复杂工作走 Anya 深度处理。Product Hunt 上线优惠：前 500 名新用户注册送 $50 免费 credits（imai.studio/anya）。注意：名额有限，先到先得；$50 用完后按量计费。",
+    "source": "Product Hunt 2026-11-19 上线页（producthunt.com/products/anya-4）核实：前 500 名新用户 $50 免费 credits、imai.studio/anya",
+    "claim_steps": [
+      "打开 https://imai.studio/anya 确认前 500 名 $50 优惠仍有名额",
+      "注册并在 WhatsApp 或 iMessage 上联系 Anya",
+      "用 $50 免费 credits 试用调研与深度任务"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认名额",
+        "detail": "确认前 500 名 $50 优惠仍有效。",
+        "url": "https://imai.studio/anya"
+      },
+      {
+        "step": "注册联系",
+        "detail": "注册后在 WhatsApp/iMessage 联系 Anya。",
+        "url": "https://imai.studio/anya"
+      },
+      {
+        "step": "试用任务",
+        "detail": "用 $50 免费 credits 试用。",
+        "url": "https://imai.studio/anya"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Anya",
+        "action_url": "https://imai.studio/anya"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent",
+      "chat"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T08:42:32+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T08:42:32+08:00"
+    }
+  },
+  {
+    "id": "koed-free-open-source-agent-memory-20261126",
+    "title": "Koed 免费开源编码 agent 记忆层（本地运行，免注册）",
+    "platform": "Koed",
+    "product": "Koed",
+    "model": "",
+    "type": "Agent",
+    "deadline": null,
+    "url": "https://www.producthunt.com/products/koed",
+    "summary": "2026-11-24 Product Hunt 上线的编码 agent 记忆工具：每个项目配一个 Kin（可定制助手），自动记录工作方式、已做决策与试错历史，给 Claude Code、Codex、Pi 提供基于项目历史的指导，实测可减少约 52% 编码时间、69% tokens。核心完全免费开源、本地运行，对话与上下文留在自己设备上，无需账号；模型费自付（用自己的订阅）。云端处理与团队共享即将推出。",
+    "source": "Product Hunt 2026-11-24 上线页（maker 发帖）核实：Free, open source and on-device、You don't need an account；ProductCool 复核：核心自托管免费开源 $0/月、本地运行",
+    "claim_steps": [
+      "打开 Product Hunt 上线页确认免费开源条款",
+      "下载 Koed 桌面端（个人开发者版）",
+      "接入自己的 Claude Code/Codex/Pi 订阅后使用，历史自动留存本机"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "PH 上线页确认免费开源、本地运行、免注册。",
+        "url": "https://www.producthunt.com/products/koed"
+      },
+      {
+        "step": "下载安装",
+        "detail": "下载桌面端安装。",
+        "url": "https://www.producthunt.com/products/koed"
+      },
+      {
+        "step": "接入 agent",
+        "detail": "接入自己的 Claude Code/Codex/Pi 订阅使用。",
+        "url": "https://www.producthunt.com/products/koed"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Koed",
+        "action_url": "https://www.producthunt.com/products/koed"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T14:42:12+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T14:42:12+08:00"
+    }
+  },
+  {
+    "id": "steerlatch-3-month-free-trial-20261126",
+    "title": "SteerLatch 3 个月免费试用（3 台电脑，每月 5,000 次 MCP 调用，免绑卡）",
+    "platform": "SteerLatch",
+    "product": "SteerLatch",
+    "model": "",
+    "type": "限时",
+    "deadline": null,
+    "url": "https://www.steerlatch.com/",
+    "summary": "把 ChatGPT、Claude 等 MCP 兼容助手接到自己授权的 Mac/Windows 电脑：读改文件、跑终端、截图、键鼠操作，支持手机/浏览器远程查看与控制，Context Hub 在 agent 会话间共享项目记忆与消息。免费试用 3 个月：最多 3 台电脑、每月 5,000 次 MCP 工具调用，免信用卡；到期后付费档 €12.99/月起。iPhone 伴侣应用已上架 App Store。",
+    "source": "Product Hunt 2026-11-25 上线页（maker 发帖）核实：three-month free trial, up to three computers, 5,000 MCP tool calls per month, no credit card；mcp.tc 与 ai-powered.com 复核一致",
+    "claim_steps": [
+      "打开 https://www.steerlatch.com/ 确认 3 个月免费试用条款",
+      "注册账号，在 Mac/Windows 上安装本地 agent 并授权",
+      "在 Claude/ChatGPT 中添加 SteerLatch MCP 连接器后使用"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网确认 3 个月试用、3 台电脑、每月 5,000 次调用、免绑卡。",
+        "url": "https://www.steerlatch.com/"
+      },
+      {
+        "step": "安装授权",
+        "detail": "本地安装 agent 并授权电脑。",
+        "url": "https://www.steerlatch.com/"
+      },
+      {
+        "step": "接入助手",
+        "detail": "在 Claude/ChatGPT 添加 MCP 连接器。",
+        "url": "https://www.steerlatch.com/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "SteerLatch",
+        "action_url": "https://www.steerlatch.com/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T14:42:12+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T14:42:12+08:00"
+    }
+  },
+  {
+    "id": "s-space-100-usd-credits-ph-launch-20261126",
+    "title": "S.Space 上线福利：$100 credits + 30 天 Max 档免费试用（免绑卡）",
+    "platform": "S.Space",
+    "product": "S.Space",
+    "model": "",
+    "type": "限时",
+    "deadline": null,
+    "url": "https://s.space/",
+    "summary": "AutoGen 团队出品的团队 agent 协作空间：团队成员与各家 agent（Claude Code、Codex 等）在同一工作区协作，agent 跨人交接任务、共享记忆，重要操作需人工批准。Product Hunt 上线福利：注册即得 $100 credits（用于自家 Sutando 云端 agent 与 MCP 市场），另有新账号 30 天 Max 档免费试用，免信用卡；试用后免费档可继续用（无用量额度，云端工具与托管语音需付费档或另购 credits）。付费档 $19/人/月起。",
+    "source": "Product Hunt 2026-11-18 上线页（maker 发帖，2026-11-25 更新）核实：join at s.space and you get $100 in credits、Free to start、30-day trial of top plan；PowerfulAI.tools 对照官网核实：30 天 Max 试用免绑卡，试用后免费档无用量额度",
+    "claim_steps": [
+      "打开 https://s.space/ 注册账号",
+      "确认 $100 credits 与 30 天 Max 试用到账",
+      "在工作区接入自己的 agent 协作，试用到期前决定是否付费"
+    ],
+    "claim_guide": [
+      {
+        "step": "注册领取",
+        "detail": "注册确认 $100 credits 与 30 天 Max 试用。",
+        "url": "https://s.space/"
+      },
+      {
+        "step": "接入 agent",
+        "detail": "把 Claude Code/Codex 等 agent 接入工作区。",
+        "url": "https://s.space/"
+      },
+      {
+        "step": "到期确认",
+        "detail": "试用后免费档无用量额度，需付费再用云端工具。",
+        "url": "https://s.space/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "S.Space",
+        "action_url": "https://s.space/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent",
+      "chat"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T14:42:12+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T14:42:12+08:00"
+    }
+  },
+  {
+    "id": "falcon-vybe-free-competitor-analysis-20261126",
+    "title": "Falcon by Vybe 免费竞品分析 agent（免注册，输网址即出报告）",
+    "platform": "Vybe",
+    "product": "Falcon",
+    "model": "",
+    "type": "Agent",
+    "deadline": null,
+    "url": "https://www.vybe.build/",
+    "summary": "Vybe 出品的自主竞品分析 agent：输入一个公司网址即可自动识别主要竞品，输出定价策略、定位、广告投放与客户评价舆情的深度市场报告；跑在 Vybe agent 框架上，可持续监测市场变化、更新差距矩阵并转成可执行工作流。免费：无需注册账号，输网址即分析。",
+    "source": "Product Hunt 2026-11-25 上线页与 ProductCool 核实：analyzes your competitors for free、No account needed, analyze instantly using just your website URL；官网 vybe.build",
+    "claim_steps": [
+      "打开 https://www.vybe.build/ 找到 Falcon",
+      "输入公司网址，免费生成竞品分析报告",
+      "按需让 agent 持续监测市场变化"
+    ],
+    "claim_guide": [
+      {
+        "step": "打开官网",
+        "detail": "在 vybe.build 找到 Falcon。",
+        "url": "https://www.vybe.build/"
+      },
+      {
+        "step": "输入网址",
+        "detail": "输公司网址免费分析竞品。",
+        "url": "https://www.vybe.build/"
+      },
+      {
+        "step": "查看报告",
+        "detail": "查看定价/定位/广告/舆情报告。",
+        "url": "https://www.vybe.build/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Falcon",
+        "action_url": "https://www.vybe.build/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T14:42:12+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T14:42:12+08:00"
+    }
+  },
+  {
+    "id": "clawcall-30-free-calls-20261126",
+    "title": "ClawCall 免费 30 次电话（或 30 分钟，免绑卡，AI 替你打电话）",
+    "platform": "ClawCall",
+    "product": "ClawCall",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://clawcall.dev/",
+    "summary": "给 AI 助手接电话能力的工具：ChatGPT（官方插件目录）、Grok Bot、Claude、OpenClaw、Hermes 等接上后可替你给美国商家打电话——过电话菜单、等候接听、订位订餐询价，全程 25 种语言，通话后回传文字结果与录音文字稿，关键决策先打给你确认。免费档：30 次电话或 30 分钟（先到为准），免信用卡；之后 Unlimited $8.99/月起。注意：仅限美国号码、一次一通、无短信。",
+    "source": "ClawCall 官网（clawcall.dev）核实：Free: 30 calls or 30 minutes, no card；Start free with 30 calls or 30 minutes, no card needed；Product Hunt 2026-11-11 上线页一致",
+    "claim_steps": [
+      "打开 https://clawcall.dev/ 注册免费账号",
+      "在 ChatGPT 插件目录安装 ClawCall，或给 Grok Bot/Claude 接 MCP",
+      "用自然语言让助手打电话，30 次/30 分钟内免费"
+    ],
+    "claim_guide": [
+      {
+        "step": "注册账号",
+        "detail": "官网注册，免费档 30 次或 30 分钟、免绑卡。",
+        "url": "https://clawcall.dev/"
+      },
+      {
+        "step": "接入助手",
+        "detail": "ChatGPT 插件或 MCP 接入自己的助手。",
+        "url": "https://clawcall.dev/"
+      },
+      {
+        "step": "打电话",
+        "detail": "让助手拨打美国商家电话并回传结果。",
+        "url": "https://clawcall.dev/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "ClawCall",
+        "action_url": "https://clawcall.dev/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent",
+      "chat"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T14:42:12+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T14:42:12+08:00"
+    }
+  },
+  {
+    "id": "latch-open-free-50-credits-20261126",
+    "title": "Latch Open 免费档（每月 50 credits，永久免费，免绑卡）",
+    "platform": "Latch",
+    "product": "Latch",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://www.latch.ai/pricing/",
+    "summary": "给会计/财务的 AI 助手：看一遍你做重复性月结任务的录屏与语音讲解，就学会并建成一个 sidekick，之后自动重复执行并标记异常；通过 MCP 接 Claude、ChatGPT、Codex、GitHub Copilot。Open 档 $0 永久免费：1 人、每月 50 credits，免信用卡；教学与 sidekick 生成免费，运行时才扣 credits。注意：每次运行扣多少 credits 官方未公布固定价。",
+    "source": "Latch 官网定价页（latch.ai/pricing）核实：Open $0 Free forever、50 credits a month、no credit card required；Product Hunt 2026-11-10 上线当日第 4",
+    "claim_steps": [
+      "打开 https://www.latch.ai/pricing/ 确认 Open 档免费条款",
+      "注册免费账号，录制一次重复性任务并讲解",
+      "让 sidekick 自动执行，每月 50 credits 内免费"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网定价页确认 Open $0 永久免费、每月 50 credits、免绑卡。",
+        "url": "https://www.latch.ai/pricing/"
+      },
+      {
+        "step": "录制任务",
+        "detail": "录屏并讲解一次重复性任务。",
+        "url": "https://www.latch.ai/pricing/"
+      },
+      {
+        "step": "自动执行",
+        "detail": "sidekick 自动执行，每月 50 credits 内免费。",
+        "url": "https://www.latch.ai/pricing/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Latch",
+        "action_url": "https://www.latch.ai/pricing/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T14:42:12+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T14:42:12+08:00"
+    }
+  },
+  {
+    "id": "o8-free-open-source-control-room-20261126",
+    "title": "o8（OpenEight）免费开源 coding agent 治理台（本地运行）",
+    "platform": "o8",
+    "product": "o8",
+    "model": "",
+    "type": "Agent",
+    "deadline": null,
+    "url": "https://o8.run/",
+    "summary": "一人多 agent 的开源控制室（Product Hunt 名 OpenEight）：Claude Code、Codex、Grok Build、DeepSeek、OpenCode、Gemini 等十余种 coding agent 在隔离 git worktree 里干活，o8 把工作、评审与决策收进一处；另一 agent 审真实 diff，意见发回作者、最多再审两轮，通过的提交才合并。本机运行的全部功能免费开源（含治理、记忆、Brain、移动端、语音自带 key）；Pro 为可选托管版。macOS 原生，iPhone 应用测试中、Linux 预览包。",
+    "source": "o8 官网（o8.run）核实：o8 is a free, open-source review and merge layer for coding agents；myslop.shop 2026-10-29 复核：Everything that runs on your machine is free and open source；Product Hunt 2026-11-25 上线",
+    "claim_steps": [
+      "打开 https://o8.run/ 确认免费开源条款",
+      "下载安装 o8（macOS），接入自己的 coding agent 订阅",
+      "在隔离 worktree 中并行跑 agent，审 diff 后合并"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网确认免费开源、本机运行。",
+        "url": "https://o8.run/"
+      },
+      {
+        "step": "下载安装",
+        "detail": "下载安装 o8 并接入 agent 订阅。",
+        "url": "https://o8.run/"
+      },
+      {
+        "step": "审 diff 合并",
+        "detail": "另一 agent 审 diff，通过才合并。",
+        "url": "https://o8.run/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "o8",
+        "action_url": "https://o8.run/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T14:42:12+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T14:42:12+08:00"
+    }
+  },
+  {
+    "id": "superagent-free-forever-mac-20261126",
+    "title": "Superagent 永久免费 Mac 应用（Claude Code/Codex/Antigravity 的家，MIT 开源）",
+    "platform": "Superagent",
+    "product": "Superagent",
+    "model": "",
+    "type": "Agent",
+    "deadline": null,
+    "url": "https://superagent.computer/",
+    "summary": "给 coding agent 的 Mac 桌面家园：Claude Code、Codex、Antigravity 在同一窗口里跑，内置真实浏览器（可点可测）、iOS 模拟器、git worktree 分支聊天、八窗分屏、定时任务；账号额度到顶自动切下一个账号/模型。永久免费：无订阅、无试用、无绑卡、无账号、MIT 开源，跑在自己的 AI 套餐上（Claude Pro/Max、ChatGPT Plus/Pro 或 Google AI 计划）。注意：仅限 Apple Silicon Mac。",
+    "source": "Superagent 官网（superagent.computer）核实：Free forever. Really. No subscription. No trial. No credit card.、Is Superagent free? Yes, free forever. No paid tier, no trial, no credit card, and no account required. Open source MIT；2026-08-30 Product Hunt 上线",
+    "claim_steps": [
+      "打开 https://superagent.computer/ 确认永久免费条款",
+      "下载安装 Mac 应用（Apple Silicon）",
+      "登录已有的 Claude/Codex/Antigravity 账号后使用"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网确认永久免费、无绑卡、无账号、MIT 开源。",
+        "url": "https://superagent.computer/"
+      },
+      {
+        "step": "下载安装",
+        "detail": "下载 Mac 应用安装。",
+        "url": "https://superagent.computer/"
+      },
+      {
+        "step": "接入账号",
+        "detail": "登录已有的 agent 账号后使用。",
+        "url": "https://superagent.computer/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Superagent",
+        "action_url": "https://superagent.computer/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T14:42:12+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T14:42:12+08:00"
+    }
+  },
+  {
+    "id": "8080-ai-free-plan-20261126",
+    "title": "8080.AI 免费档（$0，注册送 10 credits，3 个项目/每月 100 次部署，免绑卡）",
+    "platform": "8080.AI",
+    "product": "8080.AI",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://8080.ai/",
+    "summary": "多 agent 协作开发平台：六个专业 agent（技术负责人、前端、后端、DevOps、QA、AI 集成）像一个工程团队一样并行开发应用，从一句话需求到部署上线，含 AI 调试、自定义域名、实时分析。免费档 $0：注册送 10 credits、3 个活跃项目、每月 100 次部署、共享 serverless 函数、GitHub 集成，免信用卡；Pro $29/月起。注意：免费档 credits 用完需充值（$0.34/credit 起）。",
+    "source": "8080.AI 官网定价页核实：Free $0、10 credits on sign-up；TechShark 复核：免费档 3 个项目、每月 100 次部署、No credit card is required to access the Free tier",
+    "claim_steps": [
+      "打开 https://8080.ai/ 确认免费档条款",
+      "注册账号领取 10 credits",
+      "描述需求，让多 agent 团队开发并部署（3 个项目内免费）"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网确认免费档 $0、注册送 10 credits、免绑卡。",
+        "url": "https://8080.ai/"
+      },
+      {
+        "step": "注册领取",
+        "detail": "注册领取 10 credits。",
+        "url": "https://8080.ai/"
+      },
+      {
+        "step": "开发部署",
+        "detail": "3 个项目、每月 100 次部署内免费。",
+        "url": "https://8080.ai/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "8080.AI",
+        "action_url": "https://8080.ai/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T14:42:12+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T14:42:12+08:00"
+    }
+  },
+  {
+    "id": "granular-free-plan-20261126",
+    "title": "Granular 免费档（2 个项目、1 boss + 2 worker agent；另有免费 AI credits）",
+    "platform": "Granular",
+    "product": "Granular",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://www.granular.build/",
+    "summary": "多 agent 并行工作的桌面端（Mac/Windows）：boss agent 拆任务给 worker agent，在真实终端与项目文件上并行开发，含实时预览、项目记忆（brain）与发布链接；接自己已有的 Claude、Codex 或 Gemini 账号/订阅，模型费付给原厂商、Granular 不加价。免费档 $0：2 个项目、每项目最多 4 个会话、1 个 boss + 2 个 worker、最多 3 个发布链接；无 AI 订阅的新用户在 setup 时还可领免费 AI credits（需免费 Granular 账号、免绑卡）。Pro $12.99/月起解除数量限制。2026-11-24 Product Hunt 当日第 2。",
+    "source": "Granular 官网（granular.build）定价页与文档核实：Free $0 forever，2 个项目、每项目 4 会话、1 个 boss + 2 个 worker、3 个发布链接；新用户 setup 时可领免费 AI credits、免绑卡",
+    "claim_steps": [
+      "打开 https://www.granular.build/ 确认免费档条款",
+      "下载安装桌面端，接自己的 Claude/Codex/Gemini 账号",
+      "在 2 个项目内并行跑 boss + worker agent"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网确认免费档 $0、2 个项目、1 boss + 2 worker。",
+        "url": "https://www.granular.build/"
+      },
+      {
+        "step": "下载安装",
+        "detail": "下载桌面端并接入自己的 AI 账号。",
+        "url": "https://www.granular.build/"
+      },
+      {
+        "step": "并行开发",
+        "detail": "2 个项目内并行跑 boss + worker agent。",
+        "url": "https://www.granular.build/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Granular",
+        "action_url": "https://www.granular.build/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T16:47:48+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T16:47:48+08:00"
+    }
+  },
+  {
+    "id": "agent-yurt-free-5-agents-20261126",
+    "title": "Agent Yurt 免费档（5 个 agent、1 GiB 存储，免绑卡；agent 的个人云）",
+    "platform": "Agent Yurt",
+    "product": "Agent Yurt",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://agentyurt.com",
+    "summary": "给 agent 的个人云：给文件、文档、表格、技能与已保存的工作找一个家，备份可移植的上下文、固定快照、审核恢复；通过有范围、可撤销凭证的 MCP（agentyurt.com/mcp）接入 Claude Code 等。免费：5 个 agent、1 GiB 共享存储、5 个仪表盘、每月 2 GiB 下载，免信用卡；每个 agent 保留最近 7 个快照。注意：服务标注为 beta、尽力而为，不宜作唯一备份；计算与应用托管尚未推出。2026-11-24 Product Hunt 提交。",
+    "source": "Agent Yurt 官网（agentyurt.com）与 Product Hunt 2026-11-24 提交页、官方 MCP Registry 条目核实：Free 5 个 agent、1 GiB、no card",
+    "claim_steps": [
+      "打开 https://agentyurt.com 确认免费档条款",
+      "注册账号，在 Claude Code 里添加 agent-yurt MCP",
+      "让 agent 备份上下文与快照，免费额度内使用"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网与 MCP Registry 确认免费 5 个 agent、1 GiB、免绑卡。",
+        "url": "https://agentyurt.com"
+      },
+      {
+        "step": "接入 MCP",
+        "detail": "在 Claude Code 添加 agent-yurt MCP。",
+        "url": "https://agentyurt.com"
+      },
+      {
+        "step": "备份使用",
+        "detail": "备份上下文与快照，免费额度内使用。",
+        "url": "https://agentyurt.com"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Agent Yurt",
+        "action_url": "https://agentyurt.com"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T16:47:48+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T16:47:48+08:00"
+    }
+  },
+  {
+    "id": "spreadsheet-to-app-free-1-app-20261126",
+    "title": "Spreadsheet to App 免费档（1 个应用、1 席位，每月有限 AI 用量，免绑卡）",
+    "platform": "Spreadsheet to App",
+    "product": "Spreadsheet to App",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://spreadsheettoapp.ai",
+    "summary": "把 Excel/CSV 或 Google Sheets 变成可托管的网页应用：描述工作流，AI agent（DeepSeek 驱动）写代码，Google Sheets 继续当数据库、应用直接读写；可在 Studio 里看私有预览、检查生成代码，再发布到自己的 spreadsheettoapp.app 地址。免费档 $0/月：1 个应用、1 个席位、每月有限 AI 用量，免信用卡。注意：需 Google 账号（数据在 Google Sheets 里）；产品尚处 early access，功能可能变化。Basic $25/月起。",
+    "source": "Spreadsheet to App 官网（spreadsheettoapp.ai）核实：Free $0/月，1 个应用、1 个席位、每月有限 AI 用量、免信用卡",
+    "claim_steps": [
+      "打开 https://spreadsheettoapp.ai 确认免费档条款",
+      "粘贴 Google Sheets 链接或上传 Excel/CSV，描述需求",
+      "在 Studio 预览并发布，1 个应用内免费"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网确认免费档 $0、1 个应用、1 席位、免绑卡。",
+        "url": "https://spreadsheettoapp.ai"
+      },
+      {
+        "step": "导入表格",
+        "detail": "粘贴 Sheets 链接或上传表格并描述需求。",
+        "url": "https://spreadsheettoapp.ai"
+      },
+      {
+        "step": "预览发布",
+        "detail": "在 Studio 预览并发布，1 个应用内免费。",
+        "url": "https://spreadsheettoapp.ai"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Spreadsheet to App",
+        "action_url": "https://spreadsheettoapp.ai"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T16:47:48+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T16:47:48+08:00"
+    }
+  },
+  {
+    "id": "vertov-free-180-minutes-20261126",
+    "title": "Vertov 免费档（180 分钟存储，单视频最长 15 分钟；核心 AGPL-3.0，MCP 可接 agent）",
+    "platform": "Vertov",
+    "product": "Vertov",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://vertov.app/",
+    "summary": "浏览器录屏工具：无账号即可录制，用文字稿删词剪视频，可缩放/模糊细节、从文字稿起草流程，并把录制交给 agent（MCP/API）；成员与观看者免费。免费档：180 分钟存储、单个视频最长 15 分钟；核心 AGPL-3.0 开源，托管版另有 AI 文档、翻译、MCP 服务器、播放列表与分析。Pro $9/月（25 小时）起。",
+    "source": "Vertov 官网（vertov.app）llms.txt 核实：Free 180 分钟、单视频最长 15 分钟；核心 AGPL-3.0（github.com/ankurmans/vertov-screen-recorder）",
+    "claim_steps": [
+      "打开 https://vertov.app/ 确认免费档条款",
+      "免账号直接在浏览器录制",
+      "按需用 MCP/API 把录制交给 agent 处理"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网 llms.txt 确认免费 180 分钟、单视频 15 分钟。",
+        "url": "https://vertov.app/"
+      },
+      {
+        "step": "直接录制",
+        "detail": "免账号在浏览器录制。",
+        "url": "https://vertov.app/"
+      },
+      {
+        "step": "交给 agent",
+        "detail": "用 MCP/API 把录制交给 agent。",
+        "url": "https://vertov.app/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Vertov",
+        "action_url": "https://vertov.app/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T16:47:48+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T16:47:48+08:00"
+    }
+  },
+  {
+    "id": "cadprops-free-15-uploads-daily-20261126",
+    "title": "CADProps 免费账号（每天 15 次上传、200 MB 存储；免账号可查看测量 CAD）",
+    "platform": "CADProps",
+    "product": "CADProps",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://www.cadprops.com/",
+    "summary": "浏览器里的 CAD 查看/转换器：支持 92 种以上格式（STEP、IGES、SolidWorks、CATIA、STL、DWG/DXF 等），可量尺寸、体积与表面积、估算重量、转 STL/GLB；另有 Claude 远程 MCP 连接器。免费：免账号查看与测量（单个文件最高 95 MiB，访客文件约 60 分钟后删除）；免费账号每天 15 次上传、200 MB 存储、1 条 7 天免费分享链接；转换与 Pro 分享链接用积分（20 积分 $6 起）。",
+    "source": "CADProps 官网（cadprops.com）核实：免账号查看/测量，访客文件约 60 分钟后删除；免费账号每天 15 次上传、200 MB；Claude 远程 MCP（cadprops.com/api/v1/mcp）",
+    "claim_steps": [
+      "打开 https://www.cadprops.com/ 确认免费条款",
+      "免账号直接上传 CAD 文件查看测量",
+      "注册免费账号后每天 15 次上传，或给 Claude 接 MCP"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网确认免账号查看测量、免费账号每天 15 次上传。",
+        "url": "https://www.cadprops.com/"
+      },
+      {
+        "step": "免账号使用",
+        "detail": "直接上传文件查看测量 CAD。",
+        "url": "https://www.cadprops.com/"
+      },
+      {
+        "step": "注册/MCP",
+        "detail": "注册免费账号或给 Claude 接 MCP。",
+        "url": "https://www.cadprops.com/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "CADProps",
+        "action_url": "https://www.cadprops.com/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T16:47:48+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T16:47:48+08:00"
+    }
+  },
+  {
+    "id": "canva-mcp-free-20261126",
+    "title": "Canva MCP 正式上线（免费 Canva 账号可用核心工具；设计生成/编辑/导出走 MCP）",
+    "platform": "Canva",
+    "product": "Canva MCP",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://www.canva.dev/blog/developers/canva-mcp-ga/",
+    "summary": "Canva 官方远程 MCP 服务器（2026-11-24 正式上线、不再排队）：让 Claude、ChatGPT 等 AI 助手直接创建/编辑设计、搜设计库、管理素材与品牌套件、加评论、导出 PDF/PNG/JPG/PPTX/MP4。免费 Canva 账号可用核心工具（每用户 OAuth 登录），免绑卡；注意：自动填充、品牌模板、无损导出等需 Canva Pro 及以上，部分生成类工具消耗 Canva credits。开发者在 Developer Portal 建应用、打开 Canva MCP 开关后接入 api.canva.com/connect/v1/mcp；普通用户在 Claude/ChatGPT 里按 Canva AI Connector 指引连接即可。",
+    "source": "Canva 官方开发者博客（canva.dev，2026-11-24 GA 公告）核实：MCP 服务器正式可用、无需排队；免费 Canva 账号可用核心工具，部分功能需 Pro",
+    "claim_steps": [
+      "打开 Canva 开发者博客确认 MCP 正式上线",
+      "在 Claude/ChatGPT 里按 Canva AI Connector 指引连接，或在 Developer Portal 建应用接入",
+      "用免费 Canva 账号调用核心设计工具"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认上线",
+        "detail": "官方博客确认 MCP 已 GA、无需排队。",
+        "url": "https://www.canva.dev/blog/developers/canva-mcp-ga/"
+      },
+      {
+        "step": "连接助手",
+        "detail": "在助手里连接 Canva 或建开发者应用接入。",
+        "url": "https://www.canva.dev/blog/developers/canva-mcp-ga/"
+      },
+      {
+        "step": "免费使用",
+        "detail": "免费 Canva 账号调用核心工具。",
+        "url": "https://www.canva.dev/blog/developers/canva-mcp-ga/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Canva MCP",
+        "action_url": "https://www.canva.dev/blog/developers/canva-mcp-ga/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T16:47:48+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T16:47:48+08:00"
+    }
+  },
+  {
+    "id": "reelsdk-free-2-shorts-daily-20261126",
+    "title": "ReelSDK 每天 2 条免费短视频（免注册；注册另送 $0.50 credits）",
+    "platform": "ReelSDK",
+    "product": "ReelSDK",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://reelsdk.com/",
+    "summary": "AI 竖屏短视频生成器：输入主题，自动写脚本、配 AI 画面、配音、烧录字幕与音乐，30–60 秒成片；另有 REST API 与本地 MCP（bitgate/reelsdk-mcp）可接 Claude Code、Cursor、n8n。免费：浏览器工具每天 2 条短视频，免注册、免绑卡；注册另送 $0.50 credits（约 1 条 60 秒短视频），但按官网条款每天限量（每 IP 前 3 个新账号、总计 1,000 个），先到先得。付费 $0.30/条起，失败不扣费。",
+    "source": "ReelSDK 官网（reelsdk.com）与定价页核实：浏览器工具每天 2 条免费短视频、免注册；新账号 $0.50 credits（每天限量先到先得）",
+    "claim_steps": [
+      "打开 https://reelsdk.com/ 确认免费条款",
+      "免注册直接在浏览器工具每天做 2 条短视频",
+      "注册账号领 $0.50 credits，或调 API（$0.30/条）"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网确认每天 2 条免费、免注册；注册送 $0.50。",
+        "url": "https://reelsdk.com/"
+      },
+      {
+        "step": "免费做短视频",
+        "detail": "浏览器工具每天 2 条，免注册。",
+        "url": "https://reelsdk.com/"
+      },
+      {
+        "step": "注册/API",
+        "detail": "注册领 $0.50 或调 API。",
+        "url": "https://reelsdk.com/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "ReelSDK",
+        "action_url": "https://reelsdk.com/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T16:47:48+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T16:47:48+08:00"
+    }
+  },
+  {
+    "id": "open-agent-api-free-open-source-20261126",
+    "title": "Open Agent API 免费开源（Apache-2.0，自托管网关，把 coding CLI 变成 API）",
+    "platform": "Open Agent API",
+    "product": "Open Agent API",
+    "model": "",
+    "type": "Agent",
+    "deadline": null,
+    "url": "https://github.com/jiangxingfan1-coder/Open-Agent-API",
+    "summary": "开源自托管网关（Apache-2.0）：把本地 coding CLI（Claude Code、Codex、Antigravity、OpenCode 等）与本地模型（Ollama、LM Studio、llama.cpp、vLLM）变成有状态的 API 端点；用官方 OpenAI/Anthropic/Gemini SDK、把 agent ID 当 model 名即可调用，项目记忆存 SQLite（FTS5），敏感 shell/写操作在持久审批点暂停。免费：CLI、Docker Compose 与 Electron 应用均免费开源、默认只绑 localhost；模型费自付（用自己的 key 或本地模型）。注意：属社区项目，需 Node.js 24.18+ 自行部署。",
+    "source": "GitHub 仓库（jiangxingfan1-coder/Open-Agent-API，Apache-2.0）核实：免费开源自托管网关；2026-11-25 前后上线传播",
+    "claim_steps": [
+      "打开 GitHub 仓库确认 Apache-2.0 与用法",
+      "克隆仓库并按 README 快速启动网关",
+      "用官方 SDK、把 agent ID 当 model 名调用"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "GitHub 确认免费开源、Apache-2.0。",
+        "url": "https://github.com/jiangxingfan1-coder/Open-Agent-API"
+      },
+      {
+        "step": "部署网关",
+        "detail": "按 README 启动本地网关。",
+        "url": "https://github.com/jiangxingfan1-coder/Open-Agent-API"
+      },
+      {
+        "step": "SDK 调用",
+        "detail": "用官方 SDK、agent ID 当 model 名调用。",
+        "url": "https://github.com/jiangxingfan1-coder/Open-Agent-API"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Open Agent API",
+        "action_url": "https://github.com/jiangxingfan1-coder/Open-Agent-API"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T16:47:48+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T16:47:48+08:00"
+    }
+  },
+  {
+    "id": "activepieces-free-1000-credits-monthly-20261126",
+    "title": "Activepieces 免费档（每月 1,000 credits、流程不限、最多 5 人，永久免费免绑卡）",
+    "platform": "Activepieces",
+    "product": "Activepieces",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://www.activepieces.com/pricing",
+    "summary": "开源自动化平台（自托管社区版亦免费）：用聊天生成自动化流程，含 Flows、Agents、Tables，770+ 集成，MCP 与 API 接入。免费档 $0、永久免费、免信用卡：每月 1,000 credits（一次运行计 1 credit，AI 步骤按模型实际成本折算）、流程数量不限、最多 5 个用户；超量后流程保持开启、下月额度刷新再跑。Plus $20/月起（10 倍额度、可自带 AI key）。SOC 2 Type 2 认证。",
+    "source": "Activepieces 官网定价页（activepieces.com/pricing）核实：Free $0、Free forever, no card，每月 1,000 credits、流程不限、最多 5 人",
+    "claim_steps": [
+      "打开 https://www.activepieces.com/pricing 确认免费档条款",
+      "注册免费账号，每月领 1,000 credits",
+      "用聊天建流程与 agent，MCP/API 接入"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网定价页确认免费档 $0、每月 1,000 credits、免绑卡。",
+        "url": "https://www.activepieces.com/pricing"
+      },
+      {
+        "step": "注册领取",
+        "detail": "注册免费账号，每月领 1,000 credits。",
+        "url": "https://www.activepieces.com/pricing"
+      },
+      {
+        "step": "建流程",
+        "detail": "用聊天建流程与 agent，MCP/API 接入。",
+        "url": "https://www.activepieces.com/pricing"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Activepieces",
+        "action_url": "https://www.activepieces.com/pricing"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T16:47:48+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T16:47:48+08:00"
+    }
+  },
+  {
+    "id": "thrum-free-no-account-20261126",
+    "title": "Thrum 免费档（免账号：coding agent 互发消息、互相审活，本地运行）",
+    "platform": "Thrum",
+    "product": "Thrum",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://thrum.team/",
+    "summary": "让 coding agent 互相发消息的本地协调层：Claude Code、Codex、Cursor、OpenCode、Copilot 等不同工具里的 agent 可以互通，一个 coordinator 分活、reviewer 先审再合入，你在网页收件箱（My Inbox）或 Telegram 里一次答完它们的提问。免费：$0、免账号、免绑卡，含 agent 间消息、coordinator 与 reviewer、网页 UI 与收件箱；消息存在仓库本地 .thrum/ 文件夹。注意：仅限 macOS/Linux 本地运行；Pro $15/月（记忆、工作队列、邮件桥等），公开仓库的 Pro 免费。2026-11-09 Show HN 上线。",
+    "source": "Thrum 官网（thrum.team）与 Show HN 2026-11-09 上线帖核实：Free $0、needs no account；核心开源 MIT（github.com/thrum-team/thrum）",
+    "claim_steps": [
+      "打开 https://thrum.team/ 确认免费档条款",
+      "安装 Thrum 与 Claude Code 插件，thrum init 初始化",
+      "让 coordinator 分活、reviewer 审活，免账号使用"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网确认免费 $0、免账号。",
+        "url": "https://thrum.team/"
+      },
+      {
+        "step": "安装初始化",
+        "detail": "安装并 thrum init 初始化。",
+        "url": "https://thrum.team/"
+      },
+      {
+        "step": "协调审活",
+        "detail": "coordinator 分活、reviewer 审活。",
+        "url": "https://thrum.team/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Thrum",
+        "action_url": "https://thrum.team/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T16:47:48+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T16:47:48+08:00"
+    }
+  },
+  {
+    "id": "alchemist-coder-free-community-20261126",
+    "title": "Alchemist Coder 免费社区版（AGPL-3.0 开源，CLI coding agent 的桌面工作台，免账号）",
+    "platform": "Alchemist Coder",
+    "product": "Alchemist Coder",
+    "model": "",
+    "type": "Agent",
+    "deadline": null,
+    "url": "https://github.com/Alekla0126/alchemist-coder",
+    "summary": "CLI coding agent 的桌面工作台：把 Claude Code、Codex、Gemini CLI、Grok Build 等 agent 及其子 agent 的计划、工具调用、diff 与花费实时收进一处，并把会话历史索引进本地 SQLite 全文检索；免费社区版可在 Ollama/LM Studio 上跑本地模型。免费开源（AGPL-3.0）：Mac/Windows/Linux 桌面应用，免账号、无遥测；模型费自付。注意：属个人小项目（GitHub 约 11 stars），Mac 未签名、首次启动需在系统设置里放行；Pro $12/月（登录、端到端加密同步等）。",
+    "source": "GitHub 仓库（Alekla0126/alchemist-coder，AGPL-3.0，v1.3.9）与官网 coder.alekla.com 核实：社区版免费开源、免账号、无遥测",
+    "claim_steps": [
+      "打开 GitHub 仓库确认 AGPL-3.0 与社区版",
+      "下载安装桌面端（Mac 首次启动需系统设置放行）",
+      "接入自己的 CLI agent，本地索引会话历史"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "GitHub 确认社区版免费开源、免账号、无遥测。",
+        "url": "https://github.com/Alekla0126/alchemist-coder"
+      },
+      {
+        "step": "下载安装",
+        "detail": "下载桌面端安装。",
+        "url": "https://github.com/Alekla0126/alchemist-coder"
+      },
+      {
+        "step": "接入 agent",
+        "detail": "接入 CLI agent，本地索引会话。",
+        "url": "https://github.com/Alekla0126/alchemist-coder"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Alchemist Coder",
+        "action_url": "https://github.com/Alekla0126/alchemist-coder"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T16:47:48+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T16:47:48+08:00"
+    }
+  },
+  {
+    "id": "frowse-free-agent-browser-20261126",
+    "title": "Frowse 免费开源（Apache-2.0，agent 浏览器平替；本地 grounding 零 API 成本，省 token 约 54–91%）",
+    "platform": "Frowse",
+    "product": "Frowse",
+    "model": "",
+    "type": "Agent",
+    "deadline": null,
+    "url": "https://github.com/figranium/frowse",
+    "summary": "agent 浏览器的开源平替（Apache-2.0）：本地 Folate grounding 引擎做页面理解，零 API 成本；据称可把 agent 的 token 用量省 54–91%。免费：npm/pip 安装即可用，无需账号；自托管、本地运行。注意：属新项目，效果数据为作者自述，未经独立验证。",
+    "source": "GitHub 仓库（figranium/frowse，Apache-2.0）核实：免费开源本地运行，npm/pip 安装、无需账号；本地 Folate grounding 零 API 成本、省 token 约 54–91%（作者自述）",
+    "claim_steps": [
+      "打开 GitHub 仓库确认 Apache-2.0 与用法",
+      "用 npm 或 pip 安装 Frowse",
+      "按 README 把 agent 的浏览器调用接到 Frowse"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "GitHub 确认免费开源、本地运行、无需账号。",
+        "url": "https://github.com/figranium/frowse"
+      },
+      {
+        "step": "安装",
+        "detail": "npm/pip 安装 Frowse。",
+        "url": "https://github.com/figranium/frowse"
+      },
+      {
+        "step": "接入 agent",
+        "detail": "把 agent 浏览器调用接到 Frowse。",
+        "url": "https://github.com/figranium/frowse"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Frowse",
+        "action_url": "https://github.com/figranium/frowse"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T20:04:41+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T20:04:41+08:00"
+    }
+  },
+  {
+    "id": "dynocap-free-agent-sandbox-20261126",
+    "title": "DynoCap 免费开源（Apache-2.0，macOS 上给 AI agent 的本地 Linux 沙箱）",
+    "platform": "DynoCap",
+    "product": "DynoCap",
+    "model": "",
+    "type": "Agent",
+    "deadline": null,
+    "url": "https://github.com/baires/dynocap",
+    "summary": "在 macOS 上给 AI agent 跑本地 Linux 沙箱的开源工具（Apache-2.0）：基于 Apple Virtualization.framework，含 CLI、TypeScript SDK 与 MCP 服务器；需 Apple Silicon Mac。免费：本地运行、无需账号、无云端费用。注意：仅支持 Apple Silicon，不支持 Intel Mac。",
+    "source": "GitHub 仓库（baires/dynocap，Apache-2.0）核实：免费开源本地 Linux 沙箱，CLI + TS SDK + MCP，基于 Apple Virtualization.framework，需 Apple Silicon",
+    "claim_steps": [
+      "打开 GitHub 仓库确认 Apache-2.0 与用法",
+      "在 Apple Silicon Mac 上安装 DynoCap",
+      "用 CLI/SDK/MCP 给 agent 开本地沙箱"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "GitHub 确认免费开源、本地运行。",
+        "url": "https://github.com/baires/dynocap"
+      },
+      {
+        "step": "安装",
+        "detail": "在 Apple Silicon Mac 上安装。",
+        "url": "https://github.com/baires/dynocap"
+      },
+      {
+        "step": "开沙箱",
+        "detail": "用 CLI/SDK/MCP 给 agent 开本地沙箱。",
+        "url": "https://github.com/baires/dynocap"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "DynoCap",
+        "action_url": "https://github.com/baires/dynocap"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T20:04:41+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T20:04:41+08:00"
+    }
+  },
+  {
+    "id": "preflight-agent-free-safety-checks-20261126",
+    "title": "preflight-agent 免费开源（MIT，一条命令跑 5 项 agent 运行前安全检查）",
+    "platform": "preflight-agent",
+    "product": "preflight-agent",
+    "model": "",
+    "type": "Agent",
+    "deadline": null,
+    "url": "https://github.com/jasveerai88/preflight-agent",
+    "summary": "给 AI agent 的运行前安全检查工具（MIT）：一条命令跑 5 项检查——自动运行文件夹、.mcp.json 里的明文密钥、失效 hook、重名 agent、skill 泛滥；纯静态、只读，不改文件。免费：PyPI 安装即用，无需账号。2026-11-20 Show HN 上线。",
+    "source": "GitHub 仓库（jasveerai88/preflight-agent，MIT）与 Show HN 2026-11-20 上线帖核实：免费开源，一条命令 5 项检查，静态只读，PyPI 安装",
+    "claim_steps": [
+      "打开 GitHub 仓库确认 MIT 与用法",
+      "用 PyPI 安装 preflight-agent",
+      "在 agent 运行前跑一次 5 项检查"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "GitHub 确认免费开源、静态只读。",
+        "url": "https://github.com/jasveerai88/preflight-agent"
+      },
+      {
+        "step": "安装",
+        "detail": "PyPI 安装 preflight-agent。",
+        "url": "https://github.com/jasveerai88/preflight-agent"
+      },
+      {
+        "step": "跑检查",
+        "detail": "运行前跑 5 项安全检查。",
+        "url": "https://github.com/jasveerai88/preflight-agent"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "preflight-agent",
+        "action_url": "https://github.com/jasveerai88/preflight-agent"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T20:04:41+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T20:04:41+08:00"
+    }
+  },
+  {
+    "id": "agent-guard-free-tool-auth-20261126",
+    "title": "Agent Guard 免费开源（Apache-2.0，agent/MCP 的工具调用鉴权层，v1.7.0）",
+    "platform": "Agent Guard",
+    "product": "Agent Guard",
+    "model": "",
+    "type": "Agent",
+    "deadline": null,
+    "url": "https://github.com/ShieldaAI/agent-guard",
+    "summary": "给 AI agent 与 MCP 服务器的工具调用鉴权层（Apache-2.0，TypeScript）：按策略放行/拦截工具调用，映射 OWASP Agentic Top 10 风险；v1.7.0，需 Node 22+。免费：开源自托管，无需账号。注意：需自行集成到 agent/MCP 链路中。",
+    "source": "GitHub 仓库（ShieldaAI/agent-guard，Apache-2.0，v1.7.0）核实：免费开源 TypeScript 工具调用鉴权，OWASP Agentic Top 10 映射，需 Node 22+",
+    "claim_steps": [
+      "打开 GitHub 仓库确认 Apache-2.0 与用法",
+      "按 README 安装并配置策略",
+      "把 agent/MCP 的工具调用接到 Agent Guard 鉴权"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "GitHub 确认免费开源、v1.7.0。",
+        "url": "https://github.com/ShieldaAI/agent-guard"
+      },
+      {
+        "step": "安装配置",
+        "detail": "安装并配置鉴权策略。",
+        "url": "https://github.com/ShieldaAI/agent-guard"
+      },
+      {
+        "step": "接入鉴权",
+        "detail": "工具调用经 Agent Guard 鉴权。",
+        "url": "https://github.com/ShieldaAI/agent-guard"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Agent Guard",
+        "action_url": "https://github.com/ShieldaAI/agent-guard"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T20:04:41+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T20:04:41+08:00"
+    }
+  },
+  {
+    "id": "mcp-crashtest-free-fuzzer-20261126",
+    "title": "MCP-CrashTest 免费开源（MIT，带回滚的有状态多步 MCP 服务器合约模糊测试）",
+    "platform": "MCP-CrashTest",
+    "product": "MCP-CrashTest",
+    "model": "",
+    "type": "Agent",
+    "deadline": null,
+    "url": "https://github.com/SnowyLumiere/mcp-crashtest",
+    "summary": "MCP 服务器的合约模糊测试工具（MIT，Python）：有状态、多步测试，带回滚，可连续轰击 MCP 服务器找协议与状态机问题；v0.2.1。免费：开源本地运行，无需账号。2026-11-20 Show HN 上线。",
+    "source": "GitHub 仓库（SnowyLumiere/mcp-crashtest，MIT，v0.2.1）与 Show HN 2026-11-20 上线帖核实：免费开源，有状态多步合约模糊测试、带回滚，Python",
+    "claim_steps": [
+      "打开 GitHub 仓库确认 MIT 与用法",
+      "按 README 安装 MCP-CrashTest",
+      "对自己的 MCP 服务器跑多步合约模糊测试"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "GitHub 确认免费开源、MIT。",
+        "url": "https://github.com/SnowyLumiere/mcp-crashtest"
+      },
+      {
+        "step": "安装",
+        "detail": "按 README 安装。",
+        "url": "https://github.com/SnowyLumiere/mcp-crashtest"
+      },
+      {
+        "step": "跑测试",
+        "detail": "对 MCP 服务器跑多步模糊测试。",
+        "url": "https://github.com/SnowyLumiere/mcp-crashtest"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "MCP-CrashTest",
+        "action_url": "https://github.com/SnowyLumiere/mcp-crashtest"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T20:04:41+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T20:04:41+08:00"
+    }
+  },
+  {
+    "id": "opencomputer-free-trial-600-minutes-20261126",
+    "title": "OpenComputer 免费开源（Apache-2.0，自托管 Devin 平替；托管云 3 天免费试用含 600 工作分钟）",
+    "platform": "OpenComputer",
+    "product": "OpenComputer",
+    "model": "",
+    "type": "Agent",
+    "deadline": null,
+    "url": "https://github.com/diggerhq/opencomputer",
+    "summary": "自托管的 Devin 式 coding agent（Apache-2.0，约 1,795 stars）：在 Slack 里 @Computer 交代任务，它直接提 PR；自托管免费开源。托管云另有 3 天免费试用，含 600 工作分钟。注意：试用到期后需付费订阅；自托管需自己准备算力与模型 key。",
+    "source": "GitHub 仓库（diggerhq/opencomputer，Apache-2.0）核实：免费开源自托管（Slack @Computer → PR），约 1,795 stars；托管云 3 天免费试用含 600 工作分钟",
+    "claim_steps": [
+      "打开 GitHub 仓库确认 Apache-2.0 与用法",
+      "自托管部署，或注册托管云领 3 天试用",
+      "在 Slack 里 @Computer 交代任务、收 PR"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "GitHub 确认免费开源自托管；托管云 3 天试用 600 分钟。",
+        "url": "https://github.com/diggerhq/opencomputer"
+      },
+      {
+        "step": "部署/注册",
+        "detail": "自托管或注册托管云试用。",
+        "url": "https://github.com/diggerhq/opencomputer"
+      },
+      {
+        "step": "交代任务",
+        "detail": "Slack @Computer 交代任务收 PR。",
+        "url": "https://github.com/diggerhq/opencomputer"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "OpenComputer",
+        "action_url": "https://github.com/diggerhq/opencomputer"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T20:04:41+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T20:04:41+08:00"
+    }
+  },
+  {
+    "id": "agentwire-free-self-hosted-20261126",
+    "title": "AgentWire 免费开源（Apache-2.0，永久免费；自托管 Claude Code 舰队门户）",
+    "platform": "AgentWire",
+    "product": "AgentWire",
+    "model": "",
+    "type": "Agent",
+    "deadline": null,
+    "url": "https://github.com/dotdevdotdev/agentwire-dev",
+    "summary": "自托管的 Claude Code 舰队门户（Apache-2.0，永久免费）：tmux 会话管理、git worktree、多 agent 调度、语音控制，把一群 Claude Code 会话收进一个门户统一管理；PyPI 安装 agentwire-dev。免费：开源自托管，无需账号；模型费自付。",
+    "source": "GitHub 仓库（dotdevdotdev/agentwire-dev，Apache-2.0）核实：免费开源、永久免费自托管 Claude Code 舰队门户（tmux、worktree、调度、语音），PyPI 安装",
+    "claim_steps": [
+      "打开 GitHub 仓库确认 Apache-2.0 与用法",
+      "用 PyPI 安装 agentwire-dev",
+      "把 Claude Code 会话接进门户统一调度"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "GitHub 确认免费开源、永久免费。",
+        "url": "https://github.com/dotdevdotdev/agentwire-dev"
+      },
+      {
+        "step": "安装",
+        "detail": "PyPI 安装 agentwire-dev。",
+        "url": "https://github.com/dotdevdotdev/agentwire-dev"
+      },
+      {
+        "step": "舰队管理",
+        "detail": "多 Claude Code 会话统一调度管理。",
+        "url": "https://github.com/dotdevdotdev/agentwire-dev"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "AgentWire",
+        "action_url": "https://github.com/dotdevdotdev/agentwire-dev"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T20:04:41+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T20:04:41+08:00"
+    }
+  },
+  {
+    "id": "sikemux-free-multi-agent-20261126",
+    "title": "Sikemux 免费开源（MIT，原生 Rust 应用；Claude Code/Codex/OpenCode 等多 agent 同窗并行，本地免账号）",
+    "platform": "Sikemux",
+    "product": "Sikemux",
+    "model": "",
+    "type": "Agent",
+    "deadline": null,
+    "url": "https://github.com/nodelike/sikemux",
+    "summary": "原生 Rust 桌面应用（MIT）：把 Claude Code、Codex、OpenCode、Hermes、Pi、Muse 等多个 coding agent 并排放在同一个窗口里跑，本地使用无需账号；支持 Apple Silicon Mac 与 Linux。免费：开源本地运行。2026-11-17 Show HN 上线。",
+    "source": "GitHub 仓库（nodelike/sikemux，MIT）与 Show HN 2026-11-17 上线帖核实：免费开源原生 Rust 应用，多 agent 同窗并行，本地免账号，Apple Silicon Mac + Linux",
+    "claim_steps": [
+      "打开 GitHub 仓库确认 MIT 与用法",
+      "下载安装 Sikemux（Mac/Linux）",
+      "把多个 coding agent 并排放在同一窗口运行"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "GitHub 确认免费开源、本地免账号。",
+        "url": "https://github.com/nodelike/sikemux"
+      },
+      {
+        "step": "安装",
+        "detail": "下载安装 Sikemux。",
+        "url": "https://github.com/nodelike/sikemux"
+      },
+      {
+        "step": "并行运行",
+        "detail": "多 agent 同窗并行。",
+        "url": "https://github.com/nodelike/sikemux"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Sikemux",
+        "action_url": "https://github.com/nodelike/sikemux"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T20:04:41+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T20:04:41+08:00"
+    }
+  },
+  {
+    "id": "usehub-free-agent-dispatcher-20261126",
+    "title": "Hub 免费开源（Apache-2.0，自托管 Claude Code/Codex 会话调度器；浏览器/Telegram 协调）",
+    "platform": "Hub",
+    "product": "Hub",
+    "model": "",
+    "type": "Agent",
+    "deadline": null,
+    "url": "https://usehub.dev",
+    "summary": "自托管的 coding agent 调度器（Apache-2.0，免费）：在浏览器或 Telegram 里协调 Claude Code/Codex 会话，一行命令安装。注意：产品标注为实验性——agent 不会先请示就行动，使用前务必先读仓库 SECURITY.md。2026-11-26 Product Hunt 上线。",
+    "source": "Hub 官网（usehub.dev）与 Product Hunt 2026-11-26 上线页核实：免费开源自托管调度器，一行安装，浏览器/Telegram 协调；实验性，agent 不先请示，需先读 SECURITY.md",
+    "claim_steps": [
+      "打开 https://usehub.dev 确认免费与实验性提示",
+      "先读仓库 SECURITY.md，再一行命令安装",
+      "在浏览器或 Telegram 里协调 Claude Code/Codex 会话"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网确认免费开源、一行安装。",
+        "url": "https://usehub.dev"
+      },
+      {
+        "step": "读安全须知",
+        "detail": "先读 SECURITY.md（实验性）。",
+        "url": "https://usehub.dev"
+      },
+      {
+        "step": "协调会话",
+        "detail": "浏览器/Telegram 协调 agent 会话。",
+        "url": "https://usehub.dev"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Hub",
+        "action_url": "https://usehub.dev"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T20:04:41+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T20:04:41+08:00"
+    }
+  },
+  {
+    "id": "whipdesk-free-remote-control-20261126",
+    "title": "WhipDesk 免费开源（AGPL-3.0，手机浏览器远程操控 coding agent；局域网免账号）",
+    "platform": "WhipDesk",
+    "product": "WhipDesk",
+    "model": "",
+    "type": "Agent",
+    "deadline": null,
+    "url": "https://github.com/BinaryBananaLLC/WhipDesk",
+    "summary": "手机浏览器远程操控 coding agent 的开源工具（AGPL-3.0，两端开源）：支持 Claude Code、Codex、Gemini CLI、Aider、Copilot CLI、opencode、Cursor、Amp；端到端加密 WebRTC，局域网使用无需账号；npm install -g whipdesk 一条命令安装。免费：开源本地运行。",
+    "source": "GitHub 仓库（BinaryBananaLLC/WhipDesk，AGPL-3.0）核实：免费开源两端，手机浏览器远程操控 8 种 coding agent，E2E 加密 WebRTC，局域网免账号，npm 全局安装",
+    "claim_steps": [
+      "打开 GitHub 仓库确认 AGPL-3.0 与用法",
+      "npm install -g whipdesk 安装",
+      "手机浏览器连入，远程操控本地 coding agent"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "GitHub 确认免费开源、局域网免账号。",
+        "url": "https://github.com/BinaryBananaLLC/WhipDesk"
+      },
+      {
+        "step": "安装",
+        "detail": "npm 全局安装 whipdesk。",
+        "url": "https://github.com/BinaryBananaLLC/WhipDesk"
+      },
+      {
+        "step": "远程操控",
+        "detail": "手机浏览器远程操控 agent。",
+        "url": "https://github.com/BinaryBananaLLC/WhipDesk"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "WhipDesk",
+        "action_url": "https://github.com/BinaryBananaLLC/WhipDesk"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T20:04:41+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T20:04:41+08:00"
+    }
+  },
+  {
+    "id": "viktor-code-100-credits-20261126",
+    "title": "Viktor Code 免费起步（最高 $100 credits、免绑卡、永不过期；Slack/Teams 里的 AI 员工）",
+    "platform": "Viktor Code",
+    "product": "Viktor Code",
+    "model": "",
+    "type": "额度",
+    "deadline": null,
+    "url": "https://viktor.com/pricing",
+    "summary": "Slack/Teams 里的 AI 员工：免费起步，最高 $100 credits，免信用卡、credits 永不过期；接 9,800+ 工具。注意：免费额度用完后需 Team 档 $100/月；$100 为上限，实际到手额度以注册页为准。",
+    "source": "Viktor 官网定价页（viktor.com/pricing）核实：免费起步、最高 $100 credits、免绑卡、永不过期；9,800+ 工具；Team $100/月",
+    "claim_steps": [
+      "打开 https://viktor.com/pricing 确认免费 credits 条款",
+      "注册免费账号领取 credits（免绑卡）",
+      "在 Slack/Teams 里让 AI 员工接工具干活"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网确认免费起步、最高 $100、免绑卡、永不过期。",
+        "url": "https://viktor.com/pricing"
+      },
+      {
+        "step": "注册领取",
+        "detail": "注册领取免费 credits。",
+        "url": "https://viktor.com/pricing"
+      },
+      {
+        "step": "Slack/Teams 使用",
+        "detail": "在 Slack/Teams 里使用 AI 员工。",
+        "url": "https://viktor.com/pricing"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Viktor Code",
+        "action_url": "https://viktor.com/pricing"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T20:04:41+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T20:04:41+08:00"
+    }
+  },
+  {
+    "id": "bifura-free-agent-readiness-score-20261126",
+    "title": "Bifura 免费 Agent 就绪度评分（1 分钟内出分，免注册；完整报告 $14）",
+    "platform": "Bifura",
+    "product": "Bifura",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://bifura.ai",
+    "summary": "测你的业务/团队对 AI agent 的就绪度：免费评分 1 分钟内出结果，免注册；完整报告 $14，订阅 $19/月起。注意：免费的只是评分，深度报告与订阅均付费。",
+    "source": "Bifura 官网（bifura.ai）核实：免费 Agent 就绪度评分、1 分钟内出分、免注册；完整报告 $14、订阅 $19/月起",
+    "claim_steps": [
+      "打开 https://bifura.ai 确认免费评分条款",
+      "免注册直接做 1 分钟就绪度评分",
+      "按需购买 $14 完整报告或订阅"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网确认免费评分、免注册、1 分钟出分。",
+        "url": "https://bifura.ai"
+      },
+      {
+        "step": "免费评分",
+        "detail": "免注册做就绪度评分。",
+        "url": "https://bifura.ai"
+      },
+      {
+        "step": "按需购买",
+        "detail": "按需买完整报告或订阅。",
+        "url": "https://bifura.ai"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Bifura",
+        "action_url": "https://bifura.ai"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T20:04:41+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T20:04:41+08:00"
+    }
+  },
+  {
+    "id": "relayrunner-free-runner-router-20261126",
+    "title": "RelayRunner 免费开源（GitHub Actions runner 路由器；自家机器/自托管/托管商/GitHub runner 混用）",
+    "platform": "RelayRunner",
+    "product": "RelayRunner",
+    "model": "",
+    "type": "Agent",
+    "deadline": null,
+    "url": "https://relayrunner.dev",
+    "summary": "GitHub Actions runner 的路由器（免费开源）：把自家机器、自托管 runner、托管商 runner 与 GitHub 托管 runner 混在一个池子里按需路由；npx relayrunner 即用，另有 Mac 应用与 CLI。免费：开源本地运行。",
+    "source": "RelayRunner 官网（relayrunner.dev）核实：免费开源 runner 路由器，npx 即用，Mac 应用 + CLI；自家机器/自托管/托管商/GitHub runner 混用",
+    "claim_steps": [
+      "打开 https://relayrunner.dev 确认免费条款",
+      "npx relayrunner 启动，或装 Mac 应用/CLI",
+      "把多类 runner 接进一个池子按需路由"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网确认免费开源。",
+        "url": "https://relayrunner.dev"
+      },
+      {
+        "step": "启动",
+        "detail": "npx 启动或装 Mac 应用/CLI。",
+        "url": "https://relayrunner.dev"
+      },
+      {
+        "step": "路由 runner",
+        "detail": "多类 runner 混用按需路由。",
+        "url": "https://relayrunner.dev"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "RelayRunner",
+        "action_url": "https://relayrunner.dev"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T20:04:41+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T20:04:41+08:00"
+    }
+  },
+  {
+    "id": "tday-free-5-demos-20261126",
+    "title": "tday.com 免费档（含 5 个已保存演示；让 Claude Code/Cursor/Codex 录 AI 旁白演示视频）",
+    "platform": "tday.com",
+    "product": "tday.com",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://tday.com",
+    "summary": "给真实应用录 AI 旁白演示视频的工具：让 Claude Code、Cursor 或 Codex 直接录制可编辑的演示视频，免费档含 5 个已保存演示。注意：免费档的演示数量上限为 5 个，超出需付费档。",
+    "source": "tday.com 官网核实：免费档含 5 个已保存演示；Claude Code/Cursor/Codex 录制 AI 旁白、可编辑演示视频",
+    "claim_steps": [
+      "打开 https://tday.com 确认免费档条款",
+      "注册免费账号，领 5 个演示额度",
+      "让 Claude Code/Cursor/Codex 录制演示视频"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网确认免费档含 5 个演示。",
+        "url": "https://tday.com"
+      },
+      {
+        "step": "注册领取",
+        "detail": "注册免费账号领 5 个演示。",
+        "url": "https://tday.com"
+      },
+      {
+        "step": "录制演示",
+        "detail": "让 coding agent 录制演示视频。",
+        "url": "https://tday.com"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "tday.com",
+        "action_url": "https://tday.com"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T20:04:41+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T20:04:41+08:00"
+    }
+  },
+  {
+    "id": "notely-free-forever-notes-20261126",
+    "title": "Notely 免费永久（零账号、零遥测；100% 离线优先 Windows 11 笔记，BYOK 接 Gemini/Groq AI）",
+    "platform": "Notely",
+    "product": "Notely",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://www.producthunt.com/products/notely-8",
+    "summary": "100% 离线优先的 Windows 11 笔记工作台：SQLite WAL + FTS5 本地存储与全文检索，零账号、零遥测、永久免费；支持 24 个 Chrome 风格标签页、富文本与可调表格、便利贴、内置计算器与实时计时器、词级版本对比、Argon2id + AES-256-GCM 笔记锁定、导出 .notely/PDF；AI 用 BYOK 接 Gemini 或 GroqCloud。注意：仅 Windows 11；AI 功能需自备 Gemini/Groq key。2026-11-25 Product Hunt 上线。",
+    "source": "Product Hunt 2026-11-25 上线页与 hunted.space 产品页核实：免费永久、零账号、零遥测、100% 离线优先（SQLite WAL + FTS5），BYOK Gemini/Groq AI；Microsoft Store 与 GitHub Releases 分发",
+    "claim_steps": [
+      "打开 Product Hunt 上线页确认免费永久条款",
+      "从 Microsoft Store 或 GitHub Releases 下载安装",
+      "本地建笔记，按需 BYOK 接 Gemini/Groq AI"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "上线页确认免费永久、零账号、零遥测。",
+        "url": "https://www.producthunt.com/products/notely-8"
+      },
+      {
+        "step": "下载安装",
+        "detail": "Microsoft Store 或 GitHub Releases 下载。",
+        "url": "https://www.producthunt.com/products/notely-8"
+      },
+      {
+        "step": "本地使用",
+        "detail": "本地笔记，按需 BYOK 接 AI。",
+        "url": "https://www.producthunt.com/products/notely-8"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Notely",
+        "action_url": "https://www.producthunt.com/products/notely-8"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T20:04:41+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T20:04:41+08:00"
+    }
+  },
+  {
+    "id": "gibhub-free-3-projects-20261126",
+    "title": "GibHub 免费版（免费下载；免费版覆盖 3 个 Xcode 项目，无限项目 $5.99 内购）",
+    "platform": "GibHub",
+    "product": "GibHub",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://blog.mhvt.net/?p=8370",
+    "summary": "给 Xcode 项目看 git 文件历史的 Mac 应用：免费下载，免费版覆盖 3 个 Xcode 项目；无限项目 $5.99 一次性内购。注意：免费版上限 3 个项目，超出需内购。",
+    "source": "作者官方博客（blog.mhvt.net）与 Product Hunt 上线页核实：免费下载，免费版覆盖 3 个 Xcode 项目，无限项目 $5.99 内购；Mac App Store 分发",
+    "claim_steps": [
+      "打开作者博客确认免费版 3 个项目条款",
+      "从 Mac App Store 免费下载 GibHub",
+      "在 3 个 Xcode 项目内免费查看 git 文件历史"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "作者博客确认免费版 3 个项目。",
+        "url": "https://blog.mhvt.net/?p=8370"
+      },
+      {
+        "step": "免费下载",
+        "detail": "Mac App Store 免费下载。",
+        "url": "https://blog.mhvt.net/?p=8370"
+      },
+      {
+        "step": "查看历史",
+        "detail": "3 个项目内查看 git 文件历史。",
+        "url": "https://blog.mhvt.net/?p=8370"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "GibHub",
+        "action_url": "https://blog.mhvt.net/?p=8370"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T20:04:41+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T20:04:41+08:00"
+    }
+  },
+  {
+    "id": "partgenie-free-50-credits-20261126",
+    "title": "PartGenie 免费档（每月 50 AI credits、元器件与数据手册搜索、每月 3 次硬件设计）",
+    "platform": "PartGenie",
+    "product": "PartGenie",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://www.producthunt.com/products/partgenie",
+    "summary": "硬件工程师的 AI 助手：搜 5,600 万+ 电子元器件、对比替代料、与数据手册对话、做 BOM 风险分析、生成 ECAD 符号与封装、做 AI 硬件设计，答案挂制造商数据手册可验证。免费档 $0/月：每月 50 AI credits、元器件与数据手册搜索、每月 3 次硬件设计、1 个已分析硬件项目（30 行）；Pro $29/月（每月 420 credits、完整替代报告、每月 15 次设计）。2026-11-25 Product Hunt 2.0 上线。",
+    "source": "PartGenie 官方定价页（经 kitio.ai 官方定价链接）与 Product Hunt 2026-11-25 上线页核实：Free $0/月，每月 50 AI credits、元器件/数据手册搜索、每月 3 次硬件设计；Pro $29/月",
+    "claim_steps": [
+      "打开官方定价页确认免费档条款",
+      "注册免费账号，每月领 50 AI credits",
+      "搜元器件、聊数据手册，每月做 3 次硬件设计"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官方定价页确认免费档每月 50 credits。",
+        "url": "https://www.producthunt.com/products/partgenie"
+      },
+      {
+        "step": "注册领取",
+        "detail": "注册免费账号领每月额度。",
+        "url": "https://www.producthunt.com/products/partgenie"
+      },
+      {
+        "step": "搜料设计",
+        "detail": "搜元器件、聊手册、做硬件设计。",
+        "url": "https://www.producthunt.com/products/partgenie"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "PartGenie",
+        "action_url": "https://www.producthunt.com/products/partgenie"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T20:04:41+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T20:04:41+08:00"
+    }
+  },
+  {
+    "id": "claude-mem-free-open-source-20261126",
+    "title": "Claude-Mem 免费开源（Apache-2.0，Claude Code 的持久记忆引擎；Cloud Sync 30 天试用免绑卡）",
+    "platform": "Claude-Mem",
+    "product": "Claude-Mem",
+    "model": "",
+    "type": "Agent",
+    "deadline": null,
+    "url": "https://github.com/thedotmack/claude-mem",
+    "summary": "Claude Code 的持久记忆引擎（Apache-2.0，约 119k stars）：跨会话记住项目上下文，免费开源自托管；另有 Cloud Sync 云同步服务，$12/月，30 天免费试用、免绑卡。注意：免费的是开源引擎本身；云同步试用到期后需付费。2026-11-26 Product Hunt 上线 Cloud Sync。",
+    "source": "GitHub 仓库（thedotmack/claude-mem，Apache-2.0，约 119k stars）与 Cloud Sync 官网核实：引擎免费开源自托管；Cloud Sync $12/月，30 天试用免绑卡",
+    "claim_steps": [
+      "打开 GitHub 仓库确认 Apache-2.0 与用法",
+      "按 README 自托管部署记忆引擎",
+      "按需试用 Cloud Sync（30 天免费、免绑卡）"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "GitHub 确认引擎免费开源、Apache-2.0。",
+        "url": "https://github.com/thedotmack/claude-mem"
+      },
+      {
+        "step": "自托管",
+        "detail": "按 README 部署记忆引擎。",
+        "url": "https://github.com/thedotmack/claude-mem"
+      },
+      {
+        "step": "云同步试用",
+        "detail": "按需试用 Cloud Sync 30 天。",
+        "url": "https://github.com/thedotmack/claude-mem"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Claude-Mem",
+        "action_url": "https://github.com/thedotmack/claude-mem"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-26T20:04:41+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T20:04:41+08:00"
+    }
+  },
+  {
+    "id": "aicodeops-free-open-beta-20261126",
+    "title": "AI CodeOps 公开 Beta 免费（每月 2.5M tokens、自带 key 不限量、免绑卡；带质量门的 AI 编程 agent）",
+    "platform": "AI CodeOps",
+    "product": "AI CodeOps",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://aicodeops.dev/",
+    "summary": "浏览器里的 AI 编程 agent 平台：agent 在真实仓库上规划、写代码、审阅、测试、发版，测试、AI 审阅与人工批准三道门都过才合入。公开 Beta 期间免费：每月 2.5M 平台模型 tokens（Economy 模型），或自带模型 key 则不限量；3 个项目、7 天审计日志，免信用卡。非商业开源项目永久免费（每月 300 次会话、更高额度）。注意：Beta 结束后付费价未公布（上线页曾提 Individual $20/月、Team $50/席/月为计划价）。",
+    "source": "AI CodeOps 官网（aicodeops.dev）核实：公开 Beta 免费，每月 2.5M tokens 或自带 key 不限量；非商业开源永久免费；2026-11-02 Product Hunt 上线",
+    "claim_steps": [
+      "打开官网确认公开 Beta 免费条款",
+      "邮箱注册（免绑卡），连 GitHub/GitLab 等仓库",
+      "让 agent 在质量门后规划、写码、测试、发版"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网确认公开 Beta 免费、每月 2.5M tokens。",
+        "url": "https://aicodeops.dev/"
+      },
+      {
+        "step": "注册连仓库",
+        "detail": "邮箱注册并连接真实仓库。",
+        "url": "https://aicodeops.dev/"
+      },
+      {
+        "step": "agent 干活",
+        "detail": "agent 在测试+审阅+人工批准后合入。",
+        "url": "https://aicodeops.dev/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "AI CodeOps",
+        "action_url": "https://aicodeops.dev/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-27T00:06:31+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-27T00:06:31+08:00"
+    }
+  },
+  {
+    "id": "specops-ai-free-plan-20261126",
+    "title": "SpecOps.AI 免费档（1 个治理项目、每月 200 次 Gauntlet 检查 + 20 AI credits）",
+    "platform": "SpecOps.AI",
+    "product": "SpecOps.AI",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://www.specops.ai/pricing",
+    "summary": "AI 执行治理平台：Gauntlet 在每次合入前做架构、安全与上线就绪的多席自动评审，Sherpa 给报告与建议，审计链防篡改。免费档 $0：1 个治理项目/仓库、1 个追踪集成（Linear 或 ClickUp，含 GitHub）、每月 200 次 Gauntlet 检查 + 20 AI credits（按月刷新）、全托管 hosting。注意：免费档 20 credits 只够少量任务（简单任务 3–8 credits）；超额硬停尚未上线。",
+    "source": "SpecOps.AI 官网定价页（specops.ai/pricing）核实：Free $0，1 个项目、每月 200 次检查 + 20 AI credits",
+    "claim_steps": [
+      "打开官网定价页确认免费档条款",
+      "注册免费账号、接入 1 个项目仓库",
+      "让 Gauntlet 在合入前自动评审、Sherpa 出报告"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网定价页确认免费档内容。",
+        "url": "https://www.specops.ai/pricing"
+      },
+      {
+        "step": "注册接入",
+        "detail": "注册并接入 1 个治理项目。",
+        "url": "https://www.specops.ai/pricing"
+      },
+      {
+        "step": "治理执行",
+        "detail": "Gauntlet 自动评审每次合入。",
+        "url": "https://www.specops.ai/pricing"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "SpecOps.AI",
+        "action_url": "https://www.specops.ai/pricing"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-27T00:06:31+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-27T00:06:31+08:00"
+    }
+  },
+  {
+    "id": "manus-free-300-credits-daily-20261126",
+    "title": "Manus 免费档（每天 300 credits、每月上限 1,500，仅 Lite 模型；通用 AI agent）",
+    "platform": "Manus",
+    "product": "Manus",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://manus.im/en/pricing",
+    "summary": "通用自主 AI agent：在自己的云端电脑里做调研、写报告、做幻灯片、建网站与自动化，网页/桌面/移动端与 Telegram/Slack/邮件均可派活。免费档 $0：每天登录领 300 credits（UTC 午夜重置、不结转，每月上限 1,500），仅限 Manus 2.0 Lite 模型；1 个并发任务、2 个定时自动化。注意：免费档不在定价页展示，见帮助中心；每日 credits 须每天登录领取，过期作废。",
+    "source": "Manus 帮助中心（layer3labs、tailkits、enrichlabs、testedintelligence 2026-11-12–17 核对官方帮助中心与定价页口径一致）：免费档 $0，每天 300 credits、每月上限 1,500、仅 Lite 模型",
+    "claim_steps": [
+      "打开 Manus 帮助中心确认免费档条款",
+      "注册免费账号",
+      "每天登录领 300 credits，在 Lite 模型下派简单任务"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "帮助中心确认免费档每天 300 credits、每月上限 1,500。",
+        "url": "https://manus.im/en/pricing"
+      },
+      {
+        "step": "注册",
+        "detail": "注册免费账号。",
+        "url": "https://manus.im/en/pricing"
+      },
+      {
+        "step": "每日领取",
+        "detail": "每天登录领 300 credits派任务，过期作废。",
+        "url": "https://manus.im/en/pricing"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Manus",
+        "action_url": "https://manus.im/en/pricing"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-27T00:06:31+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-27T00:06:31+08:00"
+    }
   }
 ]

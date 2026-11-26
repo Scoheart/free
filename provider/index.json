@@ -31949,5 +31949,2107 @@
       "note": "需本人注册/领取后使用；本轮不代注册。",
       "at": "2026-11-25T00:10:43+08:00"
     }
+  },
+  {
+    "id": "oakallow-5-usd-free-credit-20261125",
+    "title": "Oak Allow：注册送 $5 免费 credits（免绑卡、永不过期，agent 审批 API）",
+    "platform": "Oak Allow",
+    "product": "Oak Allow",
+    "model": "",
+    "type": "额度",
+    "deadline": null,
+    "url": "https://www.oakallow.com/pricing",
+    "summary": "给 AI agent 的审批/治理 API：agent 每次要做敏感操作前先问 Oak Allow 批不批（REST 或 MCP 调用），决定与记录可查；工具与组织配置、权限规则、API Builder、状态查询与管理 key 调用永久免费。注册送 $5 credits（约 20,000 次审批调用），免绑卡、永不过期；审批每次 $0.00025，充值包 $10 起（越大包奖励越多）。注意：LiveOak Track 存储每月 $0.15/GB（30 天免费窗口后）。",
+    "source": "Oak Allow 官网定价页 oakallow.com/pricing 核实（注册送 $5 credits、免绑卡、永不过期）",
+    "claim_steps": [
+      "打开 https://www.oakallow.com/pricing 注册账号，领 $5 免费 credits（免绑卡）",
+      "配好审批规则（哪些操作要批、谁能批）",
+      "让 agent 在敏感操作前经 REST/MCP 调 Oak Allow 审批"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官网定价页",
+        "detail": "确认注册送 $5 credits、免绑卡、永不过期。",
+        "url": "https://www.oakallow.com/pricing"
+      },
+      {
+        "step": "注册并配规则",
+        "detail": "注册后配审批规则。",
+        "url": "https://www.oakallow.com/pricing"
+      },
+      {
+        "step": "接 agent 使用",
+        "detail": "敏感操作前调 API 审批。",
+        "url": "https://www.oakallow.com/pricing"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Oak Allow",
+        "action_url": "https://www.oakallow.com/pricing"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "agent",
+      "coding"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-25T04:12:59+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-25T04:12:59+08:00"
+    }
+  },
+  {
+    "id": "three-dev-free-5k-scored-20261125",
+    "title": "three.dev：免费档（每月 5,000 次 agent 失败评分，约 5 万请求）",
+    "platform": "three.dev",
+    "product": "three.dev",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://three.dev/facts",
+    "summary": "Agent 失败检测代理：改一个 base URL 代理你的 LLM 流量，后台抽样评分、按严重度分组失败模式、附证据交给 Claude Code/Codex/Cursor 修（MCP）。免费档 $0：每月 1GB 数据（约 5 万请求）+ 5,000 次评分、30 天历史、席位不限；超量停止记录/评分但仍转发请求。注意：2026 年 11 月刚 GA；Starter 早鸟优惠（11/22 前注册 6 个月免费）已过期。",
+    "source": "three.dev 官网事实页 three.dev/facts 核实：Free $0、1GB 数据、5,000 次评分/月、30 天历史",
+    "claim_steps": [
+      "打开 https://three.dev/facts 确认免费档（1GB/月、5,000 次评分、30 天历史）",
+      "注册并把 LLM 调用 base URL 改到 gate.three.dev",
+      "在控制台看失败模式与证据，经 MCP 交给 coding agent 修"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官网事实页",
+        "detail": "确认免费档 1GB 数据、5,000 次评分/月、30 天历史。",
+        "url": "https://three.dev/facts"
+      },
+      {
+        "step": "注册并接代理",
+        "detail": "注册后改 base URL 到 gate.three.dev。",
+        "url": "https://three.dev/facts"
+      },
+      {
+        "step": "看失败并修复",
+        "detail": "按严重度看失败模式，经 MCP 交 coding agent 修。",
+        "url": "https://three.dev/facts"
+      }
+    ],
+    "providers": [
+      {
+        "name": "three.dev",
+        "action_url": "https://three.dev/facts"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "agent",
+      "coding"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-25T11:26:59+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-25T11:26:59+08:00"
+    }
+  },
+  {
+    "id": "llamacloud-free-10000-credits-20261125",
+    "title": "LlamaCloud：免费档每月 10,000 credits（LlamaParse 文档解析 + 托管 RAG）",
+    "platform": "LlamaCloud",
+    "product": "LlamaCloud",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://www.llamaindex.ai/pricing",
+    "summary": "LlamaIndex 的托管平台：LlamaParse（复杂 PDF/表格解析）、Extract（带置信度的结构化抽取）、Index（托管分块与 embedding），同一 key 可用，含 MCP 端点。免费档 $0：每月 10,000 credits（1,000 credits = $1.25，约 1,000 页解析）、5 个并发解析任务、无订阅；只在买 credits 或升 Pro 时才要绑卡。注意：高精度 agentic 解析模式每页 credits 更高；Starter（$50/月）已不对新用户开放。",
+    "source": "LlamaIndex 官网定价页 llamaindex.ai/pricing 核实（多家第三方 2026-11-24 复核一致）：免费档每月 10,000 credits、无订阅、买 credits 才要绑卡",
+    "claim_steps": [
+      "打开 https://www.llamaindex.ai/pricing 确认免费档（每月 10,000 credits）",
+      "注册 LlamaCloud 免费账号、领 API key",
+      "调 LlamaParse/Extract/Index API 解析文档、建 RAG；超量前不扣费"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官网定价页",
+        "detail": "确认免费档每月 10,000 credits、无订阅。",
+        "url": "https://www.llamaindex.ai/pricing"
+      },
+      {
+        "step": "注册领 key",
+        "detail": "注册免费账号领 API key。",
+        "url": "https://www.llamaindex.ai/pricing"
+      },
+      {
+        "step": "调 API 使用",
+        "detail": "LlamaParse/Extract/Index 解析与建索引，超量前不扣费。",
+        "url": "https://www.llamaindex.ai/pricing"
+      }
+    ],
+    "providers": [
+      {
+        "name": "LlamaCloud",
+        "action_url": "https://www.llamaindex.ai/pricing"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "agent",
+      "coding"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-25T11:26:59+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-25T11:26:59+08:00"
+    }
+  },
+  {
+    "id": "kamatera-free-trial-100-usd-20261125",
+    "title": "Kamatera：30 天免费试用（$100 额度，1 台服务器，1TB 流量，需绑卡）",
+    "platform": "Kamatera",
+    "product": "Kamatera",
+    "model": "",
+    "type": "限时",
+    "deadline": null,
+    "url": "https://www.kamatera.com/free-trial/",
+    "summary": "30 天免费试用：1 台任意配置云服务器（价值上限 $100）、1TB 流量（进出合计）、NVMe SSD，25 个数据中心、Linux/Windows 可选。需提供有效信用卡，限额内不扣费；到期前删除服务器可零费用取消，否则到期后按正常价计费。注意：部分无法通过标准卡验证的用户另有 $10 可退押金通道。",
+    "source": "Kamatera 官网试用条款页 kamatera.com/faq/answer/what-are-the-terms-of-the-free-trial/ 核实：30 天、$100、1TB、需绑卡、限额内不扣费",
+    "claim_steps": [
+      "打开 https://www.kamatera.com/free-trial/ 确认试用条款（30 天、$100、需绑卡）",
+      "注册并绑有效信用卡，建 1 台 $100 以内的服务器",
+      "试用 30 天；到期前删除服务器，否则按正常价计费"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官网试用条款",
+        "detail": "确认 30 天、1 台 $100 以内服务器、1TB 流量、需绑卡。",
+        "url": "https://www.kamatera.com/free-trial/"
+      },
+      {
+        "step": "注册并建服务器",
+        "detail": "绑卡注册，建 $100 以内的服务器。",
+        "url": "https://www.kamatera.com/free-trial/"
+      },
+      {
+        "step": "到期前处理",
+        "detail": "到期前删除服务器可零费用取消，否则开始计费。",
+        "url": "https://www.kamatera.com/free-trial/"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Kamatera",
+        "action_url": "https://www.kamatera.com/free-trial/"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "cloud"
+    ],
+    "barriers": [
+      "need_signup",
+      "need_card"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-25T11:26:59+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-25T11:26:59+08:00"
+    }
+  },
+  {
+    "id": "linode-free-credit-100-usd-20261125",
+    "title": "Linode（Akamai Cloud）：新用户 $100 免费额度（60 天，需绑支付方式）",
+    "platform": "Linode",
+    "product": "Linode",
+    "model": "",
+    "type": "额度",
+    "deadline": null,
+    "url": "https://www.linode.com/lp/free-credit-100-5000/",
+    "summary": "Akamai Cloud（原 Linode）新用户 $100 免费额度，60 天有效，可用于 Compute、对象存储、块存储、NodeBalancer（GPU 除外）；需有效支付方式验证身份，试用期内不扣费；额度用完或到期后，运行中的实例按标准价计费。注意：仅限从未领过试用的新用户；另有面向企业的最高 $5,000 额度申请通道。",
+    "source": "Linode（Akamai）官网免费额度页 linode.com/lp/free-credit-100-5000/ 核实：$100、60 天、需有效支付方式、试用期内不扣费",
+    "claim_steps": [
+      "打开 https://www.linode.com/lp/free-credit-100-5000/ 确认 $100/60 天条款",
+      "用 Google/GitHub/邮箱注册新账号并加有效支付方式",
+      "60 天内用 $100 额度跑 Compute/存储；到期前删实例，避免按标准价计费"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官网免费额度页",
+        "detail": "确认 $100、60 天、GPU 除外、试用期内不扣费。",
+        "url": "https://www.linode.com/lp/free-credit-100-5000/"
+      },
+      {
+        "step": "注册并验证",
+        "detail": "新账号注册，加有效支付方式验证身份。",
+        "url": "https://www.linode.com/lp/free-credit-100-5000/"
+      },
+      {
+        "step": "60 天内使用",
+        "detail": "额度可用于 Compute/对象存储/块存储/NodeBalancer。",
+        "url": "https://www.linode.com/lp/free-credit-100-5000/"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Linode",
+        "action_url": "https://www.linode.com/lp/free-credit-100-5000/"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "cloud"
+    ],
+    "barriers": [
+      "need_signup",
+      "need_card"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-25T11:26:59+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-25T11:26:59+08:00"
+    }
+  },
+  {
+    "id": "vpsserver-free-trial-100-usd-20261125",
+    "title": "VPSServer：30 天免费试用（$100 额度，1 台服务器，5TB 流量，需绑卡）",
+    "platform": "VPSServer",
+    "product": "VPSServer",
+    "model": "",
+    "type": "限时",
+    "deadline": null,
+    "url": "https://www.vpsserver.com/free-vps-server/",
+    "summary": "30 天免费试用：1 台任意配置云服务器（价值上限 $100）、1TB 块存储、5TB 出站流量（亚洲/澳洲 1TB）、完整 root 与全部平台功能，20+ 数据中心、Linux/Windows 可选。注册时卡上 $1–$2 验证扣款（后撤销）；到期后自动转付费，须提前删除。注意：未通过 3D Secure 验证的用户可走 $10 可退押金通道。",
+    "source": "VPSServer 官网免费试用页 vpsserver.com/free-vps-server/ 核实：30 天、$100、1TB 存储、5TB 流量、$1–$2 验证扣款后撤销",
+    "claim_steps": [
+      "打开 https://www.vpsserver.com/free-vps-server/ 确认试用条款",
+      "注册并验证邮箱与信用卡（$1–$2 验证扣款后撤销）",
+      "建 1 台 $100 以内的服务器试用 30 天；到期前删除，否则自动转付费"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官网试用页",
+        "detail": "确认 30 天、$100、1TB 存储、5TB 流量。",
+        "url": "https://www.vpsserver.com/free-vps-server/"
+      },
+      {
+        "step": "注册并验证",
+        "detail": "验证邮箱与信用卡，$1–$2 验证扣款后撤销。",
+        "url": "https://www.vpsserver.com/free-vps-server/"
+      },
+      {
+        "step": "到期前处理",
+        "detail": "到期前删除服务器，否则自动转付费。",
+        "url": "https://www.vpsserver.com/free-vps-server/"
+      }
+    ],
+    "providers": [
+      {
+        "name": "VPSServer",
+        "action_url": "https://www.vpsserver.com/free-vps-server/"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "cloud"
+    ],
+    "barriers": [
+      "need_signup",
+      "need_card"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-25T11:26:59+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-25T11:26:59+08:00"
+    }
+  },
+  {
+    "id": "cloudways-free-trial-3-days-20261125",
+    "title": "Cloudways：3 天免费试用（托管云服务器，免绑卡）",
+    "platform": "Cloudways",
+    "product": "Cloudways",
+    "model": "",
+    "type": "限时",
+    "deadline": null,
+    "url": "https://support.cloudways.com/en/articles/10061830-how-to-subscribe-flexible-trial",
+    "summary": "托管云服务器（底层可选 DigitalOcean、Linode、Vultr、AWS、GCP）3 天免费试用，免绑卡：可开服务器与应用、试 staging、缓存、备份等；Flexible、Autonomous（1 个 WordPress 应用、20GB 磁盘、150GB 带宽）、Velocity 均 3 天。续用须绑卡（$1–$10 临时验证扣款自动撤销）。注意：仅 3 天，适合按清单快速验证，不适合慢慢探索；注册时需邮箱+电话验证。",
+    "source": "Cloudways 官方支持文档 support.cloudways.com 核实：Flexible 试用 3 天、免绑卡；Autonomous 试用页同口径",
+    "claim_steps": [
+      "打开 Cloudways 官方支持文档确认 Flexible 3 天免卡试用",
+      "注册（邮箱+电话验证），选 Flexible/Autonomous/Velocity 开 3 天试用",
+      "3 天内验证部署、staging、缓存等；续用再绑卡"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官方支持文档",
+        "detail": "确认 3 天免费试用、免绑卡。",
+        "url": "https://support.cloudways.com/en/articles/10061830-how-to-subscribe-flexible-trial"
+      },
+      {
+        "step": "注册开试用",
+        "detail": "邮箱+电话验证后开服务器与应用。",
+        "url": "https://support.cloudways.com/en/articles/10061830-how-to-subscribe-flexible-trial"
+      },
+      {
+        "step": "3 天内验证",
+        "detail": "验证部署、staging、缓存；续用再绑卡。",
+        "url": "https://support.cloudways.com/en/articles/10061830-how-to-subscribe-flexible-trial"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Cloudways",
+        "action_url": "https://support.cloudways.com/en/articles/10061830-how-to-subscribe-flexible-trial"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "cloud"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-25T11:26:59+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-25T11:26:59+08:00"
+    }
+  },
+  {
+    "id": "articul8-bivia-1b-free-tokens-20261125",
+    "title": "Articul8 Bivia：前 1 万名早期用户免费 10 亿 tokens（决策模型，免订阅）",
+    "platform": "Articul8",
+    "product": "Bivia",
+    "model": "Bivia",
+    "type": "限时",
+    "deadline": null,
+    "url": "https://articul8.ai/bivia",
+    "summary": "Articul8 决策模型 Bivia（多模态决策模型，返回带置信度的结构化决策而非生成文本，输出 tokens 免费）：上线优惠，前 10,000 名早期用户免费 10 亿 tokens，无需订阅；常规价输入 $0.042/百万 tokens、输出 $0。有效期 90 天（第三方实测截图口径，官网未注明到期日）；剩余名额未公开，先到先得。API/SDK（Python、Node、Go、Rust）+ MCP server，可接 Claude Code/Codex/Cursor。注意：仅用于分类、路由、判定、抽取等决策场景，不是聊天模型；注册需年满 18 岁。",
+    "source": "Articul8 官网 articul8.ai/bivia 核实：Launch offer · First 10,000 early adopters · Get 1 billion tokens free · No subscription（perq.sh 2026-11-25 复核一致；90 天有效期为第三方实测口径）",
+    "claim_steps": [
+      "打开 https://articul8.ai/bivia 确认上线优惠（前 1 万名、10 亿 tokens、免订阅）",
+      "在 Articul8 平台注册账号（需年满 18 岁），创建 API key",
+      "用 SDK 或 MCP 接入 coding agent 调用 Bivia API；先确认账户内免费额度到账"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官网 Bivia 页",
+        "detail": "确认前 1 万名 10 亿 tokens 免费、免订阅。",
+        "url": "https://articul8.ai/bivia"
+      },
+      {
+        "step": "注册并创建 key",
+        "detail": "注册账号后创建 API key。",
+        "url": "https://articul8.ai/bivia"
+      },
+      {
+        "step": "调用 API",
+        "detail": "用 SDK/MCP 接入 agent 调用决策接口。",
+        "url": "https://articul8.ai/bivia"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Articul8",
+        "action_url": "https://articul8.ai/bivia"
+      }
+    ],
+    "agents": [],
+    "models": [
+      {
+        "name": "Bivia",
+        "action_url": "https://articul8.ai/bivia"
+      }
+    ],
+    "scenes": [
+      "agent",
+      "coding"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-26T01:20:00+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T01:20:00+08:00"
+    }
+  },
+  {
+    "id": "upcloud-500-usd-trial-30-days-20261125",
+    "title": "UpCloud：新用户 $500 试用额度（30 天，云服务器，需绑卡验证）",
+    "platform": "UpCloud",
+    "product": "UpCloud",
+    "model": "",
+    "type": "限时",
+    "deadline": null,
+    "url": "https://upcloud.com/global/get-started/",
+    "summary": "芬兰云厂商 UpCloud 新用户 30 天免费试用，$500 试用额度：可开云服务器、块存储、托管数据库、Kubernetes、对象存储；标准试用为 7 天 €10 额度，30 天/$500 为官网当前推广口径（黑五期间）。需绑卡验证（0/1 美元临时预授权，不实际扣费）；试用服务器上限 2 核/4GB 内存、180GB 块存储，GPU 服务器不参加；试用到期未充值则试用资源会被删除。注意：官网页面同时存在 7 天标准试用与 30 天推广两种口径，以注册时账户显示为准。",
+    "source": "UpCloud 官网 upcloud.com/global/get-started/ 与 starter-plans 页核实：30-day free trial with $500 free credit（多家第三方 2026-11 复核一致：需绑卡验证 0/1 临时授权，GPU 不参加）",
+    "claim_steps": [
+      "打开 https://upcloud.com/global/get-started/ 确认 30 天 $500 试用口径",
+      "注册并绑卡验证（0/1 美元临时预授权），激活试用",
+      "30 天内在额度内开云服务器/数据库等；到期前决定是否充值续用"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官网试用页",
+        "detail": "确认 30 天 $500 试用、绑卡验证规则。",
+        "url": "https://upcloud.com/global/get-started/"
+      },
+      {
+        "step": "注册并验证",
+        "detail": "绑卡完成 0/1 美元临时预授权验证。",
+        "url": "https://upcloud.com/global/get-started/"
+      },
+      {
+        "step": "额度内试用",
+        "detail": "开云服务器等，GPU 不参加；到期前决定续用。",
+        "url": "https://upcloud.com/global/get-started/"
+      }
+    ],
+    "providers": [
+      {
+        "name": "UpCloud",
+        "action_url": "https://upcloud.com/global/get-started/"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "cloud"
+    ],
+    "barriers": [
+      "need_signup",
+      "need_card"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-26T01:20:00+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T01:20:00+08:00"
+    }
+  },
+  {
+    "id": "ovhcloud-200-usd-public-cloud-credit-20261125",
+    "title": "OVHcloud 黑五：$200 Public Cloud 免费额度（码 FREETRIAL，截止 12/1，需绑支付方式）",
+    "platform": "OVHcloud",
+    "product": "OVHcloud Public Cloud",
+    "model": "",
+    "type": "限时",
+    "deadline": "2026-12-01T21:00:00+08:00",
+    "url": "https://www.ovhcloud.com/en/black-friday/",
+    "summary": "OVHcloud 黑色星期五：首次创建 Public Cloud 项目送 $200 免费额度（优惠码 FREETRIAL），美区另可叠加首个托管数据库服务再得 $100（合计最高 $300）；活动 2026-11-17 13:00 GMT 至 12-01 13:00 GMT（北京时间 12 月 1 日 21:00 截止）。新老用户均可参与，但仅限从未创建过 Public Cloud 项目的账号；额度有效期 90 天（第三方口径），用完或过期后按常规价自动计费。需绑支付方式。注意：须在创建首个项目时激活优惠码。",
+    "source": "OVHcloud 官网黑五页 ovhcloud.com/en/black-friday/ 核实：US$200 free credit、码 FREETRIAL、11/17–12/01 GMT；美区页确认另 +$100 托管数据库额度（90 天有效期与需绑支付方式为第三方口径）",
+    "claim_steps": [
+      "打开 https://www.ovhcloud.com/en/black-friday/ 确认 $200 额度与活动时间",
+      "注册/登录 OVHcloud 账号并绑定支付方式",
+      "在 12 月 1 日 21:00（北京时间）前创建首个 Public Cloud 项目并激活 FREETRIAL 码"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官网黑五页",
+        "detail": "确认 $200 额度、FREETRIAL 码、截止时间。",
+        "url": "https://www.ovhcloud.com/en/black-friday/"
+      },
+      {
+        "step": "注册并绑支付方式",
+        "detail": "绑定支付方式后方可领取。",
+        "url": "https://www.ovhcloud.com/en/black-friday/"
+      },
+      {
+        "step": "创建首个项目",
+        "detail": "创建时激活 FREETRIAL 码领取 $200。",
+        "url": "https://www.ovhcloud.com/en/black-friday/"
+      }
+    ],
+    "providers": [
+      {
+        "name": "OVHcloud",
+        "action_url": "https://www.ovhcloud.com/en/black-friday/"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "cloud"
+    ],
+    "barriers": [
+      "need_signup",
+      "need_card"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-26T01:20:00+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T01:20:00+08:00"
+    }
+  },
+  {
+    "id": "monkeycode-basic-free-10m-daily-20261126",
+    "title": "MonkeyCode 免费 Basic 档：每天 1,000 万 tokens + 1 核/4GB 云环境（永久免费，需大陆手机号+实名）",
+    "platform": "MonkeyCode",
+    "product": "MonkeyCode",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://monkeycode.cc/",
+    "summary": "开源 AI 编程平台（AGPL-3.0，GitHub chaitin/MonkeyCode）：Basic 档 ¥0 永久免费，每天 1,000 万基础模型 tokens（当日有效，不累计），1 核/4GB 云端开发环境，1 个并发任务，可用基础模型（deepseek-v4-flash、kimi-k2.5、minimax-m2.5、qwen3.5-plus 等）；高级模型与增强功能需积分或付费。注意：需大陆手机号注册并实名认证；另有自托管开源部署可选。",
+    "source": "MonkeyCode 官方定价页与官方权益调整公告（2026-08-19 生效）经多家第三方核实：Basic ¥0 永久免费、每天 1,000 万 tokens、1 核/4GB 云环境（coderlog 2026-11 核实；lanmao.ai 2026-08-30 核实官方定价页 monkeycode-ai.com 与 docs 公告一致；国内文档旧口径 3,000 万/天已作废，以 1,000 万为准）",
+    "claim_steps": [
+      "打开 https://monkeycode.cc/ 确认 Basic 档免费条款（每天 1,000 万 tokens、1 核/4GB）",
+      "用大陆手机号注册并完成实名认证",
+      "在云端环境中使用基础模型编程，额度每日刷新"
+    ],
+    "claim_guide": [
+      {
+        "step": "阅读官方定价页",
+        "detail": "确认 Basic ¥0 永久免费、每天 1,000 万 tokens。",
+        "url": "https://monkeycode.cc/"
+      },
+      {
+        "step": "注册并实名",
+        "detail": "大陆手机号注册并完成实名认证。",
+        "url": "https://monkeycode.cc/"
+      },
+      {
+        "step": "每日使用",
+        "detail": "基础模型额度每日刷新，不累计。",
+        "url": "https://monkeycode.cc/"
+      }
+    ],
+    "providers": [
+      {
+        "name": "MonkeyCode",
+        "action_url": "https://monkeycode.cc/"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "need_signup",
+      "need_phone"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-26T08:42:32+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T08:42:32+08:00"
+    }
+  },
+  {
+    "id": "sambanova-sambacloud-free-tier-20261126",
+    "title": "SambaNova SambaCloud 免费档：免绑卡，每模型每天 20 次请求/20 万 tokens",
+    "platform": "SambaNova",
+    "product": "SambaCloud",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://cloud.sambanova.ai/",
+    "summary": "SambaNova 自研 RDU 芯片上的托管推理 API（OpenAI/Anthropic 兼容，api.sambanova.ai/v1）：不绑支付方式即为免费档，每模型每天 20 次请求（每分钟 20 次）、20 万 tokens；覆盖 gpt-oss-120b、Llama 3.3 70B、DeepSeek-V3.1、Gemma 4 31B、GLM-5.3、MiniMax-M3.1-Flash 等（以实时列表为准）；无公布到期日。绑卡后转按量 Developer 档，免费额度即停。",
+    "source": "Perq 2026-11-25 复核 SambaNova 官方页面：SambaCloud Free Tier、无需支付方式；SambaNova 官方限速文档：每模型 20 RPM/20 次/天/20 万 tokens/天（多家第三方 2026-11 复核一致）",
+    "claim_steps": [
+      "打开 https://cloud.sambanova.ai/ 注册账号（不绑支付方式）",
+      "创建 API key，把 base URL 设为 https://api.sambanova.ai/v1",
+      "在免费档限额内调用（每模型每天 20 次/20 万 tokens）"
+    ],
+    "claim_guide": [
+      {
+        "step": "注册账号",
+        "detail": "不绑支付方式即为免费档。",
+        "url": "https://cloud.sambanova.ai/"
+      },
+      {
+        "step": "创建 API key",
+        "detail": "创建 key 并设置 OpenAI 兼容 base URL。",
+        "url": "https://cloud.sambanova.ai/"
+      },
+      {
+        "step": "限额内调用",
+        "detail": "每模型每天 20 次请求、20 万 tokens。",
+        "url": "https://cloud.sambanova.ai/"
+      }
+    ],
+    "providers": [
+      {
+        "name": "SambaNova",
+        "action_url": "https://cloud.sambanova.ai/"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "agent",
+      "coding"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-26T08:42:32+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T08:42:32+08:00"
+    }
+  },
+  {
+    "id": "nscale-5-usd-free-credit-20261126",
+    "title": "Nscale 新账号 $5 免费 credits（无服务器推理，免绑卡领取）",
+    "platform": "Nscale",
+    "product": "Nscale Serverless Inference",
+    "model": "",
+    "type": "额度",
+    "deadline": null,
+    "url": "https://www.nscale.com/blog/what-is-serverless-inference",
+    "summary": "欧洲主权 AI 云 Nscale 的无服务器推理（OpenAI 兼容端点，聊天/视觉/嵌入/图像生成）：每个新账号含 $5 免费 starter credits，注册后在控制台领取即可开始调用，无需绑卡；额度用完后按 token 付费，充值才需绑卡。有效期官方未注明，第三方口径约 30–90 天，以控制台显示为准。",
+    "source": "Nscale 官方文档 Changelog（docs.nscale.com，2026-11-17 更新）与官方博客核实：Every new account includes $5 free credit；Perq 2026-11-25 复核官方页一致；有效期 30–90 天为第三方口径",
+    "claim_steps": [
+      "打开 Nscale 官网注册账号",
+      "在 Nscale Console 领取 $5 免费 credits",
+      "生成 service token 并调用无服务器推理 API"
+    ],
+    "claim_guide": [
+      {
+        "step": "注册账号",
+        "detail": "创建 Nscale Console 账号。",
+        "url": "https://www.nscale.com/blog/what-is-serverless-inference"
+      },
+      {
+        "step": "领取 $5 额度",
+        "detail": "在控制台领取免费 credits，免绑卡。",
+        "url": "https://www.nscale.com/blog/what-is-serverless-inference"
+      },
+      {
+        "step": "调用 API",
+        "detail": "生成 token 后用 OpenAI 兼容端点调用。",
+        "url": "https://www.nscale.com/blog/what-is-serverless-inference"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Nscale",
+        "action_url": "https://www.nscale.com/blog/what-is-serverless-inference"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-26T08:42:32+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T08:42:32+08:00"
+    }
+  },
+  {
+    "id": "alibaba-model-studio-free-quota-20261126",
+    "title": "阿里云 Model Studio 新用户免费额度：每模型 100 万 tokens，90 天有效（需实名）",
+    "platform": "阿里云",
+    "product": "Model Studio",
+    "model": "Qwen",
+    "type": "额度",
+    "deadline": null,
+    "url": "https://help.aliyun.com/en/model-studio/new-free-quota",
+    "summary": "首次激活阿里云 Model Studio 即自动获赠各模型免费额度（通常每模型 100 万 tokens，各模型独立、不可互转），自激活/模型发布/申请获批三者最晚之日起 90 天有效，仅覆盖实时推理调用。覆盖 Qwen 系列（Qwen3.8-Max、Qwen4-Max、Qwen3.7 等，2026-10-29 起部分模型已取消免费额度，以控制台为准）。注意：须完成实名认证方可领取；区域口径官方文档称仅北京区、第三方称新加坡国际区，以控制台显示为准。",
+    "source": "阿里云官方帮助文档《Free quota for new users》（help.aliyun.com）核实：首次激活自动赠送、每模型独立额度、90 天有效、须实名；区域口径官方文档与第三方说法不一，以控制台为准",
+    "claim_steps": [
+      "注册阿里云账号并完成实名认证",
+      "首次激活 Model Studio 服务，系统自动赠送免费额度",
+      "在控制台免费额度页查看各模型剩余额度与到期时间后调用"
+    ],
+    "claim_guide": [
+      {
+        "step": "实名认证",
+        "detail": "完成实名认证后方可领取免费额度。",
+        "url": "https://help.aliyun.com/en/model-studio/new-free-quota"
+      },
+      {
+        "step": "激活服务",
+        "detail": "首次激活 Model Studio，额度自动赠送。",
+        "url": "https://help.aliyun.com/en/model-studio/new-free-quota"
+      },
+      {
+        "step": "查看额度",
+        "detail": "控制台免费额度页确认剩余额度与到期日。",
+        "url": "https://help.aliyun.com/en/model-studio/new-free-quota"
+      }
+    ],
+    "providers": [
+      {
+        "name": "阿里云 Model Studio",
+        "action_url": "https://help.aliyun.com/en/model-studio/new-free-quota"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "agent",
+      "chat"
+    ],
+    "barriers": [
+      "need_signup",
+      "need_phone"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-26T08:42:32+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T08:42:32+08:00"
+    }
+  },
+  {
+    "id": "civo-250-usd-free-credit-20261126",
+    "title": "Civo 新用户 $250 免费额度（21 天内绑卡领取，至次月底有效）",
+    "platform": "Civo",
+    "product": "Civo Cloud",
+    "model": "",
+    "type": "限时",
+    "deadline": null,
+    "url": "https://www.civo.com/docs/faq",
+    "summary": "英国主权云 Civo（托管 Kubernetes、云服务器、GPU、数据库、对象存储）：新用户注册后 21 天内绑定有效信用卡/借记卡即可领 $250 免费额度，可用于全部 Civo 服务；额度自发放起至次月底有效，不可转让、无现金价值。另有面向初创公司的 Startup Program（$1,000–$50,000 额度，需申请）。",
+    "source": "Civo 官方文档 FAQ（civo.com/docs/faq）核实：$250 introductory credit、21 天内绑卡、至次月底有效；Perq 2026-11-25 复核官方页一致",
+    "claim_steps": [
+      "注册 Civo 账号",
+      "21 天内绑定有效信用卡/借记卡领取 $250 额度",
+      "额度有效期内用于 Kubernetes 集群、云服务器等任意服务"
+    ],
+    "claim_guide": [
+      {
+        "step": "注册账号",
+        "detail": "创建 Civo 账号。",
+        "url": "https://www.civo.com/docs/faq"
+      },
+      {
+        "step": "绑卡领额度",
+        "detail": "21 天内绑卡领取 $250。",
+        "url": "https://www.civo.com/docs/faq"
+      },
+      {
+        "step": "有效期内使用",
+        "detail": "额度至次月底有效，可用于全部服务。",
+        "url": "https://www.civo.com/docs/faq"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Civo",
+        "action_url": "https://www.civo.com/docs/faq"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "cloud"
+    ],
+    "barriers": [
+      "need_signup",
+      "need_card"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-26T08:42:32+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T08:42:32+08:00"
+    }
+  },
+  {
+    "id": "oracle-always-free-20261126",
+    "title": "Oracle Cloud Always Free：永久免费 Arm 2 核/12GB + 2 台 AMD micro VM（需绑卡验证）",
+    "platform": "Oracle",
+    "product": "Oracle Cloud Always Free",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier_topic-Always_Free_Resources.htm",
+    "summary": "Oracle 云永久免费档（无截止日期，限 home region）：Ampere A1 Arm 实例每月 1,500 OCPU 小时 + 9,000 GB 小时（相当于 2 核/12GB，可开 1–2 台）+ 2 台 AMD micro VM（各 1/8 核/1GB）+ 200GB 块存储 + 每月 10TB 出站流量；另有 $300/30 天免费试用额度。注意：注册需绑卡验证（仅作验证）；实例连续 7 天 CPU/网络/内存使用率均低于 20% 可能被回收；Arm 机型常缺货，需抢占容量。",
+    "source": "Oracle 官方文档《Always Free Resources》（docs.oracle.com）核实：A1 2 OCPU/12GB、2 台 AMD micro、200GB 存储、10TB 流量；多家第三方 2026-11 复核一致（2026 年由 4 核/24GB 下调至 2 核/12GB）",
+    "claim_steps": [
+      "注册 Oracle Cloud 账号并绑卡验证",
+      "在 home region 创建 Ampere A1 实例（2 核/12GB）或 AMD micro VM",
+      "保持实例有一定使用量，避免 7 天闲置被回收"
+    ],
+    "claim_guide": [
+      {
+        "step": "注册并验证",
+        "detail": "绑卡验证身份，不实际扣费。",
+        "url": "https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier_topic-Always_Free_Resources.htm"
+      },
+      {
+        "step": "创建实例",
+        "detail": "home region 内创建 A1 或 AMD micro 实例。",
+        "url": "https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier_topic-Always_Free_Resources.htm"
+      },
+      {
+        "step": "避免闲置回收",
+        "detail": "保持使用量，7 天闲置可能被回收。",
+        "url": "https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier_topic-Always_Free_Resources.htm"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Oracle Cloud",
+        "action_url": "https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier_topic-Always_Free_Resources.htm"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "cloud"
+    ],
+    "barriers": [
+      "need_signup",
+      "need_card"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-26T08:42:32+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T08:42:32+08:00"
+    }
+  },
+  {
+    "id": "digitalocean-5-usd-signup-credit-20261126",
+    "title": "DigitalOcean 新团队自动 $5 注册额度（90 天有效，需绑支付方式）",
+    "platform": "DigitalOcean",
+    "product": "DigitalOcean",
+    "model": "",
+    "type": "额度",
+    "deadline": null,
+    "url": "https://docs.digitalocean.com/platform/billing/signup-credit/",
+    "summary": "创建首个 DigitalOcean 团队时自动到账 $5 注册额度，无需优惠码；自注册起 90 天内有效，适用于除 SaaS Add-Ons 外的全部产品（Droplet、GPU Droplet、托管数据库等）。注意：创建资源前必须先绑定有效支付方式；额度用完或过期后按量计费。旧的 $200/60 天额度已于 2026-04 下调为 $5。",
+    "source": "DigitalOcean 官方文档《Signup Credit》（docs.digitalocean.com）核实：首个团队自动 $5、90 天有效、除 SaaS Add-Ons 外通用、建资源前须绑支付方式；多家第三方 2026-11 复核一致",
+    "claim_steps": [
+      "注册 DigitalOcean 并创建首个团队，$5 额度自动到账",
+      "绑定有效支付方式",
+      "90 天内用额度创建 Droplet 等资源测试"
+    ],
+    "claim_guide": [
+      {
+        "step": "创建首个团队",
+        "detail": "$5 额度自动到账，无需优惠码。",
+        "url": "https://docs.digitalocean.com/platform/billing/signup-credit/"
+      },
+      {
+        "step": "绑定支付方式",
+        "detail": "创建资源前必须绑定支付方式。",
+        "url": "https://docs.digitalocean.com/platform/billing/signup-credit/"
+      },
+      {
+        "step": "90 天内使用",
+        "detail": "额度 90 天后过期，超额部分按量计费。",
+        "url": "https://docs.digitalocean.com/platform/billing/signup-credit/"
+      }
+    ],
+    "providers": [
+      {
+        "name": "DigitalOcean",
+        "action_url": "https://docs.digitalocean.com/platform/billing/signup-credit/"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "cloud"
+    ],
+    "barriers": [
+      "need_signup",
+      "need_card"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-26T08:42:32+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T08:42:32+08:00"
+    }
+  },
+  {
+    "id": "accuweb-free-windows-vps-1month-20261126",
+    "title": "AccuWeb 免费 Windows VPS 首月（1 核/1GB/40GB，免绑卡，需证件+域名审核）",
+    "platform": "AccuWeb Hosting",
+    "product": "Free Windows VPS",
+    "model": "",
+    "type": "限时",
+    "deadline": null,
+    "url": "https://www.accuwebhosting.com/vps-hosting/windows/free-vps",
+    "summary": "AccuWeb Hosting 免费 Windows VPS 试用：首月免费（1 vCPU、1GB 内存、40GB SSD、500GB 流量，Windows Server 2019 授权版，远程桌面 + 完整管理员权限，丹佛节点），免绑卡、无 setup 费。注意：门槛较严——需企业邮箱（不接受免费邮箱）、自有域名且网站已上线 6 个月以上、两份政府签发证件 + 社交账号人工审核（24–48 小时）；首月后 $14.97/月，到期前取消可避免扣费。",
+    "source": "AccuWeb 官网免费 VPS 页（accuwebhosting.com）核实：首月免费、免绑卡、1GB/40GB；人工审核门槛（企业邮箱+域名 6 个月+两份证件）见官网条款与多家第三方 2026-11 复核",
+    "claim_steps": [
+      "打开官网免费 VPS 页确认条款",
+      "用企业邮箱下单，提交域名与两份政府证件接受人工审核",
+      "审核通过后 24–48 小时开通，首月免费使用，到期前决定是否取消"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网免费 VPS 页确认首月免费与审核要求。",
+        "url": "https://www.accuwebhosting.com/vps-hosting/windows/free-vps"
+      },
+      {
+        "step": "提交审核",
+        "detail": "企业邮箱+域名+两份证件，人工审核。",
+        "url": "https://www.accuwebhosting.com/vps-hosting/windows/free-vps"
+      },
+      {
+        "step": "首月使用",
+        "detail": "开通后首月免费，到期前取消可避免 $14.97/月。",
+        "url": "https://www.accuwebhosting.com/vps-hosting/windows/free-vps"
+      }
+    ],
+    "providers": [
+      {
+        "name": "AccuWeb Hosting",
+        "action_url": "https://www.accuwebhosting.com/vps-hosting/windows/free-vps"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "cloud"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-26T08:42:32+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T08:42:32+08:00"
+    }
+  },
+  {
+    "id": "synteq-free-vps-first-month-20261126",
+    "title": "Synteq 首月免费 VPS（ServerOS 合作，美东/美西，全 root）",
+    "platform": "Synteq",
+    "product": "Synteq VPS",
+    "model": "",
+    "type": "限时",
+    "deadline": null,
+    "url": "https://serveros.com/synteq",
+    "summary": "ServerOS 与 Synteq 合作：新用户首月免费 VPS（美东/美西节点，完整 root 权限，可接 ServerOS Cloud 管理部署、备份与监控）；ServerOS 为开源服务器管理平台（GitHub 1.2k+ stars）。注意：首月后按 Synteq 常规价计费；是否需绑卡官方帖未注明，注册时以页面为准。",
+    "source": "ServerOS 官方合作帖（builtbybit.com，2026-11-19 发布）核实：首月免费 VPS、全 root、美东/美西；领取页 serveros.com/synteq；绑卡要求未注明",
+    "claim_steps": [
+      "打开 https://serveros.com/synteq 确认首月免费条款",
+      "注册 Synteq 新账号并开通 VPS（美东或美西）",
+      "首月内使用，首月后按常规价计费，到期前决定是否续用"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "领取页确认首月免费与节点。",
+        "url": "https://serveros.com/synteq"
+      },
+      {
+        "step": "开通 VPS",
+        "detail": "注册新账号开通首月免费 VPS。",
+        "url": "https://serveros.com/synteq"
+      },
+      {
+        "step": "首月使用",
+        "detail": "全 root 使用，首月后按常规价计费。",
+        "url": "https://serveros.com/synteq"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Synteq",
+        "action_url": "https://serveros.com/synteq"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "cloud"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-26T08:42:32+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T08:42:32+08:00"
+    }
+  },
+  {
+    "id": "azure-for-students-100-usd-credits-20261126",
+    "title": "Azure for Students：$100 额度，12 个月有效，免绑卡（仅限在校大学生）",
+    "platform": "Microsoft Azure",
+    "product": "Azure for Students",
+    "model": "",
+    "type": "额度",
+    "deadline": null,
+    "url": "https://azure.microsoft.com/en-in/free/students/",
+    "summary": "微软官方学生计划：经学校邮箱验证的全日制在校大学生（18 岁以上，认可的两年制/四年制学位院校）可领 $100 Azure 额度，12 个月内有效，可用于大多数 Azure 产品，注册时无需信用卡；每年在读可续领 $100。另附部分免费服务。注意：仅限在校生，MOOC 或职业培训课程不符合资格；额度不可用于 Azure 支持计划、DevOps、Visual Studio 订阅等。",
+    "source": "微软 Azure 官方 Offer 详情页（azure.microsoft.com）与 learn.microsoft.com 文档核实：$100 额度、12 个月有效、注册免信用卡、仅限全日制在校生、每年可续",
+    "claim_steps": [
+      "打开 https://azure.microsoft.com/en-in/free/students/ 确认学生计划条款",
+      "用学校邮箱验证在读身份并注册",
+      "在 Azure 门户确认订阅后 12 个月内使用 $100 额度"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官方页确认 $100 额度、12 个月有效、免绑卡、仅限在校生。",
+        "url": "https://azure.microsoft.com/en-in/free/students/"
+      },
+      {
+        "step": "验证身份",
+        "detail": "用学校邮箱验证全日制在读身份。",
+        "url": "https://azure.microsoft.com/en-in/free/students/"
+      },
+      {
+        "step": "使用额度",
+        "detail": "12 个月内在大多数 Azure 产品上使用。",
+        "url": "https://azure.microsoft.com/en-in/free/students/"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Microsoft Azure",
+        "action_url": "https://azure.microsoft.com/en-in/free/students/"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "cloud"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-26T14:42:12+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T14:42:12+08:00"
+    }
+  },
+  {
+    "id": "sandscale-free-100-vcpu-hours-20261126",
+    "title": "Sandscale 免费档（每月 100 awake vCPU-hours、3 个 box、5GB 存储）",
+    "platform": "Sandscale",
+    "product": "Sandscale",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://sandscale.dev/",
+    "summary": "给 AI coding agent 的云端沙箱（Firecracker microVM）：每个运行独享隔离环境，网络默认关闭、可按策略放行，每步可进审计日志；另有 SDK 与 MCP 服务器（mcp.sandscale.dev/mcp），可接 Claude Code、Codex 等。免费档 $0/月：每月 100 awake vCPU-hours、同时 3 个 box、5GB 存储、1 个 workspace、单 box 最高 2 vCPU、单次最长 4 小时；暂停与闲置时间不计费，用完即停不自动扣费。注意：官网定价页未写明注册是否需要绑卡，注册时以页面为准；域名 2026-11-16 才注册，服务很新。",
+    "source": "Sandscale 官网（sandscale.dev）定价区核实：Free $0/月，每月 100 awake vCPU-hours、3 个 box 同时运行、5GB 存储、1 个 workspace、单 box 最高 2 vCPU；暂停/闲置时间不计费。注意：官网定价页未写明注册是否需要绑卡",
+    "claim_steps": [
+      "打开 https://sandscale.dev/ 确认免费档条款",
+      "注册账号，在控制台创建沙箱",
+      "通过 MCP 或 SDK 把 Claude Code/Codex 等 agent 接进来使用"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网定价区确认免费档 $0、每月 100 小时、3 个 box、5GB 存储。",
+        "url": "https://sandscale.dev/"
+      },
+      {
+        "step": "注册账号",
+        "detail": "注册账号并确认是否需要绑卡。",
+        "url": "https://sandscale.dev/"
+      },
+      {
+        "step": "接入 agent",
+        "detail": "通过 MCP 或 SDK 接入自己的 coding agent。",
+        "url": "https://sandscale.dev/"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Sandscale",
+        "action_url": "https://sandscale.dev/"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "cloud",
+      "coding"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-26T16:47:48+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T16:47:48+08:00"
+    }
+  },
+  {
+    "id": "tabstack-10000-free-credits-20261126",
+    "title": "Tabstack（Mozilla）新账号 10,000 免费 credits（免绑卡，网页访问 API）",
+    "platform": "Mozilla Tabstack",
+    "product": "Tabstack",
+    "model": "",
+    "type": "额度",
+    "deadline": null,
+    "url": "https://tabstack.ai/",
+    "summary": "Mozilla 出品的网页访问 API，给 AI 模型/agent 用：一个 API 完成实时检索（带引用）、把 URL 转成干净 Markdown 或按 schema 的 JSON、在公开网站上执行自动化任务；数据默认不用于训练。免费：新账号 10,000 credits，免信用卡；按官方价目，提取 Markdown 每次 10 credits、JSON 50、Research Fast 250，约可做 1,000 次 Markdown 提取或 40 次快速检索。Individual 档 $0/月，超量按 $0.35/1,000 credits 付费；另有开源自托管引擎 Pilo（Apache-2.0）。2026-11-19 Product Hunt 上线。",
+    "source": "Tabstack 官网（tabstack.ai，Mozilla 出品）与 Product Hunt 2026-11-19 上线页核实：新账号 10,000 免费 credits、免信用卡；Individual $0/月按量付费",
+    "claim_steps": [
+      "打开 https://tabstack.ai/ 确认 10,000 免费 credits 条款",
+      "注册账号领取 credits",
+      "用 REST API/SDK/CLI 调用 Research、Extract 或 Automate"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网确认新账号 10,000 credits、免绑卡。",
+        "url": "https://tabstack.ai/"
+      },
+      {
+        "step": "注册领取",
+        "detail": "注册账号领取 10,000 credits。",
+        "url": "https://tabstack.ai/"
+      },
+      {
+        "step": "调用 API",
+        "detail": "用 API/SDK 调用检索、提取或自动化。",
+        "url": "https://tabstack.ai/"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Tabstack",
+        "action_url": "https://tabstack.ai/"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-26T16:47:48+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T16:47:48+08:00"
+    }
+  },
+  {
+    "id": "agentpulse-free-100-requests-daily-20261126",
+    "title": "AgentPulse 免费档（每天 100 次请求，304 响应永久免费不计次，免绑卡）",
+    "platform": "AgentPulse",
+    "product": "AgentPulse",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://agentpulse-43di.onrender.com",
+    "summary": "给 AI agent 的 API/云服务状态预言机：一次调用返回依赖服务的 pass/degraded/block 结论，覆盖 AWS、Stripe、OpenAI、GitHub 等 37 个服务，含 breaking-change 提醒；支持 ETag/304，未变化时返回空体且不计入当日额度。免费档：每个注册 agent 每天 100 次计费请求，304 响应永久免费、永不计次；agent 自行注册（一个 POST）即发免费 key，无需信用卡、无人工验证。另有 MCP 服务器。注意：服务跑在 Render 免费托管上，属个人小项目。2026-11-21 Product Hunt 上线。",
+    "source": "AgentPulse 官网（agentpulse-43di.onrender.com）与 Product Hunt 2026-11-21 上线页核实：免费档每天 100 次请求、304 响应永久免费不计次、无需信用卡与人工验证",
+    "claim_steps": [
+      "打开 https://agentpulse-43di.onrender.com/ 确认免费档条款",
+      "用一个 POST 注册 agent 领取免费 API key",
+      "在 agent 任务前调一次预检，304 时不消耗额度"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网确认免费档每天 100 次、304 永久免费不计次、免绑卡。",
+        "url": "https://agentpulse-43di.onrender.com"
+      },
+      {
+        "step": "注册领 key",
+        "detail": "一个 POST 注册 agent 即发免费 key。",
+        "url": "https://agentpulse-43di.onrender.com"
+      },
+      {
+        "step": "预检调用",
+        "detail": "任务前调预检，304 不消耗额度。",
+        "url": "https://agentpulse-43di.onrender.com"
+      }
+    ],
+    "providers": [
+      {
+        "name": "AgentPulse",
+        "action_url": "https://agentpulse-43di.onrender.com"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-26T16:47:48+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T16:47:48+08:00"
+    }
+  },
+  {
+    "id": "macswarm-free-3-pod-hours-20261126",
+    "title": "Macswarm 免费 3 Pod-hours（一次性，免绑卡；云端 macOS + Xcode + iOS 模拟器）",
+    "platform": "Macswarm",
+    "product": "Macswarm",
+    "model": "",
+    "type": "限时",
+    "deadline": null,
+    "url": "https://macswarm.com/pricing/",
+    "summary": "给 Claude Code/Codex agent 的云端 macOS：每位开发者一个 Pod（Apple Silicon Mac mini 上的 macOS 虚拟机），预装最新 Xcode、iOS 模拟器与 XcodeBuildMCP，2–3 个 agent 可共享一个 Pod；用完 10 分钟后 Pod 销毁、不保留状态。免费：一次性 3 Pod-hours，免信用卡、一次 1 个 Pod；按秒计费。注意：需自备 Claude Team/Enterprise 或 OpenAI 账号接 agent，模型费另付；3 小时用完即停，需选付费档（Pro $99/月 300 小时）。",
+    "source": "Macswarm 官网定价页（macswarm.com/pricing）核实：Free $0、一次性 3 Pod-hours、No card needed",
+    "claim_steps": [
+      "打开 https://macswarm.com/pricing/ 确认免费 3 Pod-hours 条款",
+      "注册免费账号（免绑卡），连接 Claude Code 或 Codex",
+      "3 小时内在 Pod 上跑构建与模拟器测试"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网定价页确认免费 3 Pod-hours、免绑卡。",
+        "url": "https://macswarm.com/pricing/"
+      },
+      {
+        "step": "注册连接",
+        "detail": "注册并连接自己的 Claude Code/Codex 账号。",
+        "url": "https://macswarm.com/pricing/"
+      },
+      {
+        "step": "跑任务",
+        "detail": "3 小时内在 Pod 上跑构建与模拟器测试。",
+        "url": "https://macswarm.com/pricing/"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Macswarm",
+        "action_url": "https://macswarm.com/pricing/"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "cloud",
+      "coding"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-26T16:47:48+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T16:47:48+08:00"
+    }
+  },
+  {
+    "id": "cartesia-free-20k-credits-monthly-20261126",
+    "title": "Cartesia 免费档（每月 20,000 credits：TTS 约 25 分钟 + STT 约 9 小时）",
+    "platform": "Cartesia",
+    "product": "Cartesia",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://cartesia.ai/pricing",
+    "summary": "语音 AI API：Sonic 文字转语音、Ink 语音转文字与托管语音 agent。免费档 $0/月：每月 20,000 credits（TTS 约 1 credit/字符，约 25 分钟音频；STT 约 3 credits/秒，约 9 小时 16 分钟），另含 $1/月语音 agent 预付金（约 33 分钟通话，按 $0.03/分钟）；超量即停，不自动扣费。注意：免费档无商用许可（商用需 Pro $5/月起），官网定价页未明示注册是否需绑卡；SOC 2 Type II 认证。",
+    "source": "Cartesia 官网定价页（cartesia.ai/pricing）核实：Free $0/月，每月 20,000 credits、$1 语音 agent 预付金；官网未明示是否需绑卡",
+    "claim_steps": [
+      "打开 https://cartesia.ai/pricing 确认免费档条款",
+      "注册账号领取每月 20,000 credits",
+      "用 TTS/STT 或语音 agent API，每月额度内免费"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网定价页确认免费档 $0、每月 20,000 credits。",
+        "url": "https://cartesia.ai/pricing"
+      },
+      {
+        "step": "注册领取",
+        "detail": "注册账号领取每月额度。",
+        "url": "https://cartesia.ai/pricing"
+      },
+      {
+        "step": "调用 API",
+        "detail": "每月额度内调用 TTS/STT 或语音 agent。",
+        "url": "https://cartesia.ai/pricing"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Cartesia",
+        "action_url": "https://cartesia.ai/pricing"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-26T16:47:48+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T16:47:48+08:00"
+    }
+  },
+  {
+    "id": "extraorbital-free-plan-20261126",
+    "title": "ExtraOrbital 免费档（免绑卡；agent 一键开通数据库、AI key、存储与鉴权）",
+    "platform": "ExtraOrbital",
+    "product": "ExtraOrbital",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://extraorbital.dev/",
+    "summary": "给 AI agent 的后端开通层：一条命令 npx extraorbital provision 即可由 agent 自行开通 Postgres、MongoDB、Redis、向量数据库、AI key、存储与鉴权，无需手动点控制台。免费档 $0：含免费额度，免信用卡；生产用按 $20/成员/月 + 用量付费。注意：免费额度的具体数值官网未逐项列出，注册时以控制台为准。",
+    "source": "ExtraOrbital 官网（extraorbital.dev）核实：Free plan 含免费额度、免信用卡；npx extraorbital provision 一键开通数据库/AI key/存储/鉴权；生产 $20/成员/月 + 用量",
+    "claim_steps": [
+      "打开 https://extraorbital.dev/ 确认免费档条款",
+      "注册账号（免绑卡），按文档安装 CLI",
+      "让 agent 用 npx extraorbital provision 开通所需资源"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网确认免费档含免费额度、免绑卡。",
+        "url": "https://extraorbital.dev/"
+      },
+      {
+        "step": "注册安装",
+        "detail": "注册账号并安装 CLI。",
+        "url": "https://extraorbital.dev/"
+      },
+      {
+        "step": "agent 开通",
+        "detail": "agent 一键开通数据库、AI key、存储与鉴权。",
+        "url": "https://extraorbital.dev/"
+      }
+    ],
+    "providers": [
+      {
+        "name": "ExtraOrbital",
+        "action_url": "https://extraorbital.dev/"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "agent",
+      "cloud"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-26T20:04:41+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T20:04:41+08:00"
+    }
+  },
+  {
+    "id": "tilen-free-plan-20261126",
+    "title": "Tilen 免费档（每月 1 个日程、1 位专业人员、30 个预约；含 REST API + MCP + webhooks，免绑卡）",
+    "platform": "Tilen",
+    "product": "Tilen",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://www.tilen.cc",
+    "summary": "预约排班 SaaS（沙龙、水疗、诊所等服务业）：免费档 $0/月：1 个日程、1 位专业人员、每月 30 个预约，REST API、MCP 服务器与 webhooks 均包含在内，免信用卡；沙箱日历无需账号、无需 API key 即可试用。注意：免费档无在线支付与短信提醒等高级功能。2026-11-23 Show HN 上线。",
+    "source": "Tilen 官网（tilen.cc）与 Show HN 2026-11-23 上线帖核实：Free plan 1 个日程、1 位专业人员、每月 30 个预约，含 REST API + MCP + webhooks，免绑卡；沙箱日历免账号",
+    "claim_steps": [
+      "打开 https://www.tilen.cc 确认免费档条款",
+      "免账号先用沙箱日历试用，或注册免费账号",
+      "用 REST API 或 MCP 把预约接到自己的 agent/应用"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网确认免费档每月 30 个预约、含 API/MCP、免绑卡。",
+        "url": "https://www.tilen.cc"
+      },
+      {
+        "step": "试用/注册",
+        "detail": "沙箱免账号试用，或注册免费账号。",
+        "url": "https://www.tilen.cc"
+      },
+      {
+        "step": "接入使用",
+        "detail": "用 REST API 或 MCP 接入预约功能。",
+        "url": "https://www.tilen.cc"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Tilen",
+        "action_url": "https://www.tilen.cc"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-26T20:04:41+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T20:04:41+08:00"
+    }
+  },
+  {
+    "id": "statefold-3-usd-free-compute-20261126",
+    "title": "Statefold 绑定 GitHub 账号送 $3 免费算力（免绑卡；首月半价至 2026-12-01）",
+    "platform": "Statefold",
+    "product": "Statefold",
+    "model": "",
+    "type": "额度",
+    "deadline": "2026-12-01T23:59:59+08:00",
+    "url": "https://www.producthunt.com/products/statefold-2",
+    "summary": "给 coding agent 的云端沙箱：Codex、Claude Code、OpenCode、Pi、Gemini CLI 各自在隔离容器里跑，带 Docker、git 与持久项目上下文；线程独立于本机，自动启动、跨模型委派、开 PR，闲置时休眠、休眠不收费，CI 失败或收到评论/webhook 时自动唤醒处理。免费：绑定 GitHub 账号送 $3 免费算力，免信用卡；上线周首月半价，优惠至 2026-12-01。注意：$3 额度的有效期官网未明示。",
+    "source": "Product Hunt 2026-11-26 上线页与 shipfolio 产品页核实：绑定 GitHub 账号送 $3 免费算力、免绑卡；上线周首月半价至 2026-12-01；休眠线程不收费",
+    "claim_steps": [
+      "打开 Product Hunt 上线页确认 $3 免费算力条款",
+      "绑定 GitHub 账号领取 $3 免费算力（免绑卡）",
+      "把 Codex/Claude Code 等 agent 放到云端沙箱运行"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "上线页确认绑定 GitHub 送 $3 算力、免绑卡。",
+        "url": "https://www.producthunt.com/products/statefold-2"
+      },
+      {
+        "step": "绑定领取",
+        "detail": "绑定 GitHub 账号领取 $3 免费算力。",
+        "url": "https://www.producthunt.com/products/statefold-2"
+      },
+      {
+        "step": "云端运行",
+        "detail": "agent 在云端沙箱运行，休眠不收费。",
+        "url": "https://www.producthunt.com/products/statefold-2"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Statefold",
+        "action_url": "https://www.producthunt.com/products/statefold-2"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "cloud",
+      "coding"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-26T20:04:41+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T20:04:41+08:00"
+    }
+  },
+  {
+    "id": "chunkify-10-usd-welcome-credit-20261126",
+    "title": "Chunkify $10 迎新 credits（$0 月费、免绑卡起步；每月含 50 GiB 输出传输）",
+    "platform": "Chunkify",
+    "product": "Chunkify",
+    "model": "",
+    "type": "额度",
+    "deadline": null,
+    "url": "https://chunkify.dev",
+    "summary": "视频流媒体平台（给开发者用的视频托管/转码/分发）：Pay as you go 档月费 $0，注册无需信用卡即送 $10 迎新 credits；每月含 50 GiB 输出传输；另有 MCP 服务器与 Claude Code/Cursor/Codex 用的 agent skill，可让 agent 直接管理视频。注意：$10 用完后按量计费，需留意用量。",
+    "source": "Chunkify 官网（chunkify.dev）核实：Pay as you go $0/月费、无需信用卡起步、$10 迎新 credits、每月 50 GiB 输出传输；含 MCP 服务器与 agent skill",
+    "claim_steps": [
+      "打开 https://chunkify.dev 确认 $10 迎新 credits 条款",
+      "注册账号领取 $10 credits（免绑卡）",
+      "用 MCP 或 agent skill 让 agent 管理视频"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网确认 $0 月费、$10 迎新 credits、免绑卡起步。",
+        "url": "https://chunkify.dev"
+      },
+      {
+        "step": "注册领取",
+        "detail": "注册账号领取 $10 credits。",
+        "url": "https://chunkify.dev"
+      },
+      {
+        "step": "agent 管理",
+        "detail": "用 MCP 或 agent skill 管理视频。",
+        "url": "https://chunkify.dev"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Chunkify",
+        "action_url": "https://chunkify.dev"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-26T20:04:41+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T20:04:41+08:00"
+    }
+  },
+  {
+    "id": "dartnode-free-vps-open-source-20261126",
+    "title": "DartNode 开源项目免费 VPS（公开仓库 1,000+ stars、90 天以上；README 挂 logo 即可）",
+    "platform": "DartNode",
+    "product": "DartNode",
+    "model": "",
+    "type": "Cloud",
+    "deadline": null,
+    "url": "https://dartnode.com/open-source",
+    "summary": "专为开源项目提供的免费云服务器：公开 GitHub 或 GitLab 仓库 1,000+ stars、至少 90 天历史（不含 fork 与已归档仓库），在项目 README 挂 DartNode logo 并链回官网、加一段验证代码即可申请，审核通过后自动部署 VPS 并邮件发送登录信息。免费内容：不限带宽、100% 在线率保证、可上传自定义 ISO、每天异地备份、反向 DNS，自有 IP 网络与自治系统。注意：仅限符合条件的开源项目申请，普通用户不在此列。",
+    "source": "DartNode 官网开源页（dartnode.com/open-source）核实：公开仓库 1,000+ stars、90 天以上，README 挂 logo + 链接并加验证代码；不限带宽、100% 在线率、自定义 ISO、每日备份",
+    "claim_steps": [
+      "打开 https://dartnode.com/open-source 确认申请条件",
+      "在项目 README 加 DartNode logo 与链接、贴入验证代码",
+      "提交仓库地址申请，通过后邮件收 VPS 登录信息"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条件",
+        "detail": "官网确认 1,000+ stars、90 天以上、README 挂 logo。",
+        "url": "https://dartnode.com/open-source"
+      },
+      {
+        "step": "挂 logo 验证",
+        "detail": "README 加 logo 与链接并贴验证代码。",
+        "url": "https://dartnode.com/open-source"
+      },
+      {
+        "step": "提交申请",
+        "detail": "提交仓库地址，通过后邮件收 VPS 信息。",
+        "url": "https://dartnode.com/open-source"
+      }
+    ],
+    "providers": [
+      {
+        "name": "DartNode",
+        "action_url": "https://dartnode.com/open-source"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "cloud"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-26T20:04:41+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-26T20:04:41+08:00"
+    }
+  },
+  {
+    "id": "openllm-free-50m-tokens-monthly-20261126",
+    "title": "OpenLLM 免费档（每月 50M tokens、免绑卡；一个 key 走 Claude/Codex/Kimi 订阅与本地模型）",
+    "platform": "OpenLLM",
+    "product": "OpenLLM",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://www.openllm.sh/pricing",
+    "summary": "统一 API key 路由服务：把 Claude、Codex、Kimi 等订阅（经各家官方应用接入）、自有 API key 与本地 Ollama/LM Studio 模型接到同一个 OpenAI/Anthropic 兼容端点，带自动 fallback、用量分析与跨 agent 加密记忆。免费档 $0：每月 50M 非缓存 tokens（含 DeepSeek V4.1 Flash 100M、Qwen 3.7 Plus 10M、OpenLLM Fusion 400M 缓存 tokens）、2 台设备，免信用卡；首个请求无需接任何服务即可用。Pro $30/月（无限 tokens、5 台设备）。2026-11-25 Hacker News 上线。",
+    "source": "OpenLLM 官网定价页（openllm.sh/pricing）核实：Free $0，每月 50M 非缓存 tokens、2 台设备、免绑卡；2026-11-25 Hacker News 上线帖",
+    "claim_steps": [
+      "打开官网定价页确认免费档条款",
+      "安装 Mac 菜单栏应用或一键 curl 安装",
+      "免费档直接用内置推理额度，或接入已有订阅/API key 与本地模型"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网定价页确认免费档每月 50M tokens、免绑卡。",
+        "url": "https://www.openllm.sh/pricing"
+      },
+      {
+        "step": "安装接入",
+        "detail": "安装应用，把订阅、API key 或本地模型接进来。",
+        "url": "https://www.openllm.sh/pricing"
+      },
+      {
+        "step": "开始使用",
+        "detail": "一个 key 在 Claude Code/Codex 等 agent 里调用全部模型。",
+        "url": "https://www.openllm.sh/pricing"
+      }
+    ],
+    "providers": [
+      {
+        "name": "OpenLLM",
+        "action_url": "https://www.openllm.sh/pricing"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "agent",
+      "coding"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-27T00:06:31+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-27T00:06:31+08:00"
+    }
+  },
+  {
+    "id": "tensormux-250-usd-free-credits-20261126",
+    "title": "TensorMux 新账号 $250 免费 credits（免绑卡；OpenAI 兼容开放模型 API）",
+    "platform": "TensorMux",
+    "product": "TensorMux",
+    "model": "",
+    "type": "额度",
+    "deadline": null,
+    "url": "https://www.tensormux.com/",
+    "summary": "开放模型推理网关：OpenAI 兼容 API，可调 Llama 3.1、Qwen3、GPT-OSS、Gemma 等开放模型。官网首页写明“$250 in credits. No card.”——新账号送 $250 免费额度、免信用卡。注意：第三方 kblip 曾写 $5（约 100 万 tokens），以官网现行 $250 口径为准；共享 GPU 池、有速率限制，模型清单以官网为准。",
+    "source": "TensorMux 官网首页（tensormux.com）核实：$250 in credits、No card；模型清单见 kblip 报道",
+    "claim_steps": [
+      "打开官网确认 $250 免费额度条款",
+      "注册账号领 API key（免绑卡）",
+      "按 OpenAI 兼容端点调用开放模型"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网首页确认 $250 credits、免绑卡。",
+        "url": "https://www.tensormux.com/"
+      },
+      {
+        "step": "注册领 key",
+        "detail": "注册账号领取 API key。",
+        "url": "https://www.tensormux.com/"
+      },
+      {
+        "step": "调用模型",
+        "detail": "用 OpenAI 兼容 SDK 调用开放模型。",
+        "url": "https://www.tensormux.com/"
+      }
+    ],
+    "providers": [
+      {
+        "name": "TensorMux",
+        "action_url": "https://www.tensormux.com/"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "agent",
+      "coding"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-27T00:06:31+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-27T00:06:31+08:00"
+    }
+  },
+  {
+    "id": "daytona-200-usd-free-compute-20261126",
+    "title": "Daytona 新账号 $200 免费算力（agent 沙箱；实测 $100 免卡 + 绑卡再得 $100）",
+    "platform": "Daytona",
+    "product": "Daytona",
+    "model": "",
+    "type": "额度",
+    "deadline": null,
+    "url": "https://daytona.io/",
+    "summary": "给 AI agent 的有状态代码沙箱（OCI 容器，快照/分叉、SSH、Windows/macOS 沙箱、GPU 可选），按秒计费（$0.0504/vCPU-小时 + $0.0162/GiB-小时），无月费。官网宣传新账号 $200 免费算力；awesome.tools 2026-11-23–25 实测：注册即得 $100（免绑卡），绑卡再得 $100——以实测口径为准。注意：免费额度不覆盖 GPU 沙箱；Tier 1（仅验证邮箱）出站网络仅限白名单，开放出站需充值 $500 升 Tier 3。另有 Daytona 2.0（daytona.com）同为 $200 一次性额度。",
+    "source": "Daytona 官网定价页（多家 11 月核对）+ awesome.tools 2026-11-23–25 实测：$100 免卡即领、绑卡再得 $100；免费额度不覆盖 GPU；Tier 1 出站限白名单",
+    "claim_steps": [
+      "打开官网定价页确认免费算力条款",
+      "邮箱注册领 $100 免费算力（免绑卡）",
+      "按需创建沙箱跑 agent 代码；绑卡可再得 $100"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网与实测确认 $100 免卡即领、绑卡再得 $100。",
+        "url": "https://daytona.io/"
+      },
+      {
+        "step": "注册领取",
+        "detail": "邮箱注册领 $100 免费算力。",
+        "url": "https://daytona.io/"
+      },
+      {
+        "step": "跑沙箱",
+        "detail": "创建沙箱让 agent 在隔离环境跑代码。",
+        "url": "https://daytona.io/"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Daytona",
+        "action_url": "https://daytona.io/"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "agent",
+      "coding"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-27T00:06:31+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-27T00:06:31+08:00"
+    }
+  },
+  {
+    "id": "trigger-dev-free-5-usd-monthly-20261126",
+    "title": "Trigger.dev 免费档（每月 $5 算力额度、免绑卡；agent 后台任务编排）",
+    "platform": "Trigger.dev",
+    "product": "Trigger.dev",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://trigger.dev/pricing",
+    "summary": "给 agent 的后台任务/工作流编排（TypeScript）：任务调用、人工审批、重试、定时与队列持久化，引擎 Apache-2.0 开源、可自托管。免费档 $0/月：每月 $5 算力额度，20 个并发运行、10 个定时任务、5 名成员、日志保留 1 天，免信用卡；开发环境运行与超 5 秒的等待不计费。",
+    "source": "Trigger.dev 官网定价页（trigger.dev/pricing，多家 2026-11-15–26 核对）：Free $0，每月 $5 额度，免绑卡",
+    "claim_steps": [
+      "打开官网定价页确认免费档条款",
+      "注册免费账号、创建项目",
+      "用 SDK 写任务，免费额度内跑后台工作流"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网定价页确认免费档每月 $5 额度、免绑卡。",
+        "url": "https://trigger.dev/pricing"
+      },
+      {
+        "step": "注册建项目",
+        "detail": "注册免费账号并创建项目。",
+        "url": "https://trigger.dev/pricing"
+      },
+      {
+        "step": "跑任务",
+        "detail": "免费额度内跑 agent 后台任务与定时工作流。",
+        "url": "https://trigger.dev/pricing"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Trigger.dev",
+        "action_url": "https://trigger.dev/pricing"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "agent",
+      "coding"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-27T00:06:31+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-27T00:06:31+08:00"
+    }
+  },
+  {
+    "id": "browserbase-free-plan-20261126",
+    "title": "Browserbase 免费档（$5 模型 tokens + 1,000 次搜索/抓取 + 1 浏览器小时）",
+    "platform": "Browserbase",
+    "product": "Browserbase",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://www.browserbase.com/pricing",
+    "summary": "给 AI agent 的云端浏览器基础设施：远程 Chrome 会话（登录、过验证码、填表）+ Search/Fetch API（URL 转 Markdown/JSON）+ 开源 Stagehand 框架。免费档 $0：1 浏览器小时、3 个并发浏览器、单会话 15 分钟、3 次 agent 运行、1,000 次 Search 与 1,000 次 Fetch 调用、$5 模型 tokens、数据保留 7 天。注意：验证码求解与代理需 $20/月 Developer 档。",
+    "source": "Browserbase 官网定价页（perq 2026-11-26 核实 + freetierfinder 2026-11-08 核对）：Free $0，含 $5 模型 tokens、1,000 次搜索/抓取",
+    "claim_steps": [
+      "打开官网定价页确认免费档条款",
+      "注册免费账号",
+      "用云端浏览器会话或 Search/Fetch API 跑 agent 任务"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网定价页确认免费档内容。",
+        "url": "https://www.browserbase.com/pricing"
+      },
+      {
+        "step": "注册",
+        "detail": "注册免费账号。",
+        "url": "https://www.browserbase.com/pricing"
+      },
+      {
+        "step": "跑 agent 任务",
+        "detail": "云端浏览器或 Search/Fetch API 供 agent 使用。",
+        "url": "https://www.browserbase.com/pricing"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Browserbase",
+        "action_url": "https://www.browserbase.com/pricing"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-27T00:06:31+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-27T00:06:31+08:00"
+    }
+  },
+  {
+    "id": "steel-launch-30-usd-credits-20261126",
+    "title": "Steel Launch 免费档（一次性 $30 credits、免绑卡；agent 云端浏览器 API）",
+    "platform": "Steel",
+    "product": "Steel",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://steel.dev/pricing",
+    "summary": "给 AI agent 的云端浏览器 API（REST + CDP WebSocket + MCP）：云端会话、代理、验证码求解，浏览器运行时 steel-browser 开源（Apache-2.0）可自托管。Launch 档 $0：一次性 $30 credits（90 天有效，约 300 浏览器小时）、10 个并发会话、单会话最长 15 分钟、最多 3 席、数据保留 7 天，免绑卡；浏览器小时 $0.10。注意：Launch 档验证码求解与代理需 $10 付费余额；付费档 Scale $250/月起。",
+    "source": "Steel 官网定价页（steel.dev/pricing，多家 2026-11-13–26 核对）：Launch $0，一次性 $30 credits、免绑卡、90 天有效",
+    "claim_steps": [
+      "打开官网定价页确认 Launch 档条款",
+      "注册免费账号领 $30 credits（免绑卡）",
+      "用 API/MCP 让 agent 控制云端浏览器"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网定价页确认 Launch 档 $30 一次性 credits、免绑卡。",
+        "url": "https://steel.dev/pricing"
+      },
+      {
+        "step": "注册领取",
+        "detail": "注册领 $30 credits。",
+        "url": "https://steel.dev/pricing"
+      },
+      {
+        "step": "agent 用浏览器",
+        "detail": "API/MCP 接入 agent，跑浏览与抓取任务。",
+        "url": "https://steel.dev/pricing"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Steel",
+        "action_url": "https://steel.dev/pricing"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-27T00:06:31+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-27T00:06:31+08:00"
+    }
+  },
+  {
+    "id": "hyperbrowser-free-5000-credits-20261126",
+    "title": "Hyperbrowser 免费档（5,000 credits、免绑卡；浏览器+沙箱+网页数据一体）",
+    "platform": "Hyperbrowser",
+    "product": "Hyperbrowser",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://www.hyperbrowser.ai/pricing",
+    "summary": "给 AI agent 的互联网网关：云端浏览器（Playwright/Puppeteer/Selenium 驱动）、代码沙箱、Fetch/Search/Crawl/Extract 网页数据 API 与 HyperAgent/Browser Use 等 agent 运行时，同一 credits 余额通用。免费档 $0：5,000 credits（约 $5，够 50 浏览器小时或 5,000 次抓取），1 个并发会话、数据保留 7 天，定价页写明免绑卡；用完需升级。注意：代理与验证码求解需付费档。",
+    "source": "Hyperbrowser 官网定价页（hyperbrowser.ai/pricing）核实：Free $0，5,000 credits、免绑卡；1,000 credits = $1",
+    "claim_steps": [
+      "打开官网定价页确认免费档条款",
+      "注册免费账号领 5,000 credits（免绑卡）",
+      "用浏览器、沙箱或网页数据 API 跑 agent 任务"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网定价页确认免费档 5,000 credits、免绑卡。",
+        "url": "https://www.hyperbrowser.ai/pricing"
+      },
+      {
+        "step": "注册领取",
+        "detail": "注册免费账号领 5,000 credits。",
+        "url": "https://www.hyperbrowser.ai/pricing"
+      },
+      {
+        "step": "跑 agent 任务",
+        "detail": "云端浏览器/沙箱/网页数据 API 供 agent 使用。",
+        "url": "https://www.hyperbrowser.ai/pricing"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Hyperbrowser",
+        "action_url": "https://www.hyperbrowser.ai/pricing"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-27T00:06:31+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-27T00:06:31+08:00"
+    }
   }
 ]
