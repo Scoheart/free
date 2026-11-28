@@ -20167,5 +20167,744 @@
       "note": "需本人注册/领取后使用；本轮不代注册。",
       "at": "2026-11-28T19:58:58+08:00"
     }
+  },
+  {
+    "id": "harny-free-mit-vscode-agent-20261128",
+    "title": "Harny 免费开源 AI 编程 agent（MIT：VS Code/VSCodium 内置，先分析再动手，模型自选）",
+    "platform": "Harny",
+    "product": "Harny",
+    "model": "",
+    "type": "开源免费",
+    "deadline": null,
+    "url": "https://harny.dev/",
+    "summary": "开源 MIT 的 AI 编程 agent，直接住在 VS Code / VSCodium 的 Activity Bar：每次会话先进入 Analyze 模式，改文件前以 dry-run 显示精确 diff，确认后再进 Build；可接 OpenAI、Anthropic、OpenRouter，或本地 Ollama / LM Studio / llama.cpp（走 /v1/chat/completions）；支持并行子 agent 编排、上下文压缩与 Loop Guard；MCP 与 skills 支持，聊天记录存于项目外的 SQLite。完全免费，见 Open VSX、VS Code Marketplace 与 GitHub。注意：模型费用自付。2026-11-23 Product Hunt 上线。",
+    "source": "Harny 作者 Product Hunt 首发帖（2026-11-28 核实）：MIT 开源、完全免费，见 Open VSX / VS Code Marketplace / GitHub",
+    "claim_steps": [
+      "打开官网确认免费与开源条款",
+      "在 VS Code / VSCodium 安装 Harny",
+      "接入自己的模型（云端或本地）开始使用"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "作者首发帖确认 MIT 开源、完全免费。",
+        "url": "https://www.producthunt.com/products/harny?launch=harny"
+      },
+      {
+        "step": "安装",
+        "detail": "在 VS Code / VSCodium 或 Open VSX 安装 Harny。",
+        "url": "https://harny.dev/"
+      },
+      {
+        "step": "接入模型",
+        "detail": "接入 OpenAI/Anthropic/OpenRouter 或本地模型，模型费自付。",
+        "url": "https://harny.dev/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Harny",
+        "action_url": "https://harny.dev/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-29T00:05:50+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-29T00:05:50+08:00"
+    }
+  },
+  {
+    "id": "airoom-free-apache-claude-code-control-room-20261128",
+    "title": "airoom 免费开源 Claude Code 控制室（Apache-2.0：多会话一屏管控，免账号无遥测）",
+    "platform": "airoom",
+    "product": "airoom",
+    "model": "",
+    "type": "开源免费",
+    "deadline": null,
+    "url": "https://airoom.dev/",
+    "summary": "免费开源（Apache-2.0）的 Claude Code 会话控制室：每个项目是一个房间、每个会话是一张桌子，一屏看清哪个 agent 在工作、哪个在等你、哪个卡住了；可直接在桌上与 agent 对话、一键停止、逐条审批命令；内置浏览器供 agent 操作你的应用并实时围观；可组建 lead + crew 多 agent 团队（各走独立 git worktree），Playbooks 可把跑通的任务存下来复用。无账号、无遥测，数据只在本地；macOS（Apple Silicon）与 Windows 11 beta。注意：需自备已登录的 Claude Code，模型费用走自己的 Claude 订阅。2026-11-28 Product Hunt 上线。",
+    "source": "airoom 作者 Product Hunt 首发帖 + 官网（2026-11-28 核实）：免费开源 Apache-2.0，无账号、无遥测",
+    "claim_steps": [
+      "打开官网确认免费与开源条款",
+      "下载安装桌面应用（macOS / Windows beta）",
+      "用已登录的 Claude Code 开始管理会话"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "作者首发帖确认免费开源 Apache-2.0、无账号、无遥测。",
+        "url": "https://www.producthunt.com/products/airoom"
+      },
+      {
+        "step": "安装",
+        "detail": "从官网下载安装桌面应用。",
+        "url": "https://airoom.dev/"
+      },
+      {
+        "step": "接入",
+        "detail": "用已登录的 Claude Code，模型费走自己的订阅。",
+        "url": "https://airoom.dev/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "airoom",
+        "action_url": "https://airoom.dev/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-29T00:05:50+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-29T00:05:50+08:00"
+    }
+  },
+  {
+    "id": "gutcheck-free-mit-claude-code-research-20261128",
+    "title": "gutcheck 免费开源 Claude Code 研究插件（MIT：/gutcheck 一句想法出带证据的 verdict）",
+    "platform": "gutcheck",
+    "product": "gutcheck",
+    "model": "",
+    "type": "开源免费",
+    "deadline": null,
+    "url": "https://www.eshanjain.com/work/gutcheck",
+    "summary": "免费开源（MIT）的 Claude Code 研究插件：在 Claude Code 里输入 /gutcheck + 一个想法、问题或决策，它会规划研究、拉取 Google Trends、Google News、Hacker News、GitHub、App Store、Wikipedia 与全网实时信号，给出带置信度的 verdict、反方论证与本周可做的下一步；证据均附来源。多数来源零配置、无需 API key，全部在本地运行。注意：需 Claude Code（macOS/Linux，Windows 未测试），运行计入自己的 Claude 套餐；Reddit 免费 feed 已关闭，Reddit 搜索需自备 API key。2026-11-28 Product Hunt 上线。",
+    "source": "gutcheck 作者 Product Hunt 首发帖（2026-11-28 核实）：免费开源 MIT，无 API key 即可开始",
+    "claim_steps": [
+      "打开作者页面确认免费与开源条款",
+      "在 Claude Code 里安装 gutcheck 插件",
+      "输入 /gutcheck + 想法，查看带证据的 verdict"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "作者首发帖确认免费开源 MIT、无 API key 即可开始。",
+        "url": "https://www.producthunt.com/products/gutcheck-2"
+      },
+      {
+        "step": "安装",
+        "detail": "按作者页面指引在 Claude Code 里安装。",
+        "url": "https://www.eshanjain.com/work/gutcheck"
+      },
+      {
+        "step": "使用",
+        "detail": "在 Claude Code 里输入 /gutcheck + 想法。",
+        "url": "https://www.eshanjain.com/work/gutcheck"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "gutcheck",
+        "action_url": "https://www.eshanjain.com/work/gutcheck"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-29T00:05:50+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-29T00:05:50+08:00"
+    }
+  },
+  {
+    "id": "wender-desktop-free-design-canvas-20261128",
+    "title": "Wender Desktop 100% 免费设计画布（macOS：接自己的 Claude Code/Codex，文件与托管全归自己）",
+    "platform": "Wender",
+    "product": "Wender",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://www.wenderapp.com/",
+    "summary": "100% 免费的 HTML 与 Storybook 画布设计工具（macOS 15+，Apple Silicon 与 Intel）：用真实组件做原型、模型图、幻灯片、网站与 App；完整 Storybook 集成，可在画布上跑实时组件、直连本地仓库；登录自己的 Claude Code / Codex 订阅，或用本地 MCP 接任意 agent；文件保存在本地、可提交进 Git，协作工作区装在自己的 Cloudflare 账号上。无订阅、无按席位收费、无广告、无任何变现。注意：AI 模型与可选 Cloudflare 托管费用另计。2026-11-28 Product Hunt 上线。",
+    "source": "Wender 官网 + 作者 Product Hunt 首发帖（2026-11-28 核实）：100% 免费，无订阅、无席位费",
+    "claim_steps": [
+      "打开官网确认免费条款",
+      "下载安装 Wender Desktop（macOS 15+）",
+      "登录自己的 Claude Code / Codex 开始设计"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网与作者首发帖确认 100% 免费，无订阅、无席位费、无广告。",
+        "url": "https://www.wenderapp.com/"
+      },
+      {
+        "step": "安装",
+        "detail": "下载安装桌面应用。",
+        "url": "https://www.wenderapp.com/"
+      },
+      {
+        "step": "接入 agent",
+        "detail": "登录自己的 Claude Code / Codex，或用 MCP 接任意 agent。",
+        "url": "https://www.wenderapp.com/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Wender",
+        "action_url": "https://www.wenderapp.com/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-29T00:05:50+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-29T00:05:50+08:00"
+    }
+  },
+  {
+    "id": "opencrawl-free-cloud-100m-tokens-20261128",
+    "title": "OpenCrawl 免费起步（开源可自托管：coding agent 共享会话历史、多人协作，每月免费额度免绑卡）",
+    "platform": "OpenCrawl",
+    "product": "OpenCrawl",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://getopencrawl.com/",
+    "summary": "YC 公司的开源可自托管工具，让 coding agent 变成会协作的团队：记录每个 agent 会话的完整记录（含 GitHub、Linear、Slack、Notion 上下文），其他 agent 可全文搜索彼此的历史、在共享消息板上发帖、标记重叠工作、分工协作；支持 Claude Code、Codex、Cursor、Gemini CLI、Devin 等。OpenCrawl Cloud 免费起步：官网定价区为每月每工作区 1,000 credits，免绑卡（YC 页称每月 1 亿 tokens 会话数据免费摄入，口径以官网定价页为准）；自托管完全免费，数据留在自己的服务器/S3。2026-11-16 上线，2026-11-28 Product Hunt。",
+    "source": "OpenCrawl 官网 + YC 页（2026-11-28 核实）：开源可自托管，Cloud 免费起步、每月 1,000 credits、免绑卡",
+    "claim_steps": [
+      "打开官网确认免费条款",
+      "免费注册 OpenCrawl Cloud，或自托管开源版",
+      "安装 CLI、接入 agent，开始共享会话历史"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网定价区确认 Cloud 免费起步：每月 1,000 credits、免绑卡；自托管免费。",
+        "url": "https://getopencrawl.com/"
+      },
+      {
+        "step": "注册/自托管",
+        "detail": "注册 Cloud 或用 Docker 自托管。",
+        "url": "https://getopencrawl.com/"
+      },
+      {
+        "step": "接入",
+        "detail": "安装 CLI 接入 Claude Code / Codex / Cursor 等。",
+        "url": "https://getopencrawl.com/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "OpenCrawl",
+        "action_url": "https://getopencrawl.com/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-29T00:05:50+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-29T00:05:50+08:00"
+    }
+  },
+  {
+    "id": "bento-free-mit-github-repo-lessons-20261128",
+    "title": "Bento 免费开源（MIT：把问题变成可运行的课、把 GitHub 仓库拆成互动地图，Mac 应用）",
+    "platform": "Bento",
+    "product": "Bento",
+    "model": "",
+    "type": "开源免费",
+    "deadline": null,
+    "url": "https://www.producthunt.com/products/bento-11",
+    "summary": "免费开源（MIT）的 Mac 学习应用：把一个问题变成可运行的小课、把 GitHub 仓库拆解成互动地图，先看清各部分如何咬合再钻进文件；用你已登录的 AI 工具生成内容；浏览器里无需安装即可跑现成课程、浏览精选仓库。注意：AI 用量走自己的订阅。2026-11-28 Product Hunt 上线。",
+    "source": "Bento 作者 Product Hunt 首发帖（2026-11-28 核实）：免费、MIT 开源；浏览器可免安装试用",
+    "claim_steps": [
+      "打开 Product Hunt 页确认免费与开源条款",
+      "在浏览器免安装试跑现成课程，或下载 Mac 应用",
+      "用已登录的 AI 工具生成课程、拆解仓库"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "作者首发帖确认免费、MIT 开源。",
+        "url": "https://www.producthunt.com/products/bento-11"
+      },
+      {
+        "step": "试用",
+        "detail": "浏览器免安装试跑现成课程。",
+        "url": "https://www.producthunt.com/products/bento-11"
+      },
+      {
+        "step": "安装",
+        "detail": "下载 Mac 应用，用自己的 AI 订阅生成内容。",
+        "url": "https://www.producthunt.com/products/bento-11"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Bento",
+        "action_url": "https://www.producthunt.com/products/bento-11"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-29T00:05:50+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-29T00:05:50+08:00"
+    }
+  },
+  {
+    "id": "stacktrace-fleet-team-free-200h-20261128",
+    "title": "Stacktrace Fleet Team 免费档（每月 200 session-hours、无限用户、免绑卡：coding agent 实时护栏）",
+    "platform": "Stacktrace",
+    "product": "Stacktrace",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://stacktrace.ai/",
+    "summary": "AI agent 实时转向与护栏工具：读取 Claude Code、Codex、Cursor、Devin 的每次工具调用，在策略禁止的调用执行前拦截，把 agent 从风险调用上拉开；统一管理各 agent 加载的 MCP 服务器、skills 与插件，21 条默认检测覆盖凭据外泄、失控会话等；发现推送到 Slack 与运行中的 Claude Code 会话。本地 sidecar 免费、无需账号；Team 档也永久免费：无限用户、每月 200 session-hours；主动转向、SSO 等在 Enterprise（定制年费）。注意：记录只读会话日志， transcripts 不上传。2026-11-28 Product Hunt 上线。",
+    "source": "Stacktrace 官网 Fleet 页 FAQ（2026-11-28 核实）：本地 sidecar 免费免账号；Team 永久免费，每月 200 session-hours、无限用户",
+    "claim_steps": [
+      "打开官网 Fleet 页确认免费条款",
+      "按指引把安装提示粘贴进 Claude Code 完成安装",
+      "在 Team 控制台查看各 agent 的发现与清单"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网 FAQ 确认本地 sidecar 免费免账号、Team 永久免费 200 session-hours/月。",
+        "url": "https://stacktrace.ai/fleet/"
+      },
+      {
+        "step": "安装",
+        "detail": "把官网安装提示粘贴进 Claude Code，agent 会装好插件与守护进程。",
+        "url": "https://stacktrace.ai/fleet/"
+      },
+      {
+        "step": "查看",
+        "detail": "在 Team 控制台查看发现与 MCP 清单。",
+        "url": "https://stacktrace.ai/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Stacktrace",
+        "action_url": "https://stacktrace.ai/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-29T00:05:50+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-29T00:05:50+08:00"
+    }
+  },
+  {
+    "id": "tallhorn-free-mongodb-client-mac-20261128",
+    "title": "Tallhorn 免费 MongoDB 客户端（Mac App Store 免费下载：浏览/查询/改数据，无账号无统计）",
+    "platform": "Tallhorn",
+    "product": "Tallhorn",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://tallhorn.app",
+    "summary": "原生 Mac MongoDB 客户端：以表格/树/JSON 浏览集合、JavaScript 写查询、逐步搭聚合管道并预览每一步、读通俗版 explain 计划、只写改动的字段；支持本地、Atlas 与 SSH 隧道连接。免费，无账号、无统计；Pro 一次性 $29.99（7 天免费试用）加仪表盘与 AI agent 功能（内置 MCP 服务器供 Claude Code / Cursor / VS Code 查库，写操作默认等你批准）。注意：免费档不含 MCP/agent 功能。2026-11-28 Product Hunt 上线。",
+    "source": "Tallhorn 作者 Product Hunt 首发帖 + 官网（2026-11-28 核实）：免费，Mac App Store 下载；Pro $29.99 一次性加仪表盘与 AI agent",
+    "claim_steps": [
+      "打开官网确认免费条款",
+      "在 Mac App Store 免费下载 Tallhorn",
+      "添加 MongoDB 连接开始浏览与查询（MCP/agent 需 Pro）"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "作者首发帖确认免费，Pro $29.99 一次性加仪表盘与 AI agent。",
+        "url": "https://www.producthunt.com/products/tallhorn"
+      },
+      {
+        "step": "下载",
+        "detail": "在 Mac App Store 免费下载（macOS 15+）。",
+        "url": "https://tallhorn.app"
+      },
+      {
+        "step": "连接",
+        "detail": "添加本地/Atlas/SSH 隧道连接开始使用。",
+        "url": "https://tallhorn.app"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Tallhorn",
+        "action_url": "https://tallhorn.app"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-29T00:05:50+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-29T00:05:50+08:00"
+    }
+  },
+  {
+    "id": "postmaster-of-puppets-free-email-spoof-check-20261128",
+    "title": "Postmaster of Puppets 免费（浏览器里查域名能否被冒名发邮件：SPF/DKIM/DMARC 一句 verdict，免账号）",
+    "platform": "Postmaster of Puppets",
+    "product": "Postmaster of Puppets",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://postmasterofpuppets.com/",
+    "summary": "免费的域名邮件冒名检查工具：输入域名即给一句 verdict（可冒名 / 部分受保护 / 受保护 / 无法判断），并列出每条 SPF、DKIM、DMARC 记录的含义，大多数问题直接给出可粘贴进 DNS 的修复记录；每条规则都引用 RFC 章节或厂商文档；为防刚改的记录误判，会向两个 DNS 提供商查询、结果不一致时报无法判断。浏览器内运行（DNS-over-HTTPS），无账号、无 cookie；引擎 MIT 开源。2026-11-28 Product Hunt 上线。",
+    "source": "Postmaster of Puppets 作者 Product Hunt 首发帖（2026-11-28 核实）：免费，浏览器内运行、无账号、无 cookie，引擎 MIT 开源",
+    "claim_steps": [
+      "打开官网",
+      "输入域名查看 verdict",
+      "按给出的记录修复 DNS（如有问题）"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "作者首发帖确认免费、浏览器内运行、无账号，引擎 MIT 开源。",
+        "url": "https://www.producthunt.com/products/postmaster-of-puppets"
+      },
+      {
+        "step": "检查",
+        "detail": "输入域名查看 verdict 与各记录含义。",
+        "url": "https://postmasterofpuppets.com/"
+      },
+      {
+        "step": "修复",
+        "detail": "按给出的记录修复 DNS。",
+        "url": "https://postmasterofpuppets.com/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Postmaster of Puppets",
+        "action_url": "https://postmasterofpuppets.com/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-29T00:05:50+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-29T00:05:50+08:00"
+    }
+  },
+  {
+    "id": "dex-telemetry-open-source-analytics-20261128",
+    "title": "Dex Telemetry 开源免费（给 agent 的分析可观测性：管道漂移未到生产先修好）",
+    "platform": "Dex",
+    "product": "Dex",
+    "model": "",
+    "type": "开源免费",
+    "deadline": null,
+    "url": "https://trydex.ai/",
+    "summary": "Dex 是开源 CLI，让你的 agent 帮你做分析：内置 skills，装进任意 coding agent 后指向数据即可，Dex 做 ETM——探索数据全貌、把数据转成模型与指标、并在漂移影响生产前修好。Dex Telemetry 是本次上线的新品：给分析管道做可观测性，规则与上下文按 agent 的需求设计，被称为分析领域的开源 Datadog。注意：模型用量走自己的 agent 订阅。2026-11-28 Product Hunt 上线。",
+    "source": "Dex Product Hunt 页（2026-11-28 核实）：开源 CLI；Telemetry 为分析管道可观测性新品",
+    "claim_steps": [
+      "打开官网确认开源与免费条款",
+      "把 Dex CLI 装进常用的 coding agent",
+      "指向数据，让 agent 建分析并用 Telemetry 监控管道"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "Product Hunt 页确认 Dex 为开源 CLI，Telemetry 为开源分析可观测性。",
+        "url": "https://www.producthunt.com/products/dex-by-exmergo"
+      },
+      {
+        "step": "安装",
+        "detail": "把 Dex CLI 装进 coding agent。",
+        "url": "https://trydex.ai/"
+      },
+      {
+        "step": "使用",
+        "detail": "指向数据建分析，Telemetry 监控管道漂移。",
+        "url": "https://trydex.ai/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Dex",
+        "action_url": "https://trydex.ai/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-29T00:05:50+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-29T00:05:50+08:00"
+    }
+  },
+  {
+    "id": "hermes-agent-free-mit-nous-20261128",
+    "title": "Hermes Agent 免费开源（MIT：Nous Research 的常驻 agent，可自托管，终端/Telegram/Discord/Slack/WhatsApp 全接）",
+    "platform": "Hermes Agent",
+    "product": "Hermes Agent",
+    "model": "",
+    "type": "开源免费",
+    "deadline": null,
+    "url": "https://hermes-agent.nousresearch.com",
+    "summary": "Nous Research 的开源（MIT）常驻 agent 框架，免费：终端 UI + 消息网关（Telegram、Discord、Slack、WhatsApp、Signal），40+ 工具、跨会话持久记忆、会自我改进的 skills、cron 定时任务与 subagent；一行脚本安装，可跑在自己的硬件或 Hermes Cloud 上；支持 Anthropic API key、任意 OpenAI 兼容 API 与本地模型。另有同名 Teammates 插件（100yenadmin/hermes-teammates，MIT）：给 agent 配固定名额的队友名单、角色与 Kanban 复核通道。注意：模型费用按自选提供商另计。2026-11-28 社交渠道发现。",
+    "source": "Hermes Agent 官网（2026-11-28 核实）：免费、MIT 开源，见 GitHub NousResearch/hermes-agent",
+    "claim_steps": [
+      "打开官网确认免费与开源条款",
+      "一行脚本安装 Hermes Agent",
+      "接入模型提供商（Anthropic / OpenAI 兼容 / 本地模型）开始使用"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网确认免费、MIT 开源。",
+        "url": "https://hermes-agent.nousresearch.com"
+      },
+      {
+        "step": "安装",
+        "detail": "按官网指引一行脚本安装。",
+        "url": "https://hermes-agent.nousresearch.com"
+      },
+      {
+        "step": "接入模型",
+        "detail": "接入 Anthropic、OpenAI 兼容 API 或本地模型，模型费另计。",
+        "url": "https://hermes-agent.nousresearch.com"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Hermes Agent",
+        "action_url": "https://hermes-agent.nousresearch.com"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-29T00:05:50+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-29T00:05:50+08:00"
+    }
+  },
+  {
+    "id": "google-jules-free-15-tasks-daily-20261128",
+    "title": "Google Jules 免费档（每天 15 个任务、同时 3 个：Google 异步编程 agent，GitHub 仓库云端跑完给 diff）",
+    "platform": "Google Jules",
+    "product": "Jules",
+    "model": "Gemini 2.5 Pro",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://jules.google/",
+    "summary": "Google 的异步编程 agent Jules：把任务交给 GitHub 仓库，它在云端虚拟机里克隆代码、定计划、改代码，完成后交回 diff 发分支或 PR；可修 bug、补文档、更新应用、做功能，还能建议任务与定时跑维护。免费档：每 24 小时 15 个任务、同时 3 个；Google AI Pro（100 个/天、同时 15 个）与 Ultra（300 个/天、同时 60 个）额度更高。注意：免费档模型为 Gemini 2.5 Pro；付费档目前仅限个人 @gmail.com 账号。2026-11-28 官网 FAQ 核实。",
+    "source": "Google 官方博客与 Jules FAQ（2026-11-28 核实）：免费档每天 15 个任务、同时 3 个",
+    "claim_steps": [
+      "打开 Jules 官网确认免费档额度",
+      "用 Google 账号登录并连接 GitHub 仓库",
+      "提交任务，完成后审阅 diff 再合入"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "Google 官方 FAQ 确认免费档：每天 15 个任务、同时 3 个。",
+        "url": "https://jules.google/docs/faq.md"
+      },
+      {
+        "step": "登录连接",
+        "detail": "用 Google 账号登录并连接 GitHub 仓库。",
+        "url": "https://jules.google/"
+      },
+      {
+        "step": "提交任务",
+        "detail": "提交任务，完成后审阅 diff。",
+        "url": "https://jules.google/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Jules",
+        "action_url": "https://jules.google/"
+      }
+    ],
+    "models": [
+      "Gemini 2.5 Pro"
+    ],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-29T00:05:50+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-29T00:05:50+08:00"
+    }
+  },
+  {
+    "id": "agentcraft-free-rts-agent-orchestrator-20261128",
+    "title": "AgentCraft 免费开源（RTS 界面管 coding agent 舰队：Claude Code/Codex/Cursor/OpenCode 一屏指挥）",
+    "platform": "AgentCraft",
+    "product": "AgentCraft",
+    "model": "",
+    "type": "开源免费",
+    "deadline": null,
+    "url": "https://getagentcraft.com/",
+    "summary": "开源的 agent 编排工具，把管理 coding agent 变成即时战略游戏界面：每个 agent 是地图上的英雄单位，带任务、战争迷雾、技能卷轴与成就；Campaigns 把功能需求拆成带评审的计划、依赖感知的 agent 任务与验证证据，最终合由你控制；agent 跑在 Docker / Apple Containers 隔离容器里，多 agent 可同端口各跑开发服务器；另有远程通道、手机 PWA 推送、Telegram/Discord 审批与多人 Alliance Hall。无定价页、无付费档，npx @idosal/agentcraft 一条命令安装。注意：模型费用走自己的 agent 订阅。2026-11-28 核实。",
+    "source": "AgentCraft 官网文档（2026-11-28 核实）：开源工具，无定价页、无付费档，npx 一条命令安装",
+    "claim_steps": [
+      "打开官网确认开源与免费条款",
+      "在项目目录运行 npx @idosal/agentcraft 完成引导安装",
+      "在 RTS 界面指挥 Claude Code / Codex / Cursor / OpenCode"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网文档确认开源、无定价页、无付费档。",
+        "url": "https://www.getagentcraft.com/docs"
+      },
+      {
+        "step": "安装",
+        "detail": "运行 npx @idosal/agentcraft，引导安装会检测 agent CLI 并起服务。",
+        "url": "https://getagentcraft.com/"
+      },
+      {
+        "step": "指挥",
+        "detail": "在浏览器 RTS 界面召唤、指挥、管理 agent。",
+        "url": "https://getagentcraft.com/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "AgentCraft",
+        "action_url": "https://getagentcraft.com/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-29T00:05:50+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-29T00:05:50+08:00"
+    }
   }
 ]

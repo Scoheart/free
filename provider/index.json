@@ -35021,5 +35021,176 @@
       "note": "需本人注册/领取后使用；本轮不代注册。",
       "at": "2026-11-28T19:58:58+08:00"
     }
+  },
+  {
+    "id": "atlas-agents-free-plan-10-credits-20261128",
+    "title": "Atlas Agents 免费档（$0/月：10 credits、基础 agent 部署，免绑卡）",
+    "platform": "Atlas Agents",
+    "product": "Atlas Agents",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://atlasagents.dev/pricing",
+    "summary": "AI 劳动力基础设施 Atlas Agents 的免费档：$0/月，含 10 credits、基础 agent 部署、1 个团队席位、社区支持；无常驻 agent（always-on 需付费档）。另有 9 种规格的 Linode 服务器按月计费（Nanode 1GB $5/月起），模型用量另计。2026-11-28 官网定价页核实。",
+    "source": "Atlas Agents 官方定价页（2026-11-28 核实）：Free $0/月，10 credits、基础 agent 部署、1 席位",
+    "claim_steps": [
+      "打开官网定价页确认免费档条款",
+      "注册 Atlas Agents 免费账号",
+      "用 10 credits 试建 agent 工作流（无常驻 agent）"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网定价页确认 Free $0/月：10 credits、基础 agent 部署、1 席位、无常驻 agent。",
+        "url": "https://atlasagents.dev/pricing"
+      },
+      {
+        "step": "注册",
+        "detail": "注册免费账号开始使用。",
+        "url": "https://atlasagents.dev/pricing"
+      },
+      {
+        "step": "试用",
+        "detail": "用免费 credits 试建 agent 工作流。",
+        "url": "https://atlasagents.dev/pricing"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Atlas Agents",
+        "action_url": "https://atlasagents.dev/pricing"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "cloud",
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-29T00:05:50+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-29T00:05:50+08:00"
+    }
+  },
+  {
+    "id": "clawdly-starter-free-agent-node-20261128",
+    "title": "Clawdly Starter 免费档（$0 永久：1 个 agent 节点，免绑卡）",
+    "platform": "Clawdly",
+    "product": "Clawdly",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://clawdly.co",
+    "summary": "AI 助手托管基础设施 Clawdly 的 Starter 免费档：$0 永久免费，1 个 agent 节点、ZeroClaw 运行时（自动休眠）、Marketplace 访问、社区支持；模型 API 用量按自选提供商另计。付费档 Builder $5/月起（2 个可扩展节点、24/7 托管）。2026-11-28 官网核实。",
+    "source": "Clawdly 官网（2026-11-28 核实）：Starter FREE-TIER，1 个 agent 节点、ZeroClaw 运行时、$0 永久免费",
+    "claim_steps": [
+      "打开官网确认 Starter 免费档条款",
+      "注册 Clawdly 免费账号",
+      "部署第一个 agent 节点（自动休眠）"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网确认 Starter 免费档 $0 永久：1 个 agent 节点、ZeroClaw 运行时。",
+        "url": "https://clawdly.co"
+      },
+      {
+        "step": "注册",
+        "detail": "注册免费账号。",
+        "url": "https://clawdly.co"
+      },
+      {
+        "step": "部署",
+        "detail": "部署 agent 节点，模型用量按自选提供商另计。",
+        "url": "https://clawdly.co"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Clawdly",
+        "action_url": "https://clawdly.co"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "cloud",
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-29T00:05:50+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-29T00:05:50+08:00"
+    }
+  },
+  {
+    "id": "server4agent-free-plan-1-server-20261128",
+    "title": "Server4Agent 免费档（1 台小服务器 + 1 个公开项目 + $2 AI credits，免绑卡）",
+    "platform": "Server4Agent",
+    "product": "Server4Agent",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://www.server4agent.com/",
+    "summary": "给 AI agent 的托管服务器 Server4Agent：免费档含 1 台小服务器、1 个公开项目、$2 试用 AI credits，agent 在里面构建应用并发布到稳定 URL（默认私有）；通过一个远程 MCP 服务器接入 ChatGPT/Claude/Cursor 等。付费档 Solo $19/月起。2026-11-28 官网博客核实。",
+    "source": "Server4Agent 官网（2026-11-28 核实）：免费档 1 台小服务器、1 个公开项目、$2 AI credits",
+    "claim_steps": [
+      "打开官网确认免费档条款",
+      "注册 Server4Agent 免费账号",
+      "把 MCP 服务器接进常用的 AI 助手，让 agent 构建并发布应用"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网确认免费档：1 台小服务器、1 个公开项目、$2 AI credits。",
+        "url": "https://www.server4agent.com/"
+      },
+      {
+        "step": "注册",
+        "detail": "注册免费账号。",
+        "url": "https://www.server4agent.com/"
+      },
+      {
+        "step": "接入",
+        "detail": "把远程 MCP 服务器接进 ChatGPT/Claude/Cursor 等助手。",
+        "url": "https://www.server4agent.com/"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Server4Agent",
+        "action_url": "https://www.server4agent.com/"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "cloud",
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-29T00:05:50+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-29T00:05:50+08:00"
+    }
   }
 ]
