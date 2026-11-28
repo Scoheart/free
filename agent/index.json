@@ -19883,5 +19883,176 @@
       "note": "需本人注册/领取后使用；本轮不代注册。",
       "at": "2026-11-28T15:32:06+08:00"
     }
+  },
+  {
+    "id": "keepplain-free-personal-20261128",
+    "title": "KeepPlain 个人免费（编码 agent 会话记忆/规则/git blame，支持 17 个 agent，MIT 开源插件）",
+    "platform": "KeepPlain",
+    "product": "KeepPlain",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://keepplain.com/",
+    "summary": "编码 agent 插件 KeepPlain：保存 Claude Code、Codex、Cursor、Pi、Antigravity 等 17 个 coding agent 的会话，跨 agent 找回已解决的问题；keepplain blame 按行查到写下这行代码的 agent 会话；纠正两次自动提炼成规则供所有 agent 遵守；用量到限时可把任务交接给另一个 agent。个人使用 $0、全功能、无试用、无升级（自动模式每天 150 会话、手动 50 会话）；插件 MIT 开源，密钥先在本地脱敏、会话默认私密草稿。团队 $20/席位/月。2026-11-22 Product Hunt 上线。",
+    "source": "KeepPlain 官网 + Product Hunt（2026-11-28 核实）：个人 $0 全功能，No trial, nothing to upgrade to；团队 $20/席位/月",
+    "claim_steps": [
+      "打开官网确认个人免费条款",
+      "安装插件并用 GitHub/Google 注册",
+      "在仓库里运行 keepplain enable 接入 agent 会话"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网确认个人 $0 全功能、无试用无升级。",
+        "url": "https://keepplain.com/"
+      },
+      {
+        "step": "安装注册",
+        "detail": "安装插件并用 GitHub/Google 注册。",
+        "url": "https://keepplain.com/"
+      },
+      {
+        "step": "启用",
+        "detail": "在仓库里运行 keepplain enable 接入 agent 会话。",
+        "url": "https://keepplain.com/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "KeepPlain",
+        "action_url": "https://keepplain.com/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-28T19:35:39+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-28T19:35:39+08:00"
+    }
+  },
+  {
+    "id": "krea-ai-free-plan-daily-20261128",
+    "title": "Krea AI 免费档（AI 图片/视频生成，每日补充 compute 额度，免绑卡）",
+    "platform": "Krea",
+    "product": "Krea AI",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://www.krea.ai/pricing",
+    "summary": "AI 创意平台 Krea 的免费档：每天补充 compute 额度（第三方称每天 100 单位，官网定价页仅写每日补充、未标具体数字），用完等次日补充或升级；注册免绑卡，可做图片与视频生成。注意：免费档无商业授权（商业授权仅 Basic/Pro/Max 及以上档位），生成内容仅限个人使用。",
+    "source": "Krea 官方定价页 FAQ（2026-11-28 核实）：Free plan 每日补充 compute 额度；商业授权仅付费档",
+    "claim_steps": [
+      "打开官方定价页确认免费档",
+      "注册 Krea 账号（免绑卡）",
+      "用每日补充的 compute 额度生成图片/视频"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官方定价页 FAQ 确认免费档每日补充额度。",
+        "url": "https://www.krea.ai/pricing"
+      },
+      {
+        "step": "注册",
+        "detail": "注册 Krea 账号（免绑卡）。",
+        "url": "https://www.krea.ai/pricing"
+      },
+      {
+        "step": "使用",
+        "detail": "用每日补充的 compute 额度生成图片/视频。",
+        "url": "https://www.krea.ai/pricing"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Krea",
+        "action_url": "https://www.krea.ai/pricing"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "image",
+      "video"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-28T19:35:39+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-28T19:35:39+08:00"
+    }
+  },
+  {
+    "id": "a2e-ai-free-100-credits-20261128",
+    "title": "A2E.AI 免费档（注册送 100 credits、每天签到再得 30，Kling/Wan/Veo/Sora 2 聚合，免绑卡）",
+    "platform": "A2E",
+    "product": "A2E.AI",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://a2e.ai/image-to-video/",
+    "summary": "AI 视频/图片聚合平台 A2E.AI 的免费档：注册送 100 credits，之后每天签到再得 30 credits，免绑卡；一个账号可用 Kling、Wan、Seedance、Veo、Sora 2 等多个视频模型，另有数字人、换脸、声音克隆。注意：免费输出带水印、720p、低优先级；免费额度只能用 A2E 自有模型，Seedance 2.5、Nano Banana 等热门第三方模型需付费档。",
+    "source": "A2E.AI 官网图生视频页（2026-11-28 核实）：注册送 100 免费 credits、每天再得 30，免绑卡",
+    "claim_steps": [
+      "打开官网确认免费档",
+      "邮箱注册领 100 credits（免绑卡）",
+      "每天签到领 30 credits，用 A2E 自有模型生成视频"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网确认注册送 100 credits、每天 30，免绑卡。",
+        "url": "https://a2e.ai/image-to-video/"
+      },
+      {
+        "step": "注册",
+        "detail": "邮箱注册领 100 credits（免绑卡）。",
+        "url": "https://a2e.ai/image-to-video/"
+      },
+      {
+        "step": "使用",
+        "detail": "每天签到领 30 credits，用 A2E 自有模型生成视频。",
+        "url": "https://a2e.ai/image-to-video/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "A2E.AI",
+        "action_url": "https://a2e.ai/image-to-video/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "video",
+      "image"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-28T19:35:39+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-28T19:35:39+08:00"
+    }
   }
 ]

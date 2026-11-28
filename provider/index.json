@@ -34906,5 +34906,63 @@
       "note": "需本人注册/领取后使用；本轮不代注册。",
       "at": "2026-11-28T15:32:06+08:00"
     }
+  },
+  {
+    "id": "sandbase-deepseek-v41-flash-free-20261128",
+    "title": "SandBase DeepSeek V4.1 Flash 免费（输入/输出 $0/1M tokens，1M 上下文）",
+    "platform": "SandBase",
+    "product": "SandBase",
+    "model": "DeepSeek V4.1 Flash",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://www.sandbase.ai/models/deepseek/deepseek-v4.1-flash-free",
+    "summary": "API 网关 SandBase 上 DeepSeek V4.1 Flash 的免费模型（deepseek/deepseek-v4.1-flash:free）：输入与输出均为 $0/1M tokens，1M 上下文、最大输出 384K，支持视觉、推理、工具调用与结构化输出，OpenAI 兼容端点 api.sandbase.ai。注册后创建 API key 即可调用；官网模型页未提绑卡要求。注意：免费额度有限（社交来源称新账号送 $1 余额），免费模型可能随时调整。",
+    "source": "SandBase 官方模型页（2026-11-28 核实）：DeepSeek V4.1 Flash (free) 输入/输出 $0/1M tokens，1M 上下文",
+    "claim_steps": [
+      "打开官方模型页确认 $0 定价",
+      "注册 SandBase 创建 API key",
+      "用模型 ID deepseek/deepseek-v4.1-flash:free 向 api.sandbase.ai 发请求"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官方模型页确认输入/输出 $0/1M tokens。",
+        "url": "https://www.sandbase.ai/models/deepseek/deepseek-v4.1-flash-free"
+      },
+      {
+        "step": "注册",
+        "detail": "注册 SandBase 创建 API key。",
+        "url": "https://www.sandbase.ai/models/deepseek/deepseek-v4.1-flash-free"
+      },
+      {
+        "step": "调用",
+        "detail": "向 api.sandbase.ai 发请求，模型 ID 为 deepseek/deepseek-v4.1-flash:free。",
+        "url": "https://www.sandbase.ai/models/deepseek/deepseek-v4.1-flash-free"
+      }
+    ],
+    "providers": [
+      {
+        "name": "SandBase",
+        "action_url": "https://www.sandbase.ai/models/deepseek/deepseek-v4.1-flash-free"
+      }
+    ],
+    "agents": [],
+    "models": [
+      "DeepSeek V4.1 Flash"
+    ],
+    "scenes": [
+      "inference"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-28T19:35:39+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-28T19:35:39+08:00"
+    }
   }
 ]
