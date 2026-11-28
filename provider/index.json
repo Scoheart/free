@@ -34793,5 +34793,118 @@
       "note": "需本人注册/领取后使用；本轮不代注册。",
       "at": "2026-11-28T11:25:22+08:00"
     }
+  },
+  {
+    "id": "token-router-5-free-credits-20261128",
+    "title": "Token Router 新用户 $5 免费额度（GitHub 登录即得：去中心化 GPU 网关，OpenAI 兼容）",
+    "platform": "Token Router",
+    "product": "Token Router",
+    "model": "",
+    "type": "额度",
+    "deadline": null,
+    "url": "https://docs.token-router.org/",
+    "summary": "去中心化 AI 网关 Token Router：接上真人提供的 GPU 节点跑模型，一个 OpenAI 兼容端点（beta.token-router.org/v1），按请求计费、70% 费用分给提供节点的用户。新账号用 GitHub 登录即得 $5 免费额度，可先试后充；额度与充值一样花。注意：节点是去中心化个人 GPU，延迟与稳定性不如一线云厂商，适合实验与轻量调用。",
+    "source": "Token Router 官方文档（docs.token-router.org，2026-11-28 核实）：新账号 $5 免费额度，GitHub 登录即得",
+    "claim_steps": [
+      "打开官方文档确认 $5 免费额度",
+      "GitHub 登录领 $5 额度并创建 API key",
+      "把 OpenAI 客户端指向 beta.token-router.org/v1 调用"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官方文档确认新账号 $5 免费额度。",
+        "url": "https://docs.token-router.org/"
+      },
+      {
+        "step": "登录领额度",
+        "detail": "GitHub 登录领 $5 额度并创建 API key。",
+        "url": "https://docs.token-router.org/"
+      },
+      {
+        "step": "调用",
+        "detail": "把 OpenAI 客户端指向 beta.token-router.org/v1 调用。",
+        "url": "https://docs.token-router.org/"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Token Router",
+        "action_url": "https://docs.token-router.org/"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "inference"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-28T15:32:06+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-28T15:32:06+08:00"
+    }
+  },
+  {
+    "id": "livekit-cloud-build-free-tier-20261128",
+    "title": "LiveKit Cloud Build 免费档（每月 1000 agent 分钟 + $2.50 推理额度，免绑卡，硬上限）",
+    "platform": "LiveKit",
+    "product": "LiveKit Cloud",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://livekit.io/pricing",
+    "summary": "开源实时音视频平台 LiveKit 的云端 Build 免费档（$0/月）：每月 1000 agent 会话分钟、5000 WebRTC 参与分钟、50GB 下行流量、$2.50 LiveKit Inference 额度（约 50 分钟对话，LLM/STT/TTS 走一个 key），另含 1 个美国免费电话号码、5 并发 agent 会话。免费档全部额度是硬上限，用完即停、不自动扣费；注册免绑卡。注意：额度按自然月重置、不结转；自托管开源服务端另有 Apache 2.0 版本。",
+    "source": "LiveKit 官方文档 quotas 页 + 官方博客（2026-11-28 核实）：Build $0，每月 1000 agent 分钟 + $2.50 推理额度，免绑卡",
+    "claim_steps": [
+      "打开官方定价页确认 Build 免费档",
+      "注册 LiveKit Cloud（免绑卡）建免费项目",
+      "用项目 key 接 LiveKit Inference 调 LLM/STT/TTS"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官方定价页确认 Build $0、每月额度与硬上限。",
+        "url": "https://livekit.io/pricing"
+      },
+      {
+        "step": "注册",
+        "detail": "注册 LiveKit Cloud（免绑卡）建免费项目。",
+        "url": "https://livekit.io/pricing"
+      },
+      {
+        "step": "调用",
+        "detail": "用项目 key 接 LiveKit Inference 调 LLM/STT/TTS。",
+        "url": "https://docs.livekit.io/deploy/admin/quotas-and-limits/"
+      }
+    ],
+    "providers": [
+      {
+        "name": "LiveKit",
+        "action_url": "https://livekit.io/pricing"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "voice",
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-28T15:32:06+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-28T15:32:06+08:00"
+    }
   }
 ]

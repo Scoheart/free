@@ -19658,5 +19658,230 @@
       "note": "需本人注册/领取后使用；本轮不代注册。",
       "at": "2026-11-28T11:25:22+08:00"
     }
+  },
+  {
+    "id": "continual-arc-free-open-benchmark-20261128",
+    "title": "Continual-ARC 免费开源 agent 学习基准（Unify：测 agent 是否越用越省，Apache-2.0）",
+    "platform": "Continual-ARC",
+    "product": "Continual-ARC",
+    "model": "",
+    "type": "开源免费",
+    "deadline": null,
+    "url": "https://continual-arc.unify.ai/",
+    "summary": "Unify 的 agent 持续学习基准 Continual-ARC：200 次访问里 25 道 ARC 谜题循环出现、每次换新输入，测 agent 是只会背答案还是真学会了规则；OpenClaw、Hermes Agent、Prime Agent 原样跑下来都没有可测的进步，而按权重训练的小模型有。代码、论文 agent 与全部运行记录 Apache-2.0 开源，可在公开流上跑自己的 agent，提交验证后上公开榜。注意：这是评测基准，不是日常用的 agent 产品；跑自己的 agent 需要按协议写 learner。",
+    "source": "Continual-ARC 官网 FAQ（continual-arc.unify.ai，2026-11-28 核实）：代码与运行记录 Apache-2.0 开源，免费可用",
+    "claim_steps": [
+      "打开官网确认开源与免费",
+      "按 Run yours 页跑自己的 agent/harness",
+      "提交验证上公开榜"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网 FAQ 确认代码与运行记录 Apache-2.0 开源。",
+        "url": "https://continual-arc.unify.ai/faq"
+      },
+      {
+        "step": "跑自己的 agent",
+        "detail": "按 Run yours 页在公开流上跑自己的 agent/harness。",
+        "url": "https://continual-arc.unify.ai/"
+      },
+      {
+        "step": "提交验证",
+        "detail": "提交验证后上公开榜。",
+        "url": "https://continual-arc.unify.ai/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Continual-ARC",
+        "action_url": "https://continual-arc.unify.ai/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-28T15:32:06+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-28T15:32:06+08:00"
+    }
+  },
+  {
+    "id": "file-spot-free-5-transfers-monthly-20261128",
+    "title": "file.spot 免费档（每月 5 次传输：创意文件品牌交付页，客户免账号下载）",
+    "platform": "file.spot",
+    "product": "file.spot",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://file.spot/",
+    "summary": "给摄影/视频/设计等创意工作者的文件交付工具 file.spot（2026-11-25 Product Hunt 上线）：上传作品生成品牌交付页（相册/视频播放/音频波形预览），客户免账号下载原片。免费档 €0：每月 5 次传输、每份最高 5GB、5GB 存储、3 天有效期，Classic 版式。文件存欧盟、传输与静态均加密，无广告、不追踪接收方、不用作 AI 训练。注意：自定义品牌、密码保护与 60 天有效期需 Pro（€15/月）。",
+    "source": "file.spot 官网支持页 + Product Hunt 上线帖（2026-11-28 核实）：免费档每月 5 次传输、5GB/次",
+    "claim_steps": [
+      "打开官网确认免费档",
+      "注册免费账号上传作品",
+      "发品牌交付链接给客户下载"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "官网支持页确认免费档每月 5 次传输、5GB/次。",
+        "url": "https://usefilespot.com/support/free-vs-pro-vs-teams"
+      },
+      {
+        "step": "注册上传",
+        "detail": "注册免费账号上传作品。",
+        "url": "https://file.spot/"
+      },
+      {
+        "step": "发链接",
+        "detail": "发品牌交付链接给客户下载原片。",
+        "url": "https://file.spot/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "file.spot",
+        "action_url": "https://file.spot/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "productivity",
+      "creator"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-28T15:32:06+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-28T15:32:06+08:00"
+    }
+  },
+  {
+    "id": "hiring-right-now-free-10-matches-20261128",
+    "title": "Hiring Right Now 免费匹配（10 家初创 + 1 封邮件草稿，免注册免绑卡）",
+    "platform": "Hiring Right Now",
+    "product": "Hiring Right Now",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://hiringrightnow.com/",
+    "summary": "Backdoor 的免费求职工具 Hiring Right Now（2026-11-25 Product Hunt 上线）：粘贴公开 LinkedIn 链接，约 2 分钟得到 10 家最匹配的成长中初创、创始人联系方式与一封针对首选的邮件草稿；匹配与首封草稿免费，免注册、免绑卡。注意：只覆盖初创公司、需要公开 LinkedIn 资料；持续找新匹配与代发跟进需付费 Backdoor 计划（上线周 90 天计划 5 折）。",
+    "source": "Product Hunt 上线帖 + 官网（2026-11-28 核实）：10 家匹配 + 1 封草稿免费，免注册免绑卡",
+    "claim_steps": [
+      "打开官网确认免费匹配",
+      "粘贴公开 LinkedIn 链接等约 2 分钟",
+      "按给出的创始人与草稿直接联系"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "上线帖与官网确认 10 家匹配 + 1 封草稿免费、免注册。",
+        "url": "https://www.producthunt.com/products/hiring-right-now"
+      },
+      {
+        "step": "粘贴链接",
+        "detail": "粘贴公开 LinkedIn 链接等约 2 分钟出匹配。",
+        "url": "https://hiringrightnow.com/"
+      },
+      {
+        "step": "联系",
+        "detail": "按给出的创始人与草稿直接联系。",
+        "url": "https://hiringrightnow.com/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Hiring Right Now",
+        "action_url": "https://hiringrightnow.com/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "productivity"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-28T15:32:06+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-28T15:32:06+08:00"
+    }
+  },
+  {
+    "id": "depost-ai-free-tools-no-signup-20261128",
+    "title": "Depost AI 免费工具（LinkedIn 资料分析/爆款帖查找/开源 Claude 插件，免账号）",
+    "platform": "Depost",
+    "product": "Depost AI",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://depost.ai/tools/linkedin-profile-analyzer",
+    "summary": "LinkedIn AI agent Depost AI 随上线附送的免费工具（主产品 $59/月起、7 天试用需绑卡，不在此条）：LinkedIn 资料分析器与爆款帖查找器免账号可用，Claude 插件开源（github.com/remoteen/depost-linkedin-strategist）。注意：免费的只是这三件小工具；四 agent 全套（分析/策划/写作/设计）需订阅，试用要绑卡、7 天后自动扣费。",
+    "source": "Depost AI Product Hunt 上线帖（2026-11-28 核实）：免费工具免账号；主产品 7 天试用需绑卡、$59/月起",
+    "claim_steps": [
+      "打开免费工具页确认免账号",
+      "用资料分析器/爆款帖查找器查 LinkedIn",
+      "需要 Claude 插件去 GitHub 拉开源仓库"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "上线帖确认免费工具免账号。",
+        "url": "https://www.producthunt.com/products/depost-ai"
+      },
+      {
+        "step": "用免费工具",
+        "detail": "用资料分析器/爆款帖查找器查 LinkedIn。",
+        "url": "https://depost.ai/tools/linkedin-profile-analyzer"
+      },
+      {
+        "step": "Claude 插件",
+        "detail": "需要 Claude 插件去 GitHub 拉开源仓库。",
+        "url": "https://github.com/remoteen/depost-linkedin-strategist"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Depost",
+        "action_url": "https://depost.ai/tools/linkedin-profile-analyzer"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "productivity"
+    ],
+    "barriers": [
+      "zero_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-28T15:32:06+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-28T15:32:06+08:00"
+    }
   }
 ]
