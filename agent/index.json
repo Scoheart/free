@@ -20054,5 +20054,118 @@
       "note": "需本人注册/领取后使用；本轮不代注册。",
       "at": "2026-11-28T19:35:39+08:00"
     }
+  },
+  {
+    "id": "agentsroom-free-plan-20261128",
+    "title": "AgentsRoom.dev 免费档（全部功能，2 个项目、6 个 agent 并行，免绑卡）",
+    "platform": "AgentsRoom",
+    "product": "AgentsRoom.dev",
+    "model": "",
+    "type": "免费档",
+    "deadline": null,
+    "url": "https://agentsroom.dev/",
+    "summary": "Agent 开发环境 AgentsRoom 的桌面应用（macOS/Windows/Linux）：把 Claude Code、Codex、Copilot CLI、Cursor、Antigravity、OpenCode、Aider 等 20+ agent CLI 并排跑在同一屏幕，用自己的订阅、无 token 加价，agent 之间可互发消息、交接任务、互相 review；免费档包含全部功能（2 个项目、6 个 agent 并行），免绑卡；另有手机 App 远程答复、看板与 quota 仪表。注意：模型费用自付（用自己的 Claude/Codex 等订阅或本地 Ollama）。2026-11-23 Product Hunt 上线。",
+    "source": "AgentsRoom 官方主页 + 作者 Product Hunt 首发帖（2026-11-28 核实）：Free plan 包含全部功能，2 个项目、6 个 agent 并行，no card",
+    "claim_steps": [
+      "打开官网确认免费档条款",
+      "下载安装桌面应用（macOS/Windows/Linux）",
+      "接入自己的 Claude Code/Codex 等 agent CLI 开始使用"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "作者首发帖确认免费档含全部功能、2 个项目、6 个 agent 并行、免绑卡。",
+        "url": "https://www.producthunt.com/p/agentsroom-dev/agentsroom-dev"
+      },
+      {
+        "step": "安装",
+        "detail": "从官网下载安装桌面应用。",
+        "url": "https://agentsroom.dev/"
+      },
+      {
+        "step": "接入",
+        "detail": "接入自己的 agent CLI，模型费用自付。",
+        "url": "https://agentsroom.dev/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "AgentsRoom",
+        "action_url": "https://agentsroom.dev/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "coding",
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-28T19:58:58+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-28T19:58:58+08:00"
+    }
+  },
+  {
+    "id": "jetpack-mcp-free-until-nov30-20261128",
+    "title": "Jetpack MCP agent 接入免费至 11/30（Free 档可用，Claude/ChatGPT/Cursor 直连 WordPress 站点）",
+    "platform": "Jetpack",
+    "product": "Jetpack",
+    "model": "",
+    "type": "限时",
+    "deadline": "2026-11-30T23:59:59+08:00",
+    "url": "https://jetpack.com/support/create-better-content-with-jetpack-ai/mcp/",
+    "summary": "Jetpack 16.4 起，自托管 WordPress 站点连接 Jetpack 后，Claude、ChatGPT、Claude Code、Cursor、VS Code、Codex、Gemini CLI 等 AI agent 可通过 MCP 读写站点（文章/页面/媒体/评论、模板、插件管理等，可逐类开关读写权限）；Jetpack 官方支持页称所有 Jetpack 站点（含 Free 档）均可免费接入。WordPress.com 官方更新日志（2026-10-31）与多家核查称免费窗口至 2026-11-30，之后需 Jetpack AI 或 Jetpack Complete 档；另每站有 20 次终身免费的内置 Jetpack AI 请求（不续期）。注意：agent 自身的 ChatGPT/Claude 订阅费用另计；截止日以 WordPress.com 文档为准，Jetpack 支持页当前未写明。",
+    "source": "Jetpack 官方支持文档（2026-11-28 核实）：所有 Jetpack 站点（含 Free 档）可免费接入 AI agent；WordPress.com 更新日志（2026-10-31）称免费窗口至 11/30",
+    "claim_steps": [
+      "在自托管 WordPress 站点安装 Jetpack 并连接 WordPress.com 账号",
+      "在 Claude/ChatGPT 里添加 WordPress.com 官方应用并授权，或用一行命令接 Claude Code/Cursor/VS Code",
+      "在 Jetpack → Jetpack AI → MCP and Connectors 里按需开关读写权限"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "Jetpack 官方支持页确认所有站点（含 Free 档）可免费接入；截止日见 WordPress.com 更新日志。",
+        "url": "https://jetpack.com/support/create-better-content-with-jetpack-ai/mcp/"
+      },
+      {
+        "step": "连接",
+        "detail": "安装 Jetpack 并连接 WordPress.com 账号，在 Claude/ChatGPT 里添加官方应用授权。",
+        "url": "https://jetpack.com/support/create-better-content-with-jetpack-ai/mcp/"
+      },
+      {
+        "step": "授权",
+        "detail": "在 MCP and Connectors 里按需开关读写权限。",
+        "url": "https://jetpack.com/support/create-better-content-with-jetpack-ai/mcp/"
+      }
+    ],
+    "providers": [],
+    "agents": [
+      {
+        "name": "Jetpack",
+        "action_url": "https://jetpack.com/support/create-better-content-with-jetpack-ai/mcp/"
+      }
+    ],
+    "models": [],
+    "scenes": [
+      "agent"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "agents",
+    "collected_at": "2026-11-28T19:58:58+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-28T19:58:58+08:00"
+    }
   }
 ]

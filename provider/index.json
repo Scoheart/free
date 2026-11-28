@@ -34964,5 +34964,62 @@
       "note": "需本人注册/领取后使用；本轮不代注册。",
       "at": "2026-11-28T19:35:39+08:00"
     }
+  },
+  {
+    "id": "liveterminal-ai-12mo-free-trial-20261128",
+    "title": "LiveTerminal.ai 12 个月免费试用（Lite：4 vCPU/8GB/10GB NVMe，赫尔辛基，流量不限）",
+    "platform": "LiveTerminal",
+    "product": "LiveTerminal",
+    "model": "",
+    "type": "限时",
+    "deadline": "2026-12-01T15:59:59+08:00",
+    "url": "https://liveterminal.ai/",
+    "summary": "云电脑 LiveTerminal 的 Cyber Monday 限时活动：2026-11-30 23:59 PT（北京时间 12/01 15:59）前注册，Lite 档免费 12 个月——4 vCPU（AMD Ryzen 9 7950X3D 共享）、8GB DDR5、10GB NVMe，赫尔辛基 Hetzner 机房，1Gbit/s 共享上行、流量不限；到期后 $9.99/月，可按秒加购 CPU/内存。条件：仅限活跃使用（14 天不用会被回收）、每月反馈一次；注册后在仪表盘聊天里发 “LET Cyber Monday” 开通；每人限 1 个账号。注意：新小厂商，基于 Hetzner 基础设施；12 个月免费试用以厂商官方 LowEndTalk 公告为准，官网仅确认 $9.99/月起价。",
+    "source": "LiveTerminal 官方 LowEndTalk 公告（2026-11-27 核实）：新账号 11/30 前注册享 Lite 档 12 个月免费；官网确认 $9.99/月起价",
+    "claim_steps": [
+      "打开官网注册 LiveTerminal 账号",
+      "在仪表盘右下角打开聊天，发送 “LET Cyber Monday”",
+      "开通 Lite 档 12 个月免费试用（注意活跃使用与每月反馈条件）"
+    ],
+    "claim_guide": [
+      {
+        "step": "确认条款",
+        "detail": "厂商官方公告确认 11/30 前注册享 Lite 档 12 个月免费。",
+        "url": "https://lowendtalk.com/discussion/223977"
+      },
+      {
+        "step": "注册",
+        "detail": "打开官网注册 LiveTerminal 账号。",
+        "url": "https://liveterminal.ai/"
+      },
+      {
+        "step": "开通",
+        "detail": "在仪表盘聊天里发送 “LET Cyber Monday” 开通免费试用。",
+        "url": "https://liveterminal.ai/"
+      }
+    ],
+    "providers": [
+      {
+        "name": "LiveTerminal",
+        "action_url": "https://liveterminal.ai/"
+      }
+    ],
+    "agents": [],
+    "models": [],
+    "scenes": [
+      "cloud",
+      "coding"
+    ],
+    "barriers": [
+      "need_signup"
+    ],
+    "category": "providers",
+    "collected_at": "2026-11-28T19:58:58+08:00",
+    "expired": false,
+    "auto_claim": {
+      "status": "needs_user",
+      "note": "需本人注册/领取后使用；本轮不代注册。",
+      "at": "2026-11-28T19:58:58+08:00"
+    }
   }
 ]
